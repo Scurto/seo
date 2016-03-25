@@ -7,10 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
@@ -49,7 +46,18 @@ public class LoginServlet extends HttpServlet {
 			conn = DriverManager.getConnection
 					(fullURL, user, password);
 			stmt =  conn.createStatement();
-//			stmt.execute("SELECT * FROM `FOO.BAR`");
+			ResultSet rs = stmt.executeQuery("SELECT * FROM hfjq_race_info.test_video");
+			while (rs.next()) {
+				String prevDate = rs.getString("prev_date");
+				String prevReklama = rs.getString("prev_reklama");
+				String lastDate = rs.getString("last_date");
+				String lastReklama = rs.getString("last_reklama");
+
+				System.out.println("prevDate = " + prevDate);
+				System.out.println("prevReklama = " + prevReklama);
+				System.out.println("lastDate = " + lastDate);
+				System.out.println("lastReklama = " + lastReklama);
+			}
 			stmt.close();
 			conn.close();
 		} catch (InstantiationException e) {
