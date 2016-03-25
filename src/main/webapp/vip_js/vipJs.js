@@ -90,6 +90,24 @@ $(document).ready(function() {
 		var countOfMove = $('#countOfMove').val();
 		//var countOfVideo = 5;
 
+		var dataJson = {action: taskId.toString()} ;
+
+		$.ajax({
+			type: "POST",
+			url: "/getLinkVideo",
+			data: dataJson,
+			success: function(json) {
+				//hour = json.hour;
+				//minute = json.minute;
+				//
+				//$('#timeHour').val(hour);
+				//$('#timeMinute').val(minute);
+
+				console.log(json);
+			},
+			dataType: "json"
+		});
+
 		var video = getLinkVideo(taskId);
 		var baseArray = new Array();
 		for (var i = 0; i < countOfVideo; i++) {
