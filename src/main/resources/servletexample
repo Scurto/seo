@@ -1,0 +1,65 @@
+var xmlhttp;
+        if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest(); //for IE7+, Firefox, Chrome, Opera, Safari
+        } else {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); //for IE6, IE5
+        }
+        xmlhttp.open("post", "SmartSheet", false);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+        var projectName = $('#name_inp_copy').text();
+        var descriptionText = $('#description_text_copy').text();
+        var planingFolder = $('#planing_folder_inp_copy').text();
+        //		var actualEfforts = document.getElementById("man_days").value;
+        var estimate = $('#estimated_functionality_inp_copy').text();
+        var resultIntegration = $('#result').text();
+        var resultDashboard = $('#result2').text();
+        var result;
+        if (resultIntegration != "")
+            result = resultIntegration;
+        else
+            result = resultDashboard;
+        var practice;
+        var type1 = $('.type1.active').text();
+        var type2 = $('.type2.active').text();
+        if (type1 != "")
+            practice = type1;
+        else
+            practice = type2;
+
+        var postdata =
+            "projectName=" + projectName + "&" +
+                "planingFolder=" + planingFolder + "&" +
+                "workDescription=" + descriptionText + "&" +
+                "result=" + result + "&" +
+                "practice=" + practice + "&" +
+                "estimateName=" + estimate;
+
+        xmlhttp.send(postdata);
+
+
+        -JAVA -
+        protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+                GregorianCalendar cal = new GregorianCalendar();
+                String DATE = (new SimpleDateFormat("dd.MM.yyyy")).format(cal.getTime());
+                String PROJECT_NAME = request.getParameter("projectName");
+                String PLANING_FOLDER = request.getParameter("planingFolder");
+                String PRACTICE = request.getParameter("practice");
+                String ESTIMATE_NAME = request.getParameter("estimateName");
+                String COMPLEXITY_POINT = request.getParameter("result");
+                String WORK_DESCRIPTION = request.getParameter("workDescription");
+                System.out.println(DATE);
+                System.out.println(PROJECT_NAME);
+                System.out.println(PLANING_FOLDER);
+                System.out.println(PRACTICE);
+                System.out.println(COMPLEXITY_POINT);
+                System.out.println(ESTIMATE_NAME);
+                System.out.println(WORK_DESCRIPTION);
+
+                try {
+                    this.generateSmartSheet(DATE, PROJECT_NAME, PLANING_FOLDER, WORK_DESCRIPTION, PRACTICE, COMPLEXITY_POINT, ESTIMATE_NAME);
+                } catch (SmartsheetException var12) {
+                    var12.printStackTrace();
+                }
+
+            }
