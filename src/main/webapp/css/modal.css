@@ -1,0 +1,79 @@
+.modalW {
+	/*width: 800px;*/
+	width: 1200px;
+}
+
+.btn-success {
+	/*color: #fff !important;*/
+	/*background-color: #5cb85c !important;*/
+	/*border-color: #4cae4c !important;*/
+	/*background-image: initial !important;*/
+}
+.btn {
+	display: inline-block !important;
+	padding: 6px 12px !important;
+	margin-bottom: 0 !important;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	line-height: 1.42857143 !important;
+	text-align: center !important;
+	white-space: nowrap !important;
+	vertical-align: middle !important;
+	-ms-touch-action: manipulation !important;
+	touch-action: manipulation !important;
+	cursor: pointer !important;
+	-webkit-user-select: none !important;
+	-moz-user-select: none !important;
+	-ms-user-select: none !important;
+	user-select: none !important;
+	background-image: none !important;
+	border: 1px solid transparent !important;
+	border-radius: 4px !important;
+	color:  #ffffff !important;
+}
+.butPanel {
+	text-align: right;
+}
+
+.dottedSeparator {
+	float: left;
+	bottom: 17px;
+	position: relative;
+}
+.ui-front {
+	z-index: 10000 !important;
+}
+select {
+	width: 125px;
+}
+.overflow {
+	height: 200px;
+}
+.myDropDown {
+	float: left;
+	width: 140px;
+	font-size: 11px;
+}
+.removedReklamaDropdown {
+	float: left;
+	left: 31px;
+	position: relative;
+}
+
+#prevReklamaFromDB {
+	width: 340px;
+	height: 70px;
+	position: absolute;
+	left: 770px;
+	font-size: 14px;
+	resize: none;
+}
+#sosediReklam {
+	width: 340px;
+	height: 70px;
+	position: relative;
+	top: 10px;
+	left: 137px;
+	font-size: 14px;
+	resize: none;
+}

@@ -1,0 +1,31 @@
+.textArea {
+	width: 800px;
+	height: 630px;
+	font-size: 14px;
+	resize: none;
+	float: left;
+}
+#prevReklamaFromDB {
+	width: 350px;
+	height: 90px;
+	font-size: 14px;
+	resize: none;
+	left: 433px;
+	position: relative;
+}
+
+#sosediReklam {
+	width: 350px;
+	height: 90px;
+	font-size: 14px;
+	resize: none;
+	left: 143px;
+	position: relative;
+}
+#foreignVideo {
+	width: 25px;
+	height: 25px;
+	top: 5px;
+	right: 15px;
+	-webkit-appearance: checkbox;
+}

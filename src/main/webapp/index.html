@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>История</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+    <link href="css/my_css.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
+    <link href="css/dropdown.css" rel="stylesheet">
+    <link type="text/css" href="libs/jquery-ui-themes-1.11.4/themes/flick/jquery-ui.css" rel="stylesheet" />
+    <link rel="icon" href="picture/favico.png" type="image/x-icon">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div id="left_panel">
+            <h1 i18n-content="shortProductName" id="headerName">Chromium</h1>
+            <ul role="tablist">
+                <li i18n-values="controls:historyHost;override:overridesHistory" role="tab" id="history"
+                    class="hide-in-guest selected" controls="history" override="no" aria-selected="true">
+                    <button class="custom-appearance" i18n-content="historyDisplayName">История</button>
+                </li>
+                <li i18n-values="controls:extensionsHost" role="tab" id="extensions" class="hide-in-guest"
+                    controls="extensions" aria-selected="false">
+                    <button class="custom-appearance" i18n-content="extensionsDisplayName">Расширения</button>
+                </li>
+                <li i18n-values="controls:settingsHost" role="tab" id="settings" controls="settings" class=""
+                    aria-selected="false">
+                    <button class="custom-appearance" i18n-content="settingsDisplayName">Настройки</button>
+                </li>
+                <li i18n-values="controls:helpHost" role="tab" id="help" controls="help" aria-selected="false">
+                    <button class="custom-appearance" i18n-content="helpDisplayName">О программе</button>
+                </li>
+            </ul>
+        </div>
+        <div id="right_panel">
+            <div id="right_panel_header">
+                <div id="right_panel1">
+                    <h1 id="right_panelH1">История</h1>
+                </div>
+                <div id="right_panel2" class="search-field-container">
+                    <input type="search" id="search-field" i18n-values="aria-label:searchButton"
+                           aria-label="Искать в истории">
+                    <input type="submit" id="search-button" i18n-values="value:searchButton"
+                           aria-controls="results-header" value="Искать в истории">
+                </div>
+            </div>
+            <!--&#45;&#45;&#45;&#45;&#45;&#45;-->
+            <div id="top-container">
+                <div id="editing-controls">
+                    <button id="clear-browsing-data">Очистить историю...</button>
+                    <button id="remove-selected" disabled="">Удалить выбранные элементы</button>
+                </div>
+            </div>
+            <!--&#45;&#45;&#45;&#45;&#45;&#45;-->
+            <div>
+                <h3 id="day" class="dayStyle"></h3>
+            </div>
+
+            <!--&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+
+            <ol class="olStyle" id="olList">
+            </ol>
+
+        </div>
+    </div>
+
+    <button type="button" class="updateDbButton" id="updateDbb">Update db</button>
+</div>
+<div class="modal fade" id="regModal">
+    <div class="modal-dialog modalW">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!--<button type="button" class="close" id="regClose1">&times;</button>-->
+                <!--<h4>Регистрация</h4>-->
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group form-group-sm">
+                        <label class="col-sm-1 control-label" for="timeHour">Time</label>
+                        <div class="col-sm-1">
+                            <input class="form-control" type="text" id="timeHour" placeholder="Hour">
+                        </div>
+                        <h3 class="dottedSeparator">:</h3>
+                        <div class="col-sm-1">
+                            <input class="form-control" type="text" id="timeMinute" placeholder="Minute">
+                        </div>
+
+                        <label class="col-sm-1 control-label" for="timeHour">Номер задания</label>
+                        <div class="col-sm-1">
+                            <input class="form-control" type="text" id="taskId" placeholder="taskId">
+                        </div>
+                        <div class="myDropDown">
+                            <select name="speed" id="fastTaskId">
+                                <option>50662</option>
+                                <option>51311</option>
+                                <option>68176</option>
+                                <option>63139</option>
+                                <option>63140</option>
+                                <option>64120</option>
+                                <option>72688</option>
+                                <option>74444</option>
+                                <option>1119333</option>
+                                <option>70562</option>
+                                <option>72433</option>
+                                <option>74340</option>
+                                <option>69073</option>
+                                <option>73769</option>
+                                <option>68467</option>
+                                <option>71431</option>
+                                <option>70722</option>
+                                <option>938168</option>
+                                <option>73136</option>
+                                <option>76310</option>
+                                <option>75739</option>
+                                <option>69628</option>
+                            </select>
+                        </div>
+                        <div class="myDropDown">
+                            <select name="speed" id="reklamaLocation">
+                                <option>ALL</option>
+                                <option>USA</option>
+                                <option>GERMANY</option>
+                                <option>USA+GE</option>
+                            </select>
+                        </div>
+                        <textarea id="prevReklamaFromDB" readonly></textarea>
+                    </div>
+                    <div class="form-group form-group-sm">
+                        <label class="col-sm-1 control-label" for="countOfVideo">Количество видео</label>
+                        <div class="col-sm-2">
+                            <input class="form-control" type="text" id="countOfVideo" placeholder="countOfVideo">
+                        </div>
+                        <div class="removedReklamaDropdown">
+                            <dl class="dropdown">
+                                <div>
+                                    <dt class="floatLeft">
+                                        <a href="#">
+                                            <span class="hida">Select</span>
+                                            <p class="multiSel"></p>
+                                        </a>
+                                    </dt>
+
+                                    <button type="button" class="btn btn-success" id="applyFilter">Apply</button>
+                                </div>
+
+                                <dd>
+                                    <div class="mutliSelect">
+                                        <ul id="ulReklamaList">
+                                        </ul>
+                                    </div>
+                                </dd>
+
+                            </dl>
+                        </div>
+                        <textarea id="sosediReklam" readonly></textarea>
+                    </div>
+                    <div class="form-group form-group-sm">
+                        <label class="col-sm-3 control-label" for="countOfReklama">Количество реклам</label>
+                        <div class="col-sm-3">
+                            <input class="form-control" type="text" id="countOfReklama" placeholder="countOfReklama">
+                        </div>
+                    </div>
+                    <div class="form-group form-group-sm">
+                        <label class="col-sm-3 control-label" for="countOfMove">Количество переходов</label>
+                        <div class="col-sm-3">
+                            <input class="form-control" type="text" id="countOfMove" placeholder="countOfMove">
+                        </div>
+                    </div>
+                    <div class="form-group form-group-sm">
+                        <label class="col-sm-3 control-label" for="betweenReklama">Время рекламы</label>
+                        <div class="col-sm-3">
+                            <input class="form-control" type="text" id="betweenReklama" placeholder="betweenReklama">
+                        </div>
+                        <label class="col-sm-3 control-label" for="betweenVideo">Время видео</label>
+                        <div class="col-sm-3">
+                            <input class="form-control" type="text" id="betweenVideo" placeholder="betweenVideo">
+                        </div>
+                    </div>
+                    <div class="form-group form-group-sm">
+                        <label class="col-sm-3 control-label" for="request">Google запрос</label>
+                        <div class="col-sm-3">
+                            <input class="form-control" type="text" id="request" placeholder="request">
+                        </div>
+                    </div>
+
+
+                     <div class="butPanel">
+                         <!--<button type="button" class="btn btn-danger" id="updateDb">Update db</button>-->
+                         <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                         <button type="button" class="btn btn-primary" id="restartModal">Очистить</button>
+
+                         <!-- Indicates a successful or positive action -->
+                         <button type="button" class="btn btn-success" id="applyModal">Принять</button>
+
+                         <!-- Contextual button for informational alert messages -->
+                         <button type="button" class="btn btn-danger" id="closeModal">Закрыть</button>
+
+                         <button type="button" class="btn btn-danger" id="openGoogle">Google</button>
+                     </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="forGoogle">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!--<button type="button" class="close" id="regClose1">&times;</button>-->
+                <div >
+                    <label id="googleLink"></label>
+                </div>
+
+            </div>
+            <!--<div class="modal-body">-->
+                <!--<div >-->
+                    <!--<label id="googleLink"></label>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js" type="text/html"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="libs/jquery-ui-1.11.4/jquery-ui.js"></script>
+<script src="libs/jsurl-master/url.js"></script>
+<script src="libs/dropdown-with-multiple-checkbox-select-with-jquery/js/prefixfree.min.js"></script>
+<script src="libs/dropdown-with-multiple-checkbox-select-with-jquery/js/index.js"></script>
+<script src="libs/moment.js"></script>
+<script src="js/video.js"></script>
+<script src="js/reklama.js"></script>
+<script src="js/my_js.js"></script>
+
+
+
+
+</body>
+</html>
