@@ -90,11 +90,38 @@ $(document).ready(function() {
 		var countOfMove = $('#countOfMove').val();
 		//var countOfVideo = 5;
 
-		var dataJson = {action: taskId.toString()} ;
+		var dataJson = {
+			id: taskId.toString(),
+			count: countOfVideo
+		};
 
+		//$.ajax({
+		//	type: "POST",
+		//	url: "/getLinkVideo",
+		//	data: dataJson,
+		//	success: function(json) {
+		//		//hour = json.hour;
+		//		//minute = json.minute;
+		//		//
+		//		//$('#timeHour').val(hour);
+		//		//$('#timeMinute').val(minute);
+        //
+		//		console.log(json);
+		//	},
+		//	dataType: "json"
+		//});
+
+		var video = getLinkVideo(taskId);
+		var baseArray = new Array();
+		//for (var i = 0; i < countOfVideo; i++) {
+		//	var ran1 = Math.floor(Math.random() * (video.length));
+		//	baseArray.push(video[ran1]);
+		//	video.splice(ran1, 1);
+		//}
 		$.ajax({
 			type: "POST",
 			url: "/getLinkVideo",
+			async: false,
 			data: dataJson,
 			success: function(json) {
 				//hour = json.hour;
@@ -103,18 +130,11 @@ $(document).ready(function() {
 				//$('#timeHour').val(hour);
 				//$('#timeMinute').val(minute);
 
-				console.log(json);
+				baseArray = json.video;
 			},
 			dataType: "json"
 		});
 
-		var video = getLinkVideo(taskId);
-		var baseArray = new Array();
-		for (var i = 0; i < countOfVideo; i++) {
-			var ran1 = Math.floor(Math.random() * (video.length));
-			baseArray.push(video[ran1]);
-			video.splice(ran1, 1);
-		}
 
 		//var foreignFlag = $('#foreignVideo').prop("checked");
 
@@ -197,7 +217,7 @@ $(document).ready(function() {
 
 		var videoText = '';
 		for (var i=0; i < baseArray.length; i++) {
-			videoText = videoText + baseArray[i].url + "\n";
+			videoText = videoText + baseArray[i] + "\n";
 		}
 		var reklamaText = '';
 		for (var z = 0; z < objArray.length; z++) {
@@ -220,23 +240,6 @@ $(document).ready(function() {
 		var r = confirm("forRemoveFromDBReklama = " + forRemoveFromDBReklama + "\n" + "UPDATE IN DB !!! OK ???");
 		if (r == true) {
 			var taskId = $('#taskIdVip').val();
-
-			//var task = {action: "getLinkTime"};
-			//var day;
-			//var month;
-			//var year;
-			//$.ajax({
-			//	type: "POST",
-			//	async: false,
-			//	url: "service.php",
-			//	data: task,
-			//	success: function(json) {
-			//		day = json.dateOfMonth;
-			//		month = json.month;
-			//		year = json.year;
-			//	},
-			//	dataType: "json"
-			//});
 
 			//var lastDate = day + '-' + month + '-' + year;
 			var lastDate = moment().format('l');
@@ -266,14 +269,19 @@ $(document).ready(function() {
 				}
 			}
 
-			var task = {action: "selectReklama", taskId: taskId};
+
+			var task = {action: "selectReklama", id: taskId};
+
+
 			$.ajax({
 				type: "POST",
-				url: "service.php",
+				url: "/getLinkReklama",
 				data: task,
 				success: function(json) {
 					var data;
-					if (json.video[0] == null) {
+					console.log("--------------");
+
+					if (json.task_id == "") {
 						data = {action: "insetReklama",
 							taskId: taskId,
 							prevDate: prevDate,
@@ -294,7 +302,7 @@ $(document).ready(function() {
 					console.log(data);
 					$.ajax({
 						type: "POST",
-						url: "service.php",
+						url: "/getLinkReklama",
 						data: data,
 						success: function(json) {
 							console.log(json)
@@ -844,6 +852,18 @@ $(document).ready(function() {
 				$('#countOfVideo').val(4);
 				$('#countOfReklama').val(1);
 				$('#countOfMove').val(4);
+			}else if
+			(item == 75083) {
+				$('#taskIdVip').val(75083);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 75084) {
+				$('#taskIdVip').val(75084);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
 			}
 
 			fromSeoDropDown = false;
@@ -866,26 +886,21 @@ $(document).ready(function() {
 	});
 
 	function getDataFromDb(taskId) {
-		//taskId =2;
-
-		var data = {action: "selectReklama", taskId: taskId} ;
+		var data = {action: "selectReklama", id: taskId} ;
 
 		$.ajax({
 			type: "POST",
 			async: false,
-			url: "service.php",
+			url: "/getLinkReklama",
 			data: data,
 			success: function(json) {
-				lastDATA = json.video[0];
-				if (json.video[0] != null) {
-					var lastReklama = json.video[0].last_reklama;
+				console.log(json);
+				var lastReklama = json.last_reklama;
+				if (lastReklama != "") {
 					forRemoveFromDBReklama = lastReklama.split(":");
 				} else {
 					forRemoveFromDBReklama = '';
 				}
-
-
-
 				$('#prevReklamaFromDB').val(forRemoveFromDBReklama);
 			},
 			dataType: "json"
@@ -985,16 +1000,18 @@ $(document).ready(function() {
 	function addTextInSosediReklam(connArray) {
 		var connArrayDATA = new Array();
 		for (var i = 0; i < connArray.length; i++) {
-			var data = {action: "selectReklama", taskId: connArray[i]} ;
+			var data = {action: "selectReklama", id: connArray[i]} ;
 			$.ajax({
 				type: "POST",
 				async: false,
-				url: "service.php",
+				//url: "service.php",
+				url: "/getLinkReklama",
 				data: data,
 				success: function(json) {
-					if (json.video.length > 0) {
-						connArrayDATA.push(json.video);
-					}
+					//console.log(json.length);
+					//if (json.length > 0) {
+						connArrayDATA.push(json);
+					//}
 				},
 				dataType: "json"
 			});
@@ -1006,18 +1023,11 @@ $(document).ready(function() {
 
 		canRemoveReklama = new Array();
 
-		//for (var z = 0; z < connArrayDATA.length; z++) {
-		//	var taskId = connArrayDATA[z][0].task_id;
-		//	var lastDate = connArrayDATA[z][0].last_date;
-		//	var lastReklama = connArrayDATA[z][0].last_reklama;
-		//	connText = connText + taskId + " - " + lastDate+ " - " + lastReklama + "\n"
-		//}
-		//var now = moment().format('l');
 		var twoDaysBeforeDate = moment().subtract('days', 2).format('l');
 		for (var z = 0; z < connArrayDATA.length; z++) {
-			var taskId = connArrayDATA[z][0].task_id;
-			var lastDate = connArrayDATA[z][0].last_date;
-			var lastReklama = connArrayDATA[z][0].last_reklama;
+			var taskId = connArrayDATA[z].task_id;
+			var lastDate = connArrayDATA[z].last_date;
+			var lastReklama = connArrayDATA[z].last_reklama;
 			if (moment(lastDate).isAfter(twoDaysBeforeDate)) {
 				var lastRekl = lastReklama.split(':');
 				for (var i = 0; i < lastRekl.length; i++) {
@@ -1133,42 +1143,5 @@ $(document).ready(function() {
 			},
 			dataType: "json"
 		});
-
-
-
-		//$.ajax({
-		//	type: "POST",
-		//	url: "CountryInformation",
-		//	data: dataString,
-		//	dataType: "json",
-		//
-		//	//if received a response from the server
-		//	success: function( data, textStatus, jqXHR) {
-		//		//our country code was correct so we have some information to display
-		//		if(data.success){
-		//
-		//		}
-		//		//display error message
-		//		else {
-		//			$("#ajaxResponse").html("<div><b>Country code in Invalid!</b></div>");
-		//		}
-		//	},
-		//
-		//	//If there was no resonse from the server
-		//	error: function(jqXHR, textStatus, errorThrown){
-		//
-		//	},
-		//
-		//	//capture the request before it was sent to server
-		//	beforeSend: function(jqXHR, settings){
-		//
-		//	}
-		//	},
-		//
-		//	//this is called after the response or error functions are finsihed
-		//	//so that we can take some action
-		//	complete: function(jqXHR, textStatus){
-		//
-		//	}
 	});
 });
