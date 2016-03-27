@@ -619,13 +619,7 @@ $(document).ready(function() {
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 			}
-			else if
-			(item == 74568) {
-				$('#taskIdVip').val(74568);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
+
 			else if
 			(item == 1080949) {
 				$('#taskIdVip').val(1080949);
@@ -696,13 +690,7 @@ $(document).ready(function() {
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 			}
-			else if
-			(item == 75532) {
-				$('#taskIdVip').val(75532);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
+
 			else if
 			(item == 1110123) {
 				$('#taskIdVip').val(1110123);
@@ -710,13 +698,7 @@ $(document).ready(function() {
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 			}
-			else if
-			(item == 75556) {
-				$('#taskIdVip').val(75556);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
+
 			else if
 			(item == 1086084) {
 				$('#taskIdVip').val(1086084);
@@ -759,13 +741,7 @@ $(document).ready(function() {
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 			}
-			else if
-			(item == 75085) {
-				$('#taskIdVip').val(75085);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
+
 			else if
 			(item == 75395) {
 				$('#taskIdVip').val(75395);
@@ -861,6 +837,30 @@ $(document).ready(function() {
 			}else if
 			(item == 75084) {
 				$('#taskIdVip').val(75084);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 75085) {
+				$('#taskIdVip').val(75085);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 75532) {
+				$('#taskIdVip').val(75532);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 75556) {
+				$('#taskIdVip').val(75556);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 74568) {
+				$('#taskIdVip').val(74568);
 				$('#countOfVideo').val(5);
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
