@@ -1431,7 +1431,9 @@ function getLinkReklama() {
 			source: "www.sniker.ua"
 		};
 	}  //
-
+	//http://oiler.com.ua/sto/?gclid=CMnHxLSg48sCFfYy0wodWe0GFA
+	//http://zaz-goloseevsky.com.ua/models/?gclid=CO_n9NKk48sCFawp0wodRCgNWw
+	//http://www.amotutto.com.ua/maslo-olivkovoe-olio-di-oliva.html?gclid=CK_Jk6yl48sCFaoy0wodiQgLLw
 	//{
 	//	ar[2] = {
 	//		mainUrl: "",

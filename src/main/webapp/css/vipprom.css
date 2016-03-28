@@ -1,5 +1,6 @@
 .textArea {
-	width: 800px;
+	/*width: 800px;*/
+	width: 400px;
 	height: 630px;
 	font-size: 14px;
 	resize: none;

@@ -11,6 +11,8 @@ $(document).ready(function() {
 	var arrayReklamaForUpdateDB;
 	var lastDATA;
 
+	var gClidReklamaText;
+
 	var fromSeoDropDown = false;
 
 	test2();
@@ -228,7 +230,7 @@ $(document).ready(function() {
 			}
 			reklamaText = reklamaText + "\n";
 		}
-
+		gClidReklamaText = reklamaText;
 
 		$('#resultTextArea').text(videoText + "\n" + reklamaText);
 	});
@@ -1143,5 +1145,33 @@ $(document).ready(function() {
 			},
 			dataType: "json"
 		});
+	});
+	$('#getGclid').click(function() {
+		console.log("test");
+		var allText = $('#resultTextArea').val();
+		//$('#gclidTextArea').val(allText);
+		//console.log("gClidReklamaText = " + gClidReklamaText);
+
+		var data2 = {action: "getCurrentTime", text: gClidReklamaText} ;
+		var count = 4;
+		while(count > 0) {
+			var timerId = setTimeout(function() {
+				$.ajax({
+					type: "POST",
+					url: "/getGClid",
+					data: data2,
+					success: function(json) {
+						console.log("FROM SCHEDULLER = " + count);
+						$('#gclidTextArea').val(json.resultReklama);
+						console.log(json);
+
+					},
+					dataType: "json"
+				});
+			}, 5000);
+			count--;
+		}
+
+
 	});
 });
