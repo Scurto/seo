@@ -1153,25 +1153,31 @@ $(document).ready(function() {
 		//console.log("gClidReklamaText = " + gClidReklamaText);
 
 		var data2 = {action: "getCurrentTime", text: gClidReklamaText} ;
-		var count = 4;
-		while(count > 0) {
-			var timerId = setTimeout(function() {
-				$.ajax({
-					type: "POST",
-					url: "/getGClid",
-					data: data2,
-					success: function(json) {
-						console.log("FROM SCHEDULLER = " + count);
-						$('#gclidTextArea').val(json.resultReklama);
-						console.log(json);
+		var count = 3;
+		 var myCount = 0;
 
-					},
-					dataType: "json"
-				});
-			}, 5000);
-			count--;
+
+		var timerId  = setInterval(func, 10000, data2, count);
+
+		function func(data2, count) {
+
+					$.ajax({
+						type: "POST",
+						url: "/getGClid",
+						data: data2,
+						success: function(json) {
+							$('#gclidTextArea').val(json.resultReklama);
+							console.log(json);
+
+						},
+						dataType: "json"
+					});
+			myCount++;
+			console.log("myCount = " + myCount);
+			if (count == myCount) {
+				console.log('--finish--');
+				clearTimeout(timerId);
+			}
 		}
-
-
 	});
 });
