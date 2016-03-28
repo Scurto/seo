@@ -12,6 +12,7 @@ $(document).ready(function() {
 	var lastDATA;
 
 	var gClidReklamaText;
+	var audio = new Audio('ring.mp3');
 
 	var fromSeoDropDown = false;
 
@@ -241,85 +242,89 @@ $(document).ready(function() {
 
 		var r = confirm("forRemoveFromDBReklama = " + forRemoveFromDBReklama + "\n" + "UPDATE IN DB !!! OK ???");
 		if (r == true) {
-			var taskId = $('#taskIdVip').val();
-
-			//var lastDate = day + '-' + month + '-' + year;
-			var lastDate = moment().format('l');
-			if (lastDATA == null) {
-				prevDate = lastDate;
-			} else {
-				prevDate = lastDATA.last_date;
-			}
-
-			var prevReklama = '';
-			for (var i = 0; i < forRemoveFromDBReklama.length; i++) {
-				if (i == forRemoveFromDBReklama.length -1) {
-					prevReklama = prevReklama + forRemoveFromDBReklama[i];
-				} else {
-					prevReklama = prevReklama + forRemoveFromDBReklama[i] + ":";
-				}
-			}
-
-
-			var lastReklama = '';
-
-			for (var i = 0; i < arrayReklamaForUpdateDB.length; i++) {
-				if (i == arrayReklamaForUpdateDB.length - 1) {
-					lastReklama = lastReklama + arrayReklamaForUpdateDB[i];
-				} else {
-					lastReklama = lastReklama + arrayReklamaForUpdateDB[i] + ":";
-				}
-			}
-
-
-			var task = {action: "selectReklama", id: taskId};
-
-
-			$.ajax({
-				type: "POST",
-				url: "/getLinkReklama",
-				data: task,
-				success: function(json) {
-					var data;
-					console.log("--------------");
-
-					if (json.task_id == "") {
-						data = {action: "insetReklama",
-							taskId: taskId,
-							prevDate: prevDate,
-							prevReklama: prevReklama,
-							lastDate: lastDate,
-							lastReklama: lastReklama
-						} ;
-					} else {
-						data = {action: "updateReklama",
-							taskId: taskId,
-							prevDate: prevDate,
-							prevReklama: prevReklama,
-							lastDate: lastDate,
-							lastReklama: lastReklama
-						} ;
-					}
-
-					console.log(data);
-					$.ajax({
-						type: "POST",
-						url: "/getLinkReklama",
-						data: data,
-						success: function(json) {
-							console.log(json)
-						},
-						dataType: "json"
-					})
-
-				},
-				dataType: "json"
-			})
+			updateMyDB();
 		} else {
 
 		}
 
 	});
+
+	function updateMyDB() {
+		var taskId = $('#taskIdVip').val();
+
+		//var lastDate = day + '-' + month + '-' + year;
+		var lastDate = moment().format('l');
+		if (lastDATA == null) {
+			prevDate = lastDate;
+		} else {
+			prevDate = lastDATA.last_date;
+		}
+
+		var prevReklama = '';
+		for (var i = 0; i < forRemoveFromDBReklama.length; i++) {
+			if (i == forRemoveFromDBReklama.length -1) {
+				prevReklama = prevReklama + forRemoveFromDBReklama[i];
+			} else {
+				prevReklama = prevReklama + forRemoveFromDBReklama[i] + ":";
+			}
+		}
+
+
+		var lastReklama = '';
+
+		for (var i = 0; i < arrayReklamaForUpdateDB.length; i++) {
+			if (i == arrayReklamaForUpdateDB.length - 1) {
+				lastReklama = lastReklama + arrayReklamaForUpdateDB[i];
+			} else {
+				lastReklama = lastReklama + arrayReklamaForUpdateDB[i] + ":";
+			}
+		}
+
+
+		var task = {action: "selectReklama", id: taskId};
+
+
+		$.ajax({
+			type: "POST",
+			url: "/getLinkReklama",
+			data: task,
+			success: function(json) {
+				var data;
+				console.log("--------------");
+
+				if (json.task_id == "") {
+					data = {action: "insetReklama",
+						taskId: taskId,
+						prevDate: prevDate,
+						prevReklama: prevReklama,
+						lastDate: lastDate,
+						lastReklama: lastReklama
+					} ;
+				} else {
+					data = {action: "updateReklama",
+						taskId: taskId,
+						prevDate: prevDate,
+						prevReklama: prevReklama,
+						lastDate: lastDate,
+						lastReklama: lastReklama
+					} ;
+				}
+
+				console.log(data);
+				$.ajax({
+					type: "POST",
+					url: "/getLinkReklama",
+					data: data,
+					success: function(json) {
+						console.log(json)
+					},
+					dataType: "json"
+				})
+
+			},
+			dataType: "json"
+		})
+	}
 
 
 
@@ -807,6 +812,13 @@ $(document).ready(function() {
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 			}
+			else if
+			(item == 0) {
+				$('#taskIdVip').val(0);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}
 			//else if
 			//(item == 70562) {
 			//	$('#taskIdVip').val(70562);
@@ -1149,35 +1161,57 @@ $(document).ready(function() {
 	$('#getGclid').click(function() {
 		console.log("test");
 		var allText = $('#resultTextArea').val();
-		//$('#gclidTextArea').val(allText);
+		$('#gclidTextArea').val(gClidReklamaText);
 		//console.log("gClidReklamaText = " + gClidReklamaText);
 
 		var data2 = {action: "getCurrentTime", text: gClidReklamaText} ;
-		var count = 3;
-		 var myCount = 0;
+		var count = 4;
+		var myCount = 0;
+		$.ajax({
+			type: "POST",
+			url: "/getGClid",
+			data: {action: "testCall"},
+			success: function(json) {
+				console.log(json.resultCall);
+				if (json.resultCall == "good") {
+					console.log("start = " + moment().format('LTS'));
+					//var timerId  = setInterval(func, 120000, count);
+					var timerId  = setInterval(func, 10000, count);
 
+					function func(count) {
+								$.ajax({
+									type: "POST",
+									url: "/getGClid",
+									data: {action: "getAllGClid", text: $('#gclidTextArea').val()},
+									success: function(json) {
+										$('#gclidTextArea').val(json.resultReklama);
+										console.log(json);
 
-		var timerId  = setInterval(func, 10000, data2, count);
+									},
+									dataType: "json"
+								});
+						myCount++;
+						console.log("myCount = " + myCount);
+						if (count == myCount) {
+							console.log('finish = ' + moment().format('LTS'));
+							clearTimeout(timerId);
+							updateMyDB()
+							audio.play();
+						}
+					}
+				} else{
+					alert("BAD");
+				}
+			},
+			dataType: "json"
+		});
+	});
 
-		function func(data2, count) {
+	$('#startMusic').click(function() {
+		audio.play();
+	});
 
-					$.ajax({
-						type: "POST",
-						url: "/getGClid",
-						data: data2,
-						success: function(json) {
-							$('#gclidTextArea').val(json.resultReklama);
-							console.log(json);
-
-						},
-						dataType: "json"
-					});
-			myCount++;
-			console.log("myCount = " + myCount);
-			if (count == myCount) {
-				console.log('--finish--');
-				clearTimeout(timerId);
-			}
-		}
+	$('#stopMusic').click(function() {
+		audio.pause();
 	});
 });
