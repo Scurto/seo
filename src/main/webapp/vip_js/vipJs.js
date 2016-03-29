@@ -591,13 +591,7 @@ $(document).ready(function() {
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 			}
-			else if
-			(item == 74911) {
-				$('#taskIdVip').val(74911);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
+
 			else if
 			(item == 74840) {
 				$('#taskIdVip').val(74840);
@@ -874,6 +868,12 @@ $(document).ready(function() {
 			}else if
 			(item == 74567) {
 				$('#taskIdVip').val(74567);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 74911) {
+				$('#taskIdVip').val(74911);
 				$('#countOfVideo').val(5);
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
