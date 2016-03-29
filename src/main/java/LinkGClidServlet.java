@@ -24,15 +24,14 @@ public class LinkGClidServlet extends HttpServlet {
 		String action = request.getParameter("action");
 		if (action.equals("testCall")) {
 			JSONObject resultJson = new JSONObject();
+			GclidParser parser = new GclidParser();
+			String gclid = parser.getGclid();
+			System.out.println("gclid = " + gclid);
 			resultJson.put("resultCall", "good");
 			response.setContentType("application/json");
 			response.setCharacterEncoding("UTF-8");
 			response.getWriter().write(resultJson.toString());
 		} else {
-
-//		System.out.println(text);
-//		System.out.println("contains = " + text.contains("\n"));
-//		System.out.println("text length = " + text.length());
 			String perenosStroki = "\n";
 			String[] s = text.split(perenosStroki);
 			String resultReklama = "";
@@ -47,12 +46,6 @@ public class LinkGClidServlet extends HttpServlet {
 				}
 				resultReklama = resultReklama + line + perenosStroki;
 			}
-//		Parser parser = new Parser();
-//		String url = getUrl(id);
-//		int cnt = Integer.parseInt(count);
-//		ArrayList<String> video = parser.getVideo(url, cnt);
-//		System.out.println(video);
-
 			JSONObject resultJson = new JSONObject();
 			resultJson.put("resultReklama", resultReklama);
 			response.setContentType("application/json");

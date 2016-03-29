@@ -30,3 +30,12 @@
 	right: 15px;
 	-webkit-appearance: checkbox;
 }
+#resultGclidContainer {
+	width: 330px;
+	height: 180px;
+	background: white;
+	float: left;
+	margin: 5px;
+	padding: 10px;
+	font-family: monospace;
+}

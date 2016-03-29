@@ -1161,11 +1161,15 @@ $(document).ready(function() {
 		console.log("test");
 		var allText = $('#resultTextArea').val();
 		$('#gclidTextArea').val(gClidReklamaText);
-		//console.log("gClidReklamaText = " + gClidReklamaText);
 
 		var data2 = {action: "getCurrentTime", text: gClidReklamaText} ;
 		var count = 4;
 		var myCount = 0;
+
+
+
+
+
 		$.ajax({
 			type: "POST",
 			url: "/getGClid",
@@ -1174,6 +1178,7 @@ $(document).ready(function() {
 				console.log(json.resultCall);
 				if (json.resultCall == "good") {
 					console.log("start = " + moment().format('LTS'));
+					$("#resultGclidContainer").append("<p>" + "Call started at " + moment().format('LTS') + "</p>");
 					var timerId  = setInterval(func, 130000, count);
 					//var timerId  = setInterval(func, 10000, count);
 
@@ -1189,18 +1194,23 @@ $(document).ready(function() {
 									},
 									dataType: "json"
 								});
+						$("#resultGclidContainer").append("<p>" + "Iteration " + myCount + " finished at -> " + moment().format('LTS') + "</p>");
 						myCount++;
 						console.log("myCount = " + myCount);
 						if (count == myCount) {
 							console.log('finish = ' + moment().format('LTS'));
+							$("#resultGclidContainer").append("<p>" + "Call finished at " + moment().format('LTS') + "</p>");
 							clearTimeout(timerId);
 							updateMyDB()
 							audio.play();
 						}
 					}
 				} else{
-					alert("BAD");
+					//alert("BAD");
 				}
+			},
+			error: function (xhr) {
+				alert("error");
 			},
 			dataType: "json"
 		});
