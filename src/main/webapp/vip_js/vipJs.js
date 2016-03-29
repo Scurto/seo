@@ -12,6 +12,7 @@ $(document).ready(function() {
 	var lastDATA;
 
 	var gClidReklamaText;
+	var gClidVideoText;
 	var audio = new Audio('ring.mp3');
 
 	var fromSeoDropDown = false;
@@ -222,6 +223,7 @@ $(document).ready(function() {
 		for (var i=0; i < baseArray.length; i++) {
 			videoText = videoText + baseArray[i] + "\n";
 		}
+		gClidVideoText =  videoText;
 		var reklamaText = '';
 		for (var z = 0; z < objArray.length; z++) {
 			//console.log(objArray[z]);
@@ -1186,6 +1188,7 @@ $(document).ready(function() {
 								$.ajax({
 									type: "POST",
 									url: "/getGClid",
+									async: false,
 									data: {action: "getAllGClid", text: $('#gclidTextArea').val()},
 									success: function(json) {
 										$('#gclidTextArea').val(json.resultReklama);
@@ -1201,7 +1204,8 @@ $(document).ready(function() {
 							console.log('finish = ' + moment().format('LTS'));
 							$("#resultGclidContainer").append("<p>" + "Call finished at " + moment().format('LTS') + "</p>");
 							clearTimeout(timerId);
-							updateMyDB()
+							updateMyDB();
+							//prepareFinalText();
 							audio.play();
 						}
 					}
@@ -1223,4 +1227,13 @@ $(document).ready(function() {
 	$('#stopMusic').click(function() {
 		audio.pause();
 	});
+
+	function prepareFinalText() {
+		var gclidRekl = $('#gclidTextArea').val();
+		$('#gclidTextArea').val('');
+
+		console.log("gclidRekl = " + gclidRekl);
+		console.log("-------");
+		console.log("gClidVideoText = " + gClidVideoText);
+	}
 });
