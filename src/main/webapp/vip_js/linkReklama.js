@@ -1431,9 +1431,318 @@ function getLinkReklama() {
 			source: "www.sniker.ua"
 		};
 	}  //
-	//http://oiler.com.ua/sto/?gclid=CMnHxLSg48sCFfYy0wodWe0GFA
-	//http://zaz-goloseevsky.com.ua/models/?gclid=CO_n9NKk48sCFawp0wodRCgNWw
-	//http://www.amotutto.com.ua/maslo-olivkovoe-olio-di-oliva.html?gclid=CK_Jk6yl48sCFaoy0wodiQgLLw
+	{
+		ar[36] = {
+			mainUrl: "http://oiler.com.ua/sto/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://oiler.com.ua/masla/",
+					title: ""
+				},
+				url2: {
+					url: "http://oiler.com.ua/filters/",
+					title: ""
+				},
+				url3: {
+					url: "http://oiler.com.ua/akkumuljatory/",
+					title: ""
+				},
+				url4: {
+					url: "http://oiler.com.ua/parts/",
+					title: ""
+				},
+				url5: {
+					url: "http://oiler.com.ua/shiny_i_diski/",
+					title: ""
+				},
+				url6: {
+					url: "http://oiler.com.ua/brake-system/",
+					title: ""
+				},
+				url7: {
+					url: "http://oiler.com.ua/auto-electrica/",
+					title: ""
+				}
+			},
+			img: "oiler",
+			type: "reklama",
+			source: "www.oiler.com.ua"
+		};
+	}
+	{
+		ar[37] = {
+			mainUrl: "http://zaz-goloseevsky.com.ua/models/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://zaz-goloseevsky.com.ua/models/lanos/",
+					title: ""
+				},
+				url2: {
+					url: "http://zaz-goloseevsky.com.ua/models/lanos-hatchback/",
+					title: ""
+				},
+				url3: {
+					url: "http://zaz-goloseevsky.com.ua/models/lanos-pick-up/",
+					title: ""
+				},
+				url4: {
+					url: "http://zaz-goloseevsky.com.ua/models/sens/",
+					title: ""
+				},
+				url5: {
+					url: "http://zaz-goloseevsky.com.ua/servis-i-zapchasti/cto/",
+					title: ""
+				},
+				url6: {
+					url: "http://zaz-goloseevsky.com.ua/servis-i-zapchasti/zapis_to/",
+					title: ""
+				},
+				url7: {
+					url: "http://zaz-goloseevsky.com.ua/uslugi/kasko/",
+					title: ""
+				}
+			},
+			img: "zaz-goloseevsky",
+			type: "reklama",
+			source: "www.zaz-goloseevsky.com.ua"
+		};
+	}  //
+	{
+		ar[38] = {
+			mainUrl: "http://www.amotutto.com.ua/nashi-produkty/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.amotutto.com.ua/spirits",
+					title: ""
+				},
+				url2: {
+					url: "http://www.amotutto.com.ua/bytovaja-himija.html",
+					title: ""
+				},
+				url3: {
+					url: "http://www.amotutto.com.ua/horeka.html",
+					title: ""
+				},
+				url4: {
+					url: "http://www.amotutto.com.ua/oplata",
+					title: ""
+				},
+				url5: {
+					url: "http://www.amotutto.com.ua/about",
+					title: ""
+				},
+				url6: {
+					url: "http://www.amotutto.com.ua/nashi-produkty/sousy-pripravy.html",
+					title: ""
+				},
+				url7: {
+					url: "http://www.amotutto.com.ua/nashi-produkty/syry.html",
+					title: ""
+				}
+			},
+			img: "amotutto",
+			type: "reklama",
+			source: "www.amotutto.com.ua"
+		};
+	}  //
+	{
+		ar[39] = {
+			mainUrl: "https://agro-market.net/catalog/cat/361/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "https://agro-market.net/about/",
+					title: ""
+				},
+				url2: {
+					url: "https://agro-market.net/payments-and-deliveries/",
+					title: ""
+				},
+				url3: {
+					url: "https://agro-market.net/prices/",
+					title: ""
+				},
+				url4: {
+					url: "https://agro-market.net/faq/",
+					title: ""
+				},
+				url5: {
+					url: "https://agro-market.net/contacts/",
+					title: ""
+				},
+				url6: {
+					url: "https://agro-market.net/comments/",
+					title: ""
+				},
+				url7: {
+					url: "https://agro-market.net/catalog/cat/360/",
+					title: ""
+				}
+			},
+			img: "agro-market",
+			type: "reklama",
+			source: "www.agro-market.net"
+		};
+	}  //  http://auto-mall.com.ua/promotions.html
+	{
+		ar[40] = {
+			mainUrl: "http://auto-mall.com.ua/promotions.html?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://auto-mall.com.ua/service.html",
+					title: ""
+				},
+				url2: {
+					url: "http://auto-mall.com.ua/buy-1.html",
+					title: ""
+				},
+				url3: {
+					url: "http://auto-mall.com.ua/aboutus-1.html",
+					title: ""
+				},
+				url4: {
+					url: "http://auto-mall.com.ua/group.html",
+					title: ""
+				},
+				url5: {
+					url: "http://auto-mall.com.ua/hyundai-solaris.html",
+					title: ""
+				},
+				url6: {
+					url: "http://auto-mall.com.ua/group/nissan-almera.html",
+					title: ""
+				},
+				url7: {
+					url: "http://auto-mall.com.ua/group/nissan-qashqai.html",
+					title: ""
+				}
+			},
+			img: "auto-mall",
+			type: "reklama",
+			source: "www.auto-mall.com.ua"
+		};
+	}  //
+	{
+		ar[41] = {
+			mainUrl: "http://alpha-intensiv.com.ua/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://alpha-intensiv.com.ua/urovni.html",
+					title: ""
+				},
+				url2: {
+					url: "http://alpha-intensiv.com.ua/intensiv-kurs.html",
+					title: ""
+				},
+				url3: {
+					url: "http://alpha-intensiv.com.ua/nemeckij-dlya-vrachej.html",
+					title: ""
+				},
+				url4: {
+					url: "http://alpha-intensiv.com.ua/biznes-nemeckij.html",
+					title: ""
+				},
+				url5: {
+					url: "http://alpha-intensiv.com.ua/nemeckij-dlya-detej.html",
+					title: ""
+				},
+				url6: {
+					url: "http://alpha-intensiv.com.ua/grammaticheskij-intensiv.html",
+					title: ""
+				},
+				url7: {
+					url: "http://alpha-intensiv.com.ua/intensivnaya-podgotovka-k-ekzamenu-startdeutsch1.html",
+					title: ""
+				}
+			},
+			img: "alpha-intensiv",
+			type: "reklama",
+			source: "www.alpha-intensiv.com.ua"
+		};
+	}  //
+	{
+		ar[42] = {
+			mainUrl: "http://www.splav.ua/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.splav.ua/wardrobes",
+					title: ""
+				},
+				url2: {
+					url: "http://www.splav.ua/gallery/fcupboard",
+					title: ""
+				},
+				url3: {
+					url: "http://www.splav.ua/repair",
+					title: ""
+				},
+				url4: {
+					url: "http://www.splav.ua/material",
+					title: ""
+				},
+				url5: {
+					url: "http://www.splav.ua/tips-and-articles",
+					title: ""
+				},
+				url6: {
+					url: "http://www.splav.ua/about",
+					title: ""
+				},
+				url7: {
+					url: "http://www.splav.ua/contacts",
+					title: ""
+				}
+			},
+			img: "splav",
+			type: "reklama",
+			source: "www.splav.ua"
+		};
+	}  //     http://skyfitness.com.ua/services-all-fitness?gclid=CLKY7Ob8z8sCFZcy0woddyoAwg
+	{
+		ar[43] = {
+			mainUrl: "http://skyfitness.com.ua/services-all-fitness?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://skyfitness.com.ua/about/description",
+					title: ""
+				},
+				url2: {
+					url: "http://skyfitness.com.ua/news",
+					title: ""
+				},
+				url3: {
+					url: "http://skyfitness.com.ua/services",
+					title: ""
+				},
+				url4: {
+					url: "http://skyfitness.com.ua/club-cards",
+					title: ""
+				},
+				url5: {
+					url: "http://skyfitness.com.ua/prices",
+					title: ""
+				},
+				url6: {
+					url: "http://skyfitness.com.ua/invite",
+					title: ""
+				},
+				url7: {
+					url: "http://skyfitness.com.ua/contacts",
+					title: ""
+				}
+			},
+			img: "skyfitness",
+			type: "reklama",
+			source: "www.skyfitness.com.ua"
+		};
+	}  //
 	//{
 	//	ar[2] = {
 	//		mainUrl: "",
