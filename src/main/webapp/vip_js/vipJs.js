@@ -572,30 +572,12 @@ $(document).ready(function() {
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 			}
-			else if
-			(item == 74678) {
-				$('#taskIdVip').val(74678);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
-			else if
-			(item == 74744) {
-				$('#taskIdVip').val(74744);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
 
 
 
-			else if
-			(item == 74693) {
-				$('#taskIdVip').val(74693);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
+
+
+
 			else if
 			(item == 1080945) {
 				$('#taskIdVip').val(1080945);
@@ -618,13 +600,7 @@ $(document).ready(function() {
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 			}
-			else if
-			(item == 75078) {
-				$('#taskIdVip').val(75078);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
+
 			else if
 			(item == 73752) {
 				$('#taskIdVip').val(73752);
@@ -858,6 +834,30 @@ $(document).ready(function() {
 			}else if
 			(item == 74567) {
 				$('#taskIdVip').val(74567);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 75078) {
+				$('#taskIdVip').val(75078);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 74678) {
+				$('#taskIdVip').val(74678);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 74693) {
+				$('#taskIdVip').val(74693);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 74744) {
+				$('#taskIdVip').val(74744);
 				$('#countOfVideo').val(5);
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
@@ -1206,7 +1206,7 @@ $(document).ready(function() {
 							clearTimeout(timerId);
 							updateMyDB();
 							//prepareFinalText();
-							//audio.play();
+							audio.play();
 						}
 					}
 				} else{
