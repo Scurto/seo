@@ -35,7 +35,7 @@ $(document).ready(function() {
 		var data2 = {action: "getCurrentTime"} ;
 		$.ajax({
 			type: "POST",
-			url: "service.php",
+			url: "/getTime",
 			data: data2,
 			success: function(json) {
 				hour = json.hour;
@@ -1032,7 +1032,7 @@ $('#clear-browsing-data').click(function(event) {
 		var data2 = {action: "getTime"} ;
 		$.ajax({
 			type: "POST",
-			url: "service.php",
+			url: "/getTime",
 			//url: "service.php",
 			data: data2,
 			success: function(json) {
@@ -1040,25 +1040,25 @@ $('#clear-browsing-data').click(function(event) {
 				month = json.month;
 				year = json.year;
 				switch (json.dayOfWeek) {
-					case '1':
+					case 2:
 						dayOfWeek = "понедельник";
 						break;
-					case '2':
+					case 3:
 						dayOfWeek = "вторник";
 						break;
-					case '3':
+					case 4:
 						dayOfWeek = "среда";
 						break;
-					case '4':
+					case 5:
 						dayOfWeek = "четверг";
 						break;
-					case '5':
+					case 6:
 						dayOfWeek = "пятница";
 						break;
-					case '6':
+					case 7:
 						dayOfWeek = "суббота";
 						break;
-					case '7':
+					case 1:
 						dayOfWeek = "воскресенье";
 						break;
 				}

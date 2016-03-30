@@ -1743,6 +1743,84 @@ function getLinkReklama() {
 			source: "www.skyfitness.com.ua"
 		};
 	}  //
+	{
+		ar[44] = {
+			mainUrl: "http://www.onagofly.com/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.onagofly.com/faq/",
+					title: ""
+				},
+				url2: {
+					url: "http://www.onagofly.com/referral/",
+					title: ""
+				},
+				url3: {
+					url: "http://www.onagofly.com/press-1/",
+					title: ""
+				},
+				url4: {
+					url: "http://www.onagofly.com/contact-us/",
+					title: ""
+				},
+				url5: {
+					url: "http://www.onagofly.com/jobs/",
+					title: ""
+				},
+				url6: {
+					url: "http://www.onagofly.com/privacy-1/",
+					title: ""
+				},
+				url7: {
+					url: "http://www.onagofly.com/tech/",
+					title: ""
+				}
+			},
+			img: "onagofly",
+			type: "reklama",
+			source: "www.onagofly.com"
+		};
+	}  //
+	//{
+	//	ar[45] = {
+	//		mainUrl: "",
+	//		title: "",
+	//		secUrl: {
+	//			url1: {
+	//				url: "",
+	//				title: ""
+	//			},
+	//			url2: {
+	//				url: "",
+	//				title: ""
+	//			},
+	//			url3: {
+	//				url: "",
+	//				title: ""
+	//			},
+	//			url4: {
+	//				url: "",
+	//				title: ""
+	//			},
+	//			url5: {
+	//				url: "",
+	//				title: ""
+	//			},
+	//			url6: {
+	//				url: "",
+	//				title: ""
+	//			},
+	//			url7: {
+	//				url: "",
+	//				title: ""
+	//			}
+	//		},
+	//		img: "boccesbakery",
+	//		type: "reklama",
+	//		source: "www.boccesbakery.com"
+	//	};
+	//}  //
 	//{
 	//	ar[2] = {
 	//		mainUrl: "",
