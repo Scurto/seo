@@ -248,12 +248,12 @@ $(document).ready(function() {
 		$.ajax({
 			type: "POST",
 			async: false,
-			url: "service.php",
+			url: "/getSrcReklama",
 			data: data,
 			success: function(json) {
-				lastDATA = json.video[0];
-				if (json.video[0] != null) {
-					var lastReklama = json.video[0].last_reklama;
+				//lastDATA = json;
+				var lastReklama = json.last_reklama;
+				if (lastReklama != "") {
 					forRemoveFromDBReklama = lastReklama.split(":");
 				} else {
 					forRemoveFromDBReklama = '';
@@ -326,16 +326,16 @@ $(document).ready(function() {
 	function addTextInSosediReklamSrc(connArray) {
 		var connArrayDATA = new Array();
 		for (var i = 0; i < connArray.length; i++) {
-			var data = {action: "selectReklamaSrc", taskId: connArray[i]} ;
+			var data = {action: "selectReklamaSrc", id: connArray[i]} ;
 			$.ajax({
 				type: "POST",
 				async: false,
-				url: "service.php",
+				url: "/getSrcReklama",
 				data: data,
 				success: function(json) {
-					if (json.video.length > 0) {
-						connArrayDATA.push(json.video);
-					}
+					//if (json.video.length > 0) {
+						connArrayDATA.push(json);
+					//}
 				},
 				dataType: "json"
 			});
@@ -356,9 +356,9 @@ $(document).ready(function() {
 		//var now = moment().format('l');
 		var twoDaysBeforeDate = moment().subtract('days', 2).format('l');
 		for (var z = 0; z < connArrayDATA.length; z++) {
-			var taskId = connArrayDATA[z][0].task_id;
-			var lastDate = connArrayDATA[z][0].last_date;
-			var lastReklama = connArrayDATA[z][0].last_reklama;
+			var taskId = connArrayDATA[z].task_id;
+			var lastDate = connArrayDATA[z].last_date;
+			var lastReklama = connArrayDATA[z].last_reklama;
 			if (moment(lastDate).isAfter(twoDaysBeforeDate)) {
 				var lastRekl = lastReklama.split(':');
 				for (var i = 0; i < lastRekl.length; i++) {
@@ -1084,77 +1084,81 @@ $('#clear-browsing-data').click(function(event) {
 		//var r = confirm("forRemoveFromDBReklama = " + forRemoveFromDBReklama + "\n" + "UPDATE IN DB !!! OK ???");
 		var r = confirm("forRemoveFromDBReklama = " + forRemoveFromDBReklama +  "\n" + "UPDATE IN DB !!! OK ???");
 		if (r == true) {
-			var taskId = globalTaskId;
-
-			var lastDate = moment().format('l');
-			if (lastDATA == null) {
-				prevDate = lastDate;
-			} else {
-				prevDate = lastDATA.last_date;
-			}
-
-			var prevReklama = '';
-			for (var i = 0; i < forRemoveFromDBReklama.length; i++) {
-				if (i == forRemoveFromDBReklama.length -1) {
-					prevReklama = prevReklama + forRemoveFromDBReklama[i];
-				} else {
-					prevReklama = prevReklama + forRemoveFromDBReklama[i] + ":";
-				}
-			}
-
-
-			var lastReklama = '';
-
-			for (var i = 0; i < reklamaForUpdateDb.length; i++) {
-				if (i == reklamaForUpdateDb.length - 1) {
-					lastReklama = lastReklama + reklamaForUpdateDb[i];
-				} else {
-					lastReklama = lastReklama + reklamaForUpdateDb[i] + ":";
-				}
-			}
-
-			var task = {action: "selectReklamaSrc", taskId: taskId};
-			$.ajax({
-				type: "POST",
-				url: "service.php",
-				data: task,
-				success: function(json) {
-					var data;
-					if (json.video[0] == null) {
-						data = {action: "insetReklamaSrc",
-							taskId: taskId,
-							prevDate: prevDate,
-							prevReklama: prevReklama,
-							lastDate: lastDate,
-							lastReklama: lastReklama
-						} ;
-					} else {
-						data = {action: "updateReklamaSrc",
-							taskId: taskId,
-							prevDate: prevDate,
-							prevReklama: prevReklama,
-							lastDate: lastDate,
-							lastReklama: lastReklama
-						} ;
-					}
-
-					$.ajax({
-						type: "POST",
-						url: "service.php",
-						data: data,
-						success: function(json) {
-							console.log(json)
-						},
-						dataType: "json"
-					})
-
-				},
-				dataType: "json"
-			})
+			updateMyDB();
 		} else {
 
 		}
 	});
+
+	function updateMyDB() {
+		var taskId = globalTaskId;
+
+		var lastDate = moment().format('l');
+		if (lastDATA == null) {
+			prevDate = lastDate;
+		} else {
+			prevDate = lastDATA.last_date;
+		}
+
+		var prevReklama = '';
+		for (var i = 0; i < forRemoveFromDBReklama.length; i++) {
+			if (i == forRemoveFromDBReklama.length -1) {
+				prevReklama = prevReklama + forRemoveFromDBReklama[i];
+			} else {
+				prevReklama = prevReklama + forRemoveFromDBReklama[i] + ":";
+			}
+		}
+
+
+		var lastReklama = '';
+
+		for (var i = 0; i < reklamaForUpdateDb.length; i++) {
+			if (i == reklamaForUpdateDb.length - 1) {
+				lastReklama = lastReklama + reklamaForUpdateDb[i];
+			} else {
+				lastReklama = lastReklama + reklamaForUpdateDb[i] + ":";
+			}
+		}
+
+		var task = {action: "selectReklamaSrc", id: taskId};
+		$.ajax({
+			type: "POST",
+			url: "/getSrcReklama",
+			data: task,
+			success: function(json) {
+				var data;
+				if (json.task_id == "") {
+					data = {action: "insetReklamaSrc",
+						taskId: taskId,
+						prevDate: prevDate,
+						prevReklama: prevReklama,
+						lastDate: lastDate,
+						lastReklama: lastReklama
+					} ;
+				} else {
+					data = {action: "updateReklamaSrc",
+						taskId: taskId,
+						prevDate: prevDate,
+						prevReklama: prevReklama,
+						lastDate: lastDate,
+						lastReklama: lastReklama
+					} ;
+				}
+
+				$.ajax({
+					type: "POST",
+					url: "/getSrcReklama",
+					data: data,
+					success: function(json) {
+						console.log(json)
+					},
+					dataType: "json"
+				})
+
+			},
+			dataType: "json"
+		})
+	}
 
 	$('.mutliSelect input[type="checkbox"]').on('click', function() {
 		var title = $(this).closest('.mutliSelect').find('input[type="checkbox"]').val(),
