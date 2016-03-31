@@ -1165,11 +1165,15 @@ $(document).ready(function() {
 		$('#gclidTextArea').val(gClidReklamaText);
 
 		var data2 = {action: "getCurrentTime", text: gClidReklamaText} ;
-		var count = 4;
+		var count = parseInt($('#countOfReklama').val()) + 1;
 		var myCount = 0;
 
-
-
+		var timerCounter;
+		if (count < 4) {
+			timerCounter =  150000;
+		} else {
+			timerCounter =  130000;
+		}
 
 
 		$.ajax({
@@ -1181,8 +1185,8 @@ $(document).ready(function() {
 				if (json.resultCall == "good") {
 					console.log("start = " + moment().format('LTS'));
 					$("#resultGclidContainer").append("<p>" + "Call started at " + moment().format('LTS') + "</p>");
-					var timerId  = setInterval(func, 130000, count);
-					//var timerId  = setInterval(func, 10000, count);
+
+					var timerId  = setInterval(func, timerCounter, count);
 
 					function func(count) {
 								$.ajax({
