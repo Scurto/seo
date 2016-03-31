@@ -183,6 +183,14 @@ $(document).ready(function() {
 				$('#betweenVideo').val(35);
 				$('#betweenReklama').val(40);
 			}else if
+			(item == 999896) {
+				$('#taskId').val(999896);
+				$('#countOfVideo').val(40);
+				$('#countOfReklama').val(5);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(35);
+				$('#betweenReklama').val(40);
+			}else if
 			(item == 938168) {
 				$('#taskId').val(938168);
 				$('#countOfVideo').val(40);
@@ -243,7 +251,7 @@ $(document).ready(function() {
 
 		var taskId = $('#taskId').val();
 		globalTaskId = taskId;
-		var data = {action: "selectReklamaSrc", taskId: taskId} ;
+		var data = {action: "selectReklamaSrc", id: taskId} ;
 
 		$.ajax({
 			type: "POST",
@@ -923,7 +931,7 @@ $('#clear-browsing-data').click(function(event) {
 				if (request == 'Синьор помидор и тыква.') {
 					linkText = '';
 				}
-			} else if (taskId == 70722) {
+			} else if (taskId == 70722 || taskId == 999896) {
 				var youtube = {
 					title: "Anatolievich - YouTube",
 					type: "def",
@@ -1075,6 +1083,9 @@ $('#clear-browsing-data').click(function(event) {
 						break;
 					case '3':
 						month = "марта";
+						break;
+					case '4':
+						month = "апреля";
 						break;
 				}
 				var date = "Сегодня - " + dayOfWeek + ", " + dateOfMonth + " " +  month + " " + year + " г.";
