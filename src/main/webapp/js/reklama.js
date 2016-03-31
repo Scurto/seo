@@ -2179,6 +2179,174 @@ function getReklama() {
 		source: "www.fluke.com"
 	};
 
+	ar[51] = {
+		mainUrl : "https://www.schlafwelt.de/",
+		title: "Matratzen, Lattenroste, Betten & mehr bei Schlafwelt.de",
+		secUrl : {
+			url1 : {
+				url: "https://www.schlafwelt.de/matratzen/",
+				title: "Matratzen Online Shop | Matratzen kaufen bei Schlafwelt"
+			},
+			url2 : {
+				url: "https://www.schlafwelt.de/lattenroste/",
+				title: "Lattenroste Online Shop | Ihr Lattenrost bei schlafwelt"
+			},
+			url3 : {
+				url: "https://www.schlafwelt.de/decken/",
+				title: "Decken online kaufen | Bettdecken bei schlafwelt.de"
+			},
+			url4 : {
+				url: "https://www.schlafwelt.de/bettwaesche/",
+				title: "Bettwäsche günstig online kaufen | schlafwelt.de"
+			},
+			url5 : {
+				url: "https://www.schlafwelt.de/betten/",
+				title: "Betten günstig online kaufen | schlafwelt.de"
+			},
+			url6 : {
+				url: "https://www.schlafwelt.de/auflagen/",
+				title: "Matratzenauflagen günstig online kaufen | schlafwelt.de"
+			},
+			url7 : {
+				url: "https://www.schlafwelt.de/moebel/",
+				title: "Schlafzimmermöbel kaufen | Günstig online - Schlafwelt"
+			},
+			url8 : {
+				url: "https://www.schlafwelt.de/mehr/",
+				title: "Mehr Artikel rund ums Thema Schlafzimmer bei schlafwelt"
+			}
+		},
+		img: "schlafwelt",
+		type: "reklama",
+		location: "GERMANY",
+		source: "schlafwelt.de"
+	};
+
+	ar[52] = {
+		mainUrl : "http://energiefragen.statoil.de/content/statoil/de/energiefragen/energiemix.html",
+		title: "Energiemix | Energiefragen in Deutschland – Statoil",
+		secUrl : {
+			url1 : {
+				url: "http://energiefragen.statoil.de/content/statoil/de/energiefragen/waermemarkt.html",
+				title: "Wärmemarkt | Energiefragen in Deutschland – Statoil"
+			},
+			url2 : {
+				url: "http://energiefragen.statoil.de/content/statoil/de/energiefragen/nachhaltigkeit.html",
+				title: "Nachhaltigkeit | Energiefragen in Deutschland – Statoil"
+			},
+			url3 : {
+				url: "http://energiefragen.statoil.de/content/statoil/de/ueber-uns/statoil-in-deutschland.html",
+				title: "Statoil in Deutschland"
+			},
+			url4 : {
+				url: "http://energiefragen.statoil.de/content/statoil/de/kontakt.html",
+				title: "Kontakt - Kontakt"
+			},
+			url5 : {
+				url: "http://energiefragen.statoil.de/content/statoil/de/ueber-uns/impressum.html",
+				title: "Impressum"
+			},
+			url6 : {
+				url: "http://energiefragen.statoil.de/content/statoil/de/ueber-uns/datenschutz.html",
+				title: "Datenschutz"
+			},
+			url7 : {
+				url: "http://energiefragen.statoil.de/content/statoil/de/ueber-uns/nutzungsbedingungen.html",
+				title: "Nutzungsbedingungen"
+			}
+		},
+		img: "energiefragen.statoil",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.energiefragen.statoil.de"
+	};
+
+	ar[53] = {
+		mainUrl : "https://monoqi.com/de/mosaic/new",
+		title: "MONOQI | Login / Register",
+		secUrl : {
+			url1 : {
+				url: "http://monoqi.com/de/about",
+				title: "MONOQI | About Us"
+			},
+			url2 : {
+				url: "http://monoqi.com/de/jobs",
+				title: "MONOQI | Jobs"
+			},
+			url3 : {
+				url: "http://monoqi.com/de/imprint",
+				title: "MONOQI | Imprint"
+			},
+			url4 : {
+				url: "http://monoqi.com/de/privacy",
+				title: "MONOQI | Datenschutzerklärung"
+			},
+			url5 : {
+				url: "http://monoqi.com/de/terms",
+				title: "MONOQI | Allgemeine Geschäftsbedingungen (AGB)"
+			},
+			url6 : {
+				url: "http://monoqi.com/de/contact",
+				title: "MONOQI | Contact"
+			},
+			url7 : {
+				url: "http://monoqi.com/de/user-faq",
+				title: "MONOQI | FAQ"
+			},
+			url8 : {
+				url: "http://press.monoqi.com/de",
+				title: "MONOQI Press Area"
+			}
+		},
+		img: "monoqi",
+		type: "reklama",
+		location: "USA",
+		source: "monoqi.com"
+	};
+
+	ar[54] = {
+		mainUrl : "http://www.momondo.de/",
+		title: "Billigflüge - günstige Flüge vergleichen mit momondo.de",
+		secUrl : {
+			url1 : {
+				url: "http://www.momondo.de/hotels/",
+				title: "Hotelsuche - Günstige Hotels buchen – momondo"
+			},
+			url2 : {
+				url: "http://www.momondo.de/mietwagen/",
+				title: "Autovermietung - Günstige Mietwagen buchen - momondo"
+			},
+			url3 : {
+				url: "http://www.momondo.de/trip-finder/",
+				title: "Trip Finder -Inspiration search - momondo"
+			},
+			url4 : {
+				url: "http://www.momondo.de/inspiration/",
+				title: "Reiseblog von momondo | Reiseinspiration & Insidertipps"
+			},
+			url5 : {
+				url: "http://www.momondo.de/content/jobs/",
+				title: "Stellenangebote bei momondo"
+			},
+			url6 : {
+				url: "http://www.momondo.de/fluggesellschaften/",
+				title: "Airline Index – momondo"
+			},
+			url7 : {
+				url: "http://www.momondo.de/fl%C3%BCge/nyc/flug-new-york.html",
+				title: "Flug New York - Günstige Flüge nach New York, USA – momondo"
+			},
+			url8 : {
+				url: "http://www.momondo.de/fl%C3%BCge/it/italien-reisen.html",
+				title: "Flüge nach Italien - Billigflüge nach Italien vergleichen – momondo"
+			}
+		},
+		img: "momondo",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.momondo.de"
+	};
+
 	//ar[22] = {
 	//	mainUrl : "",
 	//	title: "",
@@ -2218,6 +2386,7 @@ function getReklama() {
 	//	},
 	//	img: "boccesbakery",
 	//	type: "reklama",
+	//	location: "",
 	//	source: "www.boccesbakery.com"
 	//};
 
