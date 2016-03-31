@@ -564,7 +564,7 @@ $('#clear-browsing-data').click(function(event) {
 				reklamaForUpdateDb.push(baseArray[a].img);
 			}
 		}
-
+		// TODO FIX LOGIC OF MIX HERE !!!!!!!!
 		mixArray(leng, baseArray, countOfMove, request);
 
 		addedTime(hour, minute, sec, betweenVideo, betweenReklama);
@@ -631,24 +631,28 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(bing);
 			etalonArray.push(youtube);
 		} else if (taskId == 73136 || taskId == 76310) {
-			var whoer = {
-				title: "Узнать свой IP адрес",
-				type: "def",
-				img: "whoer",
-				source: "whoer.net"
-			};
-			var bing = {
-				title: "alla khlupnova - Bing",
-				type: "def",
-				img: "bing",
-				source: "www.bing.com"
-			};
-			var youtube = {
-				title: "Alla Khlupnova - YouTube",
-				type: "def",
-				img: "youtube",
-				source: "www.youtube.com"
-			};
+			//var whoer = {
+			//	title: "Узнать свой IP адрес",
+			//	type: "def",
+			//	img: "whoer",
+			//	source: "whoer.net"
+			//};
+			//var bing = {
+			//	title: "alla khlupnova - Bing",
+			//	type: "def",
+			//	img: "bing",
+			//	source: "www.bing.com"
+			//};
+			//var youtube = {
+			//	title: "Alla Khlupnova - YouTube",
+			//	type: "def",
+			//	img: "youtube",
+			//	source: "www.youtube.com"
+			//};
+			var whoer = getDefaultWhoer();
+			var bing = getDefaultBing("alla khlupnova - Bing");
+			var youtube = getDefaultYouTube("Alla Khlupnova - YouTube");
+
 			//etalonArray.push(ip);
 			etalonArray.push(whoer);
 			etalonArray.push(bing);
@@ -1182,5 +1186,40 @@ $('#clear-browsing-data').click(function(event) {
 			$('#updateDbb').toggleClass('updateDbButton');
 		}
 	});
+
+	function getDefaultYouTube(myTitle) {
+		if (myTitle == "") {
+			alert("TITLE NULL");
+		} else {
+			var youtube = {
+				title: myTitle,
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+		}
+
+		return youtube;
+	}
+
+	function getDefaultBing(myTitle) {
+		var bing = {
+			title: myTitle,
+			type: "def",
+			img: "bing",
+			source: "www.bing.com"
+		};
+		return bing;
+	}
+
+	function getDefaultWhoer() {
+		var whoer = {
+			title: "Узнать свой IP адрес",
+			type: "def",
+			img: "whoer",
+			source: "whoer.net"
+		};
+		return whoer;
+	}
 });
 

@@ -2347,6 +2347,92 @@ function getReklama() {
 		source: "www.momondo.de"
 	};
 
+	ar[55] = {
+		mainUrl : "https://www.cnouch.de/",
+		title: "Polstermöbel online kaufen » cnouch.de",
+		secUrl : {
+			url1 : {
+				url: "https://www.cnouch.de/sofas-couches/",
+				title: "Sofa & Couch » Polstermöbel kaufen bei » cnouch.de"
+			},
+			url2 : {
+				url: "https://www.cnouch.de/sofas-couches/ecksofas/",
+				title: "Ecksofa und Eckcouch online kaufen bei » cnouch.de"
+			},
+			url3 : {
+				url: "https://www.cnouch.de/sofas-couches/wohnlandschaften/",
+				title: "Wohnlandschaft online bestellen | U-Form Sofas"
+			},
+			url4 : {
+				url: "https://www.cnouch.de/sofas-couches/xxl-sofas/",
+				title: "XXL Sofa und XXL Couch online bestellen » cnouch.de"
+			},
+			url5 : {
+				url: "https://www.cnouch.de/sofas-couches/einzelsofas/",
+				title: "Einzelsofas & Einzelcouches online shoppen | cnouch.de"
+			},
+			url6 : {
+				url: "https://www.cnouch.de/sofas-couches/couchgarnituren/",
+				title: "Polstergarnituren kaufen » Couchgarnituren cnouch.de"
+			},
+			url7 : {
+				url: "https://www.cnouch.de/sofas-couches/schlafsofas/",
+				title: "Schlafsofa und Schlafcouch online bestellen bei » cnouch.de"
+			},
+			url8 : {
+				url: "https://www.cnouch.de/sofas-couches/sofaelemente/",
+				title: "Modulsofas online kaufen | Modulsofas Onlineshop | cnouch.de"
+			}
+		},
+		img: "cnouch",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.cnouch.de"
+	};
+
+	ar[56] = {
+		mainUrl : "https://www.naturloft.de/",
+		title: "▷ Landhausmöbel: Möbel im Landhausstil günstig kaufen",
+		secUrl : {
+			url1 : {
+				url: "https://www.naturloft.de/sofas-sessel/",
+				title: "▷ Sofas & Sessel bequem online kaufen » naturloft.de"
+			},
+			url2 : {
+				url: "https://www.naturloft.de/schraenke-regale/",
+				title: "▷Schränke & Regale massiv & günstig » naturloft.de"
+			},
+			url3 : {
+				url: "https://www.naturloft.de/betten-co/",
+				title: "▷ Betten & Bettgestelle aus Massivholz"
+			},
+			url4 : {
+				url: "https://www.naturloft.de/tische-stuehle/",
+				title: "▷ Tische & Stühle | Landhausstil in Weiß & Kiefer"
+			},
+			url5 : {
+				url: "https://www.naturloft.de/schraenke-regale/wohnwaende/",
+				title: "▷ Wohnwände günstig & bequem kaufen - naturloft.de"
+			},
+			url6 : {
+				url: "https://www.naturloft.de/schraenke-regale/vitrinen-buffets/",
+				title: "▷ Buffets & Vitrinen online kaufen - naturloft.de"
+			},
+			url7 : {
+				url: "https://www.naturloft.de/schraenke-regale/garderoben/",
+				title: "▷ Garderoben & Garderoben-Sets | naturloft.de"
+			},
+			url8 : {
+				url: "https://www.naturloft.de/betten-co/bettgestelle/",
+				title: "▷ Bettgestelle günstig kaufen ➨ naturloft.de"
+			}
+		},
+		img: "naturloft",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.naturloft.de"
+	};
+
 	//ar[22] = {
 	//	mainUrl : "",
 	//	title: "",
