@@ -2433,6 +2433,135 @@ function getReklama() {
 		source: "www.naturloft.de"
 	};
 
+	ar[57] = {
+		mainUrl : "https://www.conrad.de/",
+		title: "Conrad | Der Online-Shop für Elektronik & Technik",
+		secUrl : {
+			url1 : {
+				url: "https://www.conrad.de/de/computer-buero-t01.html",
+				title: "Computer & Büro | conrad.de"
+			},
+			url2 : {
+				url: "https://www.conrad.de/de/multimedia-t02.html",
+				title: "Multimedia | conrad.de"
+			},
+			url3 : {
+				url: "https://www.conrad.de/de/modellbau-modellbahn-t03.html",
+				title: "Modellbau & Modellbahn | conrad.de"
+			},
+			url4 : {
+				url: "https://www.conrad.de/de/freizeit-haushalt-t16.html",
+				title: "Freizeit & Haushalt | conrad.de"
+			},
+			url5 : {
+				url: "https://www.conrad.de/de/batterien-ladegeraete-t05.html",
+				title: "Batterien & Ladegeräte | conrad.de"
+			},
+			url6 : {
+				url: "https://www.conrad.de/de/gebaeudetechnik-t06.html",
+				title: "Gebäudetechnik | conrad.de"
+			},
+			url7 : {
+				url: "https://www.conrad.de/de/werkzeug-werkstatt-t07.html",
+				title: "Werkzeug & Werkstatt | conrad.de"
+			},
+			url8 : {
+				url: "https://www.conrad.de/de/messtechnik-netzgeraete-t08.html",
+				title: "Messtechnik & Netzgeräte | conrad.de"
+			}
+		},
+		img: "conrad",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.conrad.de"
+	};
+
+	ar[58] = {
+		mainUrl : "http://www.silversea.com/de/",
+		title: "Luxusurlaub mit attraktiven All-Inclusive-Kreuzfahrten | Silversea",
+		secUrl : {
+			url1 : {
+				url: "http://www.silversea.com/de/kreuzfahrt/",
+				title: "Finden Sie Kreuzfahrten zu gewünschten Reisezielen | Silversea"
+			},
+			url2 : {
+				url: "http://www.silversea.com/de/warum-silversea/",
+				title: "Außerordentliche Gastfreundlichkeit auf Luxusschiffen | Silversea"
+			},
+			url3 : {
+				url: "http://www.silversea.com/de/reiseziele/",
+				title: "Mit kleinen Luxusschiffen alle 7 Kontinente entdecken | Silversea"
+			},
+			url4 : {
+				url: "http://www.silversea.com/de/schiffe/",
+				title: "Kleine Luxusschiffe zur Erkundung abgelegener Häfen | Silversea"
+			},
+			url5 : {
+				url: "http://www.silversea.com/de/landgaenge-fluege/",
+				title: "Interessante Landausflüge neben Luxuskreuzfahrt | Silversea"
+			},
+			url6 : {
+				url: "http://www.silversea.com/de/expeditionen/",
+				title: "Abenteuerreiche Expeditionskreuzfahrten | Silversea"
+			},
+			url7 : {
+				url: "http://www.silversea.com/de/reiseziele/antarktik-kreuzfahrt/",
+				title: "Erleben Sie eine beeindruckende Antarktis Kreuzfahrt | Silversea"
+			},
+			url8 : {
+				url: "http://www.silversea.com/de/karriere/",
+				title: "Die Karrierechancen an bord der Luxuskreuzfahrt | Silversea"
+			}
+		},
+		img: "silversea",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.silversea.com"
+	};
+
+	ar[59] = {
+		mainUrl : "http://www.ernstings-family.de/",
+		title: "Kleidung & Mode Online Shop | Ernsting's family",
+		secUrl : {
+			url1 : {
+				url: "http://www.ernstings-family.de/kat/online-exklusiv.html",
+				title: "Online Exklusiv | Ernsting's family"
+			},
+			url2 : {
+				url: "http://www.ernstings-family.de/eshop/SALE-Babys,,,,232911,2.html",
+				title: "Sale: Baby-Mode reduziert | Ernsting's family"
+			},
+			url3 : {
+				url: "http://www.ernstings-family.de/kat/maedchenmode.html",
+				title: "Mädchenbekleidung & Mädchenmode online kaufen | Ernsting's family"
+			},
+			url4 : {
+				url: "http://www.ernstings-family.de/kat/jungenmode.html",
+				title: "Jungenbekleidung günstig kaufen | Ernsting's family"
+			},
+			url5 : {
+				url: "http://www.ernstings-family.de/kat/damenmode.html",
+				title: "Günstige Damenmode & Damenbekleidung online | Ernsting's family"
+			},
+			url6 : {
+				url: "http://www.ernstings-family.de/kat/herrenmode.html",
+				title: "Herren-Mode & Herrenbekleidung im Online Shop | Ernsting's family"
+			},
+			url7 : {
+				url: "http://www.ernstings-family.de/kat/my-home.html",
+				title: "Wohnideen, Accessoires & Deko | Ernsting's family"
+			},
+			url8 : {
+				url: "http://reisen.ernstings-family.de/",
+				title: "Ernsting's family - von fröhlichen Familien empfohlen"
+			}
+		},
+		img: "ernstings-family",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.ernstings-family.de"
+	};
+
 	//ar[22] = {
 	//	mainUrl : "",
 	//	title: "",
