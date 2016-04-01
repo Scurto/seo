@@ -1031,6 +1031,9 @@ $('#clear-browsing-data').click(function(event) {
 	function mixArray(leng, baseArray, countOfMove) {
 		for (var i = 0; i < leng; i++) {
 			var ran = Math.floor(Math.random() * (baseArray.length));
+			while (i == 0 && baseArray[ran].type == 'reklama') {
+				ran = Math.floor(Math.random() * (baseArray.length));
+			}
 			if (baseArray[ran].type == 'reklama') {
 				var rekImg = baseArray[ran].img;
 				var rekSource = baseArray[ran].source;
