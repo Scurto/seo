@@ -559,21 +559,51 @@ $('#clear-browsing-data').click(function(event) {
 		}
 
 		var baseArray = new Array();
-
-		prepareBaseArray(video, reklama, baseArray, countOfVideo, countOfReklama);
-
-		var leng = baseArray.length;
-
 		defaultPosition(request, taskId);
 
-		reklamaForUpdateDb = new Array();
-		for (var a = 0; a < baseArray.length; a++) {
-			if (baseArray[a].type == 'reklama') {
-				reklamaForUpdateDb.push(baseArray[a].img);
+
+		if (taskId == 50662) {
+			// TODO FIX LOGIC OF MIX HERE !!!!!!!!
+
+			var videoArray = [];
+			var reklamaArray = [];
+			for (var i = 0; i < countOfVideo; i++) {
+				var ran1 = Math.floor(Math.random() * (video.length));
+				videoArray.push(video[ran1]);
+				video.splice(ran1, 1);
 			}
+
+			for (var s = 0; s < countOfReklama; s++) {
+				var ran2 = Math.floor(Math.random() * (reklama.length));
+				reklamaArray.push(reklama[ran2]);
+				reklama.splice(ran2, 1);
+			}
+
+			reklamaForUpdateDb = new Array();
+
+			for (var a = 0; a < reklamaArray.length; a++) {
+				if (reklamaArray[a].type == 'reklama') {
+					reklamaForUpdateDb.push(reklamaArray[a].img);
+					console.log("reklamaForUpdateDb = " + reklamaForUpdateDb);
+				}
+			}
+			mixLinkedArray(videoArray, reklamaArray, countOfMove);
+
+		} else {
+
+			prepareBaseArray(video, reklama, baseArray, countOfVideo, countOfReklama);
+
+			var leng = baseArray.length;
+
+			reklamaForUpdateDb = new Array();
+			for (var a = 0; a < baseArray.length; a++) {
+				if (baseArray[a].type == 'reklama') {
+					reklamaForUpdateDb.push(baseArray[a].img);
+				}
+			}
+
+			mixArray(leng, baseArray, countOfMove, request);
 		}
-		// TODO FIX LOGIC OF MIX HERE !!!!!!!!
-		mixArray(leng, baseArray, countOfMove, request);
 
 		addedTime(hour, minute, sec, betweenVideo, betweenReklama);
 	}
@@ -960,6 +990,42 @@ $('#clear-browsing-data').click(function(event) {
 		}
 
 
+	}
+
+	function mixLinkedArray (videoArray, reklamaArray, countOfMove) {
+		  for (var i = 0; i < videoArray.length; i++) {
+			  etalonArray.push(videoArray[i]);
+			  if (reklamaArray[i] != undefined) {
+				  var rekImg = reklamaArray[i].img;
+				  var rekSource = reklamaArray[i].source;
+				  var mainObj = {
+					  url: reklamaArray[i].mainUrl,
+					  title: reklamaArray[i].title,
+					  type: "reklama",
+					  img: rekImg,
+					  source: rekSource
+				  };
+				  etalonArray.push(mainObj);
+
+				  var obj = reklamaArray[i].secUrl;
+				  var secondaryArray = new Array();
+				  for (a in obj) {
+					  secondaryArray.push(obj[a]); 				}
+
+				  for (var z = 0; z < countOfMove; z++) {
+					  var ranf = Math.floor(Math.random() * (secondaryArray.length));
+					  var secObj = {
+						  url: secondaryArray[ranf].url,
+						  title: secondaryArray[ranf].title,
+						  type: "reklama",
+						  img: rekImg,
+						  source: rekSource
+					  };
+					  etalonArray.push(secObj);
+					  secondaryArray.splice(ranf, 1);
+				  }
+			  }
+		  }
 	}
 
 	function mixArray(leng, baseArray, countOfMove) {
