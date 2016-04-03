@@ -76,24 +76,46 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("1011645", "https://www.youtube.com/channel/UCO3WrWXEdlTLHTgoZ1Ir0LQ/videos");
 
 
+		urlMap.put("1066756", "https://www.youtube.com/channel/UCxYdk3mz7om-i34wSPZygkg/videos");
+		urlMap.put("1066880", "https://www.youtube.com/channel/UCEK7NT0di7nbE_bkiYnP_Cw/videos");
+		urlMap.put("1116723", "https://www.youtube.com/channel/UCMrC6XIp6CFuUGLNR8UtXqA/videos");
+
 		urlMap.put("74567", "https://www.youtube.com/channel/UCFu-R3dQynMjseoHODl06Sg/videos");
 		urlMap.put("74568", "https://www.youtube.com/channel/UCQc0Mb5RILRzjwMYROGfogw/videos");
 		urlMap.put("75078", "https://www.youtube.com/channel/UCoNFhBfg9irRBNbXSU1q4SQ/videos");
 
 		urlMap.put("1110093", "https://www.youtube.com/channel/UCLLjXrp86LtbYQhldq-k5lg/videos");
 		urlMap.put("1110113", "https://www.youtube.com/channel/UCvZHctQ9jBwhg5CJnMwFtuA/videos");
+		urlMap.put("1110123", "https://www.youtube.com/channel/UCYumfjCRHIMh-nuNGx-lIxA/videos");
+		urlMap.put("1130840", "https://www.youtube.com/channel/UCLLjXrp86LtbYQhldq-k5lg/videos");
+		urlMap.put("1130841", "https://www.youtube.com/channel/UCvZHctQ9jBwhg5CJnMwFtuA/videos");
+		urlMap.put("1130842", "https://www.youtube.com/channel/UCYumfjCRHIMh-nuNGx-lIxA/videos");
+
 
 		urlMap.put("1080945", "https://www.youtube.com/channel/UCFu-R3dQynMjseoHODl06Sg/videos");
-		urlMap.put("1110123", "https://www.youtube.com/channel/UCYumfjCRHIMh-nuNGx-lIxA/videos");
 		urlMap.put("1080949", "https://www.youtube.com/channel/UCQc0Mb5RILRzjwMYROGfogw/videos");
 		urlMap.put("1094591", "https://www.youtube.com/channel/UCoNFhBfg9irRBNbXSU1q4SQ/videos");
 		urlMap.put("1086084", "https://www.youtube.com/user/beatboxbot888/videos");
 		urlMap.put("1086789", "https://www.youtube.com/channel/UCKORjIZ10GMzApVO-ccoU4w/videos");
 		urlMap.put("1088360", "https://www.youtube.com/channel/UC1tAtGee_K5E2uPVGSkWDKA/videos");
+		urlMap.put("1088343", "https://www.youtube.com/channel/UCCrQvVTHmT8CQyMSZeXkyrA/videos");
+		urlMap.put("1155039", "https://www.youtube.com/user/beatboxbot888/videos");
+		urlMap.put("1155073", "https://www.youtube.com/channel/UCKORjIZ10GMzApVO-ccoU4w/videos");
+		urlMap.put("1155522", "https://www.youtube.com/channel/UCCrQvVTHmT8CQyMSZeXkyrA/videos");
+		urlMap.put("1155533", "https://www.youtube.com/channel/UC1tAtGee_K5E2uPVGSkWDKA/videos");
 
 		urlMap.put("72574", "https://www.youtube.com/channel/UCmMCD0g-63djO57d5Rd2NuA/videos");
 		urlMap.put("72575", "https://www.youtube.com/channel/UCpShBTb76xWEMcPcGXfIFoQ/videos");
 		urlMap.put("76141", "https://www.youtube.com/channel/UCQfl-a38QuL6bzZXZ9DdEfg/videos");
+
+		urlMap.put("935594", "https://www.youtube.com/channel/UC94-proOTvY4Mel2eghwRIw/videos");
+		urlMap.put("935599", "https://www.youtube.com/channel/UCmMCD0g-63djO57d5Rd2NuA/videos");
+		urlMap.put("962479", "https://www.youtube.com/channel/UCpShBTb76xWEMcPcGXfIFoQ/videos");
+		urlMap.put("1007726", "https://www.youtube.com/channel/UCQfl-a38QuL6bzZXZ9DdEfg/videos");
+
+
+
+		urlMap.put("75914", "");
 
 		String url = urlMap.get(id);
 		return url;

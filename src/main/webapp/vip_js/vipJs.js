@@ -377,13 +377,7 @@ $(document).ready(function() {
 				$('#countOfReklama').val(1);
 				$('#countOfMove').val(3);
 			}
-			else if
-			(item == 73811) {
-				$('#taskIdVip').val(73811);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
+
 			else if
 			(item == 1066756) {
 				$('#taskIdVip').val(1066756);
@@ -391,13 +385,7 @@ $(document).ready(function() {
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 			}
-			else if
-			(item == 73813) {
-				$('#taskIdVip').val(73813);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
+
 			else if
 			(item == 1116723) {
 				$('#taskIdVip').val(1116723);
@@ -412,13 +400,7 @@ $(document).ready(function() {
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 			}
-			else if
-			(item == 75914) {
-				$('#taskIdVip').val(75914);
-				$('#countOfVideo').val(5);
-				$('#countOfReklama').val(3);
-				$('#countOfMove').val(3);
-			}
+
 			else if
 			(item == 69169) {
 				$('#taskIdVip').val(69169);
@@ -625,6 +607,20 @@ $(document).ready(function() {
 				$('#countOfMove').val(3);
 			}
 			else if
+			(item == 1130841) {
+				$('#taskIdVip').val(1130841);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(1);
+				$('#countOfMove').val(3);
+			}
+			else if
+			(item == 1130842) {
+				$('#taskIdVip').val(1130842);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(1);
+				$('#countOfMove').val(3);
+			}
+			else if
 			(item == 1110113) {
 				$('#taskIdVip').val(1110113);
 				$('#countOfVideo').val(5);
@@ -744,6 +740,34 @@ $(document).ready(function() {
 				$('#taskIdVip').val(1124059);
 				$('#countOfVideo').val(5);
 				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}
+			else if
+			(item == 1155073) {
+				$('#taskIdVip').val(1155073);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(1);
+				$('#countOfMove').val(3);
+			}
+			else if
+			(item == 1155039) {
+				$('#taskIdVip').val(1155039);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(1);
+				$('#countOfMove').val(3);
+			}
+			else if
+			(item == 1155522) {
+				$('#taskIdVip').val(1155522);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(1);
+				$('#countOfMove').val(3);
+			}
+			else if
+			(item == 1155533) {
+				$('#taskIdVip').val(1155533);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(1);
 				$('#countOfMove').val(3);
 			}
 			else if
@@ -885,6 +909,24 @@ $(document).ready(function() {
 				$('#countOfReklama').val(1);
 				$('#countOfMove').val(3);
 
+			}else if
+			(item == 73811) {
+				$('#taskIdVip').val(73811);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 73813) {
+				$('#taskIdVip').val(73813);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 75914) {
+				$('#taskIdVip').val(75914);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
 			}
 
 			fromSeoDropDown = false;
@@ -985,7 +1027,7 @@ $(document).ready(function() {
 			connArray.push(73752);
 			connArray.push(73753);
 			connArray.push(73857);
-		} else if (taskId == 1110093 || taskId == 1110113 || taskId == 1110123 || taskId == 75531 || taskId == 75532 || taskId == 75556 || taskId == 1130840) {
+		} else if (taskId == 1110093 || taskId == 1110113 || taskId == 1110123 || taskId == 75531 || taskId == 75532 || taskId == 75556 || taskId == 1130840 || taskId == 1130841 || taskId == 1130842) {
 			connArray.push(1110093);
 			connArray.push(1110113);
 			connArray.push(1110123);
@@ -993,11 +1035,17 @@ $(document).ready(function() {
 			connArray.push(75532);
 			connArray.push(75556);
 			connArray.push(1130840);
-		} else if (taskId == 1086084 || taskId == 1086789 || taskId == 1088343 || taskId == 1088360) {
+			connArray.push(1130841);
+			connArray.push(1130842);
+		} else if (taskId == 1086084 || taskId == 1086789 || taskId == 1088343 || taskId == 1088360 || taskId == 1155039 || taskId == 1155073 || taskId == 1155522 || taskId == 1155533) {
 			connArray.push(1086084);
 			connArray.push(1086789);
 			connArray.push(1088343);
 			connArray.push(1088360);
+			connArray.push(1155039);
+			connArray.push(1155073);
+			connArray.push(1155522);
+			connArray.push(1155533);
 		} else if (taskId == 75083 || taskId == 75084 || taskId == 75085) {
 			connArray.push(75083);
 			connArray.push(75084);
