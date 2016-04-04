@@ -366,7 +366,7 @@ $(document).ready(function() {
 			else if
 			(item == 676539) {
 				$('#taskIdVip').val(676539);
-				$('#countOfVideo').val(6);
+				$('#countOfVideo').val(8);
 				$('#countOfReklama').val(1);
 				$('#countOfMove').val(3);
 			}
