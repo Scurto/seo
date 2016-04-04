@@ -1263,7 +1263,7 @@ $(document).ready(function() {
 							$("#resultGclidContainer").append("<p>" + "Call finished at " + moment().format('LTS') + "</p>");
 							clearTimeout(timerId);
 							updateMyDB();
-							//prepareFinalText();
+							prepareFinalText();
 							audio.play();
 						}
 					}
@@ -1293,5 +1293,27 @@ $(document).ready(function() {
 		console.log("gclidRekl = " + gclidRekl);
 		console.log("-------");
 		console.log("gClidVideoText = " + gClidVideoText);
+
+		//gClidVideoText =  gclidRekl;
+
+		var searchText = getSearchGoogleText();
+
+		$('#gclidTextArea').val(searchText + "\n \n" + gClidVideoText + "\n" + gclidRekl);
+	}
+
+	Array.prototype.randomElement = function () {
+		return this[Math.floor(Math.random() * this.length)]
+	};
+
+	function getSearchGoogleText() {
+		var taskId = $('#taskIdVip').val();
+		//ALTER TABLE test_video ADD last_query VARCHAR( 255 ) after last_reklama;
+		if (taskId == 935594) {
+			var myArray = ['лллллллл', 'ыыыыыыы', 'иииии'];
+			return "https://www.google.com.ua/search?q=" + myArray.randomElement().toDataURL();
+		} else {
+			return "SOME TEXT";
+		}
+
 	}
 });
