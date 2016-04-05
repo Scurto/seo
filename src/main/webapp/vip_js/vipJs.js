@@ -1309,8 +1309,6 @@ $(document).ready(function() {
 		console.log("-------");
 		console.log("gClidVideoText = " + gClidVideoText);
 
-		//gClidVideoText =  gclidRekl;
-
 		var searchText = getSearchGoogleText();
 
 		$('#gclidTextArea').val(searchText + "\n \n" + gClidVideoText + "\n" + gclidRekl);
@@ -1323,12 +1321,20 @@ $(document).ready(function() {
 	function getSearchGoogleText() {
 		var taskId = $('#taskIdVip').val();
 		//ALTER TABLE test_video ADD last_query VARCHAR( 255 ) after last_reklama;
-		if (taskId == 935594) {
-			var myArray = ['лллллллл', 'ыыыыыыы', 'иииии'];
-			return "https://www.google.com.ua/search?q=" + myArray.randomElement().toDataURL();
-		} else {
-			return "SOME TEXT";
-		}
+		var data2 = {action: "getLink", id: taskId} ;
+		var result = '';
+		$.ajax({
+			type: "POST",
+			url: "/getGoogleLink",
+			async: false,
+			data: data2,
+			success: function(json) {
+				result = json.output;
 
+				console.log(json);
+			},
+			dataType: "json"
+		});
+		 return "https://www.google.com.ua/#q=" + result;
 	}
 });
