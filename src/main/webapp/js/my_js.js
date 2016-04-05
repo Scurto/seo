@@ -230,6 +230,14 @@ $(document).ready(function() {
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(61);
 				$('#betweenReklama').val(61);
+			}else if
+			(item == 1092046) {
+				$('#taskId').val(1092046);
+				$('#countOfVideo').val(10);
+				$('#countOfReklama').val(8);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(50);
+				$('#betweenReklama').val(50);
 			}
 			$( "#taskId" ).trigger( "change" );
 		}
@@ -319,6 +327,8 @@ $(document).ready(function() {
 			connArray.push(1119333);
 		} else if (taskId == 69628) {
 			connArray.push(69628);
+		} else if (taskId == 1092046) {
+			connArray.push(1092046);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -562,7 +572,7 @@ $('#clear-browsing-data').click(function(event) {
 		defaultPosition(request, taskId);
 
 
-		if (taskId == 50662) {
+		if (taskId == 1092046) {
 			// TODO FIX LOGIC OF MIX HERE !!!!!!!!
 
 			var videoArray = [];
@@ -814,6 +824,29 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
+		} else if (taskId == 1092046) {
+			var youtube1 = {
+				title: "Мусорка в домашних условиях город липицк - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube2 = {
+				title: "Бульдог Харламов - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var google = {
+				title: "Мусорка в домашних условиях город липицк - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+
+			etalonArray.push(google);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
 		} else {
 			var ip = {
 				title: "Узнать IP адрес",

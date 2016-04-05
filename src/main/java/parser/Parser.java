@@ -17,7 +17,7 @@ public class Parser {
     public static void main(String[] args) {
         Document doc = null;
         try {
-            doc = Jsoup.connect("https://www.youtube.com/channel/UC7ohEp6ht5iSSclTwaGvn1A/videos").get();
+            doc = Jsoup.connect("https://www.youtube.com/channel/UCqf2rDMmdyCNf_cVBH3aulw/videos").get();
         } catch (IOException e) {
             e.printStackTrace();
         }

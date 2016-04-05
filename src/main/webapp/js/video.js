@@ -3309,6 +3309,148 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1092046) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=9VquMM09HJg',
+            img: "youtube",
+            type: "video",
+            title: '4x4 Off Road Rally 2 обзор игры на планшет android оценка 5-',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=4AP9ORA5Nl8',
+            img: "youtube",
+            type: "video",
+            title: '100 Balls обзор игр на планшет android выпуск каждую неделю',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=wMs0zaEsWqk',
+            img: "youtube",
+            type: "video",
+            title: 'Собака грызет бутылку',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=FdcCx-JXHII',
+            img: "youtube",
+            type: "video",
+            title: 'Собака улыбается',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=OD2Ei14Jsbc',
+            img: "youtube",
+            type: "video",
+            title: 'Собака чухается об машину :3',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=ijqGhEgLkJM',
+            img: "youtube",
+            type: "video",
+            title: 'Прокачал тачку в гта',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=nue-RzhcrOo',
+            img: "youtube",
+            type: "video",
+            title: 'как вывести пятно',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=r5_cGEBpIS0',
+            img: "youtube",
+            type: "video",
+            title: 'Кекс 5 минутка',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=gZs4vbDfsUw',
+            img: "youtube",
+            type: "video",
+            title: 'Больше не поставит двойку',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=0zYjfH3TOL8',
+            img: "youtube",
+            type: "video",
+            title: 'Вкусный салат',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=J7QHFCcWGy8',
+            img: "youtube",
+            type: "video",
+            title: 'X фактор отдыхает',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=N3t8EfJVR-o',
+            img: "youtube",
+            type: "video",
+            title: 'Нам задержали зарплату!',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=yb7ZGWs3Yao',
+            img: "youtube",
+            type: "video",
+            title: 'Я разрываю в кс 1.6 :3 HD',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=HjC_W2euDmQ',
+            img: "youtube",
+            type: "video",
+            title: 'Фокус с карандашем',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=TYwCX-hg7dM',
+            img: "youtube",
+            type: "video",
+            title: 'Мой хозяин идиот',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=NBsxmRF-kwY',
+            img: "youtube",
+            type: "video",
+            title: 'Быстрое приготовление картошки',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=WANdqz_jEfI',
+            img: "youtube",
+            type: "video",
+            title: 'собака махает головой',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=T2pkOaCvT-g',
+            img: "youtube",
+            type: "video",
+            title: 'Обзор телефона Samsung GT-S5660',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=qhexU9P6ZYg',
+            img: "youtube",
+            type: "video",
+            title: 'Собака - чубака',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=4tM70phmT5s',
+            img: "youtube",
+            type: "video",
+            title: 'Мусорка в домашних условиях город липицк',
+            source: "www.youtube.com"
+        };
+    }
     return ar;
 
 

@@ -927,6 +927,18 @@ $(document).ready(function() {
 				$('#countOfVideo').val(5);
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
+			}else if
+			(item == 77692) {
+				$('#taskIdVip').val(77692);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(1);
+				$('#countOfMove').val(3);
+			}else if
+			(item == 77712) {
+				$('#taskIdVip').val(77712);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(1);
+				$('#countOfMove').val(3);
 			}
 
 			fromSeoDropDown = false;
@@ -1062,6 +1074,9 @@ $(document).ready(function() {
 			connArray.push(1124038);
 			connArray.push(1124053);
 			connArray.push(1124059);
+		} else if (taskId == 77692 || taskId == 77712) {
+			connArray.push(77692);
+			connArray.push(77712);
 		}
 		addTextInSosediReklam(connArray)
 	};
