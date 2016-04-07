@@ -99,7 +99,7 @@ $(document).ready(function() {
 			}else if
 			(item == 72688) {
 				$('#taskId').val(72688);
-				$('#countOfVideo').val(22);
+				$('#countOfVideo').val(15);
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(61);
@@ -238,6 +238,22 @@ $(document).ready(function() {
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(50);
 				$('#betweenReklama').val(50);
+			}else if
+			(item == 1061385) {
+				$('#taskId').val(1061385);
+				$('#countOfVideo').val(10);
+				$('#countOfReklama').val(8);
+				$('#countOfMove').val(2);
+				$('#betweenVideo').val(50);
+				$('#betweenReklama').val(50);
+			}else if
+			(item == 1132609) {
+				$('#taskId').val(1132609);
+				$('#countOfVideo').val(8);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(61);
+				$('#betweenReklama').val(61);
 			}
 			$( "#taskId" ).trigger( "change" );
 		}
@@ -327,8 +343,11 @@ $(document).ready(function() {
 			connArray.push(1119333);
 		} else if (taskId == 69628) {
 			connArray.push(69628);
-		} else if (taskId == 1092046) {
+		} else if (taskId == 1092046 || taskId == 1061385) {
 			connArray.push(1092046);
+			connArray.push(1061385);
+		} else if (taskId == 1132609) {
+			connArray.push(1132609);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -572,7 +591,7 @@ $('#clear-browsing-data').click(function(event) {
 		defaultPosition(request, taskId);
 
 
-		if (taskId == 1092046) {
+		if (taskId == 1092046 || taskId == 1061385) {
 			// TODO FIX LOGIC OF MIX HERE !!!!!!!!
 
 			var videoArray = [];
@@ -677,6 +696,28 @@ $('#clear-browsing-data').click(function(event) {
 			};
 			//etalonArray.push(ip);
 			etalonArray.push(bing);
+			etalonArray.push(youtube);
+		}else if (taskId == 1132609) {
+			//var ip = {
+			//	title: "Узнать IP адрес",
+			//	type: "def",
+			//	img: "2ip",
+			//	source: "2ip.ru"
+			//};
+			var google = {
+				title: "Мегавыстрел на песочнице - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = {
+				title: "Мегавыстрел на песочнице - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			//etalonArray.push(ip);
+			etalonArray.push(google);
 			etalonArray.push(youtube);
 		} else if (taskId == 73136 || taskId == 76310) {
 			//var whoer = {
@@ -847,7 +888,40 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(google);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
-		} else {
+		} else if (taskId == 1061385) {
+			var text = '';
+			if (request == 'скандальная реклама ауди') {
+				text = 'Скандальная реклама Ауди'
+			} else if (request == 'предел лаконичности') {
+				text = 'Реклама Mercedes, предел лаконичности'
+			} else if (request == 'bmw creative') {
+				text = 'Креативная реклама BMW   Creative ads BMW'
+			} else if (request == 'хорошая дочь') {
+				text = 'У вас хорошая дочь))'
+			}
+			var youtube1 = {
+				title: text + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube2 = {
+				title: "Просто веселая реклама и видео - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+
+			etalonArray.push(google);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
+		}else {
 			var ip = {
 				title: "Узнать IP адрес",
 				type: "def",

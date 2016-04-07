@@ -879,8 +879,12 @@ $(document).ready(function() {
 		"77714",
 		"77715",
 		"77716",
+		"77717",
+		"77923",
 		"69489",
-		"69490"
+		"69490",
+		"69491",
+		"69493"
 		]
 	});
 	$("#fastTaskIdVipTest").autocomplete({
@@ -1072,6 +1076,18 @@ $(document).ready(function() {
 			$('#countOfReklama').val(1);
 			$('#countOfMove').val(3);
 		}else if
+		(item == 77717) {
+			$('#taskIdVip').val(77717);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 77923) {
+			$('#taskIdVip').val(77923);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(3);
+		}else if
 		(item == 69489) {
 			$('#taskIdVip').val(69489);
 			$('#countOfVideo').val(4);
@@ -1080,6 +1096,18 @@ $(document).ready(function() {
 		}else if
 		(item == 69490) {
 			$('#taskIdVip').val(69490);
+			$('#countOfVideo').val(4);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 69491) {
+			$('#taskIdVip').val(69491);
+			$('#countOfVideo').val(4);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 69493) {
+			$('#taskIdVip').val(69493);
 			$('#countOfVideo').val(4);
 			$('#countOfReklama').val(1);
 			$('#countOfMove').val(3);
@@ -1214,15 +1242,19 @@ $(document).ready(function() {
 			connArray.push(1124038);
 			connArray.push(1124053);
 			connArray.push(1124059);
-		} else if (taskId == 77692 || taskId == 77712 || taskId == 77714 || taskId == 77715 || taskId == 77716) {
+		} else if (taskId == 77692 || taskId == 77712 || taskId == 77714 || taskId == 77715 || taskId == 77716 || taskId == 77717 || taskId == 77923) {
 			connArray.push(77692);
 			connArray.push(77712);
 			connArray.push(77714);
 			connArray.push(77715);
 			connArray.push(77716);
-		} else if (taskId == 69489 || taskId == 69490) {
+			connArray.push(77717);
+			connArray.push(77923);
+		} else if (taskId == 69489 || taskId == 69490 || taskId == 69491 || taskId == 69493) {
 			connArray.push(69489);
 			connArray.push(69490);
+			connArray.push(69491);
+			connArray.push(69493);
 		}
 		addTextInSosediReklam(connArray)
 	};

@@ -3451,6 +3451,227 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1061385) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=UurAkYrIkAM',
+            img: "youtube",
+            type: "video",
+            title: 'Японская смешная реклама бумаги Робот трансформер',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=JyqTnQYqsR4',
+            img: "youtube",
+            type: "video",
+            title: 'Японская реклама клея',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=2SqriDjspls',
+            img: "youtube",
+            type: "video",
+            title: 'Японская реклама дихлофоса  Отжигают',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=YAubzJSfa8c',
+            img: "youtube",
+            type: "video",
+            title: 'Японская реклама ваты',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=-BcvXAsrSBg',
+            img: "youtube",
+            type: "video",
+            title: 'Смешная японская реклама',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=s1SizOBRoNs',
+            img: "youtube",
+            type: "video",
+            title: 'Скандальная реклама Ауди',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=n628wEn1fGg',
+            img: "youtube",
+            type: "video",
+            title: 'Реклама Mercedes, предел лаконичности',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=F9b6HLnQQC0',
+            img: "youtube",
+            type: "video",
+            title: 'Сын застал родителей врасплох',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=mgJTBJs5Q6U',
+            img: "youtube",
+            type: "video",
+            title: 'У вас хорошая дочь))',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=_3MIqz6Wobs',
+            img: "youtube",
+            type: "video",
+            title: 'Реклама Лада Нива в Швеции, Lada Niva',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=JKexj5fP0mg',
+            img: "youtube",
+            type: "video",
+            title: 'Немецкая реклама ВАЗ 2101  Прикол flv',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=q3Bs1T9L2UY',
+            img: "youtube",
+            type: "video",
+            title: 'Лучшая реклама наушников',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=nr3Sna4pShs',
+            img: "youtube",
+            type: "video",
+            title: 'Смешная реклама Renault Clio',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=Yg51Iny9d68',
+            img: "youtube",
+            type: "video",
+            title: 'Креативная реклама BMW   Creative ads BMW',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=rUDdFBJ_NDo',
+            img: "youtube",
+            type: "video",
+            title: 'Веселая реклама Renault Clio 2013',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1132609) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=8uSgWTDO1jM',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online GamePlay',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=wNHwb0bJ18o',
+            img: "youtube",
+            type: "video",
+            title: 'Танки Онлайн ЗВАНКА',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=GrONzqO9Wgk',
+            img: "youtube",
+            type: "video",
+            title: 'НОВОЕ ИНТРО',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=LuZwjMO3QT4',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online HAMMER M3 gameplay #1 [60FPS]',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=XDwgnAfrtYY',
+            img: "youtube",
+            type: "video",
+            title: 'Как нагибает гром М4? Танки Онлайн',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=QilEgMASlMI',
+            img: "youtube",
+            type: "video",
+            title: 'Лучшие сайты для заработка',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=p5kU8KJHuJ0',
+            img: "youtube",
+            type: "video",
+            title: 'Нарезка  золотых ящиков. Голд = Аптека',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=Q6HmfGUqBV0',
+            img: "youtube",
+            type: "video",
+            title: 'Танки Онлайн l ХР l Молотов l Нагибаем нубов',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=Rh68BXLNYPY',
+            img: "youtube",
+            type: "video",
+            title: 'Вормикс #1 l Играем на ставки 15 l Идем в ТОП l',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=6F5x-RFs_eE',
+            img: "youtube",
+            type: "video",
+            title: 'Танки ОнлайнlСкиллlИнтересные моментыl',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=71S_scj8ZB4',
+            img: "youtube",
+            type: "video",
+            title: 'Танки Онлайн [Мегавыстрел на Песочнице]',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=lVCexLIVkZ8',
+            img: "youtube",
+            type: "video",
+            title: 'Тандем на песочнице с drama_for_your_mama',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=u4L6HwCuRbU',
+            img: "youtube",
+            type: "video",
+            title: 'Тандем на Парме + Скилл',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=bHt_oWly75A',
+            img: "youtube",
+            type: "video",
+            title: 'Золотой ящик на песочнице от The_Tanki_Online',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=i_oXxjPtiyY',
+            img: "youtube",
+            type: "video",
+            title: 'Васпосмока vs хоререля. Дуэль',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=XDFb4jKQc2s',
+            img: "youtube",
+            type: "video",
+            title: 'Дуэль на ВаспоСмоки',
+            source: "www.youtube.com"
+        };
+    }
     return ar;
 
 
