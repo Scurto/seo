@@ -199,6 +199,14 @@ $(document).ready(function() {
 				$('#betweenVideo').val(35);
 				$('#betweenReklama').val(40);
 			}else if
+			(item == 1126852) {
+				$('#taskId').val(1126852);
+				$('#countOfVideo').val(40); //TODO change count
+				$('#countOfReklama').val(5);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(35);
+				$('#betweenReklama').val(40);
+			}else if
 			(item == 73136) {
 				$('#taskId').val(73136);
 				$('#countOfVideo').val(20);
@@ -327,11 +335,12 @@ $(document).ready(function() {
 			connArray.push(67532);
 			connArray.push(62716);
 			connArray.push(62714);
-		} else if (taskId == 71431 || taskId == 938168 || taskId == 999896 || taskId == 70722) {
+		} else if (taskId == 71431 || taskId == 938168 || taskId == 999896 || taskId == 70722 || taskId == 1126852) {
 			connArray.push(71431);
 			connArray.push(70722);
 			connArray.push(938168);
 			connArray.push(999896);
+			connArray.push(1126852);
 		} else if (taskId == 73136 || taskId == 76310) {
 			connArray.push(73136);
 			connArray.push(76310);
@@ -1068,6 +1077,13 @@ $('#clear-browsing-data').click(function(event) {
 				if (request == 'Синьор помидор и тыква.') {
 					linkText = '';
 				}
+			}else if (taskId == 1126852) {
+				var youtube = {
+					title: " - YouTube",  //TODO add name
+					type: "def",
+					img: "youtube",
+					source: "www.youtube.com"
+				};
 			} else if (taskId == 70722 || taskId == 999896) {
 				var youtube = {
 					title: "Anatolievich - YouTube",
