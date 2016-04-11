@@ -1463,7 +1463,6 @@ $(document).ready(function() {
 		});
 	});
 	$('#getGclid').click(function() {
-		console.log("test");
 		var allText = $('#resultTextArea').val();
 		$('#gclidTextArea').val(gClidReklamaText);
 
@@ -1537,29 +1536,53 @@ $(document).ready(function() {
 
 	function prepareFinalText() {
 		var gclidRekl = $('#gclidTextArea').val();
+		var taskId = $('#taskIdVip').val();
+
 		$('#gclidTextArea').val('');
 
 		console.log("gclidRekl = " + gclidRekl);
 		console.log("-------");
 		console.log("gClidVideoText = " + gClidVideoText);
 
-		var Rek = gclidRekl.split("\n");
-		for (var i in Rek) {
-			console.log("i = " + Rek[i]);
-		}
-		var ext = gClidVideoText.split("\n");
-		for (var i in ext) {
-			console.log("i = " + ext[i]);
-		}
+		if (taskId == 000) {
+			var countOfMove = parseInt($('#countOfMove').val());
 
-		var searchText = getSearchGoogleText();
+			var Rek = gclidRekl.split("\n");
+			var rekArray = [];
+			for (var i in Rek) {
+				console.log("i = " + Rek[i]);
+				if (Rek[i]!='') {
+					rekArray.push(Rek[i]);
+				}
+			}
 
-		$('#gclidTextArea').val(searchText + "\n \n" + gClidVideoText + "\n" + gclidRekl);
+			var ext = gClidVideoText.split("\n");
+			for (var i in ext) {
+				console.log("i = " + ext[i]);
+			}
+
+
+			var testVideo = ["video1","video2","video3","video4","video5"];
+			var finalText = '';
+			for (var i = 0; i < testVideo.length; i++) {
+				finalText = finalText + testVideo[i] + "\n";
+				if (rekArray.length > 0) {
+					for (var a = 0; a < 1+countOfMove; a++) {
+						finalText = finalText +  rekArray[a] + "\n";
+					}
+					finalText = finalText + "\n";
+					for (var a = 0; a < 1+countOfMove; a++) {
+						rekArray.splice(0,1);
+					}
+				}
+			}
+			var searchText = getSearchGoogleText();
+			$('#gclidTextArea').val(searchText+ "\n \n" + finalText);
+		} else {
+			var searchText = getSearchGoogleText();
+			$('#gclidTextArea').val(searchText + "\n \n" + gClidVideoText + "\n" + gclidRekl);
+		}
 	}
-
-	//Array.prototype.randomElement = function () {
-	//	return this[Math.floor(Math.random() * this.length)]
-	//};
 
 	function getSearchGoogleText() {
 		var taskId = $('#taskIdVip').val();
