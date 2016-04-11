@@ -113,9 +113,19 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("962479", "https://www.youtube.com/channel/UCpShBTb76xWEMcPcGXfIFoQ/videos");
 		urlMap.put("1007726", "https://www.youtube.com/channel/UCQfl-a38QuL6bzZXZ9DdEfg/videos");
 
+		urlMap.put("576107", "https://www.youtube.com/channel/UCb_luRLomqzaXHUELvAMCBQ/videos");
+
 
 		urlMap.put("676539", "https://www.youtube.com/channel/UCAwf1ZfLEDVfc9opxGxYTWg/videos");
 		urlMap.put("745597", "https://www.youtube.com/channel/UCpf5VVw4t21rBWvhvAJqMng/videos");
+
+		urlMap.put("1144253", "https://www.youtube.com/channel/UCFu-R3dQynMjseoHODl06Sg/videos");
+		urlMap.put("1144255", "https://www.youtube.com/channel/UCQc0Mb5RILRzjwMYROGfogw/videos");
+		urlMap.put("1144256", "https://www.youtube.com/channel/UCoNFhBfg9irRBNbXSU1q4SQ/videos");
+		urlMap.put("1172104", "https://www.youtube.com/channel/UCKMBGRNCRxSAWmhl54ilMkQ/videos");
+		urlMap.put("1172517", "https://www.youtube.com/channel/UC9kHHSsYAzFtE2GVhLHROvQ/videos");
+
+		urlMap.put("69169", "https://www.youtube.com/channel/UCjxvRI52dHhpZFYlohv3-rg/videos");
 
 
 
@@ -127,12 +137,14 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("77716", "https://www.youtube.com/channel/UCfaa8J3ubT6w6zketpQ88LA/videos");
 		urlMap.put("77717", "https://www.youtube.com/channel/UC5HnZ8PyNA8c57CDXYTVUmg/videos");
 		urlMap.put("77923", "https://www.youtube.com/channel/UCVHof8RQfj4imB6wYbL5PTA/videos");
+		urlMap.put("77924", "https://www.youtube.com/channel/UC8LyaHBHfJXRpvd9dVru-Ow/videos");
 
 
 		urlMap.put("69489", "https://www.youtube.com/channel/UCCZQeSn3sVDL-m-i6Wv9svA/videos");
 		urlMap.put("69490", "https://www.youtube.com/channel/UCtkf2PM2n_xiHRXZmLsZoWw/videos");
 		urlMap.put("69491", "https://www.youtube.com/channel/UCIvup9WMgh9MxdKVc22Ku0g/videos");
 		urlMap.put("69493", "https://www.youtube.com/channel/UCtXIrukJ2NHSRA7zomaHlMg/videos");
+		urlMap.put("74826", "https://www.youtube.com/channel/UCEGGKkKm-RM1h8RE2bR-sYQ/videos");
 
 		String url = urlMap.get(id);
 		return url;
