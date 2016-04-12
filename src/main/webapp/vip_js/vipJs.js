@@ -390,7 +390,9 @@ $(document).ready(function() {
 		"1144255",
 		"1144256",
 		"1172104",
-		"1172517"
+		"1172517",
+		"967829",
+		"1036038"
 		]
 	});
 
@@ -862,6 +864,20 @@ $(document).ready(function() {
 			$('#countOfMove').val(3);
 		}
 		else if
+		(item == 1036038) {
+			$('#taskIdVip').val(1036038);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+		}
+		else if
+		(item == 967829) {
+			$('#taskIdVip').val(967829);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+		}
+		else if
 		(item == 0) {
 			$('#taskIdVip').val(0);
 			$('#countOfVideo').val(5);
@@ -934,17 +950,17 @@ $(document).ready(function() {
 	});
 
 	function doFastTaskIdProfitSelect(item) {
-		if (item == 0) {
-			$('#taskIdVip').val(0);
-			$('#countOfVideo').val(4);
-			$('#countOfReklama').val(1);
-			$('#countOfMove').val(4);
+		if (item == 338846) {
+			$('#taskIdVip').val(338846);
+			$('#countOfVideo').val(3);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
 		}
 	};
 
 	$("#fastTaskIdProfitTest").autocomplete({
 		source: [
-			"0"
+			"338846"
 		]
 	});
 
@@ -1359,6 +1375,16 @@ $(document).ready(function() {
 			connArray.push(74826);
 		} else if (taskId == 76111) {
 			connArray.push(76111);
+		} else if (taskId == 967829) {
+			connArray.push(967829);
+		} else if (taskId == 1036038 || taskId == 1036072 || taskId == 1070794 || taskId == 1171462) {
+			connArray.push(1036038);
+			connArray.push(1036072);
+			connArray.push(1070794);
+			connArray.push(1171462);
+		} else if (taskId == 338846 || taskId == 329712) {
+			connArray.push(338846);
+			connArray.push(329712);
 		}
 		addTextInSosediReklam(connArray)
 	};
@@ -1570,7 +1596,7 @@ $(document).ready(function() {
 
 		$('#gclidTextArea').val('');
 
-		if (taskId == 76111) {
+		if (taskId == 76111 || taskId == 967829 || taskId == 338846) {
 			var countOfMove = parseInt($('#countOfMove').val());
 
 			var Rek = gclidRekl.split("\n");

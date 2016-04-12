@@ -3933,6 +3933,302 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1092879) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=nR00mLTRT4U',
+            img: "youtube",
+            type: "video",
+            title: 'Талантливая птичка.',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=j8VibgvNhWA',
+            img: "youtube",
+            type: "video",
+            title: 'Встретимся в Аду )))',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=L8dVjClwc_g',
+            img: "youtube",
+            type: "video",
+            title: 'Обезьяна делает свое дело ;)',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=Ua4aWIuc3nc',
+            img: "youtube",
+            type: "video",
+            title: 'Испугал азиатов,ДЕМОН ! ;)',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=lXqOrEm4SFA',
+            img: "youtube",
+            type: "video",
+            title: 'У машины свои планы  ;)',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=xcQdsIOX_1w',
+            img: "youtube",
+            type: "video",
+            title: 'Спортивная машина и толстяк',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=np-L5xegVv0',
+            img: "youtube",
+            type: "video",
+            title: 'Инопланетянин ) Смешная Подборка ! ЛУЧШЕЕ 2015 !',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=_iyya_d43PA',
+            img: "youtube",
+            type: "video",
+            title: 'НОВАЯ ПОДБОРКА ДЕКАБРЯ 2015',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=mACgrwdfdU4',
+            img: "youtube",
+            type: "video",
+            title: 'МУЖСКАЯ ПОДБОРКА.Декабрь 2015.',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=N3UNek-lHm0',
+            img: "youtube",
+            type: "video",
+            title: 'СМЕШНАЯ ПОДБОРКА ЗА #2 НЕДЕЛЮ ДЕКАБРЯ 2015.',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=x6j31mHc32s',
+            img: "youtube",
+            type: "video",
+            title: 'СМЕШНЫЕ ПРИКОЛЫ и НЕУДАЧИ. Подборка 2015 ДЕКАБРЬ.',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=SlrwEg2mMxQ',
+            img: "youtube",
+            type: "video",
+            title: 'Подборка Неудач и Смешных Моментов Приколы 2015',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=2pV9TrvuHFs',
+            img: "youtube",
+            type: "video",
+            title: 'Девушкам Тотально Не везет.Смешная Подборка Декабрь 2015.',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=d22AFTwOS5w',
+            img: "youtube",
+            type: "video",
+            title: 'Подборка Неудач,падений,смешных моментов',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=2YIqaovAzFg',
+            img: "youtube",
+            type: "video",
+            title: 'Подборка Приколов Смешные Моменты Неудачи Декабрь 2015',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=RuNxuj9u8LQ',
+            img: "youtube",
+            type: "video",
+            title: 'Смешная Подборка Приколов Декабрь 2015',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=V8pC8phY0PQ',
+            img: "youtube",
+            type: "video",
+            title: 'Подборка Приколов,Неудач, Падений,Смешных Моментов ДЕКАБРЬ  2015',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=W_6McuCwj1E',
+            img: "youtube",
+            type: "video",
+            title: 'Подборка Неудач, Падений и Смешных Моментов Декабрь 2015',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=pEvi0__U5oI',
+            img: "youtube",
+            type: "video",
+            title: 'Неудачные и смешные моменты со всего YouTube . Декабрь 2015',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=S3z4LjpT-UQ',
+            img: "youtube",
+            type: "video",
+            title: 'Подборка неудач на работе Декабрь 2015.The Best Epic Work Fails 2015.',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=8Hnct6hoKL4',
+            img: "youtube",
+            type: "video",
+            title: 'Смотреть Лучшие Подборки Приколов.',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=IomifN9c-7s',
+            img: "youtube",
+            type: "video",
+            title: '# 3 Подборка за Неделю / Декабрь 2015.',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=Webtax5dzis',
+            img: "youtube",
+            type: "video",
+            title: 'Новые Приколы Декабря 2015 . New Fails Compilation 2015',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=ykpwvJGz2_s',
+            img: "youtube",
+            type: "video",
+            title: '# 2 Приколы за Неделю .Декабрь 2015. Epic Fails Compilation.',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=b_tqyBPiUoo',
+            img: "youtube",
+            type: "video",
+            title: 'Она Сделала Все что Могла :)',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=At6X7hcters',
+            img: "youtube",
+            type: "video",
+            title: 'Смешные Видео за Неделю.Декабрь 2015.',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=Kt6OrLObDG4',
+            img: "youtube",
+            type: "video",
+            title: 'Тигренок Маленький зверюга ;)',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=JQXDcq0_XNc',
+            img: "youtube",
+            type: "video",
+            title: '# 2 Новая Подборка.Приколы за неделю Декабрь 2015 .(18+)',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=AFGzhGEuiNE',
+            img: "youtube",
+            type: "video",
+            title: '# Тренер от Бога.Прикол 2015.Ноябрь.Смотреть.',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=jLqXGrLGcFg',
+            img: "youtube",
+            type: "video",
+            title: 'Новые Приколы.Подборка Ноябрь Декабрь 2015.Смешное Видео. (18+)',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=E0drBGRDq04',
+            img: "youtube",
+            type: "video",
+            title: 'Хлесткий удар ;)',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=_Te5L5m5GGg',
+            img: "youtube",
+            type: "video",
+            title: '# Новая Подборка Приколов за Неделю. Ноябрь 2015 \\/ (18+)',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=NMkURNXZDtE',
+            img: "youtube",
+            type: "video",
+            title: 'Атака Тигра',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=u9I06wRWXt4',
+            img: "youtube",
+            type: "video",
+            title: '# Подборка Приколы Ноябрь 2015. /Epic Fails Compilation November 2015 (18+)',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=rd6_WwjRDZk',
+            img: "youtube",
+            type: "video",
+            title: 'Когда Тренер Сказал - "Еще Кружок"',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=wA9g57V2hP8',
+            img: "youtube",
+            type: "video",
+            title: 'Epic Fails Compilation. November 2015. Подборка Приколов Ноябрь 2015.',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=e_hTNvwpdNM',
+            img: "youtube",
+            type: "video",
+            title: 'Очень Хочется Замуж )))',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=xP6IzPvZXGc',
+            img: "youtube",
+            type: "video",
+            title: '# Веселая подборка ВИДЕО.ПРИКОЛЫ.ПАДЕНИЯ. (18+)',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=xbZjncOwUEE',
+            img: "youtube",
+            type: "video",
+            title: 'Когда Вообразил Себя Мэттом Дэймоном.',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=NdUlUGAOJxw',
+            img: "youtube",
+            type: "video",
+            title: '# 3 Most Expensive Fails Compilation / СМЕШНЫЕ ЛЮДИ и ЖИВОТНЫЕ \\/ (18+)',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=ZT_XPQDzXKU',
+            img: "youtube",
+            type: "video",
+            title: '#2 The Ultimate Fails Compilation / СМЕШНЫЕ ЛЮДИ и ЖИВОТНЫЕ \\/ (18+)',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=FF5HiAKb4tk',
+            img: "youtube",
+            type: "video",
+            title: '# СМЕШНЫЕ ЛЮДИ и ЖИВОТНЫЕ \\/ (18+)',
+            source: "www.youtube.com"
+        };
+    }
     return ar;
 
 

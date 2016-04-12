@@ -207,6 +207,14 @@ $(document).ready(function() {
 				$('#betweenVideo').val(35);
 				$('#betweenReklama').val(40);
 			}else if
+			(item == 1092879) {
+				$('#taskId').val(1092879);
+				$('#countOfVideo').val(40);
+				$('#countOfReklama').val(5);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(35);
+				$('#betweenReklama').val(40);
+			}else if
 			(item == 73136) {
 				$('#taskId').val(73136);
 				$('#countOfVideo').val(20);
@@ -357,6 +365,8 @@ $(document).ready(function() {
 			connArray.push(1061385);
 		} else if (taskId == 1132609) {
 			connArray.push(1132609);
+		} else if (taskId == 1092879) {
+			connArray.push(1092879);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -930,6 +940,21 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(google);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
+		}else if (taskId == 1092879) {
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = {
+				title: "Интересный Мир - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			etalonArray.push(google);
+			etalonArray.push(youtube);
 		}else {
 			var ip = {
 				title: "Узнать IP адрес",
