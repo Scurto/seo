@@ -337,7 +337,7 @@ $(document).ready(function() {
 			var item = ui.item.value;
 
 			doFastTaskIdSeoSelect(item);
-			fromSeoDropDown = true;
+			fromSeoDropDown = 'seosprint';
 			$( "#taskIdVip" ).trigger( "change" );
 		}
 	});
@@ -400,14 +400,7 @@ $(document).ready(function() {
 			var item = ui.item.value;
 			doFastTaskIdSeoSelect(item);
 
-			//else if
-			//(item == 70562) {
-			//	$('#taskIdVip').val(70562);
-			//	$('#countOfVideo').val(15);
-			//	$('#countOfReklama').val(4);
-			//	$('#countOfMove').val(3);
-			//}
-			fromSeoDropDown = true;
+			fromSeoDropDown = 'seosprint';
 			$( "#taskIdVip" ).trigger( "change" );
 		}
 	});
@@ -924,9 +917,35 @@ $(document).ready(function() {
 			var item = ui.item.value;
 			doFastTaskIdVipSelect(item);
 
-			fromSeoDropDown = false;
+			fromSeoDropDown = 'vipprom';
 			$( "#taskIdVip" ).trigger( "change" );
 		}
+	});
+
+	$("#fastTaskIdProfitTest").autocomplete({
+		select: function( event, ui ) {
+			console.log(ui.item.value);
+			var item = ui.item.value;
+			doFastTaskIdProfitSelect(item);
+
+			fromSeoDropDown = 'profit';
+			$( "#taskIdVip" ).trigger( "change" );
+		}
+	});
+
+	function doFastTaskIdProfitSelect(item) {
+		if (item == 0) {
+			$('#taskIdVip').val(0);
+			$('#countOfVideo').val(4);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(4);
+		}
+	};
+
+	$("#fastTaskIdProfitTest").autocomplete({
+		source: [
+			"0"
+		]
 	});
 
 
@@ -1171,15 +1190,35 @@ $(document).ready(function() {
 
 	$('#taskIdVip').on('change', function() {
 		//console.log("fromSeoDropDown = " + fromSeoDropDown);
-		if (fromSeoDropDown) {
-			$('#fastTaskIdSeo-button').removeClass('disabledDropDown');
-			$('#fastTaskIdVip-button').addClass('disabledDropDown');
-			getDataFromDb($('#taskIdVip').val())
-		} else {
-			$('#fastTaskIdVip-button').removeClass('disabledDropDown');
-			$('#fastTaskIdSeo-button').addClass('disabledDropDown');
-			getDataFromDb($('#taskIdVip').val())
+		if (fromSeoDropDown == 'seosprint') {
+			$('#fastTaskIdSeoTest').removeClass('disabledDropDown');
+			$('#fastTaskIdVipTest').addClass('disabledDropDown');
+			$('#fastTaskIdProfitTest').addClass('disabledDropDown');
+		} else if (fromSeoDropDown == 'vipprom')  {
+			$('#fastTaskIdSeoTest').addClass('disabledDropDown');
+			$('#fastTaskIdVipTest').removeClass('disabledDropDown');
+			$('#fastTaskIdProfitTest').addClass('disabledDropDown');
+		} else if (fromSeoDropDown == 'profit') {
+			$('#fastTaskIdSeoTest').addClass('disabledDropDown');
+			$('#fastTaskIdVipTest').addClass('disabledDropDown');
+			$('#fastTaskIdProfitTest').removeClass('disabledDropDown');
 		}
+		//if (fromSeoDropDown) {
+		//	//$('#fastTaskIdSeo-button').removeClass('disabledDropDown');
+		//	//$('#fastTaskIdVip-button').addClass('disabledDropDown');
+		//	//getDataFromDb($('#taskIdVip').val())
+		//
+		//	$('#fastTaskIdSeoTest').removeClass('disabledDropDown');
+		//	$('#fastTaskIdVipTest').addClass('disabledDropDown');
+		//
+		//} else {
+		//	//$('#fastTaskIdVip-button').removeClass('disabledDropDown');
+		//	//$('#fastTaskIdSeo-button').addClass('disabledDropDown');
+		//
+		//	$('#fastTaskIdVipTest').removeClass('disabledDropDown');
+		//	$('#fastTaskIdSeoTest ').addClass('disabledDropDown');
+		//}
+		getDataFromDb($('#taskIdVip').val())
 
 	});
 
@@ -1438,34 +1477,16 @@ $(document).ready(function() {
 			});
 		} // TODO test insert
 
-
-
-		//var date1 = new Date('2012-11-28');
-		//var stringDate1 = date1.toString();
-		//var date2 = new Date("2011-11-29");
-		//var stringDate2 = date2.toString();
-		//console.log(date1);
-		//console.log(date2);
-		//console.log(stringDate1 == stringDate2);
-		//console.log(date1 > date2);
-		//console.log(date1 < date2);
 	});
 
 	$('#restart').click(function() {
 		console.log("tesrt");
-		//var data = {action: "selectReklamaSrc", taskId: taskId} ;
 		var data2 = {action: "getCurrentTime"} ;
 		$.ajax({
 			type: "POST",
 			url: "/loginServlet",
 			data: data2,
 			success: function(json) {
-				//hour = json.hour;
-				//minute = json.minute;
-				//
-				//$('#timeHour').val(hour);
-				//$('#timeMinute').val(minute);
-
 				console.log(json);
 			},
 			dataType: "json"
@@ -1548,10 +1569,6 @@ $(document).ready(function() {
 		var taskId = $('#taskIdVip').val();
 
 		$('#gclidTextArea').val('');
-
-		console.log("gclidRekl = " + gclidRekl);
-		console.log("-------");
-		console.log("gClidVideoText = " + gClidVideoText);
 
 		if (taskId == 76111) {
 			var countOfMove = parseInt($('#countOfMove').val());
