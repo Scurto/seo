@@ -146,6 +146,9 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("69493", "https://www.youtube.com/channel/UCtXIrukJ2NHSRA7zomaHlMg/videos");
 		urlMap.put("74826", "https://www.youtube.com/channel/UCEGGKkKm-RM1h8RE2bR-sYQ/videos");
 
+
+		urlMap.put("76111", "https://www.youtube.com/channel/UCYQ-qFc8k9UteAufUq2kARQ/videos");
+
 		String url = urlMap.get(id);
 		return url;
 	}
