@@ -201,7 +201,7 @@ $(document).ready(function() {
 			}else if
 			(item == 1126852) {
 				$('#taskId').val(1126852);
-				$('#countOfVideo').val(40); //TODO change count
+				$('#countOfVideo').val(40);
 				$('#countOfReklama').val(5);
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(35);
@@ -270,6 +270,14 @@ $(document).ready(function() {
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(61);
 				$('#betweenReklama').val(61);
+			}else if
+			(item == 1128139) {
+				$('#taskId').val(1128139);
+				$('#countOfVideo').val(15);
+				$('#countOfReklama').val(5);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(45);
 			}
 			$( "#taskId" ).trigger( "change" );
 		}
@@ -367,6 +375,8 @@ $(document).ready(function() {
 			connArray.push(1132609);
 		} else if (taskId == 1092879) {
 			connArray.push(1092879);
+		} else if (taskId == 1128139) {
+			connArray.push(1128139);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -955,6 +965,21 @@ $('#clear-browsing-data').click(function(event) {
 			};
 			etalonArray.push(google);
 			etalonArray.push(youtube);
+		}else if (taskId == 1128139) {
+			var google = {
+				title: "Uncle Death - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = {
+				title: "Uncle Death - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			etalonArray.push(google);
+			etalonArray.push(youtube);
 		}else {
 			var ip = {
 				title: "Узнать IP адрес",
@@ -1104,7 +1129,7 @@ $('#clear-browsing-data').click(function(event) {
 				}
 			}else if (taskId == 1126852) {
 				var youtube = {
-					title: " - YouTube",  //TODO add name
+					title: "Oliga Nikolaevna - YouTube",
 					type: "def",
 					img: "youtube",
 					source: "www.youtube.com"

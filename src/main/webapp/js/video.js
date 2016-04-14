@@ -3673,259 +3673,281 @@ function getVideo(taskId) {
         };
     }
     if (taskId == 1126852) {
+
         ar[0] = {
+            url: 'https://www.youtube.com/watch?v=dtwzVUDG0TE',
+            img: "youtube",
+            type: "video",
+            title: 'Читаем с выражением стихотворение А. С. Пушкина. Руслан и Людмила',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=IyRbh10ZcJk',
+            img: "youtube",
+            type: "video",
+            title: 'Помощница ведущей открывает конкурс детского творчества.',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=r07Ge0JQSbY',
+            img: "youtube",
+            type: "video",
+            title: 'Лазерное шоу в каждый дом.',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
             url: 'https://www.youtube.com/watch?v=fXHjw8Akgd0',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 10',
             source: "www.youtube.com"
         };
-        ar[1] = {
+        ar[4] = {
             url: 'https://www.youtube.com/watch?v=GRC8UWyPK1s',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 8',
             source: "www.youtube.com"
         };
-        ar[2] = {
+        ar[5] = {
             url: 'https://www.youtube.com/watch?v=7Syx9TK9xW4',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 9',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[6] = {
             url: 'https://www.youtube.com/watch?v=hArAEPAHzUs',
             img: "youtube",
             type: "video",
             title: 'Country and balalaika  - Talyanochka',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[7] = {
             url: 'https://www.youtube.com/watch?v=KJr0lsLmpmU',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 7',
             source: "www.youtube.com"
         };
-        ar[5] = {
+        ar[8] = {
             url: 'https://www.youtube.com/watch?v=OgJNdcbJVAk',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 6',
             source: "www.youtube.com"
         };
-        ar[6] = {
+        ar[9] = {
             url: 'https://www.youtube.com/watch?v=SZt2whBVUK4',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 5',
             source: "www.youtube.com"
         };
-        ar[7] = {
+        ar[10] = {
             url: 'https://www.youtube.com/watch?v=7eGZj6w6c-A',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 4',
             source: "www.youtube.com"
         };
-        ar[8] = {
+        ar[11] = {
             url: 'https://www.youtube.com/watch?v=CmeyHbYd4Xw',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 3',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[12] = {
             url: 'https://www.youtube.com/watch?v=RtujRbLPmhs',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 2',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[13] = {
             url: 'https://www.youtube.com/watch?v=-aIgxOEopzQ',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 1',
             source: "www.youtube.com"
         };
-        ar[11] = {
+        ar[14] = {
             url: 'https://www.youtube.com/watch?v=DiTWw5aCgs8',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 5',
             source: "www.youtube.com"
         };
-        ar[12] = {
+        ar[15] = {
             url: 'https://www.youtube.com/watch?v=ZRTC6u2j3G0',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 6',
             source: "www.youtube.com"
         };
-        ar[13] = {
+        ar[16] = {
             url: 'https://www.youtube.com/watch?v=Au3UuOKPDKw',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 4',
             source: "www.youtube.com"
         };
-        ar[14] = {
+        ar[17] = {
             url: 'https://www.youtube.com/watch?v=8RlHRblmrjM',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 3',
             source: "www.youtube.com"
         };
-        ar[15] = {
+        ar[18] = {
             url: 'https://www.youtube.com/watch?v=h7gk8mjf3Nk',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 2',
             source: "www.youtube.com"
         };
-        ar[16] = {
+        ar[19] = {
             url: 'https://www.youtube.com/watch?v=YcfjxvdYs88',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 1',
             source: "www.youtube.com"
         };
-        ar[17] = {
+        ar[20] = {
             url: 'https://www.youtube.com/watch?v=RHiMnnJy60U',
             img: "youtube",
             type: "video",
             title: 'Барыня Сударыня Особый случай',
             source: "www.youtube.com"
         };
-        ar[18] = {
+        ar[21] = {
             url: 'https://www.youtube.com/watch?v=XykrrhvoHIk',
             img: "youtube",
             type: "video",
             title: 'Русская народная песня Кадриль Камертон',
             source: "www.youtube.com"
         };
-        ar[19] = {
+        ar[22] = {
             url: 'https://www.youtube.com/watch?v=KFJALjkdXCo',
             img: "youtube",
             type: "video",
             title: 'Стоят девчонки, стоят в сторонке. Битва хоров.',
             source: "www.youtube.com"
         };
-        ar[20] = {
+        ar[23] = {
             url: 'https://www.youtube.com/watch?v=9mJmyik6LCo',
             img: "youtube",
             type: "video",
             title: 'Задумал старый дед. Шуточная песня.',
             source: "www.youtube.com"
         };
-        ar[21] = {
+        ar[24] = {
             url: 'https://www.youtube.com/watch?v=6-yovlxqBvY',
             img: "youtube",
             type: "video",
             title: 'My intro - Oliga Nikolaevna',
             source: "www.youtube.com"
         };
-        ar[22] = {
+        ar[25] = {
             url: 'https://www.youtube.com/watch?v=R74csuCRKLQ',
             img: "youtube",
             type: "video",
             title: 'Народный ансамбль Ленок танец',
             source: "www.youtube.com"
         };
-        ar[23] = {
+        ar[26] = {
             url: 'https://www.youtube.com/watch?v=n73EcJP0wh8',
             img: "youtube",
             type: "video",
             title: '"Весёлый ветер" фильм Дети капитана гранта Дунаевский',
             source: "www.youtube.com"
         };
-        ar[24] = {
+        ar[27] = {
             url: 'https://www.youtube.com/watch?v=vHzvvYn9nYY',
             img: "youtube",
             type: "video",
             title: 'Снежные скульптуры на площади.',
             source: "www.youtube.com"
         };
-        ar[25] = {
+        ar[28] = {
             url: 'https://www.youtube.com/watch?v=zq8xlImYZMA',
             img: "youtube",
             type: "video",
             title: 'П. И. Чайковский Неаполитанский танец. "Тальяночка"',
             source: "www.youtube.com"
         };
-        ar[26] = {
+        ar[29] = {
             url: 'https://www.youtube.com/watch?v=czLKCSm0Kq0',
             img: "youtube",
             type: "video",
             title: 'Эх, гармошечка играй разговаривай.',
             source: "www.youtube.com"
         };
-        ar[27] = {
+        ar[30] = {
             url: 'https://www.youtube.com/watch?v=HMW2cj6SVB0',
             img: "youtube",
             type: "video",
             title: 'Попурри на Русские народные песни и танцы.',
             source: "www.youtube.com"
         };
-        ar[28] = {
+        ar[31] = {
             url: 'https://www.youtube.com/watch?v=BgpaSANLwjg',
             img: "youtube",
             type: "video",
             title: 'Русский народный танец. Инструментальная игра на гармошке.',
             source: "www.youtube.com"
         };
-        ar[29] = {
+        ar[32] = {
             url: 'https://www.youtube.com/watch?v=PCWCQ1kYu2w',
             img: "youtube",
             type: "video",
             title: 'Рыжая метелица вертится как мельница.',
             source: "www.youtube.com"
         };
-        ar[30] = {
+        ar[33] = {
             url: 'https://www.youtube.com/watch?v=tXTZOnCpibM',
             img: "youtube",
             type: "video",
             title: 'Тополь, тополь, тополек - кучерявый паренек.',
             source: "www.youtube.com"
         };
-        ar[31] = {
+        ar[34] = {
             url: 'https://www.youtube.com/watch?v=PgQKZVUL8s0',
             img: "youtube",
             type: "video",
             title: 'Русские народные загадки от Деда за печника.',
             source: "www.youtube.com"
         };
-        ar[32] = {
+        ar[35] = {
             url: 'https://www.youtube.com/watch?v=PGjtnzVPRVg',
             img: "youtube",
             type: "video",
             title: 'Террариум в Доме культуры железнодорожников.',
             source: "www.youtube.com"
         };
-        ar[33] = {
+        ar[36] = {
             url: 'https://www.youtube.com/watch?v=bdwvfsEWRjI',
             img: "youtube",
             type: "video",
             title: 'Хоккейный матч на ледовой арене Планета',
             source: "www.youtube.com"
         };
-        ar[34] = {
+        ar[37] = {
             url: 'https://www.youtube.com/watch?v=DhXgfaNwN0k',
             img: "youtube",
             type: "video",
             title: 'Детские горки в нашем дворе',
             source: "www.youtube.com"
         };
-        ar[35] = {
+        ar[38] = {
             url: 'https://www.youtube.com/watch?v=--Mfv9zg60Q',
             img: "youtube",
             type: "video",
             title: 'Планета против Переславля хоккейный клуб',
             source: "www.youtube.com"
         };
-        ar[36] = {
+        ar[39] = {
             url: 'https://www.youtube.com/watch?v=tfwc1bXIwHo',
             img: "youtube",
             type: "video",
@@ -4226,6 +4248,134 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: '# СМЕШНЫЕ ЛЮДИ и ЖИВОТНЫЕ \\/ (18+)',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1128139) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=OgvNHJ2JqeM',
+            img: "youtube",
+            type: "video",
+            title: 'Аварии на снегоходах',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=6kPB6zzOIDc',
+            img: "youtube",
+            type: "video",
+            title: 'Приколы 2015',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=e1xNIENSOuA',
+            img: "youtube",
+            type: "video",
+            title: 'Авто - мото- вело - новое',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=25YH75qXKts',
+            img: "youtube",
+            type: "video",
+            title: 'Украинец и поляк!!! Ржака!!',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=YJsehcjKHCU',
+            img: "youtube",
+            type: "video",
+            title: 'Прикольное видео 2!!!',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=jPZNz_fmny0',
+            img: "youtube",
+            type: "video",
+            title: 'Прикольное видео!!!',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=Y8zbCjebwSc',
+            img: "youtube",
+            type: "video",
+            title: 'Песня - Время',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=OslB9fmbUmw',
+            img: "youtube",
+            type: "video",
+            title: 'Песня Минимум (Супер!!)',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=H0vjuqF4TQc',
+            img: "youtube",
+            type: "video",
+            title: 'Сфинкс vs Йорк!!',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=_Ty0_M5TABg',
+            img: "youtube",
+            type: "video",
+            title: 'Йорк против кота',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=oBUlk7ax6sc',
+            img: "youtube",
+            type: "video",
+            title: 'Вот докопался!!!',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=9XiCDGCMkY8',
+            img: "youtube",
+            type: "video",
+            title: 'В большой семье...)))',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=_tJE6GS_vh8',
+            img: "youtube",
+            type: "video",
+            title: 'Постирушки!!!',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=bN04rgFTTiE',
+            img: "youtube",
+            type: "video",
+            title: 'Веселые игры щенка с мамой',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=pO9carLy4I8',
+            img: "youtube",
+            type: "video",
+            title: 'Позирование перед котом',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=Q-a3M5BOVoo',
+            img: "youtube",
+            type: "video",
+            title: 'Самое лучшее видео с животными',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=lGIXra28a30',
+            img: "youtube",
+            type: "video",
+            title: 'Видео с кошками NEW!!',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=WLwo4sgU1r0',
+            img: "youtube",
+            type: "video",
+            title: 'мультимедийное авто',
             source: "www.youtube.com"
         };
     }
