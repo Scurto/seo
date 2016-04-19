@@ -1782,6 +1782,201 @@ function getLinkReklama() {
 			source: "www.onagofly.com"
 		};
 	}  //
+	{
+		ar[45] = {
+			mainUrl: "http://cityplaza.toyota.ua/toyota-city-plaza-models/models?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://cityplaza.toyota.ua/toyota-city-plaza-official-service/toyota-city-plaza-services",
+					title: ""
+				},
+				url2: {
+					url: "http://cityplaza.toyota.ua/toyota-city-plaza-official-service/toyota-city-plaza-shares",
+					title: ""
+				},
+				url3: {
+					url: "http://cityplaza.toyota.ua/toyota-city-plaza-corporate-sales/toyota-corporate-%D1%81lients",
+					title: ""
+				},
+				url4: {
+					url: "http://cityplaza.toyota.ua/toyota-city-plaza-used-cars/toyota-certified",
+					title: ""
+				},
+				url5: {
+					url: "http://cityplaza.toyota.ua/toyota-city-plaza-used-cars/toyota-used-cars-credit",
+					title: ""
+				},
+				url6: {
+					url: "http://cityplaza.toyota.ua/content/novosti-siti-plaza",
+					title: ""
+				},
+				url7: {
+					url: "http://cityplaza.toyota.ua/toyota-city-plaza-world/toyota-city-plaza-dealer-center/toyota-city-plaza-rest-area",
+					title: ""
+				}
+			},
+			img: "cityplaza.toyota",
+			type: "reklama",
+			source: "www.cityplaza.toyota.ua"
+		};
+	}  //
+	{
+		ar[46] = {
+			mainUrl: "http://anabel-arto.com/catalog/offers-novelty/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://anabel-arto.com/catalog/bele/",
+					title: ""
+				},
+				url2: {
+					url: "http://anabel-arto.com/catalog/kupalniki/",
+					title: ""
+				},
+				url3: {
+					url: "http://anabel-arto.com/catalog/kolgotki/",
+					title: ""
+				},
+				url4: {
+					url: "http://anabel-arto.com/catalog/trikotazh/",
+					title: ""
+				},
+				url5: {
+					url: "http://anabel-arto.com/catalog/noski/",
+					title: ""
+				},
+				url6: {
+					url: "http://anabel-arto.com/catalog/aksessuary/",
+					title: ""
+				},
+				url7: {
+					url: "http://anabel-arto.com/catalog/certifikaty/",
+					title: ""
+				}
+			},
+			img: "anabel-arto",
+			type: "reklama",
+			source: "www.anabel-arto.com"
+		};
+	}  //
+	{
+		ar[47] = {
+			mainUrl: "http://estafeta.com.ua/specials.php?from=ad&gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://estafeta.com.ua/c4-muzhskaya_sportivnaya_obuv",
+					title: ""
+				},
+				url2: {
+					url: "http://estafeta.com.ua/c14-zhenskaya_sportivnaya_obuv",
+					title: ""
+				},
+				url3: {
+					url: "http://estafeta.com.ua/c28-detskaya_sportivnaya_obuv",
+					title: ""
+				},
+				url4: {
+					url: "http://estafeta.com.ua/c45-muzhskaya_sportivnaya_odezhda",
+					title: ""
+				},
+				url5: {
+					url: "http://estafeta.com.ua/c59-zhenskaya_sportivnaya_odezhda",
+					title: ""
+				},
+				url6: {
+					url: "http://estafeta.com.ua/c98-detskaya_sportivnaya_odezhda",
+					title: ""
+				},
+				url7: {
+					url: "http://estafeta.com.ua/c182-sportivnie_noski",
+					title: ""
+				}
+			},
+			img: "estafeta",
+			type: "reklama",
+			source: "www.estafeta.com.ua"
+		};
+	}  //
+	{
+		ar[48] = {
+			mainUrl: "http://parkstone.kiev.ua/promo?adwords_remarketing&gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://parkstone.kiev.ua/obshchaya-informaciya",
+					title: ""
+				},
+				url2: {
+					url: "http://parkstone.kiev.ua/obshchaya-informaciya-0",
+					title: ""
+				},
+				url3: {
+					url: "http://parkstone.kiev.ua/vyberite-sekciyu",
+					title: ""
+				},
+				url4: {
+					url: "http://parkstone.kiev.ua/news",
+					title: ""
+				},
+				url5: {
+					url: "http://parkstone.kiev.ua/kontakty",
+					title: ""
+				},
+				url6: {
+					url: "http://parkstone.kiev.ua/building_progress",
+					title: ""
+				},
+				url7: {
+					url: "http://parkstone.kiev.ua/naberezhnaya",
+					title: ""
+				}
+			},
+			img: "parkstone",
+			type: "reklama",
+			source: "www.parkstone.kiev.ua"
+		};
+	}  //
+	{
+		ar[49] = {
+			mainUrl: "https://fama.ua/catalog/on_sale/all?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "https://fama.ua/catalog/category/261",
+					title: ""
+				},
+				url2: {
+					url: "https://fama.ua/publications/story/about_us.html",
+					title: ""
+				},
+				url3: {
+					url: "https://fama.ua/catalog/category/shownew",
+					title: ""
+				},
+				url4: {
+					url: "https://fama.ua/catalog/woman/all",
+					title: ""
+				},
+				url5: {
+					url: "https://fama.ua/catalog/man/all",
+					title: ""
+				},
+				url6: {
+					url: "https://fama.ua/catalog/category/317",
+					title: ""
+				},
+				url7: {
+					url: "https://fama.ua/catalog/brands",
+					title: ""
+				}
+			},
+			img: "fama",
+			type: "reklama",
+			source: "www.fama.ua"
+		};
+	}  //
 	//{
 	//	ar[45] = {
 	//		mainUrl: "",
