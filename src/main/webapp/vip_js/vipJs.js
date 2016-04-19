@@ -410,7 +410,12 @@ $(document).ready(function() {
 		"965831",
 		"979080",
 		"1064464",
-		"1064467"
+		"1064467",
+		"1063755",
+		"1137126",
+		"878796",
+		"937418",
+		"1081750"
 		]
 	});
 
@@ -1012,6 +1017,36 @@ $(document).ready(function() {
 			$('#countOfVideo').val(5);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
+		}else if
+		(item == 1063755) {
+			$('#taskIdVip').val(1063755);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 1137126) {
+			$('#taskIdVip').val(1137126);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 878796) {
+			$('#taskIdVip').val(878796);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 1081750) {
+			$('#taskIdVip').val(1081750);
+			$('#countOfVideo').val(15);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 937418) {
+			$('#taskIdVip').val(937418);
+			$('#countOfVideo').val(15);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(3);
 		}
 	}
 
@@ -1056,7 +1091,8 @@ $(document).ready(function() {
 		"69169",
 		"76111",
 		"76112",
-		"76487"
+		"76487",
+		"52221"
 		]
 	});
 	$("#fastTaskIdVipTest").autocomplete({
@@ -1351,6 +1387,12 @@ $(document).ready(function() {
 			$('#countOfVideo').val(7);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
+		}else if
+		(item == 52221) {
+			$('#taskIdVip').val(52221);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(3);
 		}
 	}
 
@@ -1550,6 +1592,18 @@ $(document).ready(function() {
 			connArray.push(979080);
 			connArray.push(1064464);
 			connArray.push(1064467);
+		} else if (taskId == 52221) {
+			connArray.push(52221);
+		} else if (taskId == 1063755) {
+			connArray.push(1063755);
+		} else if (taskId == 1137126 || taskId == 1172420) {
+			connArray.push(1137126);
+			connArray.push(1172420)
+		} else if (taskId == 878796) {
+			connArray.push(878796);
+		} else if (taskId == 937418 || taskId == 1081750) {
+			connArray.push(937418);
+			connArray.push(1081750);
 		}
 		addTextInSosediReklam(connArray)
 	};
