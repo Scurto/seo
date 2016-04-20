@@ -169,7 +169,7 @@ $(document).ready(function() {
 			}else if
 			(item == 71431) {
 				$('#taskId').val(71431);
-				$('#countOfVideo').val(30);
+				$('#countOfVideo').val(35);
 				$('#countOfReklama').val(4);
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(35);
@@ -177,7 +177,7 @@ $(document).ready(function() {
 			}else if
 			(item == 70722) {
 				$('#taskId').val(70722);
-				$('#countOfVideo').val(30);
+				$('#countOfVideo').val(35);
 				$('#countOfReklama').val(4);
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(35);

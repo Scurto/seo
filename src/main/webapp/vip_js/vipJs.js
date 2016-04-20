@@ -991,25 +991,25 @@ $(document).ready(function() {
 			$('#taskIdVip').val(965831);
 			$('#countOfVideo').val(6);
 			$('#countOfReklama').val(5);
-			$('#countOfMove').val(2);
+			$('#countOfMove').val(1);
 		}else if
 		(item == 979080) {
 			$('#taskIdVip').val(979080);
 			$('#countOfVideo').val(6);
 			$('#countOfReklama').val(5);
-			$('#countOfMove').val(2);
+			$('#countOfMove').val(1);
 		}else if
 		(item == 1064464) {
 			$('#taskIdVip').val(1064464);
 			$('#countOfVideo').val(6);
 			$('#countOfReklama').val(5);
-			$('#countOfMove').val(2);
+			$('#countOfMove').val(1);
 		}else if
 		(item == 1064467) {
 			$('#taskIdVip').val(1064467);
 			$('#countOfVideo').val(6);
 			$('#countOfReklama').val(5);
-			$('#countOfMove').val(2);
+			$('#countOfMove').val(1);
 		}
 		else if
 		(item == 0) {
@@ -1040,13 +1040,13 @@ $(document).ready(function() {
 			$('#taskIdVip').val(1081750);
 			$('#countOfVideo').val(15);
 			$('#countOfReklama').val(4);
-			$('#countOfMove').val(3);
+			$('#countOfMove').val(2);
 		}else if
 		(item == 937418) {
 			$('#taskIdVip').val(937418);
 			$('#countOfVideo').val(15);
 			$('#countOfReklama').val(4);
-			$('#countOfMove').val(3);
+			$('#countOfMove').val(2);
 		}
 	}
 
