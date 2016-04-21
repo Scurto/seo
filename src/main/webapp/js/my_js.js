@@ -278,6 +278,14 @@ $(document).ready(function() {
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(45);
 				$('#betweenReklama').val(45);
+			} else if
+			(item == 1184830) {
+				$('#taskId').val(1184830);
+				$('#countOfVideo').val(20);
+				$('#countOfReklama').val(4);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(125);
 			}
 			$( "#taskId" ).trigger( "change" );
 		}
@@ -377,6 +385,8 @@ $(document).ready(function() {
 			connArray.push(1092879);
 		} else if (taskId == 1128139) {
 			connArray.push(1128139);
+		} else if (taskId == 1184830) {
+			connArray.push(1184830);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -775,6 +785,18 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(bing);
 			etalonArray.push(youtube);
+		}else if (taskId == 1184830) {
+			var whoer = getDefaultWhoer();
+			var youtube1 = {
+				title: request + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube2 = getDefaultYouTube("ВСЕ И ОБО ВСЕМ - YouTube");
+			etalonArray.push(whoer);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
 		} else if (taskId == 75739) {
 			var whoer = {
 				title: "Узнать свой IP адрес",
