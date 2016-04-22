@@ -285,7 +285,7 @@ $(document).ready(function() {
 				$('#countOfReklama').val(4);
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(45);
-				$('#betweenReklama').val(125);
+				$('#betweenReklama').val(61);
 			}
 			$( "#taskId" ).trigger( "change" );
 		}

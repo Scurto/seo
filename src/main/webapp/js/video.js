@@ -4381,6 +4381,216 @@ function getVideo(taskId) {
     }
     if (taskId == 1184830) {
         //https://www.youtube.com/channel/UCy3V5zJc8jfi2VOu2GafIeQ/videos
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=vKz987HsTaY',
+            img: "youtube",
+            type: "video",
+            title: '10 фактов о фастфуде',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=9FSe7N_CNAc',
+            img: "youtube",
+            type: "video",
+            title: '10 ценных фактов о кофе',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=c0R9bZdslgQ',
+            img: "youtube",
+            type: "video",
+            title: 'Кто нибудь видел или слыхал как смеется и хохочет сова?',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=6-1KVLvG2Pw',
+            img: "youtube",
+            type: "video",
+            title: 'TOP 10 Fastest Aircraft in the World',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=o7xPeJBwxMY',
+            img: "youtube",
+            type: "video",
+            title: '10 мифов об алкоголе',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=75LdVWeTdGk',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 10 самых быстрых поездов в мире',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=9jPdBfpKmz0',
+            img: "youtube",
+            type: "video",
+            title: 'Необычные поезда MITOKANBAI',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=WpZOTliwK18',
+            img: "youtube",
+            type: "video",
+            title: 'Самые странные и необычные рекорды Гиннеса',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=Lw_XK5pii8g',
+            img: "youtube",
+            type: "video",
+            title: 'Невероятно красивая песня про настоящую любовь',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=vSiTjdikQnI',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 10 самых опасных пород собак в мире',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=9sDRmdl8KDA',
+            img: "youtube",
+            type: "video",
+            title: '5 жутких паранормальных сенсаций заснятых на видеокамеру',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=IjI2pfHv_fg',
+            img: "youtube",
+            type: "video",
+            title: 'Нереально удивительная молния',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=ZQPslWibWyM',
+            img: "youtube",
+            type: "video",
+            title: 'Это просто нереальная меткость ножей!',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=K97LMNDm5EY',
+            img: "youtube",
+            type: "video",
+            title: 'Это нереально!Неожиданный обман зрения!',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=bBA78-h4RVY',
+            img: "youtube",
+            type: "video",
+            title: '20 курьезных фактов о сексе',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=8WLQJzsN7qI',
+            img: "youtube",
+            type: "video",
+            title: 'Самые необычные люди со всего мира',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=BD_XyiuSVU8',
+            img: "youtube",
+            type: "video",
+            title: 'Самые необычные секс рекорды мира',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=XmOZDuDWndM',
+            img: "youtube",
+            type: "video",
+            title: 'С Днем  святого Валентина поздравляю !!!',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=DwiKk53gXHU',
+            img: "youtube",
+            type: "video",
+            title: 'Что будет если поджечь 1000 петард одновременно?',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=Gus1OSZVMwo',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 10 самых нелепых поступков по пьяни',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=Gue1LgP8KTc',
+            img: "youtube",
+            type: "video",
+            title: '11 лайфхаков которые облегчат вашу жизнь',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=iVjQr2AcrHA',
+            img: "youtube",
+            type: "video",
+            title: '5 лайфхаков про YouTube',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=kLygBgEI-5I',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 5 лайфхаков с батарейками',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=i2EtzuDT828',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 10 обалденных лайфхаков',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=oeI30my7lJs',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 10 Полезнейших лайфхаков для жизни',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=kuZqxcbN7ZE',
+            img: "youtube",
+            type: "video",
+            title: 'Windows 10',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=ZDCIPKvfsWg',
+            img: "youtube",
+            type: "video",
+            title: 'Топ самых улетных ржачных приколов с падениями',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=F15b51uWKGA',
+            img: "youtube",
+            type: "video",
+            title: 'ICT Discovery:  How internet works',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=Gyh-5BroFzA',
+            img: "youtube",
+            type: "video",
+            title: 'Эволюция ПК',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=xXLBKSYB9nM',
+            img: "youtube",
+            type: "video",
+            title: 'Видеокомикс про мобильные телефоны.',
+            source: "www.youtube.com"
+        };
     }
     return ar;
 
