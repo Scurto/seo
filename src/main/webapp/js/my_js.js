@@ -699,18 +699,22 @@ $('#clear-browsing-data').click(function(event) {
 				img: "2ip",
 				source: "2ip.ru"
 			};
-			var bing = {
-				title: "mixedline - Bing",
-				type: "def",
-				img: "bing",
-				source: "www.bing.com"
-			};
-			var youtube = {
-				title: "MixedLine - YouTube",
-				type: "def",
-				img: "youtube",
-				source: "www.youtube.com"
-			};
+			//var bing = {
+			//	title: "mixedline - Bing",
+			//	type: "def",
+			//	img: "bing",
+			//	source: "www.bing.com"
+			//};
+
+
+			//var youtube = {
+			//	title: "MixedLine - YouTube",
+			//	type: "def",
+			//	img: "youtube",
+			//	source: "www.youtube.com"
+			//};
+			var bing = getDefaultBing("mixedline - Bing");
+			var youtube = getDefaultYouTube("MixedLine - YouTube");
 			//etalonArray.push(ip);
 			etalonArray.push(bing);
 			etalonArray.push(youtube);
@@ -721,18 +725,21 @@ $('#clear-browsing-data').click(function(event) {
 				img: "2ip",
 				source: "2ip.ru"
 			};
-			var bing = {
-				title: "ORD bmagLine - Bing",
-				type: "def",
-				img: "bing",
-				source: "www.bing.com"
-			};
-			var youtube = {
-				title: "ORD - YouTube",
-				type: "def",
-				img: "youtube",
-				source: "www.youtube.com"
-			};
+			//var bing = {
+			//	title: "ORD bmagLine - Bing",
+			//	type: "def",
+			//	img: "bing",
+			//	source: "www.bing.com"
+			//};
+			//var youtube = {
+			//	title: "ORD - YouTube",
+			//	type: "def",
+			//	img: "youtube",
+			//	source: "www.youtube.com"
+			//};
+			var bing = getDefaultBing("ORD bmagLine - Bing");
+			var youtube = getDefaultYouTube("ORD - YouTube");
+
 			//etalonArray.push(ip);
 			etalonArray.push(bing);
 			etalonArray.push(youtube);
@@ -798,25 +805,28 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
 		} else if (taskId == 75739) {
-			var whoer = {
-				title: "Узнать свой IP адрес",
-				type: "def",
-				img: "whoer",
-				source: "whoer.net"
-			};
-			var bing = {
-				title: "School LifeGo - Bing",
-				type: "def",
-				img: "bing",
-				source: "www.bing.com"
-			};
-			var youtube = {
-				title: "School LifeGo - YouTube",
-				type: "def",
-				img: "youtube",
-				source: "www.youtube.com"
-			};
+			//var whoer = {
+			//	title: "Узнать свой IP адрес",
+			//	type: "def",
+			//	img: "whoer",
+			//	source: "whoer.net"
+			//};
+			//var bing = {
+			//	title: "School LifeGo - Bing",
+			//	type: "def",
+			//	img: "bing",
+			//	source: "www.bing.com"
+			//};
+			//var youtube = {
+			//	title: "School LifeGo - YouTube",
+			//	type: "def",
+			//	img: "youtube",
+			//	source: "www.youtube.com"
+			//};
 			//etalonArray.push(ip);
+			var whoer = getDefaultWhoer();
+			var bing = getDefaultBing("School LifeGo - Bing");
+			var youtube = getDefaultYouTube("School LifeGo - YouTube");
 			etalonArray.push(whoer);
 			etalonArray.push(bing);
 			etalonArray.push(youtube);
