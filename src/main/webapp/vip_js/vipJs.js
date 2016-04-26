@@ -1179,13 +1179,13 @@ $(document).ready(function() {
 			$('#taskIdVip').val(344614);
 			$('#countOfVideo').val(10);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(3);
+			$('#countOfMove').val(2);
 		}else if
 		(item == 344615) {
 			$('#taskIdVip').val(344615);
 			$('#countOfVideo').val(10);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(3);
+			$('#countOfMove').val(2);
 		}
 	};
 
@@ -1672,9 +1672,11 @@ $(document).ready(function() {
 			connArray.push(608316);
 			connArray.push(908673);
 			connArray.push(1079336);
-		} else if (taskId == 1186645 || taskId == 1160443) {
+		} else if (taskId == 1186645 || taskId == 1160443 || taskId == 344615 || taskId == 344614) {
 			connArray.push(1186645);
 			connArray.push(1160443);
+			connArray.push(344615);
+			connArray.push(344614);
 		} else if (taskId == 871441 || taskId == 1174068 || taskId == 871450) {
 			connArray.push(871441);
 			connArray.push(1174068);
