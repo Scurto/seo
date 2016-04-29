@@ -1977,6 +1977,162 @@ function getLinkReklama() {
 			source: "www.fama.ua"
 		};
 	}  //
+	{
+		ar[50] = {
+			mainUrl: "http://solidsg.ru/9/11/15/?prices=y?adwords_remarketing&gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://solidsg.ru/about/",
+					title: ""
+				},
+				url2: {
+					url: "http://solidsg.ru/7/41/",
+					title: ""
+				},
+				url3: {
+					url: "http://solidsg.ru/1/",
+					title: ""
+				},
+				url4: {
+					url: "http://solidsg.ru/guestbook/",
+					title: ""
+				},
+				url5: {
+					url: "http://solidsg.ru/18/",
+					title: ""
+				},
+				url6: {
+					url: "http://solidsg.ru/9/11/15/82/",
+					title: ""
+				},
+				url7: {
+					url: "http://solidsg.ru/7/31/",
+					title: ""
+				}
+			},
+			img: "solidsg",
+			type: "reklama",
+			source: "www.solidsg.ru"
+		};
+	}  //
+	{
+		ar[51] = {
+			mainUrl: "http://www.service.peugeot.ru/special-offers-zoom/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.service.peugeot.ru/insurance/",
+					title: ""
+				},
+				url2: {
+					url: "http://www.service.peugeot.ru/peugeot-assistance/",
+					title: ""
+				},
+				url3: {
+					url: "http://www.service.peugeot.ru/original-sparesparts/",
+					title: ""
+				},
+				url4: {
+					url: "http://www.service.peugeot.ru/wholesale/",
+					title: ""
+				},
+				url5: {
+					url: "http://www.service.peugeot.ru/service-maintenance/",
+					title: ""
+				},
+				url6: {
+					url: "http://www.service.peugeot.ru/advices-services/",
+					title: ""
+				},
+				url7: {
+					url: "http://www.service.peugeot.ru/accessorize/",
+					title: ""
+				}
+			},
+			img: "service.peugeot",
+			type: "reklama",
+			source: "www.service.peugeot.ru"
+		};
+	}  //
+	{
+		ar[52] = {
+			mainUrl: "http://www.studylab.ru/moscow/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.studylab.ru/studylab/about/",
+					title: ""
+				},
+				url2: {
+					url: "http://www.studylab.ru/studylab/whystudylab/",
+					title: ""
+				},
+				url3: {
+					url: "http://www.studylab.ru/studylab/for_agencies/",
+					title: ""
+				},
+				url4: {
+					url: "http://www.studylab.ru/studylab/contacts/",
+					title: ""
+				},
+				url5: {
+					url: "http://www.studylab.ru/responses/",
+					title: ""
+				},
+				url6: {
+					url: "http://www.studylab.ru/blogs/",
+					title: ""
+				},
+				url7: {
+					url: "http://www.studylab.ru/studylab/service/",
+					title: ""
+				}
+			},
+			img: "studylab",
+			type: "reklama",
+			source: "www.studylab.ru"
+		};
+	}  //
+	{
+		ar[53] = {
+			mainUrl: "http://www.major-expert.ru/cars/moscow/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.major-expert.ru/buy/car_selection/",
+					title: ""
+				},
+				url2: {
+					url: "http://www.major-expert.ru/cars/special/",
+					title: ""
+				},
+				url3: {
+					url: "http://www.major-expert.ru/cars/special-programm/",
+					title: ""
+				},
+				url4: {
+					url: "http://www.major-expert.ru/cars/new/",
+					title: ""
+				},
+				url5: {
+					url: "http://www.major-expert.ru/cars/presale/",
+					title: ""
+				},
+				url6: {
+					url: "http://www.major-expert.ru/buy/new-car/",
+					title: ""
+				},
+				url7: {
+					url: "http://www.major-expert.ru/buy/moto/",
+					title: ""
+				}
+			},
+			img: "major-exper",
+			type: "reklama",
+			source: "www.major-expert.ru"
+		};
+	}  //
 	//{
 	//	ar[45] = {
 	//		mainUrl: "",
