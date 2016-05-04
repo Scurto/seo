@@ -1361,6 +1361,9 @@ $('#clear-browsing-data').click(function(event) {
 					case '4':
 						month = "апреля";
 						break;
+					case '5':
+						month = "мая";
+						break;
 				}
 				var date = "Сегодня - " + dayOfWeek + ", " + dateOfMonth + " " +  month + " " + year + " г.";
 				$("#day").text(date);

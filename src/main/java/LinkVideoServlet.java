@@ -70,6 +70,11 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("1124053", "https://www.youtube.com/channel/UCHzloEP5Ti4kBcNQONPbVHA/videos");
 		urlMap.put("1124059", "https://www.youtube.com/channel/UC1wIAUSKiW791XdbUmYSixA/videos");
 
+		urlMap.put("317244", "https://www.youtube.com/channel/UCtKtcgxuenxmVHNEutC5_wA/videos");
+		urlMap.put("317246", "https://www.youtube.com/channel/UCYA06kCVjNmsvBBodxqtorA/videos");
+		urlMap.put("317248", "https://www.youtube.com/channel/UCFEhxIU7ZgU8BuaZ8BJ5zKg/videos");
+		urlMap.put("320723", "https://www.youtube.com/channel/UC1wIAUSKiW791XdbUmYSixA/videos");
+
 
 		urlMap.put("74678", "https://www.youtube.com/channel/UCPuWsn09os_xr7VKJpUDUIg/videos");
 		urlMap.put("74693", "https://www.youtube.com/channel/UCYwwugaXiv1Rgx1zgfovb9A/videos");
@@ -159,6 +164,10 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("76111", "https://www.youtube.com/channel/UCYQ-qFc8k9UteAufUq2kARQ/videos");
 		urlMap.put("76112", "https://www.youtube.com/channel/UCGMDAoU4YbTFKisj1Wqd9iw/videos");
 		urlMap.put("76487", "https://www.youtube.com/channel/UCkAmem1RGF98-U3R_tvhszg/videos");
+
+		urlMap.put("335305", "https://www.youtube.com/channel/UCYQ-qFc8k9UteAufUq2kARQ/videos");
+		urlMap.put("325117", "https://www.youtube.com/channel/UCkAmem1RGF98-U3R_tvhszg/videos");
+		urlMap.put("325112", "https://www.youtube.com/channel/UCGMDAoU4YbTFKisj1Wqd9iw/videos");
 
 		urlMap.put("967829", "https://www.youtube.com/user/worldofattractions/videos");
 
