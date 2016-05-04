@@ -2562,6 +2562,49 @@ function getReklama() {
 		source: "www.ernstings-family.de"
 	};
 
+	ar[60] = {
+		mainUrl : "http://www.stylefile.de/adidas/schuhe/zx-flux/",
+		title: "adidas ZX Flux Schuhe - Stylefile.de",
+		secUrl : {
+			url1 : {
+				url: "http://www.stylefile.de/men/",
+				title: "Streetwear, Sneaker & Graffiti für Men - Stylefile.de"
+			},
+			url2 : {
+				url: "http://www.stylefile.de/women/",
+				title: "Streetwear, Sneaker & Graffiti für Women - Stylefile.de"
+			},
+			url3 : {
+				url: "http://www.stylefile.de/youth/",
+				title: "Youth Streetwear, Sneaker & Graffiti - Stylefile.de"
+			},
+			url4 : {
+				url: "http://www.stylefile.de/graffiti/?category1%5B%5D=medien",
+				title: "Streetwear, Sneaker & Graffiti - Stylefile.de"
+			},
+			url5 : {
+				url: "http://www.stylefile.de/marken.html",
+				title: "Marken bei Stylefile.de"
+			},
+			url6 : {
+				url: "http://www.stylefile.de/new/?order=date",
+				title: "Neue Artikel: Streetwear, Sneaker & Graffiti - Stylefile.de"
+			},
+			url7 : {
+				url: "http://www.stylefile.de/soon/",
+				title: "Coming Soon: Streetwear, Sneaker & Graffiti - Stylefile.de"
+			},
+			url8 : {
+				url: "http://www.stylefile.de/sale/",
+				title: "Sonderangebote: Streetwear, Sneaker & Graffiti - Stylefile.de"
+			}
+		},
+		img: "stylefile",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.stylefile.de"
+	};
+
 	//ar[22] = {
 	//	mainUrl : "",
 	//	title: "",
