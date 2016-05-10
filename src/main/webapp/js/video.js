@@ -4592,6 +4592,288 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1204213) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=Ho301iGwqFA',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 20',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=TfETfEnnOkI',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 19',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=5gEvzq37vU0',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 18',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=1b6yc7w8F_k',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 17',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=IO8zg79B9RI',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 16',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=-p3JKqlZUac',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 15',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=GZqhiO4GGEg',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 14',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=sVhmTrVtU88',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 13',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=IA2ArzxLmHs',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 12',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=69GB63VSgtM',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 11',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=2GRXj3SlNSo',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 10',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=ic1LgX93Jjg',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 9',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=n0eBCoagoq8',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 8',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=s7pn-DUCKFg',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 7',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=KVXjUyQtgos',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 6',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=jC32v-fzeeY',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 5',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=32aSG_eu0oY',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 4',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=6XAq4I6-W3Q',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=B9BZhjjluNg',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=bXxk-NUm6O0',
+            img: "youtube",
+            type: "video",
+            title: 'Лучший игрок в сапёр Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=9h3C6s6THsU',
+            img: "youtube",
+            type: "video",
+            title: 'Mount & Blade неудачная стыковка',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=aopWpuo5rGA',
+            img: "youtube",
+            type: "video",
+            title: 'Mount & Blade драка у берегов',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=tJXg5-XVfN0',
+            img: "youtube",
+            type: "video",
+            title: 'Mount & Blade Захват судна',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=edxBC56pZrw',
+            img: "youtube",
+            type: "video",
+            title: 'Mount & Blade перестрелка на горе',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=tEGZNA4-cZ4',
+            img: "youtube",
+            type: "video",
+            title: 'Mount & Blade перестрелка на причале',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=I6exEsH69GA',
+            img: "youtube",
+            type: "video",
+            title: 'Mount & Blade Захват корабля',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=9dABlsGakKI',
+            img: "youtube",
+            type: "video",
+            title: 'Cs go часть 11',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=rtRVIPu6tpE',
+            img: "youtube",
+            type: "video",
+            title: 'Cs go часть 12',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=5DELc9YLGfo',
+            img: "youtube",
+            type: "video",
+            title: 'Cs go часть 13',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=ZYEdmlZ_RFw',
+            img: "youtube",
+            type: "video",
+            title: 'Cs go часть 10',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: "https://www.youtube.com/watch?v=IqsW91ftY68",
+            img: "youtube",
+            type: "video",
+            title: "Cs go часть 9",
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: "https://www.youtube.com/watch?v=mWbswHqzNoo",
+            img: "youtube",
+            type: "video",
+            title: "Cs go часть 9",
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: "https://www.youtube.com/watch?v=BEXYLGWIxio",
+            img: "youtube",
+            type: "video",
+            title: "Cs go часть 8",
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: "https://www.youtube.com/watch?v=e5kFoHCfHj0",
+            img: "youtube",
+            type: "video",
+            title: "Cs go часть 7",
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: "https://www.youtube.com/watch?v=fOylhOKSRRQ",
+            img: "youtube",
+            type: "video",
+            title: "Cs go часть 6",
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: "https://www.youtube.com/watch?v=qiBvisj0kRU",
+            img: "youtube",
+            type: "video",
+            title: "Cs go часть 5",
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: "https://www.youtube.com/watch?v=j512eVa25cE",
+            img: "youtube",
+            type: "video",
+            title: "Cs go часть 4",
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: "https://www.youtube.com/watch?v=U3Jfy0Tj-L0",
+            img: "youtube",
+            type: "video",
+            title: "Cs go часть 3",
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: "https://www.youtube.com/watch?v=GMxZoyZTg-8",
+            img: "youtube",
+            type: "video",
+            title: "Cs go часть 2",
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: "https://www.youtube.com/watch?v=HHF5rnIcxkQ",
+            img: "youtube",
+            type: "video",
+            title: "Cs go часть 1",
+            source: "www.youtube.com"
+        };
+    }
     return ar;
 
 

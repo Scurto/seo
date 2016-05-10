@@ -286,6 +286,14 @@ $(document).ready(function() {
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(45);
 				$('#betweenReklama').val(61);
+			}else if
+			(item == 1204213) {
+				$('#taskId').val(1204213);
+				$('#countOfVideo').val(40);
+				$('#countOfReklama').val(5);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(45);
 			}
 			$( "#taskId" ).trigger( "change" );
 		}
@@ -387,6 +395,8 @@ $(document).ready(function() {
 			connArray.push(1128139);
 		} else if (taskId == 1184830) {
 			connArray.push(1184830);
+		} else if (taskId == 1204213) {
+			connArray.push(1204213);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -765,6 +775,37 @@ $('#clear-browsing-data').click(function(event) {
 			//etalonArray.push(ip);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
+		}else if (taskId == 1204213) {
+			//var ip = {
+			//	title: "Узнать IP адрес",
+			//	type: "def",
+			//	img: "2ip",
+			//	source: "2ip.ru"
+			//};
+			var whoer = getDefaultWhoer();
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = {
+				title: "Mount & Blade неудачная стыковка - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube2 = {
+				title: "Mount & Blade - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
 		} else if (taskId == 73136 || taskId == 76310) {
 			//var whoer = {
 			//	title: "Узнать свой IP адрес",
