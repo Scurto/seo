@@ -2605,6 +2605,135 @@ function getReklama() {
 		source: "www.stylefile.de"
 	};
 
+	ar[61] = {
+		mainUrl : "https://www.singsale.com.sg/default.aspx?cid=20",
+		title: "Singsale.com.sg - Shop",
+		secUrl : {
+			url1 : {
+				url: "https://www.singsale.com.sg/ItemsList.aspx?cid=10&saleID=UFRGAQcQvkmUgx-PiZl0Kw",
+				title: "Singsale.com.sg - Items List"
+			},
+			url2 : {
+				url: "https://www.singsale.com.sg/AboutUs.aspx?cid=10",
+				title: "Singsale.com.sg - About us"
+			},
+			url3 : {
+				url: "https://www.singsale.com.sg/Help.aspx?cid=10",
+				title: "Singsale.com.sg - Help"
+			},
+			url4 : {
+				url: "https://www.singsale.com.sg/Join.aspx?cid=10",
+				title: "Singsale.com.sg - Join"
+			},
+			url5 : {
+				url: "https://www.singsale.com.sg/myaccount.aspx?cid=10",
+				title: "Singsale.com.sg - My Account"
+			},
+			url6 : {
+				url: "https://www.singsale.com.sg/Help.aspx?cid=10#",
+				title: "Singsale.com.sg - Help"
+			},
+			url7 : {
+				url: "https://www.singsale.com.sg/TermsAndConditions.aspx?cid=10",
+				title: "Singsale.com.sg - Terms and Conditions"
+			},
+			url8 : {
+				url: "https://www.singsale.com.sg/product.aspx?cid=80&saleID=LTA4rZckGE_7-UQW9FICdg&productID=cJQqUkGWbE2WWtexSaD6Lg",
+				title: "Singsale.com.sg - Product"
+			}
+		},
+		img: "singsale",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.singsale.com.sg"
+	};
+
+	ar[62] = {
+		mainUrl : "https://deliveroo.com.sg/?gclid=CKHqrMHUyswCFQx9vQodFIwC8Q",
+		title: "Deliveroo: Premium Restaurant Takeaway | Order Food Delivery Online",
+		secUrl : {
+			url1 : {
+				url: "https://deliveroo.com.sg/contact",
+				title: "Deliveroo | Contact"
+			},
+			url2 : {
+				url: "https://deliveroo.com.sg/faq",
+				title: "Deliveroo | FAQ"
+			},
+			url3 : {
+				url: "https://deliveroo.com.sg/legal",
+				title: "Deliveroo | Legal"
+			},
+			url4 : {
+				url: "https://deliveroo.com.sg/privacy",
+				title: "Deliveroo | Privacy"
+			},
+			url5 : {
+				url: "https://deliveroo.com.sg/cookies",
+				title: "Deliveroo | Cookies"
+			},
+			url6 : {
+				url: "https://deliveroo.com.sg/sitemap",
+				title: "Deliveroo Site Map"
+			},
+			url7 : {
+				url: "https://deliveroo.com.sg/menu/singapore/ang-mo-kio/rainbow-cottage-cafe",
+				title: "Rainbow Cottage Café | Ang Mo Kio, Singapore | Deliveroo"
+			},
+			url8 : {
+				url: "https://deliveroo.com.sg/menu/singapore/admiralty/j-dees-gourmet-woodlands",
+				title: "J-Dee's Gourmet - Woodlands | Admiralty, Singapore | Deliveroo"
+			}
+		},
+		img: "deliveroo",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "deliveroo.com.sg"
+	};
+
+	ar[63] = {
+		mainUrl : "http://www.lazada.sg/",
+		title: "Lazada.sg: Online Shopping Singapore - Electronics, Home Appliances, Mobiles, Tablets & more",
+		secUrl : {
+			url1 : {
+				url: "http://www.lazada.sg/nike/?ref=popular-search",
+				title: "Nike Singapore-Shoes & Apparel | Nike Online Store Only At Lazada"
+			},
+			url2 : {
+				url: "http://www.lazada.sg/apple-iphone-se/?ref=popular-search",
+				title: "Shop For Apple iPhone SE Online at Best Price | Lazada"
+			},
+			url3 : {
+				url: "http://www.lazada.sg/samsung-s7-and-s7-edge/?ref=popular-search",
+				title: "Samsung S7 & S7 Edge | Shop at Samsung Official Store | Lazada.sg"
+			},
+			url4 : {
+				url: "http://www.lazada.sg/catalog/?q=kate+spade&ref=popular-search",
+				title: "kate spade price in Singapore - Buy best kate spade online | www.lazada.sg"
+			},
+			url5 : {
+				url: "http://www.lazada.sg/catalog/?q=kindle&ref=popular-search",
+				title: "kindle price in Singapore - Buy best kindle online | www.lazada.sg"
+			},
+			url6 : {
+				url: "http://www.lazada.sg//shop-air-purifiers/?=ref=popular-search",
+				title: "Air Purifier Singapore- Breathe Easier Indoor"
+			},
+			url7 : {
+				url: "http://www.lazada.sg/travel-luggage-bags/",
+				title: "Travel Bag - Shop Online For Luggage, Travel, Duffle Bag I Lazada"
+			},
+			url8 : {
+				url: "http://www.lazada.sg/shop-home-living/",
+				title: "Home Decor - Shop Online For Home And Living Products | Lazada.sg"
+			}
+		},
+		img: "lazada",
+		type: "reklama",
+		location: "",
+		source: "www.lazada.sg"
+	};
+
 	//ar[22] = {
 	//	mainUrl : "",
 	//	title: "",
