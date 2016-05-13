@@ -397,48 +397,90 @@ function getReklama() {
 			source: "auth0.com"
 		};
 	}  // AUTH0
+	//{
+	//	ar[10] = {
+	//		mainUrl : "http://www.walmart.com.mx/inicio.aspx",
+	//		title: "Walmart.com.mx | Walmart Tienda en línea",
+	//		secUrl : {
+	//			url1 : {
+	//				url: "http://www.walmart.com.mx/super/",
+	//				title: "Walmart.com.mx/Super: Siempre encuentras todo y pagas menos."
+	//			},
+    //
+	//			url2 : {
+	//				url: "https://www.walmart.com.mx/Ingresar.aspx?goto=Listas",
+	//				title: "Walmart.com.mx: Ahorras Dinero. Vives Mejor."
+	//			},
+    //
+	//			url3 : {
+	//				url: "http://www.walmart.com.mx/TV-y-Video/Pantallas/40-a-49-Pulgadas/TV-LG_43-Pulgadas-1080p-Full-HD-LED_00880608738128",
+	//				title: "TV LG 43 Pulgadas 1080p Full HD LED - $ 6,799.00 en Walmart.com.mx"
+	//			},
+	//			url4 : {
+	//				url: "http://www.walmart.com.mx/electronica",
+	//				title: "Electrónica"
+	//			},
+	//			url6 : {
+	//				url: "https://www.walmart.com.mx/autos",
+	//				title: "Autos | Walmart.com.mx Tienda en línea"
+	//			},
+	//			url7 : {
+	//				url: "https://www.walmart.com.mx/fotografia",
+	//				title: "Fotografía | Walmart.com.mx Tienda en línea"
+	//			},
+	//			url8 : {
+	//				url: "http://www.walmart.com.mx/terminos-de-uso.aspx",
+	//				title: "Walmart.com.mx: Ahorras Dinero. Vives Mejor."
+	//			}
+	//		},
+	//		img: "walmart",
+	//		type: "reklama",
+	//		location: "USA",
+	//		source: "www.walmart.com.mx"
+	//	};
+	//}  // WALMART
 	{
 		ar[10] = {
-			mainUrl : "http://www.walmart.com.mx/inicio.aspx",
-			title: "Walmart.com.mx | Walmart Tienda en línea",
+			mainUrl : "https://www.activtrades.co.uk/index.aspx",
+			title: "ActivTrades - Forex | CFDs | MT4 | MT5 and Mobile Trading.",
 			secUrl : {
 				url1 : {
-					url: "http://www.walmart.com.mx/super/",
-					title: "Walmart.com.mx/Super: Siempre encuentras todo y pagas menos."
+					url: "https://www.activtrades.co.uk/index.aspx?page=forex",
+					title: "Forex Trading | ActivTrades"
 				},
 
 				url2 : {
-					url: "https://www.walmart.com.mx/Ingresar.aspx?goto=Listas",
-					title: "Walmart.com.mx: Ahorras Dinero. Vives Mejor."
+					url: "https://www.activtrades.co.uk/index.aspx?page=forex_specs",
+					title: "Forex Margins Spreads and Swaps | ActivTrades"
 				},
 
 				url3 : {
-					url: "http://www.walmart.com.mx/TV-y-Video/Pantallas/40-a-49-Pulgadas/TV-LG_43-Pulgadas-1080p-Full-HD-LED_00880608738128",
-					title: "TV LG 43 Pulgadas 1080p Full HD LED - $ 6,799.00 en Walmart.com.mx"
+					url: "https://www.activtrades.co.uk/index.aspx?page=platforms_metatrader4",
+					title: "MetaTrader 4 | ActivTrades"
 				},
 				url4 : {
-					url: "http://www.walmart.com.mx/electronica",
-					title: "Electrónica"
+					url: "https://www.activtrades.co.uk/index.aspx?page=introducing_broker",
+					title: "Asset Managers | ActivTrades"
 				},
 				url6 : {
-					url: "https://www.walmart.com.mx/autos",
-					title: "Autos | Walmart.com.mx Tienda en línea"
+					url: "https://www.activtrades.co.uk/index.aspx?page=institutional_feestructure",
+					title: "Asset Managers - Fee Structure | ActivTrades"
 				},
 				url7 : {
-					url: "https://www.walmart.com.mx/fotografia",
-					title: "Fotografía | Walmart.com.mx Tienda en línea"
+					url: "https://www.activtrades.co.uk/index.aspx?page=media_tv",
+					title: "Trading Videos | ActivTrades"
 				},
 				url8 : {
-					url: "http://www.walmart.com.mx/terminos-de-uso.aspx",
-					title: "Walmart.com.mx: Ahorras Dinero. Vives Mejor."
+					url: "https://www.activtrades.co.uk/index.aspx?page=media",
+					title: "Press Releases | ActivTrades"
 				}
 			},
-			img: "walmart",
+			img: "activtrades",
 			type: "reklama",
-			location: "USA",
-			source: "www.walmart.com.mx"
+			location: "ENGLAND",
+			source: "www.activtrades.co.uk"
 		};
-	}  // WALMART
+	}
 	{
 		ar[11] = {
 			mainUrl : "http://www.magmaweld.com/index.html",
@@ -2730,9 +2772,97 @@ function getReklama() {
 		},
 		img: "lazada",
 		type: "reklama",
-		location: "",
+		location: "SINGAPORE",
 		source: "www.lazada.sg"
 	};
+
+	ar[64] = {
+		mainUrl : "http://www.iproperty.com.sg/",
+		title: "Singapore Property | Real Estate in Singapore | iProperty.com.sg",
+		secUrl : {
+			url1 : {
+				url: "http://www.iproperty.com.sg/property-for-sale/",
+				title: "Singapore Property | Real Estate | Home, House for Sale, Rent, Listing"
+			},
+			url2 : {
+				url: "http://www.iproperty.com.sg/property-for-rent/",
+				title: "Rent in Singapore | HDB, Condo for Rent in Singapore | House for Rent"
+			},
+			url3 : {
+				url: "http://newlaunch.iproperty.com.sg/",
+				title: "New Property | New Property Launch | New Condo | New House for Sale"
+			},
+			url4 : {
+				url: "http://www.iproperty.com.sg/commercial/",
+				title: "Singapore Commercial | Office, Retail, Industrial Properties for Sale and Rent | iProperty.com.sg"
+			},
+			url5 : {
+				url: "http://international.iproperty.com/",
+				title: "International Property & Real Estate for Sale and Rent | iProperty.com"
+			},
+			url6 : {
+				url: "http://www.iproperty.com.sg/lifestyle/",
+				title: "Home and Lifestyle Services for Singapore Homes | iProprty Singapore"
+			},
+			url7 : {
+				url: "http://www.iproperty.com.sg/events/Events.aspx",
+				title: "iProperty.com.sg - Singapore's No. 1 Property and Real Estate Website"
+			},
+			url8 : {
+				url: "http://www.iproperty.com.sg/resources/ResourceGuides.aspx",
+				title: "Singapore Property Resources and Guides, HDB and Districts"
+			}
+		},
+		img: "iproperty",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.iproperty.com.sg"
+	};
+
+	ar[65] = {
+		mainUrl : "http://www.xcape.sg/",
+		title: "Xcape Singapore - No. 1 Real Room Escape Game in Singapore",
+		secUrl : {
+			url1 : {
+				url: "http://www.xcape.sg/xcape-singapore/",
+				title: "Reality Real Room Escape Game Singapore"
+			},
+			url2 : {
+				url: "http://www.xcape.sg/games/",
+				title: "Games | Xcape Singapore - No. 1 Real Room Escape Game in Singapore"
+			},
+			url3 : {
+				url: "http://www.xcape.sg/book-now/",
+				title: "Book Now | Xcape Singapore - No. 1 Real Room Escape Game in Singapore"
+			},
+			url4 : {
+				url: "http://www.xcape.sg/franchise/",
+				title: "Franchise | Xcape Singapore - No. 1 Real Room Escape Game in Singapore"
+			},
+			url5 : {
+				url: "http://www.xcape.sg/in-news/",
+				title: "In The News | Xcape Singapore - No. 1 Real Room Escape Game in Singapore"
+			},
+			url6 : {
+				url: "http://www.xcape.sg/corporate/",
+				title: "Corporate | Xcape Singapore - No. 1 Real Room Escape Game in Singapore"
+			},
+			url7 : {
+				url: "http://www.xcape.sg/partnership/",
+				title: "Contact Us | Xcape Singapore - No. 1 Real Room Escape Game in Singapore"
+			},
+			url8 : {
+				url: "http://www.xcape.sg/in-news/media-review/",
+				title: "Medias | Xcape Singapore - No. 1 Real Room Escape Game in Singapore"
+			}
+		},
+		img: "xcape",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.xcape.sg"
+	};
+
+
 
 	//ar[22] = {
 	//	mainUrl : "",

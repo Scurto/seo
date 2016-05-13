@@ -634,6 +634,22 @@ $('#clear-browsing-data').click(function(event) {
 					reklama.push(obj);
 				}
 			}
+		} else if ($('#reklamaLocation').val() == "SINGAPORE") {
+			console.log("SINGAPORE");
+			for (var i = 0; i < reklamaWithOutReklamaFiltr.length; i++) {
+				var obj =  reklamaWithOutReklamaFiltr[i];
+				if (obj.location == 'SINGAPORE') {
+					reklama.push(obj);
+				}
+			}
+		} else if ($('#reklamaLocation').val() == "ENGLAND") {
+			console.log("ENGLAND");
+			for (var i = 0; i < reklamaWithOutReklamaFiltr.length; i++) {
+				var obj =  reklamaWithOutReklamaFiltr[i];
+				if (obj.location == 'ENGLAND') {
+					reklama.push(obj);
+				}
+			}
 		}
 
 		var baseArray = new Array();
