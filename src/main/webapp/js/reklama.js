@@ -2862,6 +2862,92 @@ function getReklama() {
 		source: "www.xcape.sg"
 	};
 
+		ar[66] = {
+			mainUrl : "http://www.sodastream.de/deretail/Default.aspx",
+			title: "Perfektes Wasser ohne Schleppen - SodaStream",
+			secUrl : {
+				url1 : {
+					url: "http://www.sodastream.de/deretail/Products-Overview.aspx",
+					title: "Perfektes Wasser - SodaStream"
+				},
+				url2 : {
+					url: "http://www.sodastream.de/deretail/DrinksMakers.aspx",
+					title: "Trinkwassersprudler - SodaStream"
+				},
+				url3 : {
+					url: "http://www.sodastream.de/deretail/generalPage.aspx?pageID=PlantATree",
+					title: "Große Aufforstungsaktion 2012 - SodaStream"
+				},
+				url4 : {
+					url: "http://www.sodastream.de/deretail/trinkwasser.aspx",
+					title: "Trinkwasser - SodaStream"
+				},
+				url5 : {
+					url: "http://www.sodastream.de/deretail/Flavours.aspx",
+					title: "Geschmack und Vielfalt - SodaStream"
+				},
+				url6 : {
+					url: "http://www.sodastream.de/deretail/NaturalCO2.aspx",
+					title: "Natürliche Kohlensäure - SodaStream"
+				},
+				url7 : {
+					url: "http://www.sodastream.de/deretail/VideoDemonstration.aspx",
+					title: "Die SodaStream-Schritte auf einen Blick - SodaStream"
+				},
+				url8 : {
+					url: "http://www.sodastream.de/deretail/KarimRashid.aspx",
+					title: "karim Rashid - SodaStream"
+				}
+			},
+			img: "sodastream",
+			type: "reklama",
+			location: "GERMANY",
+			source: "www.sodastream.de"
+		};
+
+	ar[22] = {
+		mainUrl : "http://www.nh-hotels.de/",
+		title: "NH Hotel Group | Find and book your hotel online",
+		secUrl : {
+			url1 : {
+				url: "http://www.nh-hotels.de/hotels/berlin",
+				title: "http://www.nh-hotels.de/hotels/berlin"
+			},
+			url2 : {
+				url: "http://www.nh-hotels.de/hotels/frankfurt",
+				title: "Hotels in Frankfurt | NH Hotels"
+			},
+			url3 : {
+				url: "http://www.nh-hotels.de/hotels/dresden",
+				title: "Hotels in Dresden | NH Hotels"
+			},
+			url4 : {
+				url: "http://www.nh-hotels.de/hotels/nurnberg",
+				title: "Hotels in Nürnberg | NH Hotels"
+			},
+			url5 : {
+				url: "http://www.nh-hotels.de/hotels/heidelberg",
+				title: "Hotels in Heidelberg | NH Hotels"
+			},
+			url6 : {
+				url: "http://www.nh-hotels.de/hotels/leipzig",
+				title: "Hotels in Leipzig | NH Hotels"
+			},
+			url7 : {
+				url: "http://www.nh-hotels.de/hotels/hamburg",
+				title: "Hotels in Hamburg | NH Hotels"
+			},
+			url8 : {
+				url: "http://www.nh-hotels.de/hotels/barcelona",
+				title: "Hotels in Barcelona | NH Hotel Group"
+			}
+		},
+		img: "nh-hotels",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.nh-hotels.de"
+	};
+
 
 
 	//ar[22] = {
