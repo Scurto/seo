@@ -423,7 +423,15 @@ $(document).ready(function() {
 		"1160443",
 		"871441",
 		"1174068",
-		"871450"
+		"871450",
+		"631214",
+		"721742",
+		"764355",
+		"765511",
+		"934679",
+		"944973",
+		"987729",
+		"1013162"
 
 		]
 	});
@@ -1104,7 +1112,55 @@ $(document).ready(function() {
 			$('#countOfVideo').val(18);
 			$('#countOfReklama').val(4);
 			$('#countOfMove').val(2);
-		}
+		}else if
+		(item == 631214) {
+			$('#taskIdVip').val(631214);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(2);
+		}else if
+		(item == 721742) {
+			$('#taskIdVip').val(721742);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 764355) {
+			$('#taskIdVip').val(764355);
+			$('#countOfVideo').val(7);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(2);
+		}else if
+		(item == 765511) {
+			$('#taskIdVip').val(765511);
+			$('#countOfVideo').val(7);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(2);
+		}else if
+		(item == 934679) {
+			$('#taskIdVip').val(934679);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 944973) {
+			$('#taskIdVip').val(944973);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 987729) {
+			$('#taskIdVip').val(987729);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+		}else if
+			(item == 1013162) {
+				$('#taskIdVip').val(1013162);
+				$('#countOfVideo').val(5);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+			}
 	}
 
 	$("#fastTaskIdVipTest").autocomplete({
@@ -1747,6 +1803,16 @@ $(document).ready(function() {
 			connArray.push(871450);
 		} else if (taskId == 217687) {
 			connArray.push(217687);
+		}else if (taskId == 631214 || taskId == 721742 || taskId == 764355 || taskId == 765511) {
+			connArray.push(631214);
+			connArray.push(721742);
+			connArray.push(764355);
+			connArray.push(765511);
+		}else if (taskId == 934679 || taskId == 944973 || taskId == 987729 || taskId == 101316) {
+			connArray.push(934679);
+			connArray.push(944973);
+			connArray.push(987729);
+			connArray.push(101316);
 		}
 		addTextInSosediReklam(connArray)
 	};

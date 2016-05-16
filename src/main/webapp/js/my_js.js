@@ -239,6 +239,14 @@ $(document).ready(function() {
 				$('#betweenVideo').val(45);
 				$('#betweenReklama').val(45);
 			}else if
+			(item == 78626) {
+				$('#taskId').val(78626);
+				$('#countOfVideo').val(20);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(45);
+			}else if
 			(item == 69628) {
 				$('#taskId').val(69628);
 				$('#countOfVideo').val(10);
@@ -376,8 +384,9 @@ $(document).ready(function() {
 		} else if (taskId == 73136 || taskId == 76310) {
 			connArray.push(73136);
 			connArray.push(76310);
-		} else if (taskId == 75739) {
+		} else if (taskId == 75739 || taskId == 78626) {
 			connArray.push(75739);
+			connArray.push(78626);
 		} else if (taskId == 72688 || taskId == 74444 || taskId == 1119333) {
 			connArray.push(72688);
 			connArray.push(74444);
@@ -861,7 +870,7 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
-		} else if (taskId == 75739) {
+		} else if (taskId == 75739 || taskId == 78626) {
 			//var whoer = {
 			//	title: "Узнать свой IP адрес",
 			//	type: "def",

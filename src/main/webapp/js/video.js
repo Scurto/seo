@@ -2673,7 +2673,7 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 75739) {
+    if (taskId == 75739 || taskId == 78626) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=BGg5GNxU0n4',
             img: "youtube",
