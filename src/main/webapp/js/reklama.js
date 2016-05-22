@@ -2905,7 +2905,7 @@ function getReklama() {
 			source: "www.sodastream.de"
 		};
 
-	ar[22] = {
+	ar[67] = {
 		mainUrl : "http://www.nh-hotels.de/",
 		title: "NH Hotel Group | Find and book your hotel online",
 		secUrl : {
@@ -2947,6 +2947,51 @@ function getReklama() {
 		location: "GERMANY",
 		source: "www.nh-hotels.de"
 	};
+
+	ar[68] = {
+		mainUrl : "http://www.kaplan.com.sg/",
+		title: "Full-time and Part-time Courses at Kaplan Singapore",
+		secUrl : {
+			url1 : {
+				url: "http://www.kaplan.com.sg/kaplan-singapore/",
+				title: "Kaplan Singapore"
+			},
+			url2 : {
+				url: "http://www.kaplan.com.sg/about/mission-vision-and-values/",
+				title: "Mission, Vision and Values - Singapore"
+			},
+			url3 : {
+				url: "http://www.kaplan.com.sg/presidents-message/",
+				title: "President's Message - Singapore"
+			},
+			url4 : {
+				url: "http://www.kaplan.com.sg/about/our-heritage/",
+				title: "Our Heritage"
+			},
+			url5 : {
+				url: "http://www.kaplan.com.sg/about/awards-and-accreditation/",
+				title: "Awards and Accreditation"
+			},
+			url6 : {
+				url: "http://www.kaplan.com.sg/managers-committee/",
+				title: "Management Committee - Singapore"
+			},
+			url7 : {
+				url: "http://www.kaplan.com.sg/about/organisational-structure/",
+				title: "Organisational Structure"
+			},
+			url8 : {
+				url: "http://www.kaplan.com.sg/about/boards/",
+				title: "Academic and Examination Boards - Singapore"
+			}
+		},
+		img: "kaplan",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.kaplan.com.sg"
+	};
+
+
 
 
 
