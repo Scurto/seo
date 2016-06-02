@@ -1430,6 +1430,9 @@ $('#clear-browsing-data').click(function(event) {
 					case '5':
 						month = "мая";
 						break;
+					case '6':
+						month = "июня";
+						break;
 				}
 				var date = "Сегодня - " + dayOfWeek + ", " + dateOfMonth + " " +  month + " " + year + " г.";
 				$("#day").text(date);
