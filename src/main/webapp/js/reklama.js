@@ -2991,6 +2991,92 @@ function getReklama() {
 		source: "www.kaplan.com.sg"
 	};
 
+	ar[69] = {
+		mainUrl : "http://www.pohheng.com.sg/",
+		title: "Poh Heng Jewellery | Nothing is quite as precious as trust",
+		secUrl : {
+			url1 : {
+				url: "http://www.pohheng.com.sg/disney",
+				title: "Disney | Poh Heng Jewellery"
+			},
+			url2 : {
+				url: "http://www.pohheng.com.sg/hello-kitty",
+				title: "Hello Kitty | Poh Heng Jewellery"
+			},
+			url3 : {
+				url: "http://www.pohheng.com.sg/wedding",
+				title: "Wedding | Poh Heng Jewellery"
+			},
+			url4 : {
+				url: "http://www.pohheng.com.sg/about-us",
+				title: "About Us | Poh Heng Jewellery"
+			},
+			url5 : {
+				url: "http://www.pohheng.com.sg/mixi-gold",
+				title: "Mixi.GOLD | Poh Heng Jewellery"
+			},
+			url6 : {
+				url: "http://www.pohheng.com.sg/the-lady",
+				title: "The Lady | Poh Heng Jewe"
+			},
+			url7 : {
+				url: "http://www.pohheng.com.sg/simply-gold",
+				title: "Simply Gold | Poh Heng Jewellery"
+			},
+			url8 : {
+				url: "http://www.pohheng.com.sg/baby-pooh",
+				title: "Disney - Baby Pooh | Poh Heng J"
+			}
+		},
+		img: "pohheng",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.pohheng.com.sg"
+	};
+
+	ar[70] = {
+		mainUrl : "http://www.colgate.com.sg/app/Colgate/SG/HomePage.cvsp",
+		title: "Colgate : Toothbrush, Toothpaste and Oral Brand",
+		secUrl : {
+			url1 : {
+				url: "http://www.colgate.com.sg/app/Colgate/SG/Corp/LegalPrivacy.cvsp",
+				title: "Colgate-Palmolive Legal / Privacy | Terms And Conditions Regarding Your Use Of This Site"
+			},
+			url2 : {
+				url: "http://www.colgate.com.sg/app/Colgate/SG/Corp/ContactUs.cvsp",
+				title: "Contact Colgate | Contact Information For Colgate-Palmolive."
+			},
+			url3 : {
+				url: "http://www.colgate.com.sg/app/Colgate/SG/Corp/WorkWithUs/HomePage.cvsp",
+				title: "Colgate-Palmolive Jobs, Careers - Colgate Employment Opportunities | Colgate-Palmolive"
+			},
+			url4 : {
+				url: "http://www.colgate.com.sg/app/Colgate/SG/Corp/Consumers/HomePage.cvsp",
+				title: "Consumer Dental & Oral Health Care - Oral Health Information, Personal & Home Care Products | Colgate-Palmolive"
+			},
+			url5 : {
+				url: "http://www.colgate.com.sg/app/Colgate/SG/Alert.vsp?url=http://investor.colgate.com/",
+				title: "Colgate-Palmolive: oral care, personal care, household care, fabric care and pet nutrition"
+			},
+			url6 : {
+				url: "http://www.colgate.com.sg/app/Colgate/SG/Corp/HomePage.cvsp",
+				title: "Welcome to Colgate-Palmolive: oral care, personal care, home care, fabric care and pet nutrition."
+			},
+			url7 : {
+				url: "http://www.colgate.com.sg/app/Colgate/SG/Corp/LivingOurValues/CoreValues.cvsp",
+				title: "Colgate's Core Values - Caring, Global Teamwork and Continuous Improvement."
+			},
+			url8 : {
+				url: "http://www.colgate.com.sg/app/Colgate/SG/Corp/History/1806.cvsp",
+				title: "Colgate-Palmolive Company History: Creating Bright Smiles for 200 Years"
+			}
+		},
+		img: "colgate",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.colgate.com.sg"
+	};
+
 
 
 
