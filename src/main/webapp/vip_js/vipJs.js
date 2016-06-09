@@ -1297,20 +1297,20 @@ $(document).ready(function() {
 		}else if
 		(item == 325117) {
 			$('#taskIdVip').val(325117);
-			$('#countOfVideo').val(8);
-			$('#countOfReklama').val(4);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(2);
 			$('#countOfMove').val(3);
 		}else if
 		(item == 335305) {
 			$('#taskIdVip').val(335305);
-			$('#countOfVideo').val(7);
-			$('#countOfReklama').val(3);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(2);
 			$('#countOfMove').val(3);
 		}else if
 		(item == 325112) {
 			$('#taskIdVip').val(325112);
-			$('#countOfVideo').val(7);
-			$('#countOfReklama').val(3);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(2);
 			$('#countOfMove').val(3);
 		}else if
 		(item == 217687) {
