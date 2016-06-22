@@ -2217,7 +2217,7 @@ function getReklama() {
 		},
 		img: "fluke",
 		type: "reklama",
-		location: "USA",
+		location: "GERMANY",
 		source: "www.fluke.com"
 	};
 
@@ -2862,48 +2862,91 @@ function getReklama() {
 		source: "www.xcape.sg"
 	};
 
-		ar[66] = {
-			mainUrl : "http://www.sodastream.de/deretail/Default.aspx",
-			title: "Perfektes Wasser ohne Schleppen - SodaStream",
-			secUrl : {
-				url1 : {
-					url: "http://www.sodastream.de/deretail/Products-Overview.aspx",
-					title: "Perfektes Wasser - SodaStream"
-				},
-				url2 : {
-					url: "http://www.sodastream.de/deretail/DrinksMakers.aspx",
-					title: "Trinkwassersprudler - SodaStream"
-				},
-				url3 : {
-					url: "http://www.sodastream.de/deretail/generalPage.aspx?pageID=PlantATree",
-					title: "Große Aufforstungsaktion 2012 - SodaStream"
-				},
-				url4 : {
-					url: "http://www.sodastream.de/deretail/trinkwasser.aspx",
-					title: "Trinkwasser - SodaStream"
-				},
-				url5 : {
-					url: "http://www.sodastream.de/deretail/Flavours.aspx",
-					title: "Geschmack und Vielfalt - SodaStream"
-				},
-				url6 : {
-					url: "http://www.sodastream.de/deretail/NaturalCO2.aspx",
-					title: "Natürliche Kohlensäure - SodaStream"
-				},
-				url7 : {
-					url: "http://www.sodastream.de/deretail/VideoDemonstration.aspx",
-					title: "Die SodaStream-Schritte auf einen Blick - SodaStream"
-				},
-				url8 : {
-					url: "http://www.sodastream.de/deretail/KarimRashid.aspx",
-					title: "karim Rashid - SodaStream"
-				}
+		//ar[66] = {
+		//	mainUrl : "http://www.sodastream.de/deretail/Default.aspx",
+		//	title: "Perfektes Wasser ohne Schleppen - SodaStream",
+		//	secUrl : {
+		//		url1 : {
+		//			url: "http://www.sodastream.de/deretail/Products-Overview.aspx",
+		//			title: "Perfektes Wasser - SodaStream"
+		//		},
+		//		url2 : {
+		//			url: "http://www.sodastream.de/deretail/DrinksMakers.aspx",
+		//			title: "Trinkwassersprudler - SodaStream"
+		//		},
+		//		url3 : {
+		//			url: "http://www.sodastream.de/deretail/generalPage.aspx?pageID=PlantATree",
+		//			title: "Große Aufforstungsaktion 2012 - SodaStream"
+		//		},
+		//		url4 : {
+		//			url: "http://www.sodastream.de/deretail/trinkwasser.aspx",
+		//			title: "Trinkwasser - SodaStream"
+		//		},
+		//		url5 : {
+		//			url: "http://www.sodastream.de/deretail/Flavours.aspx",
+		//			title: "Geschmack und Vielfalt - SodaStream"
+		//		},
+		//		url6 : {
+		//			url: "http://www.sodastream.de/deretail/NaturalCO2.aspx",
+		//			title: "Natürliche Kohlensäure - SodaStream"
+		//		},
+		//		url7 : {
+		//			url: "http://www.sodastream.de/deretail/VideoDemonstration.aspx",
+		//			title: "Die SodaStream-Schritte auf einen Blick - SodaStream"
+		//		},
+		//		url8 : {
+		//			url: "http://www.sodastream.de/deretail/KarimRashid.aspx",
+		//			title: "karim Rashid - SodaStream"
+		//		}
+		//	},
+		//	img: "sodastream",
+		//	type: "reklama",
+		//	location: "GERMANY",
+		//	source: "www.sodastream.de"
+		//};
+
+	ar[66] = {
+		mainUrl : "http://www.mylechner.de/",
+		title: "Lechner - Jetzt Ihre Traumküche gestalten",
+		secUrl : {
+			url1 : {
+				url: "http://www.mylechner.de/produkte/",
+				title: "Produkte"
 			},
-			img: "sodastream",
-			type: "reklama",
-			location: "GERMANY",
-			source: "www.sodastream.de"
-		};
+			url2 : {
+				url: "http://www.mylechner.de/service/",
+				title: "Service"
+			},
+			url3 : {
+				url: "http://www.mylechner.de/blog/",
+				title: "Blog"
+			},
+			url4 : {
+				url: "http://www.mylechner.de/unternehmen/",
+				title: "Unternehmen"
+			},
+			url5 : {
+				url: "http://www.mylechner.de/kontakt/",
+				title: "Kontakt"
+			},
+			url6 : {
+				url: "http://www.mylechner.de/produkte/kuechenrueckwaende/keramik/",
+				title: "Lechner AG | Keramikrückwände - Online planen"
+			},
+			url7 : {
+				url: "http://www.mylechner.de/produkte/kuechenrueckwaende/mineralwerkstoff/",
+				title: "Lechner AG | Mineralwerkstoffrückwände - Online planen"
+			},
+			url8 : {
+				url: "http://www.mylechner.de/produkte/kuechenrueckwaende/compact/",
+				title: "Lechner AG | Compactrückwände - Einfach online planen"
+			}
+		},
+		img: "mylechner",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.mylechner.de"
+	};
 
 	ar[67] = {
 		mainUrl : "http://www.nh-hotels.de/",
@@ -3075,6 +3118,49 @@ function getReklama() {
 		type: "reklama",
 		location: "SINGAPORE",
 		source: "www.colgate.com.sg"
+	};
+
+	ar[71] = {
+		mainUrl : "http://list.qoo10.sg/",
+		title: "Qoo10 – Singapore No 1 shopping site – leading pan Asia online market for fashion, digital, living, cosmetics, food and entertainment.",
+		secUrl : {
+			url1 : {
+				url: "http://list.qoo10.sg/gmkt.inc/Category/Group.aspx?g=1",
+				title: "Qoo10 - [Women's Fashion] Women’s Clothing,Underwear & Socks,Bag & Wallet,Shoes,Watch & Jewelry,Fashion Accessories Singapore No 1 shopping site"
+			},
+			url2 : {
+				url: "http://list.qoo10.sg/gmkt.inc/Category/Group.aspx?g=2",
+				title: "Qoo10 - [Beauty & Diet] Cosmetics,Perfume & Luxury Beauty,Skin Care,Hair Care,Bath /Body/ Nail Care,Diet & Wellness Singapore No 1 shopping site"
+			},
+			url3 : {
+				url: "http://list.qoo10.sg/gmkt.inc/Category/Group.aspx?g=3",
+				title: "Qoo10 - [Men & Sports] Men’s Clothing,Bags Shoes & Accessories,Athletic & Outdoor Clothing,Sports Equipment Singapore No 1 shopping site"
+			},
+			url4 : {
+				url: "http://list.qoo10.sg/gmkt.inc/Category/Group.aspx?g=4",
+				title: "Qoo10 - [Digital & Mobile] Mobile Devices,Home Electronics,TV Camera & Audio,Computer & Game Singapore No 1 shopping site"
+			},
+			url5 : {
+				url: "http://list.qoo10.sg/gmkt.inc/Category/Group.aspx?g=5",
+				title: "Qoo10 - [Home & Living] Kitchen & Dining,Furniture & Deco,Bedding & Rugs & Household,Pet Supplies,Stationery & Supplies,Tools & Gardening,Automotive & Industry Singapore No 1 shopping site"
+			},
+			url6 : {
+				url: "http://list.qoo10.sg/gmkt.inc/Category/Group.aspx?g=6",
+				title: "Qoo10 - [Baby & Food] Baby & Maternity,Kids Fashion,Toys,Groceries,Drinks & Sweets,Nutritious Items Singapore No 1 shopping site"
+			},
+			url7 : {
+				url: "http://list.qoo10.sg/gmkt.inc/Category/Group.aspx?g=10",
+				title: "Qoo10 - [Deal & Activity] Restaurant & Services,Leisure & Travel,Activities,Collectibles & Books,Hotel Booking,CD & DVD Singapore No 1 shopping site"
+			},
+			url8 : {
+				url: "http://list.qoo10.sg/gmkt.inc/Category/?gdlc_cd=100000031&gdmc_cd=200000225",
+				title: "Qoo10 - TV Items on sale : (Q·Ranking)：Singapore No 1 shopping site"
+			}
+		},
+		img: "list.qoo10",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "list.qoo10.sg"
 	};
 
 

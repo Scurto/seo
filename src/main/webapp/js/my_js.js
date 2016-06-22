@@ -162,7 +162,15 @@ $(document).ready(function() {
 			(item == 68467) {
 				$('#taskId').val(68467);
 				$('#countOfVideo').val(15);
-				$('#countOfReklama').val(2);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(61);
+				$('#betweenReklama').val(61);
+			}else if
+			(item == 68148) {
+				$('#taskId').val(68148);
+				$('#countOfVideo').val(16);
+				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(61);
 				$('#betweenReklama').val(61);
@@ -207,6 +215,14 @@ $(document).ready(function() {
 				$('#betweenVideo').val(35);
 				$('#betweenReklama').val(40);
 			}else if
+			(item == 78751) {
+				$('#taskId').val(78751);
+				$('#countOfVideo').val(35);
+				$('#countOfReklama').val(4);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(35);
+				$('#betweenReklama').val(40);
+			}else if
 			(item == 1092879) {
 				$('#taskId').val(1092879);
 				$('#countOfVideo').val(40);
@@ -247,6 +263,14 @@ $(document).ready(function() {
 				$('#betweenVideo').val(45);
 				$('#betweenReklama').val(45);
 			}else if
+			(item == 80348) {
+				$('#taskId').val(80348);
+				$('#countOfVideo').val(20);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(45);
+			}else if
 			(item == 69628) {
 				$('#taskId').val(69628);
 				$('#countOfVideo').val(10);
@@ -281,8 +305,8 @@ $(document).ready(function() {
 			}else if
 			(item == 1128139) {
 				$('#taskId').val(1128139);
-				$('#countOfVideo').val(15);
-				$('#countOfReklama').val(5);
+				$('#countOfVideo').val(18);
+				$('#countOfReklama').val(4);
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(45);
 				$('#betweenReklama').val(45);
@@ -367,7 +391,7 @@ $(document).ready(function() {
 			connArray.push(72580);
 			connArray.push(74340);
 
-		} else if(taskId == 69073 || taskId == 68148 || taskId == 73769 || taskId == 68467 || taskId == 67532 || taskId == 62716 || taskId == 62714) {
+		} else if(taskId == 69073 || taskId == 68148 || taskId == 73769 || taskId == 68467 || taskId == 67532 || taskId == 62716 || taskId == 62714 || taskId == 68148) {
 			connArray.push(69073);
 			connArray.push(68148);
 			connArray.push(73769);
@@ -375,18 +399,21 @@ $(document).ready(function() {
 			connArray.push(67532);
 			connArray.push(62716);
 			connArray.push(62714);
-		} else if (taskId == 71431 || taskId == 938168 || taskId == 999896 || taskId == 70722 || taskId == 1126852) {
+			connArray.push(68148);
+		} else if (taskId == 71431 || taskId == 938168 || taskId == 999896 || taskId == 70722 || taskId == 1126852 || taskId == 78751) {
 			connArray.push(71431);
 			connArray.push(70722);
+			connArray.push(78751);
 			connArray.push(938168);
 			connArray.push(999896);
 			connArray.push(1126852);
 		} else if (taskId == 73136 || taskId == 76310) {
 			connArray.push(73136);
 			connArray.push(76310);
-		} else if (taskId == 75739 || taskId == 78626) {
+		} else if (taskId == 75739 || taskId == 78626 || taskId == 80348) {
 			connArray.push(75739);
 			connArray.push(78626);
+			connArray.push(80348);
 		} else if (taskId == 72688 || taskId == 74444 || taskId == 1119333) {
 			connArray.push(72688);
 			connArray.push(74444);
@@ -870,7 +897,7 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
-		} else if (taskId == 75739 || taskId == 78626) {
+		} else if (taskId == 75739 || taskId == 78626 || taskId == 80348) {
 			//var whoer = {
 			//	title: "Узнать свой IP адрес",
 			//	type: "def",
@@ -933,7 +960,7 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube3);
 			//etalonArray.push(google);
 			//etalonArray.push(youtube);
-		} else if (taskId == 73769 || taskId == 68467) {
+		} else if (taskId == 73769 || taskId == 68467 || taskId == 68148) {
 			var youtube1 = {
 				title: "YouTube",
 				type: "def",
@@ -1065,7 +1092,7 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube);
 		}else if (taskId == 1128139) {
 			var google = {
-				title: "Uncle Death - Поиск в Google",
+				title: "Фонтан (Ярославль). Поющий фонтан (Парк Горького.Москва) - Поиск в Google",
 				type: "def",
 				img: "google",
 				source: "www.google.com"
@@ -1225,7 +1252,7 @@ $('#clear-browsing-data').click(function(event) {
 				if (request == 'Синьор помидор и тыква.') {
 					linkText = '';
 				}
-			}else if (taskId == 1126852) {
+			}else if (taskId == 1126852 || taskId == 78751) {
 				var youtube = {
 					title: "Oliga Nikolaevna - YouTube",
 					type: "def",
