@@ -3163,6 +3163,135 @@ function getReklama() {
 		source: "list.qoo10.sg"
 	};
 
+	ar[72] = {
+		mainUrl : "https://www.maxdome.de/",
+		title: "maxdome - Video on Demand - Deutschlands größte Online-Videothek",
+		secUrl : {
+			url1 : {
+				url: "https://www.maxdome.de/hilfe/kontakt",
+				title: "Kontakt - maxdome - Video on Demand"
+			},
+			url2 : {
+				url: "https://www.maxdome.de/impressum",
+				title: "Impressum von maxdome - Video on Demand"
+			},
+			url3 : {
+				url: "https://www.maxdome.de/jugendschutz-bei-maxdome",
+				title: "Jugendschutz - Weil uns der Schutz Deiner Kinder am Herzen liegt!"
+			},
+			url4 : {
+				url: "https://www.maxdome.de/vermarktung",
+				title: "maxdome Vermarktung - Video on Demand"
+			},
+			url5 : {
+				url: "https://www.maxdome.de/affiliate",
+				title: "maxdome Partnerprogramm - Video on Demand"
+			},
+			url6 : {
+				url: "https://www.maxdome.de/agb",
+				title: "AGB von maxdome - Video on Demand"
+			},
+			url7 : {
+				url: "https://www.maxdome.de/datenschutz",
+				title: "Datenschutz bei maxdome - Video on Demand"
+			},
+			url8 : {
+				url: "https://www.maxdome.de/so-gehts",
+				title: "So funktioniert maxdome - Video on Demand"
+			}
+		},
+		img: "maxdome",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.maxdome.de"
+	};
+
+	ar[73] = {
+		mainUrl : "http://www.olaz.de/de-de",
+		title: "Olaz - Hautpflege und Anti-Ageing Experte | Olaz DE",
+		secUrl : {
+			url1 : {
+				url: "http://www.olaz.de/de-de/hautpflege-produkte-olaz",
+				title: "Hautpflege-Produkte Olaz"
+			},
+			url2 : {
+				url: "http://www.olaz.de/de-de/die-olaz-story",
+				title: "Die Olaz-Story"
+			},
+			url3 : {
+				url: "http://www.olaz.de/de-de/die-olaz-story/regenerist",
+				title: "Regenerist"
+			},
+			url4 : {
+				url: "http://www.olaz.de/de-de/hautpflege-produkte-fur-jeden-hauttyp",
+				title: "Hautpflege-Produkte für jeden Hauttyp"
+			},
+			url5 : {
+				url: "http://www.olaz.de/de-de/olaz-gutscheine-proben-und-angebote",
+				title: "Olaz Gutscheine, Proben und Angebote"
+			},
+			url6 : {
+				url: "http://www.olaz.de/de-de/die-olaz-story/total-effects",
+				title: "Olaz anti-ageing Tagespflege"
+			},
+			url7 : {
+				url: "http://www.olaz.de/de-de/die-olaz-story/essentials",
+				title: "Olaz Essentials Hautpflege Kollektion | Olaz DE"
+			},
+			url8 : {
+				url: "http://www.olaz.de/de-de/olay-spam-alert",
+				title: "Olaz | Spam-Warnung"
+			}
+		},
+		img: "olaz",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.olaz.de"
+	};
+
+	ar[74] = {
+		mainUrl : "http://de.intimissimi.com/home.jsp",
+		title: "Intimissimi online shop - Dessous und lingerie - Intimissimi",
+		secUrl : {
+			url1 : {
+				url: "http://de.intimissimi.com/section/damen/4803.uts",
+				title: "Unterwäsche Damen - Intimissimi"
+			},
+			url2 : {
+				url: "http://de.intimissimi.com/section/herren/4804.uts",
+				title: "Herren-Unterwäsche - Intimissimi"
+			},
+			url3 : {
+				url: "http://de.intimissimi.com/section/special-prices/5031.uts",
+				title: "Aktionen und besondere - Intimissimi"
+			},
+			url4 : {
+				url: "http://de.intimissimi.com/section/the-perfect-bra-book/50586.uts",
+				title: "The perfect bra book"
+			},
+			url5 : {
+				url: "http://de.intimissimi.com/on_sale/OnSale.uts?section=true",
+				title: "Zum Verkauf: Intimissimi"
+			},
+			url6 : {
+				url: "http://de.intimissimi.com/custserv/custserv.jsp?pageName=Corporate",
+				title: "Intimissimi- Unterwäsche seit 1996 - Intimissimi"
+			},
+			url7 : {
+				url: "http://de.intimissimi.com/custserv/custserv.jsp?pageName=Franchising",
+				title: "Franchising - Intimissimi"
+			},
+			url8 : {
+				url: "http://de.intimissimi.com/custserv/locate_store.cmd",
+				title: "Position des Geschäfts: Intimissimi"
+			}
+		},
+		img: "intimissimi",
+		type: "reklama",
+		location: "GERMANY",
+		source: "de.intimissimi.com"
+	};
+
 
 
 
