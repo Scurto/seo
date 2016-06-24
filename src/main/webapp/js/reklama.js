@@ -3292,6 +3292,92 @@ function getReklama() {
 		source: "de.intimissimi.com"
 	};
 
+	ar[75] = {
+		mainUrl : "http://www.break-day.com/",
+		title: "Liming Mobile Crushing & Screening, Industry milling, Sand making and washing For Quarry-Liming Heavy Industry",
+		secUrl : {
+			url1 : {
+				url: "http://www.break-day.com/product/",
+				title: "crawler crusher,crushing mining equipment,mineral pulveriser-Liming Heavy Industry"
+			},
+			url2 : {
+				url: "http://www.break-day.com/solution/",
+				title: "Iron ore crushing and screening,mineral crushing plant,china stone crusher-Liming Heavy Industry"
+			},
+			url3 : {
+				url: "http://www.break-day.com/media/",
+				title: "Media, crusher industry news,griner news-Liming Heavy Industry"
+			},
+			url4 : {
+				url: "http://www.break-day.com/case/",
+				title: "Customer's work site,mobile crushing work site, grinding mill case all around the world-Liming Heavy Industry"
+			},
+			url5 : {
+				url: "http://www.break-day.com/service/",
+				title: "First Rate Service-Liming Heavy Industry"
+			},
+			url6 : {
+				url: "http://www.break-day.com/about/",
+				title: "About Liming,about us-Liming Heavy Industry"
+			},
+			url7 : {
+				url: "http://www.break-day.com/non_metallic/",
+				title: "Mineral crushing plant industry, granite marble crusher with low price, industrial limestone crusher manufacturer in China-Liming Heavy Industry"
+			},
+			url8 : {
+				url: "http://www.break-day.com/mining/flotation_separator.html",
+				title: "Flotation Machinery_Liming Heavy Industry"
+			}
+		},
+		img: "break-day",
+		type: "reklama",
+		location: "USA",
+		source: "www.break-day.com"
+	};
+
+	ar[76] = {
+		mainUrl : "http://www.garmin.com/de-DE",
+		title: "Garmin | Deutschland | Home",
+		secUrl : {
+			url1 : {
+				url: "http://www.garmin.com/de-DE/explore/ontheroad",
+				title: "Straßennavigation | PKW | Garmin | Deutschland"
+			},
+			url2 : {
+				url: "http://www.garmin.com/de-DE/explore/intosports",
+				title: "Sport | Garmin | Deutschland"
+			},
+			url3 : {
+				url: "http://www.garmin.com/de-DE/explore/onthetrail",
+				title: "Outdoor | Garmin | Deutschland"
+			},
+			url4 : {
+				url: "http://www.garmin.com/de/support",
+				title: "Garmin | Germany | Support"
+			},
+			url5 : {
+				url: "http://www.garmin.com/de-DE/maps/updates",
+				title: "Karten und Karten-Updates | Garmin | Deutschland"
+			},
+			url6 : {
+				url: "http://www.garmin.com/de-DE/company/contact/",
+				title: "Kontakt | Garmin | Deutschland"
+			},
+			url7 : {
+				url: "http://www.garmin.com/de/presse/pressemitteilungen/",
+				title: "Garmin | Germany | Pressemitteilungen"
+			},
+			url8 : {
+				url: "http://www.garmin.com/de-DE/company/about",
+				title: "Über Garmin | Garmin | Deutschland"
+			}
+		},
+		img: "garmin",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.garmin.com"
+	};
+
 
 
 
