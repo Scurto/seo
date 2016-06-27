@@ -3378,6 +3378,49 @@ function getReklama() {
 		source: "www.garmin.com"
 	};
 
+	ar[77] = {
+		mainUrl : "https://www.globetrotter.de/",
+		title: "Outdoor-Ausrüstung kaufen bei Globetrotter",
+		secUrl : {
+			url1 : {
+				url: "https://www.globetrotter.de/outdoor-schuhe-socken/",
+				title: "Outdoor Schuhe & Socken - Globetrotter Ausrüstung"
+			},
+			url2 : {
+				url: "https://www.globetrotter.de/outdoor-fuer-kinder/",
+				title: "Outdoor für Kinder - Globetrotter Ausrüstung"
+			},
+			url3 : {
+				url: "https://www.globetrotter.de/brillen/",
+				title: "Brillen - Globetrotter Ausrüstung"
+			},
+			url4 : {
+				url: "https://www.globetrotter.de/rund-ums-fahrrad/",
+				title: "Rund ums Fahrrad - Globetrotter Ausrüstung"
+			},
+			url5 : {
+				url: "https://www.globetrotter.de/rucksaecke-taschen/",
+				title: "Rucksäcke & Taschen - Globetrotter Ausrüstung"
+			},
+			url6 : {
+				url: "https://www.globetrotter.de/schlafsack/",
+				title: "Schlafsack - Globetrotter Ausrüstung"
+			},
+			url7 : {
+				url: "https://www.globetrotter.de/outdoormoebel/",
+				title: "Outdoormöbel - Globetrotter Ausrüstung"
+			},
+			url8 : {
+				url: "https://www.globetrotter.de/zelte/",
+				title: "Zelte - Globetrotter Ausrüstung"
+			}
+		},
+		img: "globetrotter",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.globetrotter.de"
+	};
+
 
 
 

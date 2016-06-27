@@ -2133,6 +2133,127 @@ function getLinkReklama() {
 			source: "www.major-expert.ru"
 		};
 	}  //
+
+	{
+		ar[54] = {
+			mainUrl: "http://www.fabrikafutbolok.com/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.fabrikafutbolok.com/catalog-futbolok/",
+					title: ""
+				},
+				url2: {
+					url: "http://www.fabrikafutbolok.com/pechat-new.html",
+					title: ""
+				},
+				url3: {
+					url: "http://www.fabrikafutbolok.com/novinki/",
+					title: ""
+				},
+				url4: {
+					url: "http://www.fabrikafutbolok.com/ukrainskie-dizajnery/",
+					title: ""
+				},
+				url5: {
+					url: "http://www.fabrikafutbolok.com/top-20/",
+					title: ""
+				},
+				url6: {
+					url: "http://www.fabrikafutbolok.com/aktsii/",
+					title: ""
+				},
+				url7: {
+					url: "http://www.fabrikafutbolok.com/sozdaj-svoju-futbolku.html",
+					title: ""
+				}
+			},
+			img: "fabrikafutbolok",
+			type: "reklama",
+			source: "www.fabrikafutbolok.com"
+		};
+	}  //
+
+	{
+		ar[55] = {
+			mainUrl: "https://busfor.ua/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "https://busfor.ua/ru/agreement",
+					title: ""
+				},
+				url2: {
+					url: "https://busfor.ua/ru/faq",
+					title: ""
+				},
+				url3: {
+					url: "https://busfor.ua/ru/blog",
+					title: ""
+				},
+				url4: {
+					url: "https://busfor.ua/ru/special-routes/kyiv-warsaw",
+					title: ""
+				},
+				url5: {
+					url: "https://busfor.ua/ru/blog/visa-and-insurance",
+					title: ""
+				},
+				url6: {
+					url: "https://busfor.ua/ru/blog/travel-hacks",
+					title: ""
+				},
+				url7: {
+					url: "https://busfor.ua/ru/blog/travelling-in-company",
+					title: ""
+				}
+			},
+			img: "busfor",
+			type: "reklama",
+			source: "www.busfor.ua"
+		};
+	}  //
+
+	{
+		ar[56] = {
+			mainUrl: "http://olavtex.ua/round-stamps-catalog.html?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://olavtex.ua/stamps-of-entities.html",
+					title: ""
+				},
+				url2: {
+					url: "http://olavtex.ua/stamp-of-fop.html",
+					title: ""
+				},
+				url3: {
+					url: "http://olavtex.ua/stamp-of-doctor.html",
+					title: ""
+				},
+				url4: {
+					url: "http://olavtex.ua/stamp-of-lawyer.html",
+					title: ""
+				},
+				url5: {
+					url: "http://olavtex.ua/official-stamps.html",
+					title: ""
+				},
+				url6: {
+					url: "http://olavtex.ua/baby-seals-and-stamps.html",
+					title: ""
+				},
+				url7: {
+					url: "http://olavtex.ua/relief-stamps.html",
+					title: ""
+				}
+			},
+			img: "olavtex",
+			type: "reklama",
+			source: "www.olavtex.ua"
+		};
+	}  //
+
 	//{
 	//	ar[45] = {
 	//		mainUrl: "",
