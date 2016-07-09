@@ -154,7 +154,7 @@ $(document).ready(function() {
 			(item == 73769) {
 				$('#taskId').val(73769);
 				$('#countOfVideo').val(13);
-				$('#countOfReklama').val(2);
+				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(61);
 				$('#betweenReklama').val(61);
@@ -273,7 +273,7 @@ $(document).ready(function() {
 			}else if
 			(item == 69628) {
 				$('#taskId').val(69628);
-				$('#countOfVideo').val(10);
+				$('#countOfVideo').val(18);
 				$('#countOfReklama').val(3);
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(61);
@@ -322,6 +322,22 @@ $(document).ready(function() {
 			(item == 1204213) {
 				$('#taskId').val(1204213);
 				$('#countOfVideo').val(40);
+				$('#countOfReklama').val(5);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(45);
+			}else if
+			(item == 1157210) {
+				$('#taskId').val(1157210);
+				$('#countOfVideo').val(10);
+				$('#countOfReklama').val(4);
+				$('#countOfMove').val(4);
+				$('#betweenVideo').val(61);
+				$('#betweenReklama').val(61);
+			}else if
+			(item == 1189678) {
+				$('#taskId').val(1189678);
+				$('#countOfVideo').val(33);
 				$('#countOfReklama').val(5);
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(45);
@@ -433,6 +449,10 @@ $(document).ready(function() {
 			connArray.push(1184830);
 		} else if (taskId == 1204213) {
 			connArray.push(1204213);
+		} else if (taskId == 1157210) {
+			connArray.push(1157210);
+		} else if (taskId == 1189678) {
+			connArray.push(1189678);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -885,7 +905,35 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(bing);
 			etalonArray.push(youtube);
-		}else if (taskId == 1184830) {
+		} else if (taskId == 1157210) {
+			var whoer = getDefaultWhoer();
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = getDefaultYouTube("The Big City Life - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		} else if (taskId == 1189678) {
+			var whoer = getDefaultWhoer();
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = getDefaultYouTube("Северный Ветер - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		} else if (taskId == 1184830) {
 			var whoer = getDefaultWhoer();
 			var youtube1 = {
 				title: request + " - YouTube",
@@ -1459,6 +1507,9 @@ $('#clear-browsing-data').click(function(event) {
 						break;
 					case '6':
 						month = "июня";
+						break;
+					case '7':
+						month = "июля";
 						break;
 				}
 				var date = "Сегодня - " + dayOfWeek + ", " + dateOfMonth + " " +  month + " " + year + " г.";

@@ -4874,6 +4874,402 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1157210) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=F3arnTlCX7g',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. Выпуск #20 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=SGDXc4XoTaM',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online.  Выпуск #19 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=RHtWMV4cPNM',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online.  Выпуск #18 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=2FsNXAa-lSc',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online.  Выпуск #17 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=EPw8igZL5GY',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online.  Выпуск #16 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=JSim4w2OrCc',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online.  Выпуск #15 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=PHq4L8fNb7I',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online.  Выпуск #14 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=L65A7nfP8FM',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online.  Выпуск #13 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=quPsLYZ5dVc',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online.  Выпуск #12 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=C4AlveCoEtM',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online.  Выпуск #11 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=hVfSGdAmHWM',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. Эпичное получение званки. УО1.",
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=c6KyqS9OBkY',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. МЯСО!!!!! Выпуск #10 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=IXAsTLV-Zgo',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. МЯСО!!!!! Выпуск #9 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=R93Jcq-mUJI',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. Убиваем твинсом!!! Выпуск #8 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=9x-udAHYIlA',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. МЕГА УБИЙСТВА!!! Выпуск #7 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=5ShDNyXJKUk',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. ПОЙМАЛИ GOLD!!! Выпуск #6 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=C12PDqDB1BM',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. GOLD GOLD GOLD GOLD. Выпуск #5 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=Y7kiHqUBQMU',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. Забираемся на вершины. Выпуск #4 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=Y8YbLi-S0N8',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. Крутой дрифт. Выпуск #3 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=BbH4cxUnrs8',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online. Лучшие моменты. Выпуск #2 Lets' play",
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=yqbJzjzCfnU',
+            img: "youtube",
+            type: "video",
+            title: 'The New York  City of Ukraine',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1189678) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=J42cDWfa_WA',
+            img: "youtube",
+            type: "video",
+            title: 'Пятничный вечер на стадионе Спартак',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=fzIBNsI8VbQ',
+            img: "youtube",
+            type: "video",
+            title: 'Веревочная лестница своими руками (Часть 3. Окончание)',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=GMUcn40tHig',
+            img: "youtube",
+            type: "video",
+            title: 'Веревочная лестница своими руками. (Часть 2. Устанавливаем ступеньки.)',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=XKXPr74704E',
+            img: "youtube",
+            type: "video",
+            title: 'Спустя 2 минуты подозрительной тишины.',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=sRGAb_5ID1I',
+            img: "youtube",
+            type: "video",
+            title: 'Кот облюбовал коляску',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=THHmm5l5nvE',
+            img: "youtube",
+            type: "video",
+            title: 'Изготавливаем веревочную лестницу. (Часть 1 . Необходимые материалы).',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=ewVd2mpa5-c',
+            img: "youtube",
+            type: "video",
+            title: 'Где же Фрося?',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=bPYoRcDwN2I',
+            img: "youtube",
+            type: "video",
+            title: 'Кошачий "столбняк"',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=t2wgWXXlEjQ',
+            img: "youtube",
+            type: "video",
+            title: 'Успехи и неудачи на приусадебном участке',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=gw0Bc8QxIUo',
+            img: "youtube",
+            type: "video",
+            title: 'Облака отражаются в воде',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=H4PYbgX9hMI',
+            img: "youtube",
+            type: "video",
+            title: 'Дети в восторге от БТР',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=LiYvZ-prPes',
+            img: "youtube",
+            type: "video",
+            title: 'БТР возвращается на базу',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=jl5o_f_AH58',
+            img: "youtube",
+            type: "video",
+            title: 'Ну, очень любит купаться!!!',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=0c8hfiiiemQ',
+            img: "youtube",
+            type: "video",
+            title: 'Центральная площадь города Буй',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=Fv_Y7aWMD9U',
+            img: "youtube",
+            type: "video",
+            title: 'Собачья радость',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=LvJ64Vr3vFs',
+            img: "youtube",
+            type: "video",
+            title: 'Рыжики делят территорию',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=MDxgxujtOJk',
+            img: "youtube",
+            type: "video",
+            title: 'Две церкви на берегах реки Костромы',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=J1mQlFDQDUM',
+            img: "youtube",
+            type: "video",
+            title: 'Прикольная коза',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=jxI8MEVcXzo',
+            img: "youtube",
+            type: "video",
+            title: 'Весенняя радуга',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=e8mkXPDXEa0',
+            img: "youtube",
+            type: "video",
+            title: 'Разлив реки Вёкса 2016 год',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=q0VwJQZm0-E',
+            img: "youtube",
+            type: "video",
+            title: 'Шерстяной барон и мелочь пузатая',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=cpmyRENFMc0',
+            img: "youtube",
+            type: "video",
+            title: 'Птички завтракать изволят',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=jPj25p8uqgg',
+            img: "youtube",
+            type: "video",
+            title: 'Пернатые',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=iXIZAR3z2RI',
+            img: "youtube",
+            type: "video",
+            title: 'Кормим голубей с рук',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=dfg9WwoKNsM',
+            img: "youtube",
+            type: "video",
+            title: 'Кот совсем оголодал!',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=cPXiF29eceM',
+            img: "youtube",
+            type: "video",
+            title: 'Демонтаж мачты высотой 28 метров!!!',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=tVCPJh-hvpg',
+            img: "youtube",
+            type: "video",
+            title: 'Подтягивание на летней спартакиаде',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=DaqHxp0tItE',
+            img: "youtube",
+            type: "video",
+            title: 'Котейка балдеет',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=QOoZQJ-SWSk',
+            img: "youtube",
+            type: "video",
+            title: 'Спускаемся к Геленджикской бухте!!!',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=Oc0To8xAMxM',
+            img: "youtube",
+            type: "video",
+            title: 'Вот, что значит вознаграждение!',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=A5QBoOMJRII',
+            img: "youtube",
+            type: "video",
+            title: 'Успешный штурм масленичного столба!!!',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=hypIxU-emHU',
+            img: "youtube",
+            type: "video",
+            title: 'Такому упорству можно позавидовать!',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=DZLh3QWHH5w',
+            img: "youtube",
+            type: "video",
+            title: 'Неудачный штурм масленичного столба!',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=b_zU2IDI9-4',
+            img: "youtube",
+            type: "video",
+            title: 'Кот Вася заходит через окно.',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=BE4r_V_nm7Y',
+            img: "youtube",
+            type: "video",
+            title: 'Египетская пирамида и финиковые пальмы.',
+            source: "www.youtube.com"
+        };
+    }
     return ar;
 
 

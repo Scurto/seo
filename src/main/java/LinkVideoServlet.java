@@ -226,11 +226,39 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("1013162", "https://www.youtube.com/channel/UCJSX_Jr_5U7gPQLSy_Msbpg/videos");
 
 		urlMap.put("442767", "https://www.youtube.com/user/bas777100/videos");
+		urlMap.put("337481", "https://www.youtube.com/user/bas777100/videos");
 
 
 		urlMap.put("1014553", "https://www.youtube.com/channel/UCkB_Js1v4a1ZdF0lDilpEAQ/videos");
 		urlMap.put("1014563", "https://www.youtube.com/channel/UC-23wVZKaCGSw4R4LsoLcGw/videos");
 		urlMap.put("1039735", "https://www.youtube.com/user/The71vadim/videos");
+
+
+		//TODO NEW
+		urlMap.put("1174983", "https://www.youtube.com/channel/UCJAQbEGzK4_hfw5hWr2Cvgw/videos");
+		urlMap.put("1232179", "https://www.youtube.com/user/fitnessandweightlos1/videos");
+		urlMap.put("1233824", "https://www.youtube.com/channel/UC_yM4b6pkT7h5CgogFRbmag/videos");
+		urlMap.put("1205301", "https://www.youtube.com/channel/UC48DURvA0KtM6-_ldH7f_bg/videos");
+		urlMap.put("1222315", "https://www.youtube.com/channel/UCpUzGFdYx19IfkeFIJx5vtA/videos");
+		urlMap.put("543675", "https://www.youtube.com/channel/UCTT-ZDMuF3paZeR61ia9ZFw/videos");
+		urlMap.put("1200264", "https://www.youtube.com/channel/UCk61G6NRiifQpujHr-CqyIQ/videos");
+		urlMap.put("1215689", "https://www.youtube.com/channel/UCvDwXFtZKRUCzou9IfWrYDA/videos");
+		urlMap.put("1241333", "https://www.youtube.com/channel/UCLy2dyEgFpoApknfhDI3wtA/videos");
+		urlMap.put("985824", "https://www.youtube.com/channel/UC5uvOkLBO1bhd1KJlrvTXug/videos");
+		urlMap.put("1071173", "https://www.youtube.com/user/smaaal100/videos");
+		urlMap.put("1232663", "https://www.youtube.com/user/89120280007/videos");
+		urlMap.put("325891", "https://www.youtube.com/channel/UCN3maMCHkoIui2hvvtBC8rg/videos");
+
+
+
+		urlMap.put("1142576", "https://www.youtube.com/user/ONBrest/videos");
+		urlMap.put("1243379", "https://www.youtube.com/user/olegnesterov1/videos");
+		urlMap.put("1166386", "https://www.youtube.com/user/nachasti/videos");
+		urlMap.put("865275", "https://www.youtube.com/channel/UCARzipUZ6HDp7APES_1TAOw/videos");
+		urlMap.put("460206", "https://www.youtube.com/channel/UCw8xGuRpyFaFHw5Dqs3pgYg/videos");
+		urlMap.put("673480", "https://www.youtube.com/channel/UCtv9HDAE0PH3iVyfyPouphA/videos");
+		urlMap.put("1200729", "https://www.youtube.com/channel/UCl4L1mONPqg8oW-1hcKw4tA/videos");
+		urlMap.put("343015", "https://www.youtube.com/channel/UC7_8lKRedMMrweQ4saPGCZA/videos");
 
 		String url = urlMap.get(id);
 		return url;
