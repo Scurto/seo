@@ -210,7 +210,7 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("871450", "https://www.youtube.com/channel/UCf6OaRaBNBJfKTtvfg6akaA");
 
 
-		urlMap.put("344614", "https://www.youtube.com/channel/UC7ApEqEdl06Xaq1zzR5JgHA/videos");       //TODO !!!
+		urlMap.put("344614", "https://www.youtube.com/channel/UC7ApEqEdl06Xaq1zzR5JgHA/videos");
 		urlMap.put("344615", "https://www.youtube.com/channel/UCdEvxEm2U2Iotz7PJmDzK5Q/videos");
 
 		urlMap.put("217687", "https://www.youtube.com/channel/UCfh07MF9gInLFA6V35jepMw/videos");
@@ -258,7 +258,23 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("460206", "https://www.youtube.com/channel/UCw8xGuRpyFaFHw5Dqs3pgYg/videos");
 		urlMap.put("673480", "https://www.youtube.com/channel/UCtv9HDAE0PH3iVyfyPouphA/videos");
 		urlMap.put("1200729", "https://www.youtube.com/channel/UCl4L1mONPqg8oW-1hcKw4tA/videos");
+		urlMap.put("1200741", "https://www.youtube.com/channel/UCmb0SFIIlmEVxoYvplHvHdQ/videos");
 		urlMap.put("343015", "https://www.youtube.com/channel/UC7_8lKRedMMrweQ4saPGCZA/videos");
+		urlMap.put("1221525", "https://www.youtube.com/channel/UC7bEccoz6txxd-yvflI7x6A/videos");
+		urlMap.put("1232726", "https://www.youtube.com/channel/UCObSRvYZGhU9oSXLfGyvzuQ/videos");
+		urlMap.put("1257304", "https://www.youtube.com/channel/UCffkl_H53ZrG-URvv6gwWlQ/videos");
+		urlMap.put("1231965", "https://www.youtube.com/channel/UCtedVxRJM4vEEGU8Etu61Yw/videos");
+		urlMap.put("1258719", "https://www.youtube.com/channel/UCzinmELQfbCMvVwEfSCF7JQ/videos");
+
+		urlMap.put("837146", "https://www.youtube.com/user/toursvit/videos");
+		urlMap.put("771880", "https://www.youtube.com/channel/UC0FEgCFxMuQRoPNbuIMjcMQ/videos");
+		urlMap.put("758932", "https://www.youtube.com/channel/UCAM00dyt1Z0T5NSczb6vZrA/videos");
+
+		urlMap.put("1115544", "https://www.youtube.com/channel/UCV0r38Kaj2-YyJYA3pXVF9w/videos");
+
+		urlMap.put("242794", "https://www.youtube.com/c/alexvakarchuk/videos");
+
+		urlMap.put("1118697", "https://www.youtube.com/c/%D0%B2%D0%B0%D0%B4%D0%B8%D0%BC%D1%8F%D0%B4%D0%BB%D0%BE%D1%81%D1%8C/videos");
 
 		String url = urlMap.get(id);
 		return url;

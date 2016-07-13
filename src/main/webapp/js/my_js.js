@@ -310,6 +310,14 @@ $(document).ready(function() {
 				$('#countOfMove').val(3);
 				$('#betweenVideo').val(45);
 				$('#betweenReklama').val(45);
+			}else if
+			(item == 79016) {
+				$('#taskId').val(79016);
+				$('#countOfVideo').val(18);
+				$('#countOfReklama').val(4);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(45);
 			} else if
 			(item == 1184830) {
 				$('#taskId').val(1184830);
@@ -332,6 +340,86 @@ $(document).ready(function() {
 				$('#countOfVideo').val(10);
 				$('#countOfReklama').val(4);
 				$('#countOfMove').val(4);
+				$('#betweenVideo').val(61);
+				$('#betweenReklama').val(61);
+			}else if
+			(item == 1178491) {
+				$('#taskId').val(1178491);
+				$('#countOfVideo').val(11);
+				$('#countOfReklama').val(5);
+				$('#countOfMove').val(4);
+				$('#betweenVideo').val(61);
+				$('#betweenReklama').val(61);
+			}else if
+			(item == 1021308) {
+				$('#taskId').val(1021308);
+				$('#countOfVideo').val(12);
+				$('#countOfReklama').val(2);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(61);
+				$('#betweenReklama').val(61);
+			}else if
+			(item == 1247748) {
+				$('#taskId').val(1247748);
+				$('#countOfVideo').val(40);
+				$('#countOfReklama').val(5);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(45);
+			}else if
+			(item == 78167) {
+				$('#taskId').val(78167);
+				$('#countOfVideo').val(30);
+				$('#countOfReklama').val(5);
+				$('#countOfMove').val(4);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(45);
+			}else if
+			(item == 1090888) {
+				$('#taskId').val(1090888);
+				$('#countOfVideo').val(17);
+				$('#countOfReklama').val(7);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(45);
+			}else if
+			(item == 1057980) {
+				$('#taskId').val(1057980);
+				$('#countOfVideo').val(16);
+				$('#countOfReklama').val(7);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(45);
+				$('#betweenReklama').val(45);
+			}else if
+			(item == 1093511) {
+				$('#taskId').val(1093511);
+				$('#countOfVideo').val(18);
+				$('#countOfReklama').val(7);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(61);
+				$('#betweenReklama').val(61);
+			}else if
+			(item == 1022890) {
+				$('#taskId').val(1022890);
+				$('#countOfVideo').val(18);
+				$('#countOfReklama').val(7);
+				$('#countOfMove').val(3);
+				$('#betweenVideo').val(61);
+				$('#betweenReklama').val(61);
+			}else if
+			(item == 78182) {
+				$('#taskId').val(78182);
+				$('#countOfVideo').val(15);
+				$('#countOfReklama').val(5);
+				$('#countOfMove').val(2);
+				$('#betweenVideo').val(61);
+				$('#betweenReklama').val(61);
+			}else if
+			(item == 75641) {
+				$('#taskId').val(75641);
+				$('#countOfVideo').val(15);
+				$('#countOfReklama').val(3);
+				$('#countOfMove').val(3);
 				$('#betweenVideo').val(61);
 				$('#betweenReklama').val(61);
 			}else if
@@ -443,16 +531,33 @@ $(document).ready(function() {
 			connArray.push(1132609);
 		} else if (taskId == 1092879) {
 			connArray.push(1092879);
-		} else if (taskId == 1128139) {
+		} else if (taskId == 1128139 || taskId == 79016) {
 			connArray.push(1128139);
+			connArray.push(79016);
 		} else if (taskId == 1184830) {
 			connArray.push(1184830);
 		} else if (taskId == 1204213) {
 			connArray.push(1204213);
-		} else if (taskId == 1157210) {
+		} else if (taskId == 1157210 || taskId == 1178491) {
 			connArray.push(1157210);
+			connArray.push(1178491);
 		} else if (taskId == 1189678) {
 			connArray.push(1189678);
+		} else if (taskId == 1021308) {
+			connArray.push(1021308);
+		} else if (taskId == 1247748) {
+			connArray.push(1247748);
+		} else if (taskId == 1090888 || taskId == 1057980 || taskId == 1093511 || taskId == 1022890) {
+			connArray.push(1090888);
+			connArray.push(1057980);
+			connArray.push(1093511);
+			connArray.push(1022890);
+		} else if (taskId == 78167) {
+			connArray.push(78167);
+		} else if (taskId == 78182) {
+			connArray.push(78182);
+		} else if (taskId == 75641) {
+			connArray.push(75641);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -919,7 +1024,176 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
-		} else if (taskId == 1189678) {
+		} else if (taskId == 1178491) {
+			var whoer = getDefaultWhoer();
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = getDefaultYouTube("Mega Kitai - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1021308) {
+			var whoer = getDefaultWhoer();
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = getDefaultYouTube("Marik Tyminskiy - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1247748) {
+			var whoer = getDefaultWhoer();
+			var google = {
+				title: "JohnSilver1975 - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = getDefaultYouTube("JohnSilver1975 - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 78167) {
+			var whoer = getDefaultWhoer();
+			//var google = {
+			//	title: "JohnSilver1975 - Поиск в Google",
+			//	type: "def",
+			//	img: "google",
+			//	source: "www.google.com"
+			//};
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("Sergey Bobkov - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
+		}else if (taskId == 1090888) {
+			var whoer = getDefaultWhoer();
+			//var google = {
+			//	title: "JohnSilver1975 - Поиск в Google",
+			//	type: "def",
+			//	img: "google",
+			//	source: "www.google.com"
+			//};
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("DE Cars AUDI - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
+		}else if (taskId == 1057980) {
+			var whoer = getDefaultWhoer();
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("Vetal Vetal - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
+		}else if (taskId == 1093511) {
+			var whoer = getDefaultWhoer();
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("US auto industry - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
+		}else if (taskId == 75641) {
+			var whoer = getDefaultWhoer();
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("ВСЕ И ОБО ВСЕМ - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
+		}else if (taskId == 1022890) {
+			var whoer = getDefaultWhoer();
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = getDefaultYouTube("7even wonders - YouTube");
+			var youtube2 = getDefaultYouTube("7even Wonders - YouTube");
+
+			//etalonArray.push(ip);
+			etalonArray.push(whoer);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
+		}else if (taskId == 78182) {
+			var ip = {
+				title: "Узнать IP адрес",
+				type: "def",
+				img: "2ip",
+				source: "2ip.ru"
+			};
+
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = getDefaultYouTube("Лиля+Вова - YouTube");
+
+			etalonArray.push(ip);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1189678) {
 			var whoer = getDefaultWhoer();
 			var google = {
 				title: request + " - Поиск в Google",
@@ -1138,7 +1412,7 @@ $('#clear-browsing-data').click(function(event) {
 			};
 			etalonArray.push(google);
 			etalonArray.push(youtube);
-		}else if (taskId == 1128139) {
+		}else if (taskId == 1128139 || taskId == 79016) {
 			var google = {
 				title: "Фонтан (Ярославль). Поющий фонтан (Парк Горького.Москва) - Поиск в Google",
 				type: "def",

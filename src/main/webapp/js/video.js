@@ -4251,127 +4251,141 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 1128139) {
+    if (taskId == 1128139 || taskId == 79016) {
         ar[0] = {
+            url: 'https://www.youtube.com/watch?v=rV4iTGCbMMY',
+            img: "youtube",
+            type: "video",
+            title: 'Фонтан (Ярославль)',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=LibN9QS24dc',
+            img: "youtube",
+            type: "video",
+            title: 'Поющий фонтан (Парк Горького.Москва)',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
             url: 'https://www.youtube.com/watch?v=OgvNHJ2JqeM',
             img: "youtube",
             type: "video",
             title: 'Аварии на снегоходах',
             source: "www.youtube.com"
         };
-        ar[1] = {
+        ar[3] = {
             url: 'https://www.youtube.com/watch?v=6kPB6zzOIDc',
             img: "youtube",
             type: "video",
             title: 'Приколы 2015',
             source: "www.youtube.com"
         };
-        ar[2] = {
+        ar[4] = {
             url: 'https://www.youtube.com/watch?v=e1xNIENSOuA',
             img: "youtube",
             type: "video",
             title: 'Авто - мото- вело - новое',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[5] = {
             url: 'https://www.youtube.com/watch?v=25YH75qXKts',
             img: "youtube",
             type: "video",
             title: 'Украинец и поляк!!! Ржака!!',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[6] = {
             url: 'https://www.youtube.com/watch?v=YJsehcjKHCU',
             img: "youtube",
             type: "video",
             title: 'Прикольное видео 2!!!',
             source: "www.youtube.com"
         };
-        ar[5] = {
+        ar[7] = {
             url: 'https://www.youtube.com/watch?v=jPZNz_fmny0',
             img: "youtube",
             type: "video",
             title: 'Прикольное видео!!!',
             source: "www.youtube.com"
         };
-        ar[6] = {
+        ar[8] = {
             url: 'https://www.youtube.com/watch?v=Y8zbCjebwSc',
             img: "youtube",
             type: "video",
             title: 'Песня - Время',
             source: "www.youtube.com"
         };
-        ar[7] = {
+        ar[9] = {
             url: 'https://www.youtube.com/watch?v=OslB9fmbUmw',
             img: "youtube",
             type: "video",
             title: 'Песня Минимум (Супер!!)',
             source: "www.youtube.com"
         };
-        ar[8] = {
+        ar[10] = {
             url: 'https://www.youtube.com/watch?v=H0vjuqF4TQc',
             img: "youtube",
             type: "video",
             title: 'Сфинкс vs Йорк!!',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[11] = {
             url: 'https://www.youtube.com/watch?v=_Ty0_M5TABg',
             img: "youtube",
             type: "video",
             title: 'Йорк против кота',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[12] = {
             url: 'https://www.youtube.com/watch?v=oBUlk7ax6sc',
             img: "youtube",
             type: "video",
             title: 'Вот докопался!!!',
             source: "www.youtube.com"
         };
-        ar[11] = {
+        ar[13] = {
             url: 'https://www.youtube.com/watch?v=9XiCDGCMkY8',
             img: "youtube",
             type: "video",
             title: 'В большой семье...)))',
             source: "www.youtube.com"
         };
-        ar[12] = {
+        ar[14] = {
             url: 'https://www.youtube.com/watch?v=_tJE6GS_vh8',
             img: "youtube",
             type: "video",
             title: 'Постирушки!!!',
             source: "www.youtube.com"
         };
-        ar[13] = {
+        ar[15] = {
             url: 'https://www.youtube.com/watch?v=bN04rgFTTiE',
             img: "youtube",
             type: "video",
             title: 'Веселые игры щенка с мамой',
             source: "www.youtube.com"
         };
-        ar[14] = {
+        ar[16] = {
             url: 'https://www.youtube.com/watch?v=pO9carLy4I8',
             img: "youtube",
             type: "video",
             title: 'Позирование перед котом',
             source: "www.youtube.com"
         };
-        ar[15] = {
+        ar[17] = {
             url: 'https://www.youtube.com/watch?v=Q-a3M5BOVoo',
             img: "youtube",
             type: "video",
             title: 'Самое лучшее видео с животными',
             source: "www.youtube.com"
         };
-        ar[16] = {
+        ar[18] = {
             url: 'https://www.youtube.com/watch?v=lGIXra28a30',
             img: "youtube",
             type: "video",
             title: 'Видео с кошками NEW!!',
             source: "www.youtube.com"
         };
-        ar[17] = {
+        ar[19] = {
             url: 'https://www.youtube.com/watch?v=WLwo4sgU1r0',
             img: "youtube",
             type: "video",
@@ -5267,6 +5281,1454 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: 'Египетская пирамида и финиковые пальмы.',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1178491) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=yIsEiiKdrs0',
+            img: "youtube",
+            type: "video",
+            title: 'Портативный USB подогрев чашки. Aliexpress. Обзор посылки.',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=7ElDRLVrm1U',
+            img: "youtube",
+            type: "video",
+            title: 'Стильная зимняя шапка. Aliexpress. Обзор посылки.',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=Qzrjqow14z0',
+            img: "youtube",
+            type: "video",
+            title: 'Вязаная зимняя шапка с aliexpress. Обзор посылки',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=zvM2Y7GIdho',
+            img: "youtube",
+            type: "video",
+            title: 'Модная зимняя шапка. Aliexpress. Обзор посылки.',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=cvMG5s7qyTI',
+            img: "youtube",
+            type: "video",
+            title: 'LED лампочка. Aliexpress. Обзор посылки.',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=iOVBDWdb82w',
+            img: "youtube",
+            type: "video",
+            title: 'Велоперчатки. Обзор посылки с aliexpress',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=rZmM7KjDfbg',
+            img: "youtube",
+            type: "video",
+            title: 'Mini IP камера за 19$ c Aliexpress. Распаковка посылки',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=6q6EdLJMTa8',
+            img: "youtube",
+            type: "video",
+            title: 'Монопод. Палка для селфи. Обзор посылки с Aliexpress',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=7itY-8UG7Q4',
+            img: "youtube",
+            type: "video",
+            title: 'Модные спортивные наушники. Aliexpress. Обзор.',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=bvunOIn02zI',
+            img: "youtube",
+            type: "video",
+            title: 'Бампер для Lenovo А360. Aliexpress. Обзор.',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=F28WOd9acBE',
+            img: "youtube",
+            type: "video",
+            title: 'Наушники синие спортивные. Aliexpress. Обзор.',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1021308) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=4oYLqPsCzL0',
+            img: "youtube",
+            type: "video",
+            title: 'Slither.io • BEST MOMENTS •',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=gRRgrAaP84A',
+            img: "youtube",
+            type: "video",
+            title: 'Rest in Bukovel / Отдых в Буковеле',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=wVW2e9CD7qM',
+            img: "youtube",
+            type: "video",
+            title: 'Конкурс на Секторе-2: 10 VIP-защит!',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=C1bxWhs805M',
+            img: "youtube",
+            type: "video",
+            title: 'Тест камеры Meizu M2 Note [Full HD (1080p)] / Сamera test Meizu M2 Note',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=w8DNxOOJifU',
+            img: "youtube",
+            type: "video",
+            title: 'Паркурист чёртов',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=fGw0o45P2Ec',
+            img: "youtube",
+            type: "video",
+            title: 'Чит/Лаг/АФК',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=_OoFkEAHdSQ',
+            img: "youtube",
+            type: "video",
+            title: 'Nigga-читер',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=bfYc4VGm02k',
+            img: "youtube",
+            type: "video",
+            title: 'В текстурах Сектора-1',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=4FCe59QLdXw',
+            img: "youtube",
+            type: "video",
+            title: 'Котяра',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=dyO7dWgx14o',
+            img: "youtube",
+            type: "video",
+            title: 'Накатался.',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=94CsWhZ1HxI',
+            img: "youtube",
+            type: "video",
+            title: 'Ночные читаки',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=-x6rWHXd-mY',
+            img: "youtube",
+            type: "video",
+            title: 'Защита пещеры за пределами',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=wEjmqiu8eYY',
+            img: "youtube",
+            type: "video",
+            title: 'Фруте',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=rGoiIB50NeQ',
+            img: "youtube",
+            type: "video",
+            title: 'Andrei_Kotychev (огонь через текстуры Сектора)',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=Hfdyrkl2Z9I',
+            img: "youtube",
+            type: "video",
+            title: 'Акзи',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=ITYa3Cfgnjk',
+            img: "youtube",
+            type: "video",
+            title: 'Бессмертие зомби',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=Lnsa1cS1HcM',
+            img: "youtube",
+            type: "video",
+            title: 'Убийство вампира',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=1STiivqajaE',
+            img: "youtube",
+            type: "video",
+            title: 'Броня Зомби',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=B3ZnfVwL3LQ',
+            img: "youtube",
+            type: "video",
+            title: 'Баг с убийствами',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=ie9xelrRF0g',
+            img: "youtube",
+            type: "video",
+            title: 'Ставайте АФК "правильно"',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1247748) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=sFOaHToah1s',
+            img: "youtube",
+            type: "video",
+            title: 'Самая лучшая работа!!!',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=EGJi78uMjyM',
+            img: "youtube",
+            type: "video",
+            title: 'ПИПЕЦ ЛЕДЕНЕЦ',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=ERel78wGtyk',
+            img: "youtube",
+            type: "video",
+            title: 'Зае?ись вода!',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=X81H7mdU394',
+            img: "youtube",
+            type: "video",
+            title: 'Прикол в зоопарке',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=v59Wngxwjvg',
+            img: "youtube",
+            type: "video",
+            title: 'Блондинка и эскалатор',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=ljtAJkyKS3c',
+            img: "youtube",
+            type: "video",
+            title: 'Попал в пробку',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=FisC5LP_kWc',
+            img: "youtube",
+            type: "video",
+            title: 'ПенЬтиум',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=mMGVxLG-tRg',
+            img: "youtube",
+            type: "video",
+            title: 'Мент в засаде',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=EZl_o6YfF0w',
+            img: "youtube",
+            type: "video",
+            title: 'Грандиозные проекты.',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=QzstKx_1h0E',
+            img: "youtube",
+            type: "video",
+            title: 'Вот для чего нужен маникюр.',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=iWrLwGRRYSo',
+            img: "youtube",
+            type: "video",
+            title: 'А вам слабо?',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=Ka9FW6AxHyo',
+            img: "youtube",
+            type: "video",
+            title: 'Прямо в рот.',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=OgH4DhFk6tE',
+            img: "youtube",
+            type: "video",
+            title: 'Чёткий удар.',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=8A4KamNgvSM',
+            img: "youtube",
+            type: "video",
+            title: 'Два богатыря!',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=C7gxmN9CsEc',
+            img: "youtube",
+            type: "video",
+            title: 'Облом',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=qs8EXwRPR4k',
+            img: "youtube",
+            type: "video",
+            title: 'Тема коротких юбок раскрыта.',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=rbbWtZam9M8',
+            img: "youtube",
+            type: "video",
+            title: 'Кот не выдержал',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=cDysS_enPE0',
+            img: "youtube",
+            type: "video",
+            title: 'Приколы на новый год!!!',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=9RA4r_2imNI',
+            img: "youtube",
+            type: "video",
+            title: 'Дьявольский турбозамес.',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=rDGY7tDqR9c',
+            img: "youtube",
+            type: "video",
+            title: 'Полный идиот',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=_pjgIYp7PKI',
+            img: "youtube",
+            type: "video",
+            title: 'Задница вместо лица.',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=nkZzNQjYVEI',
+            img: "youtube",
+            type: "video",
+            title: 'Парковка велика!',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=Cq6Q11WaJns',
+            img: "youtube",
+            type: "video",
+            title: 'Fight girls-Драка девушек(полицейская разборка)',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=2xiRnkqitRw',
+            img: "youtube",
+            type: "video",
+            title: 'Mortal blows Смертельные удары.',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=vx_hfvgFGeM',
+            img: "youtube",
+            type: "video",
+            title: 'Топлесс в ларёк за лимонадом.',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=eH06uRAzWrc',
+            img: "youtube",
+            type: "video",
+            title: 'Покоритель реки',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=_TbyxuxDZ2g',
+            img: "youtube",
+            type: "video",
+            title: 'Ловкий краб',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=PHlU1eECH-o',
+            img: "youtube",
+            type: "video",
+            title: 'Порыбачили',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=j67FBcwUTjM',
+            img: "youtube",
+            type: "video",
+            title: 'Неудачный прыжок',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=K2IUffdFlAM',
+            img: "youtube",
+            type: "video",
+            title: 'Крановщик профессионал',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=-ux7L4odrsY',
+            img: "youtube",
+            type: "video",
+            title: 'Русский внедорожник!',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=3cytvxpS94E',
+            img: "youtube",
+            type: "video",
+            title: 'Неожиданный поворот',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=QiZs6RJljL4',
+            img: "youtube",
+            type: "video",
+            title: 'Псих',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=e82FLbX_o3o',
+            img: "youtube",
+            type: "video",
+            title: 'Жёсткая посадка.',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=f6ynsnNHQjY',
+            img: "youtube",
+            type: "video",
+            title: 'Супер лодка!',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=GKiajJr2ZoE',
+            img: "youtube",
+            type: "video",
+            title: 'Месть парковщика.',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=uVTTDFBv1bI',
+            img: "youtube",
+            type: "video",
+            title: 'Эктрим на карусели',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=Dtuj6oBU190',
+            img: "youtube",
+            type: "video",
+            title: 'Вот это град!!!',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=ojgy9nJrk8g',
+            img: "youtube",
+            type: "video",
+            title: 'Парад неудался',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=DhU-WoQr99w',
+            img: "youtube",
+            type: "video",
+            title: 'Madonna-Мадонна! РЖАКА!',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1090888) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=XE2BRJMjyDw',
+            img: "youtube",
+            type: "video",
+            title: 'AUDI RS Q3',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=Sle4LTZ1COA',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI Q2',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=LoMhxW8OelA',
+            img: "youtube",
+            type: "video",
+            title: 'Audi RS 7 Sportback',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=YyWnRxND9EE',
+            img: "youtube",
+            type: "video",
+            title: 'Audi RS 6 Avant',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=a5i1u3y3NAc',
+            img: "youtube",
+            type: "video",
+            title: 'Audi RS 3 Sportback',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=ZEwcumlxCIg',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI A1',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=VlGymgdeaDY',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI A3',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=k5UFcrIt07s',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI A4',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=Oj5HX7ZIdjU',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI A5',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=1aIxKREJVGI',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI A6',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=CgaVA3QW8yU',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI A7',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=W1VoR9p3ye8',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI A8',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=Sc1lY1r7TOo',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI Q3',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=NUP0BrVezmU',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI Q5',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=2MNMuagjDVc',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI Q7',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=qKZVBe1GVDY',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI R8',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=_e0lGa08doU',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars AUDI - AUDI TT',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 78167) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=v8OHI5oLD00',
+            img: "youtube",
+            type: "video",
+            title: 'развлекаем гостей 2',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=TWYfb8Eeecg',
+            img: "youtube",
+            type: "video",
+            title: 'желтеют листья огурцов',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=tVzh1ho1PW0',
+            img: "youtube",
+            type: "video",
+            title: 'Выкладываем дорожку во дворе',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=4BwOV7hYwJA',
+            img: "youtube",
+            type: "video",
+            title: 'Готовим грядку под огурцы',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=hff4IDfvB7A',
+            img: "youtube",
+            type: "video",
+            title: 'Ранняя клубника  Результат',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=SGwSrXSi97w',
+            img: "youtube",
+            type: "video",
+            title: 'Ландыши в центре города',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=tounfvdyxgw',
+            img: "youtube",
+            type: "video",
+            title: 'Замена батарейки в ключе автомобиля',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=NkHr81f--HQ',
+            img: "youtube",
+            type: "video",
+            title: 'Ремонт воздушного фильтра культиватора',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=7gA2COmpcrM',
+            img: "youtube",
+            type: "video",
+            title: 'Развлекаем гостей',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=69iYc2ifdNI',
+            img: "youtube",
+            type: "video",
+            title: 'Не работает видеорегистратор',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=SD7WAIwQphM',
+            img: "youtube",
+            type: "video",
+            title: 'Ранняя клубника. Этап 2.',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=hP--QK6Jmnk',
+            img: "youtube",
+            type: "video",
+            title: 'Полка для рассады в теплице',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=SuI4Dmhw1h8',
+            img: "youtube",
+            type: "video",
+            title: 'Russian military equipment. Военная техника',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=xwQLmtQ0ob8',
+            img: "youtube",
+            type: "video",
+            title: 'Сборка и установка "Умного дома" в кабель-канал',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=E92j4_3x0ao',
+            img: "youtube",
+            type: "video",
+            title: 'Умный дом на ESP8266. 2 канала освещения',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=27PaYw6PqTs',
+            img: "youtube",
+            type: "video",
+            title: 'Баскетбол  Буй Кострома 2',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=JeWtqxsAuuE',
+            img: "youtube",
+            type: "video",
+            title: 'Баскетбол  Буй Кострома  1',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=J2nXglZI7kA',
+            img: "youtube",
+            type: "video",
+            title: 'We put bloodsuckers. Обработка ран после гирудотерапии',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=2lDboX3Z-O4',
+            img: "youtube",
+            type: "video",
+            title: 'We put bloodsuckers. Снимаем пиявок',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=3yxA4EbPmEw',
+            img: "youtube",
+            type: "video",
+            title: 'We put bloodsuckers. Ставим пиявок',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=tmF5IIocIXQ',
+            img: "youtube",
+            type: "video",
+            title: 'We put bloodsuckers. Ставим пиявок. Подготовка',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=2W0TYdMpMso',
+            img: "youtube",
+            type: "video",
+            title: 'Все хотят кататься',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=UkRhDI1AM-s',
+            img: "youtube",
+            type: "video",
+            title: 'Russian Maslenitsa. Win prize',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=a_RdPLPUibM',
+            img: "youtube",
+            type: "video",
+            title: 'Russian Maslenitsa. Dances',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=12wpUXg9K8w',
+            img: "youtube",
+            type: "video",
+            title: 'Russian Maslenitsa. Effigy of winter',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=CyTzNikGfjY',
+            img: "youtube",
+            type: "video",
+            title: 'Russian Maslenitsa. Songs',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=CMnh7_oIDaA',
+            img: "youtube",
+            type: "video",
+            title: 'фонарик  шокер, ремонт',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=CD2gJVfXVvU',
+            img: "youtube",
+            type: "video",
+            title: 'Ранняя клубника. Этап 1. Готовим емкость',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=Lg85rU_c4Ug',
+            img: "youtube",
+            type: "video",
+            title: 'установка premier pro',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=flWvMTxQ4s8',
+            img: "youtube",
+            type: "video",
+            title: 'Спорт - ты жизнь Волейбол 2',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1057980) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=85BHExjAnK4',
+            img: "youtube",
+            type: "video",
+            title: 'VW Tiguan 2015',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=CgftL4kHI4M',
+            img: "youtube",
+            type: "video",
+            title: 'VW Tiguan 2011',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=yE1MT2_QMCI',
+            img: "youtube",
+            type: "video",
+            title: 'VW Tiguan 2007',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=PhcZU7cdjSk',
+            img: "youtube",
+            type: "video",
+            title: 'VW Passat CC 2012',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=dpKgw3H-gaE',
+            img: "youtube",
+            type: "video",
+            title: 'VW Passat CC 2008',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=2km8Q6fJj0g',
+            img: "youtube",
+            type: "video",
+            title: 'VW Passat B8 Alltrack',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=xz8k67xAfIE',
+            img: "youtube",
+            type: "video",
+            title: 'VW Passat B7 Alltrack',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=Pyk7DHPTwss',
+            img: "youtube",
+            type: "video",
+            title: 'Evolution Passat',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=_4Mb52iOEnU',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars Passat - VW Passat B8',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=qCpf_0DKgck',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars Passat - VW Passat B7',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=KijkbZXtTAw',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars Passat - VW Passat B6',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=8jYKMIRsRL8',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars Passat - VW Passat B5',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=pbevXvgW40E',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars Passat - VW Passat B4',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=XiREXo9L4Hk',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars Passat - VW Passat B3',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=ydNf3cgfaEs',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars Passat - VW Passat B2',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=rVJbnMMGCmI',
+            img: "youtube",
+            type: "video",
+            title: 'DE Cars Passat - VW Passat B1',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1093511) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=l-YzIKHlfrc',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Freightliner Trucks',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=6orTWMoRnck',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Dodge Charger',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=ASXyYfq8Jb4',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Cadillac 1959 (Ghostbusters)',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=b_czFwl0kJM',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Dodge Challenger',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=PFyYU-xWtBM',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Chevrolet Camaro',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=J9cVmInOVrE',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Cadillac Escalade',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=1rHqcw-yZ4Y',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Lincoln Town Car',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=yb2mW_R-cLI',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Ford Mustang',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=jEaO5I6yEbU',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Delorean (back to the Future)',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=wsDxkbi_N60',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Lincoln',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=g71VjWpiRMQ',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - GMC',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=4IfY2Jm-FrQ',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Chevrolet',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=yLnqWRLf77E',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Buick',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=wDjiLsxsn74',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Dodge',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=xZZHF6V00TY',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Jeep',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=TNpy4mjM41Y',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Cadillac',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=ehjrY98X3yY',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Ford',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=L-D-MY1z_1k',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Chrysler',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1022890) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=TNeLf76WLs4',
+            img: "youtube",
+            type: "video",
+            title: 'Acropolis of Athens',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=vvBMDQRtpwA',
+            img: "youtube",
+            type: "video",
+            title: 'The most famous volcanoes part 2',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=c9_TgsyoDUk',
+            img: "youtube",
+            type: "video",
+            title: 'The most famous volcanoes part 1',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=q7q_MvU2qGE',
+            img: "youtube",
+            type: "video",
+            title: 'The most beautiful waterfalls part 3',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=Vfg6ZoTa_Bg',
+            img: "youtube",
+            type: "video",
+            title: 'The most beautiful waterfalls part 2',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=Xhr041fOLjY',
+            img: "youtube",
+            type: "video",
+            title: 'The most beautiful waterfalls part 1',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=cL1H3omVd-A',
+            img: "youtube",
+            type: "video",
+            title: 'Taj Mahal',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=7Z0wF3sq_Dw',
+            img: "youtube",
+            type: "video",
+            title: 'New wonders of the world to digest part 2',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=GV5hG28OKbo',
+            img: "youtube",
+            type: "video",
+            title: 'New wonders of the world to digest part 1',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=-TdqKGMLidE',
+            img: "youtube",
+            type: "video",
+            title: 'Egyptian Pyramids Second Option',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=-fvJ2F2YLlY',
+            img: "youtube",
+            type: "video",
+            title: '7 Wonders of the World Digest',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=l0NgSZzlvKU',
+            img: "youtube",
+            type: "video",
+            title: 'Temple of Artemis',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=xifXAaPBGcU',
+            img: "youtube",
+            type: "video",
+            title: 'statue of Olympian Zeus',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=oJpAUdgr2KU',
+            img: "youtube",
+            type: "video",
+            title: 'The Colossus of Rhodes',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=Dr4_5WDJg64',
+            img: "youtube",
+            type: "video",
+            title: 'Egyptian pyramids',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=69rPk05NfO8',
+            img: "youtube",
+            type: "video",
+            title: 'mausoleum of Halicarnassus',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=BEU-yKzJ2K4',
+            img: "youtube",
+            type: "video",
+            title: 'Hanging Gardens of Babylon',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=_7qm_u-9EUs',
+            img: "youtube",
+            type: "video",
+            title: 'Alexandrian lighthouse',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 78182) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=znWKOk59Wqo',
+            img: "youtube",
+            type: "video",
+            title: 'WP 20160628 10 14 35 Pro',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=R5Z7fOsqvIU',
+            img: "youtube",
+            type: "video",
+            title: 'Красиво цветет/Beautiful blooms',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=DjOxY1a6SZw',
+            img: "youtube",
+            type: "video",
+            title: 'памятник/ monument',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=uYT0rgYdbpY',
+            img: "youtube",
+            type: "video",
+            title: 'Зелено',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=_8EsKAMRA6I',
+            img: "youtube",
+            type: "video",
+            title: 'река Ирпень/river Irpen',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=uWXoeKNw6Io',
+            img: "youtube",
+            type: "video",
+            title: 'Памятник князю Владимиру основателю Белогородки/Monument to Prince Vladimir founder Bilogorodka',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=LdEIO5XnId4',
+            img: "youtube",
+            type: "video",
+            title: 'Железо-бетонные конструкции',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=cvPdYO8YrkM',
+            img: "youtube",
+            type: "video",
+            title: 'Оригинальные кормушки / The original feeder',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=1eWs-n-i6QE',
+            img: "youtube",
+            type: "video",
+            title: 'А в Киеве осень/And in Kiev fall',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=HbNLMcVb3I4',
+            img: "youtube",
+            type: "video",
+            title: 'Осенняя красота',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=9DjIM9FtWQI',
+            img: "youtube",
+            type: "video",
+            title: 'Киевский парк осенью',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=Zt7S0pT46_s',
+            img: "youtube",
+            type: "video",
+            title: 'Вороне как то Бог послал/Raven as that God sent',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=ITcN7pZEEtI',
+            img: "youtube",
+            type: "video",
+            title: 'Небоскреб/Skyscraper',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=WJbuHV5kTiI',
+            img: "youtube",
+            type: "video",
+            title: 'Осенние ягоды',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=6dQwJEU6xDY',
+            img: "youtube",
+            type: "video",
+            title: 'Памятник студентам / Monument to students',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=BE23DqJQHx0',
+            img: "youtube",
+            type: "video",
+            title: 'Сладкоежкам не смотреть / Sweet tooth does not look',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=zcAN2JP0X_U',
+            img: "youtube",
+            type: "video",
+            title: 'Выставка котов',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=3XZtLEyh_rM',
+            img: "youtube",
+            type: "video",
+            title: 'Веселые ребята',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=7Ju7hYzma4Y',
+            img: "youtube",
+            type: "video",
+            title: 'Индюк самовлюблённый :))turkey',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 75641) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=b0_4937fwto',
+            img: "youtube",
+            type: "video",
+            title: 'mega penalty',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=O2MIFE9Zg2A',
+            img: "youtube",
+            type: "video",
+            title: 'the funniest goal in the history of world football',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=Y4kiv0z8n4M',
+            img: "youtube",
+            type: "video",
+            title: 'The most awesome penalty in 2016',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=la06g8NxEZ0',
+            img: "youtube",
+            type: "video",
+            title: 'the craziest penalty in football history',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=w-cZ4a4IAhk',
+            img: "youtube",
+            type: "video",
+            title: 'Впечатляющие битвы диких животных',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=Gh4CwLiRXzQ',
+            img: "youtube",
+            type: "video",
+            title: 'Australia Unlimited',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=_d2iDm906Z8',
+            img: "youtube",
+            type: "video",
+            title: 'Fishing in the Norway',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=9FSe7N_CNAc',
+            img: "youtube",
+            type: "video",
+            title: '10 ценных фактов о кофе',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=Rk-3Zr87qOI',
+            img: "youtube",
+            type: "video",
+            title: 'Chiara in Australia',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=6-1KVLvG2Pw',
+            img: "youtube",
+            type: "video",
+            title: 'TOP 10 Fastest Aircraft in the World',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=o7xPeJBwxMY',
+            img: "youtube",
+            type: "video",
+            title: '10 мифов об алкоголе',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=75LdVWeTdGk',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 10 самых быстрых поездов в мире',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=F15b51uWKGA',
+            img: "youtube",
+            type: "video",
+            title: 'ICT Discovery: How internet works',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=kuZqxcbN7ZE',
+            img: "youtube",
+            type: "video",
+            title: 'Windows 10',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=Lw_XK5pii8g',
+            img: "youtube",
+            type: "video",
+            title: 'Невероятно красивая песня про настоящую любовь',
             source: "www.youtube.com"
         };
     }
