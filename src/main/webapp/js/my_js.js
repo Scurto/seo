@@ -56,6 +56,36 @@ $(document).ready(function() {
 
 	});
 
+	$("#fastTaskIdTest").autocomplete({
+		source: [
+			"1"
+
+		]
+	});
+
+	$("#fastTaskIdTest").autocomplete({
+		select: function( event, ui ) {
+			console.log(ui.item.value);
+			var item = ui.item.value;
+			doFastTaskIdSeoSelect(item);
+
+			//fromSeoDropDown = 'seosprint';
+			//$( "#taskIdVip" ).trigger( "change" );
+		}
+	});
+
+	function doFastTaskIdSeoSelect(item) {
+		if (item == 1) {
+			$('#taskId').val(80348);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+
+		}
+	}
+
 	$( "#fastTaskId" ).selectmenu();
 	$( "#fastTaskId" ).selectmenu({
 		select: function( event, ui ) {
