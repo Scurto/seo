@@ -338,7 +338,7 @@ $(document).ready(function() {
 			(item == 1157210) {
 				$('#taskId').val(1157210);
 				$('#countOfVideo').val(10);
-				$('#countOfReklama').val(4);
+				$('#countOfReklama').val(5);
 				$('#countOfMove').val(4);
 				$('#betweenVideo').val(61);
 				$('#betweenReklama').val(61);
@@ -1067,7 +1067,7 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(google);
 			etalonArray.push(youtube);
 		}else if (taskId == 78167) {
-			var whoer = getDefaultWhoer();
+			//var whoer = getDefaultWhoer();
 			//var google = {
 			//	title: "JohnSilver1975 - Поиск в Google",
 			//	type: "def",
@@ -1084,7 +1084,7 @@ $('#clear-browsing-data').click(function(event) {
 			var youtube2 = getDefaultYouTube("Sergey Bobkov - YouTube");
 
 			//etalonArray.push(ip);
-			etalonArray.push(whoer);
+			//etalonArray.push(whoer);
 			etalonArray.push(youtube);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
