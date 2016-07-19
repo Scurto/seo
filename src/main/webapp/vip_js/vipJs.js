@@ -445,11 +445,13 @@ $(document).ready(function() {
 		"543675",
 		"1200264",
 		"1215689",
+		"1259852",
 		"985824",
 		"1071173",
 		"1232663",
 		"1142576",
 		"1243379",
+		"1245042",
 		"1166386",
 		"865275",
 		"460206",
@@ -466,7 +468,15 @@ $(document).ready(function() {
 		"758932",
 		"1115544",
 		"242794",
-		"1118697"
+		"1118697",
+		"1190258",
+		"1257813",
+		"1241449",
+		"1131059",
+		"1197088",
+		"1197089",
+		"1197090",
+		"1220946"
 
 		]
 	});
@@ -1274,6 +1284,12 @@ $(document).ready(function() {
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(2);
 		}else if
+		(item == 1259852) {
+			$('#taskIdVip').val(1259852);
+			$('#countOfVideo').val(18);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(2);
+		}else if
 		(item == 985824) {
 			$('#taskIdVip').val(985824);
 			$('#countOfVideo').val(6);
@@ -1303,6 +1319,12 @@ $(document).ready(function() {
 			$('#countOfVideo').val(8);
 			$('#countOfReklama').val(4);
 			$('#countOfMove').val(4);
+		}else if
+		(item == 1245042) {
+			$('#taskIdVip').val(1245042);
+			$('#countOfVideo').val(8);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
 		}else if
 		(item == 1166386) {
 			$('#taskIdVip').val(1166386);
@@ -1405,6 +1427,54 @@ $(document).ready(function() {
 			$('#countOfVideo').val(3);
 			$('#countOfReklama').val(1);
 			$('#countOfMove').val(3);
+		}else if
+		(item == 1190258) {
+			$('#taskIdVip').val(1190258);
+			$('#countOfVideo').val(6);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(1);
+		}else if
+		(item == 1257813) {
+			$('#taskIdVip').val(1257813);
+			$('#countOfVideo').val(3);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(2);
+		}else if
+		(item == 1241449) {
+			$('#taskIdVip').val(1241449);
+			$('#countOfVideo').val(3);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 1131059) {
+			$('#taskIdVip').val(1131059);
+			$('#countOfVideo').val(3);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 1197088) {
+			$('#taskIdVip').val(1197088);
+			$('#countOfVideo').val(8);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(4);
+		}else if
+		(item == 1197089) {
+			$('#taskIdVip').val(1197089);
+			$('#countOfVideo').val(8);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(4);
+		}else if
+		(item == 1197090) {
+			$('#taskIdVip').val(1197090);
+			$('#countOfVideo').val(8);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(4);
+		}else if
+		(item == 1220946) {
+			$('#taskIdVip').val(1220946);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(3);
 		}
 	}
 
@@ -1450,7 +1520,11 @@ $(document).ready(function() {
 		"76111",
 		"76112",
 		"76487",
-		"52221"
+		"52221",
+		"60860",
+		"80880",
+		"65475"
+
 		]
 	});
 	$("#fastTaskIdVipTest").autocomplete({
@@ -1835,6 +1909,24 @@ $(document).ready(function() {
 			$('#countOfVideo').val(5);
 			$('#countOfReklama').val(1);
 			$('#countOfMove').val(3);
+		}else if
+		(item == 60860) {
+			$('#taskIdVip').val(60860);
+			$('#countOfVideo').val(7);
+			$('#countOfReklama').val(7);
+			$('#countOfMove').val(0);
+		}else if
+		(item == 80880) {
+			$('#taskIdVip').val(80880);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(1);
+		}else if
+		(item == 65475) {
+			$('#taskIdVip').val(65475);
+			$('#countOfVideo').val(15);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(3);
 		}
 	}
 
@@ -2083,9 +2175,10 @@ $(document).ready(function() {
 			connArray.push(1014553);
 			connArray.push(1014563);
 			connArray.push(1039735);
-		} else if (taskId == 442767 || taskId == 337481) {
+		} else if (taskId == 442767 || taskId == 337481 || taskId == 60860) {
 			connArray.push(442767);
 			connArray.push(337481);
+			connArray.push(60860);
 		} else if (taskId == 1174983) {
 			connArray.push(1174983);
 		} else if (taskId == 1232179) {
@@ -2099,9 +2192,10 @@ $(document).ready(function() {
 			connArray.push(1222315);
 		} else if (taskId == 543675) {
 			connArray.push(543675);
-		} else if (taskId == 1200264 || taskId == 1215689) {
+		} else if (taskId == 1200264 || taskId == 1215689 || taskId == 1259852) {
 			connArray.push(1200264);
 			connArray.push(1215689);
+			connArray.push(1259852);
 		} else if (taskId == 985824) {
 			connArray.push(985824);
 		} else if (taskId == 1071173) {
@@ -2110,17 +2204,19 @@ $(document).ready(function() {
 			connArray.push(1232663);
 		} else if (taskId == 325891) {
 			connArray.push(325891);
-		} else if (taskId == 1142576 || taskId == 1243379) {
+		} else if (taskId == 1142576 || taskId == 1243379 || taskId == 1245042) {
 			connArray.push(1142576);
 			connArray.push(1243379);
+			connArray.push(1245042);
 		} else if (taskId == 1166386) {
 			connArray.push(1166386);
-		} else if (taskId == 865275 || taskId == 460206 || taskId == 673480 || taskId == 1200729 || taskId == 1200741) {
+		} else if (taskId == 865275 || taskId == 460206 || taskId == 673480 || taskId == 1200729 || taskId == 1200741 || taskId == 65475) {
 			connArray.push(865275);
 			connArray.push(460206);
 			connArray.push(673480);
 			connArray.push(1200729);
 			connArray.push(1200741);
+			connArray.push(65475);
 		} else if (taskId == 343015) {
 			connArray.push(343015);
 		} else if (taskId == 1221525 || taskId == 1232726) {
@@ -2141,6 +2237,22 @@ $(document).ready(function() {
 			connArray.push(242794);
 		} else if (taskId == 1118697) {
 			connArray.push(1118697);
+		} else if (taskId == 1190258) {
+			connArray.push(1190258);
+		} else if (taskId == 1257813) {
+			connArray.push(1257813);
+		} else if (taskId == 1241449) {
+			connArray.push(1241449);
+		} else if (taskId == 1131059) {
+			connArray.push(1131059);
+		} else if (taskId == 1197088 || taskId == 1197089 || taskId == 1197090) {
+			connArray.push(1197088);
+			connArray.push(1197089);
+			connArray.push(1197090);
+		} else if (taskId == 1220946) {
+			connArray.push(1220946);
+		} else if (taskId == 80880) {
+			connArray.push(80880);
 		}
 		addTextInSosediReklam(connArray)
 	};

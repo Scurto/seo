@@ -2174,48 +2174,48 @@ function getLinkReklama() {
 		};
 	}  //
 
-	{
-		ar[55] = {
-			mainUrl: "https://busfor.ua/?gclid=",
-			title: "",
-			secUrl: {
-				url1: {
-					url: "https://busfor.ua/ru/agreement",
-					title: ""
-				},
-				url2: {
-					url: "https://busfor.ua/ru/faq",
-					title: ""
-				},
-				url3: {
-					url: "https://busfor.ua/ru/blog",
-					title: ""
-				},
-				url4: {
-					url: "https://busfor.ua/ru/special-routes/kyiv-warsaw",
-					title: ""
-				},
-				url5: {
-					url: "https://busfor.ua/ru/blog/visa-and-insurance",
-					title: ""
-				},
-				url6: {
-					url: "https://busfor.ua/ru/blog/travel-hacks",
-					title: ""
-				},
-				url7: {
-					url: "https://busfor.ua/ru/blog/travelling-in-company",
-					title: ""
-				}
-			},
-			img: "busfor",
-			type: "reklama",
-			source: "www.busfor.ua"
-		};
-	}  //
+	//{
+	//	ar[55] = {
+	//		mainUrl: "https://busfor.ua/?gclid=",
+	//		title: "",
+	//		secUrl: {
+	//			url1: {
+	//				url: "https://busfor.ua/ru/agreement",
+	//				title: ""
+	//			},
+	//			url2: {
+	//				url: "https://busfor.ua/ru/faq",
+	//				title: ""
+	//			},
+	//			url3: {
+	//				url: "https://busfor.ua/ru/blog",
+	//				title: ""
+	//			},
+	//			url4: {
+	//				url: "https://busfor.ua/ru/special-routes/kyiv-warsaw",
+	//				title: ""
+	//			},
+	//			url5: {
+	//				url: "https://busfor.ua/ru/blog/visa-and-insurance",
+	//				title: ""
+	//			},
+	//			url6: {
+	//				url: "https://busfor.ua/ru/blog/travel-hacks",
+	//				title: ""
+	//			},
+	//			url7: {
+	//				url: "https://busfor.ua/ru/blog/travelling-in-company",
+	//				title: ""
+	//			}
+	//		},
+	//		img: "busfor",
+	//		type: "reklama",
+	//		source: "www.busfor.ua"
+	//	};
+	//}  //
 
 	{
-		ar[56] = {
+		ar[55] = {
 			mainUrl: "http://olavtex.ua/round-stamps-catalog.html?gclid=",
 			title: "",
 			secUrl: {
