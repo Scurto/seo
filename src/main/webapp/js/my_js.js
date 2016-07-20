@@ -105,7 +105,8 @@ $(document).ready(function() {
 		"78167",
 		"78182",
 		"79016",
-		"75641"
+		"75641",
+		"1140610"
 
 		]
 	});
@@ -489,6 +490,14 @@ $(document).ready(function() {
 			$('#taskId').val(1189678);
 			$('#countOfVideo').val(33);
 			$('#countOfReklama').val(5);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1140610) {
+			$('#taskId').val(1140610);
+			$('#countOfVideo').val(30);
+			$('#countOfReklama').val(4);
 			$('#countOfMove').val(3);
 			$('#betweenVideo').val(45);
 			$('#betweenReklama').val(45);
@@ -998,6 +1007,8 @@ $(document).ready(function() {
 			connArray.push(78182);
 		} else if (taskId == 75641) {
 			connArray.push(75641);
+		} else if (taskId == 1140610) {
+			connArray.push(1140610);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -1657,6 +1668,21 @@ $('#clear-browsing-data').click(function(event) {
 				source: "www.google.com"
 			};
 			var youtube = getDefaultYouTube("Северный Ветер - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1140610) {
+			var whoer = getDefaultWhoer();
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = getDefaultYouTube("Galina Margaryan - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');

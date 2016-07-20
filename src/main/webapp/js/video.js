@@ -6732,6 +6732,218 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1140610) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=fc4Fz6rQKCA',
+            img: "youtube",
+            type: "video",
+            title: 'Ребенок классно исполняет лезгинку!',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=-g4cvQR25pA',
+            img: "youtube",
+            type: "video",
+            title: 'Новый год по-армянски!',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=yUITX8Araiw',
+            img: "youtube",
+            type: "video",
+            title: 'Самый большой музей в России',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=l4B0yAA1FMU',
+            img: "youtube",
+            type: "video",
+            title: 'Идея для спектакля',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=9QzWBca3NlM',
+            img: "youtube",
+            type: "video",
+            title: 'Карусель для любителей адреналина',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=pGMde044w9g',
+            img: "youtube",
+            type: "video",
+            title: 'Супер батут для детей',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=lAz9x51O5vo',
+            img: "youtube",
+            type: "video",
+            title: 'Цирк, цирк, цирк!',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=cq9DcLpYnKc',
+            img: "youtube",
+            type: "video",
+            title: 'Цирк. Номер со страусом',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=4UvcUgR8zNI',
+            img: "youtube",
+            type: "video",
+            title: 'Живая музыка в парке Еревана',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=_JsKwrJsDnM',
+            img: "youtube",
+            type: "video",
+            title: 'Гуляем с зайцем',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=wXNJN4ylskE',
+            img: "youtube",
+            type: "video",
+            title: 'Вертолет в Ереване',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=UabqAEsbs_g',
+            img: "youtube",
+            type: "video",
+            title: 'Девочка и лимон',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=Q0zsvef4dbo',
+            img: "youtube",
+            type: "video",
+            title: 'Девочки такие девочки',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=arSeyfyPYBg',
+            img: "youtube",
+            type: "video",
+            title: 'Прогулка по Армении',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=HxF6o5P4a7E',
+            img: "youtube",
+            type: "video",
+            title: 'Happy birthday to you!',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=YOVkgN6rrL0',
+            img: "youtube",
+            type: "video",
+            title: 'Singing fountains of Yerevan. Поющий фонтан ????? ??????????',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=a-nh_-YM1uE',
+            img: "youtube",
+            type: "video",
+            title: 'Замечательный город Дербент',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=DsKnNdSXKQw',
+            img: "youtube",
+            type: "video",
+            title: 'Лезгинка. Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=_mAtpSqEq5c',
+            img: "youtube",
+            type: "video",
+            title: 'Лезгинка Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=6dycXGUzizQ',
+            img: "youtube",
+            type: "video",
+            title: 'Свадьба в Дагестане. Лезгинка',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=qR7mMi-Xyvs',
+            img: "youtube",
+            type: "video",
+            title: 'Весна в Костромской области',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=KvsprX1aiZk',
+            img: "youtube",
+            type: "video",
+            title: 'Соревнование по боксу',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=w6rnhQfSEYQ',
+            img: "youtube",
+            type: "video",
+            title: 'Источник рождества Пресвятой Богородицы, Костромская обл., Галичский р-н',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=l5g_1MgY_i4',
+            img: "youtube",
+            type: "video",
+            title: 'Источник рождества Пресвятой Богородицы, Костромская обл., Галичский р-н',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=YHVYfr2SZz0',
+            img: "youtube",
+            type: "video",
+            title: 'Ужасная авария на трассе Кострома-Буй',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=WS_NhwXlGZE',
+            img: "youtube",
+            type: "video",
+            title: 'Самый хитрый поросенок',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=H6on-UR6KPw',
+            img: "youtube",
+            type: "video",
+            title: 'Как выращивать зеленый лук круглый год',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=8E6bY0stiX4',
+            img: "youtube",
+            type: "video",
+            title: 'Сельское хозяйство процветает',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=gWgvMKJNb6o',
+            img: "youtube",
+            type: "video",
+            title: 'Армянский шашлычок',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=ZUmodApNQDY',
+            img: "youtube",
+            type: "video",
+            title: 'Несколько наглядных приемов борьбы',
+            source: "www.youtube.com"
+        };
+    }
     return ar;
 
 
