@@ -2254,6 +2254,166 @@ function getLinkReklama() {
 		};
 	}  //
 
+	{
+		ar[56] = {
+			mainUrl: "http://www.liberta.com.ua/catalog/bathroom.html?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.liberta.com.ua/shower.html",
+					title: ""
+				},
+				url2: {
+					url: "http://www.liberta.com.ua/about-us.html",
+					title: ""
+				},
+				url3: {
+					url: "http://www.liberta.com.ua/faq.html",
+					title: ""
+				},
+				url4: {
+					url: "http://www.liberta.com.ua/payment-and-delivery.html",
+					title: ""
+				},
+				url5: {
+					url: "http://www.liberta.com.ua/contacts.html",
+					title: ""
+				},
+				url6: {
+					url: "http://www.liberta.com.ua/blog.html",
+					title: ""
+				},
+				url7: {
+					url: "http://www.liberta.com.ua/catalog.html",
+					title: ""
+				}
+			},
+			img: "liberta",
+			type: "reklama",
+			source: "www.liberta.com.ua"
+		};
+	}  //
+
+	{
+		ar[57] = {
+			mainUrl: "http://newidea-shop.com.ua/zerkala/s-podsvetkoj.html?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://newidea-shop.com.ua/novo-clock.html",
+					title: ""
+				},
+				url2: {
+					url: "http://newidea-shop.com.ua/svetovye-paneli.html",
+					title: ""
+				},
+				url3: {
+					url: "http://newidea-shop.com.ua/akrilajt.html",
+					title: ""
+				},
+				url4: {
+					url: "http://newidea-shop.com.ua/svetilniki.html",
+					title: ""
+				},
+				url5: {
+					url: "http://newidea-shop.com.ua/suveniry.html",
+					title: ""
+				},
+				url6: {
+					url: "http://newidea-shop.com.ua/piramidy.html",
+					title: ""
+				},
+				url7: {
+					url: "http://newidea-shop.com.ua/solnechnie-chas.html",
+					title: ""
+				}
+			},
+			img: "newidea-shop",
+			type: "reklama",
+			source: "www.newidea-shop.com.ua"
+		};
+	}  //
+
+	{
+		ar[58] = {
+			mainUrl: "http://www.sk3000.com.ua/catalog/category/1/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.sk3000.com.ua/static/6",
+					title: ""
+				},
+				url2: {
+					url: "http://www.sk3000.com.ua/catalog/category/4/",
+					title: ""
+				},
+				url3: {
+					url: "http://www.sk3000.com.ua/catalog/filter/4",
+					title: ""
+				},
+				url4: {
+					url: "http://www.sk3000.com.ua/catalog/category/5/",
+					title: ""
+				},
+				url5: {
+					url: "http://www.sk3000.com.ua/static/42",
+					title: ""
+				},
+				url6: {
+					url: "http://www.sk3000.com.ua/static/47",
+					title: ""
+				},
+				url7: {
+					url: "http://www.sk3000.com.ua/catalog/category/9/",
+					title: ""
+				}
+			},
+			img: "sk3000",
+			type: "reklama",
+			source: "www.sk3000.com.ua"
+		};
+	}  //
+
+	{
+		ar[59] = {
+			mainUrl: "http://j-mirror.com.ua/catalog?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://j-mirror.com.ua/feedbacks",
+					title: ""
+				},
+				url2: {
+					url: "http://j-mirror.com.ua/contacts",
+					title: ""
+				},
+				url3: {
+					url: "http://j-mirror.com.ua/privacy-policy",
+					title: ""
+				},
+				url4: {
+					url: "http://j-mirror.com.ua/articles",
+					title: ""
+				},
+				url5: {
+					url: "http://j-mirror.com.ua/faq",
+					title: ""
+				},
+				url6: {
+					url: "http://j-mirror.com.ua/shipping",
+					title: ""
+				},
+				url7: {
+					url: "http://j-mirror.com.ua/gallery",
+					title: ""
+				}
+			},
+			img: "j-mirror",
+			type: "reklama",
+			source: "www.j-mirror.com.ua"
+		};
+	}  //
+
 	//{
 	//	ar[45] = {
 	//		mainUrl: "",

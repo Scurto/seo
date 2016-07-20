@@ -3421,7 +3421,521 @@ function getReklama() {
 		source: "www.globetrotter.de"
 	};
 
+	ar[78] = {
+		mainUrl : "https://www.marliesdekkers.com/en-gb/home",
+		title: "Marlies Dekkers Lingerie - Official Online Store",
+		secUrl : {
+			url1 : {
+				url: "https://www.marliesdekkers.com/en-gb/bras",
+				title: "Bras | Shop your Marlies Dekkers bra online"
+			},
+			url2 : {
+				url: "https://www.marliesdekkers.com/en-gb/bottoms",
+				title: "Bottoms | Shop your Marlies Dekkers bottom online"
+			},
+			url3 : {
+				url: "https://www.marliesdekkers.com/en-gb/bodysuits",
+				title: "Bodysuits | Shop your Marlies Dekkers bodysuit online"
+			},
+			url4 : {
+				url: "https://www.marliesdekkers.com/en-gb/corsets",
+				title: "Corsets | Shop your Marlies Dekkers corset online"
+			},
+			url5 : {
+				url: "https://www.marliesdekkers.com/en-gb/garter-belts",
+				title: "Garter Belts & Waspies - Lingerie by Marlies Dekkers"
+			},
+			url6 : {
+				url: "https://www.marliesdekkers.com/en-gb/slipdress",
+				title: "Slipdress | Shop Marlies Dekkers slipdress online"
+			},
+			url7 : {
+				url: "https://www.marliesdekkers.com/en-gb/inspiration-signature.html",
+				title: "Signature collection - Marlies Dekkers Online Store"
+			},
+			url8 : {
+				url: "https://www.marliesdekkers.com/en-gb/inspiration-style.html",
+				title: "Style collection - Marlies Dekkers Online Store"
+			}
+		},
+		img: "marliesdekkers",
+		type: "reklama",
+		location: "USA",
+		source: "www.marliesdekkers.com"
+	};
 
+	ar[79] = {
+		mainUrl : "http://www.ericdress.com/",
+		title: "Online Shopping Store for Wedding & Party Occasion Dresses - Ericdress.com",
+		secUrl : {
+			url1 : {
+				url: "http://www.ericdress.com/new-in/dresses-101884/",
+				title: "New Arrival all Kinds of Dresses – Ericdress.com"
+			},
+			url2 : {
+				url: "http://www.ericdress.com/list/cheap-evening-dresses-4353/",
+				title: "Cheap Evening Dresses & Gowns, Plus Size Evening Dresses - Ericdress.com"
+			},
+			url3 : {
+				url: "http://www.ericdress.com/list/cheap-homecoming-dresses-4369/",
+				title: "Cheap Plus Size Homecoming Dresses, Short Homecoming Dresses - Ericdress.com"
+			},
+			url4 : {
+				url: "http://www.ericdress.com/list/cheap-reception-favors-105768/",
+				title: "Cheap Wedding Party Favors Online Reception Favors Sale - Ericdress.com"
+			},
+			url5 : {
+				url: "http://www.ericdress.com/list/cheap-mother-of-the-bride-dresses-73/",
+				title: "Plus Size Mother of the Bride Dresses, Cheap Mother Dresses on Sale - Ericdress.com"
+			},
+			url6 : {
+				url: "http://www.ericdress.com/list/cheap-tops-101887/",
+				title: "Ladies Tops for Women, Plus Size Lace Corset Top for Sale - Ericdress.com"
+			},
+			url7 : {
+				url: "http://www.ericdress.com/list/cheap-sexy-lingerie-7906/",
+				title: "Lace Sexy Lingerie Online, Cheap Lingerie for Women - Ericdress.com"
+			},
+			url8 : {
+				url: "http://www.ericdress.com/list/cheap-outerwear-101886/",
+				title: "Fashion Outerwear for Women Online - Ericdress.com"
+			}
+		},
+		img: "ericdress",
+		type: "reklama",
+		location: "USA",
+		source: "www.ericdress.com"
+	};
+
+	ar[80] = {
+		mainUrl : "https://arabia.starzplay.com/en/start",
+		title: "STARZ Play | Watch Featured Movies and Original Series",
+		secUrl : {
+			url1 : {
+				url: "https://arabia.starzplay.com/en/genre/action-adventure/23375400362",
+				title: "Watch action & adventure movies from any device | STARZ Play"
+			},
+			url2 : {
+				url: "https://arabia.starzplay.com/en/genre/comedy/23375400360",
+				title: "Watch comedy movies from any device | STARZ Play"
+			},
+			url3 : {
+				url: "https://arabia.starzplay.com/en/genre/drama/23375400359",
+				title: "Watch drama movies from any device | STARZ Play"
+			},
+			url4 : {
+				url: "https://arabia.starzplay.com/en/genre/family/23375400361",
+				title: "Watch family movies from any device | STARZ Play"
+			},
+			url5 : {
+				url: "https://arabia.starzplay.com/en/genre/romance/23375400358",
+				title: "Watch romance movies from any device | STARZ Play"
+			},
+			url6 : {
+				url: "https://arabia.starzplay.com/en/genre/thriller/23375400357",
+				title: "Watch thriller movies from any device | STARZ Play"
+			},
+			url7 : {
+				url: "https://arabia.starzplay.com/en/genre/disney-movies/23635496364",
+				title: "Watch disney movies from any device | STARZ Play"
+			},
+			url8 : {
+				url: "https://arabia.starzplay.com/en/genre/sci-fi-fantasy/23700008413",
+				title: "Watch sci-fi & fantasy movies from any device | STARZ Play"
+			}
+		},
+		img: "arabia.starzplay",
+		type: "reklama",
+		location: "USA",
+		source: "arabia.starzplay.com"
+	};
+
+	ar[81] = {
+		mainUrl : "http://www.tchibo.de/",
+		title: "Tchibo Onlineshop | Das gibt es nur bei Tchibo",
+		secUrl : {
+			url1 : {
+				url: "http://www.tchibo.de/mode-bei-tchibo-c400066813.html",
+				title: "Mode für jede Gelegenheit - das gibt es nur bei Tchibo!"
+			},
+			url2 : {
+				url: "http://www.tchibo.de/moebel-und-wohnen-bei-tchibo-c400066814.html",
+				title: "Wohnen und Einrichten mit schönen Möbeln von Tchibo!"
+			},
+			url3 : {
+				url: "http://www.tchibo.de/sport-und-hobby-c400069711.html",
+				title: "Sport & Hobby: Hier finden Sie alles für Ihren Freizeitspass!"
+			},
+			url4 : {
+				url: "http://www.tchibo.de/shop-prozente-c400064721.html",
+				title: "Tchibo Prozente - Tolle Angebote und Schnäppchen entdecken"
+			},
+			url5 : {
+				url: "http://www.tchibo.de/kaffee-aus-100-arabica-bohnen-vollkommener-kaffeegenuss-bei-t-c4.html",
+				title: "Kaffee & Cafissimo online bestellen im Kaffeeshop von Tchibo"
+			},
+			url6 : {
+				url: "http://reisen.tchibo.de/",
+				title: "Reisen & Urlaub online buchen bei Tchibo Reisen"
+			},
+			url7 : {
+				url: "http://www.tchibo.de/handys-sim-karten-internetflatrates-und-vieles-mehr-bei-tchibo-c5.html",
+				title: "Smartphones, Handys, Tablet & Internet-Sticks bei Tchibo mobil!"
+			},
+			url8 : {
+				url: "http://www.tchibo.de/kategorien-c400047125.html",
+				title: "Kategorien"
+			}
+		},
+		img: "tchibo",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.tchibo.de"
+	};
+
+	ar[82] = {
+		mainUrl : "http://katorg.de/de/",
+		title: "Katorg – Logistik im Onlinehandel",
+		secUrl : {
+			url1 : {
+				url: "http://katorg.de/de/dienstleistungen/",
+				title: "Katorg – Logistik im Onlinehandel – Unsere Dienstleistungen"
+			},
+			url2 : {
+				url: "http://katorg.de/de/referenzen/",
+				title: "Katorg – Logistik im Onlinehandel – Referenzen"
+			},
+			url3 : {
+				url: "http://katorg.de/de/kontakt/",
+				title: "Katorg – Logistik im Onlinehandel – Kontakt"
+			},
+			url4 : {
+				url: "http://katorg.de/de/unternehmen/",
+				title: "Katorg – Logistik im Onlinehandel – Über uns"
+			},
+			url5 : {
+				url: "http://katorg.de/en/impressum/?noredirect=en_US",
+				title: "Katorg – world of shopping – Impressum"
+			},
+			url6 : {
+				url: "http://katorg.de/de/ca/",
+				title: "Katorg – Logistik im Onlinehandel – C&A"
+			},
+			url7 : {
+				url: "http://katorg.de/de/uhrcenter/",
+				title: "Katorg – Logistik im Onlinehandel – Uhrcenter"
+			},
+			url8 : {
+				url: "http://katorg.de/de/mia-moda/",
+				title: "Katorg – Logistik im Onlinehandel – Mia Moda"
+			}
+		},
+		img: "katorg",
+		type: "reklama",
+		location: "GERMANY",
+		source: "katorg.de"
+	};
+
+	ar[83] = {
+		mainUrl : "http://www.albamoda.de/",
+		title: "Mode & Damenmode bei Alba Moda kaufen - exklusiv und italienisch",
+		secUrl : {
+			url1 : {
+				url: "http://www.albamoda.de/damen/blazer/sh765701.html",
+				title: "Blazer für Damen bei Alba Moda | Damenblazer Online kaufen"
+			},
+			url2 : {
+				url: "http://www.albamoda.de/damen/blusen-tuniken/sh765389.html",
+				title: "Blusen online | Damenblusen entdecken und kaufen | Alba Moda"
+			},
+			url3 : {
+				url: "http://www.albamoda.de/damen/homewear/sh5126829.html",
+				title: "Homewear | Hausanzug und Pyjama heute kaufen | Alba Moda"
+			},
+			url4 : {
+				url: "http://www.albamoda.de/damen/hosen/sh765696.html",
+				title: "Hosen für Damen | Alba Moda Online | Damenhosen kaufen"
+			},
+			url5 : {
+				url: "http://www.albamoda.de/damen/jacken-maentel/sh1085052.html",
+				title: "Jacken & Mäntel für Damen - Damenjacken jetzt kaufen"
+			},
+			url6 : {
+				url: "http://www.albamoda.de/damen/pullover-strickjacken/sh1059012.html",
+				title: "Pullover und Strickjacken für Damen - bei Alba Moda kaufen"
+			},
+			url7 : {
+				url: "http://www.albamoda.de/damen/roecke/sh1044729.html",
+				title: "Röcke in unverwechselbaren Farben und Formen | Alba Moda"
+			},
+			url8 : {
+				url: "http://www.albamoda.de/damen/unterwaesche/sh3086124.html",
+				title: "Unterwäsche für Damen jetzt online kaufen | Alba Moda"
+			}
+		},
+		img: "albamoda",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.albamoda.de"
+	};
+
+	ar[84] = {
+		mainUrl : "https://www.walbusch.de/",
+		title: "Sale – jetzt bis zu 50% sparen | Walbusch",
+		secUrl : {
+			url1 : {
+				url: "https://www.walbusch.de/hemden",
+				title: "Hemden online kaufen: einfach und sicher. | Walbusch"
+			},
+			url2 : {
+				url: "https://www.walbusch.de/herrenmode",
+				title: "Herrenmode für stilsichere Auftritte | Walbusch"
+			},
+			url3 : {
+				url: "https://www.walbusch.de/damenmode",
+				title: "Damenmode von Walbusch: feminin und passgenau | Walbusch"
+			},
+			url4 : {
+				url: "https://www.walbusch.de/klepper-shop",
+				title: "Outdoormode im Klepper-Shop | Walbusch | Walbusch"
+			},
+			url5 : {
+				url: "https://www.walbusch.de/mass-atelier",
+				title: "Maß-Atelier | Walbusch"
+			},
+			url6 : {
+				url: "https://www.walbusch.de/sale",
+				title: "Kategorie: Sale | Walbusch"
+			},
+			url7 : {
+				url: "https://www.walbusch.de/service",
+				title: "Service | Walbusch"
+			},
+			url8 : {
+				url: "https://www.walbusch.de/herren-mode/shirts-polos/c/02.08",
+				title: "Shirts und Polos für Herren jetzt bestellen| Walbusch"
+			}
+		},
+		img: "walbusch",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.walbusch.de"
+	};
+
+	ar[85] = {
+		mainUrl : "https://www.adlermode.com/",
+		title: "ADLER: Günstige Mode für Damen, Herren, große Größen & Kinder",
+		secUrl : {
+			url1 : {
+				url: "https://www.adlermode.com/neuheiten",
+				title: "Neue Mode im Shop schnell entdecken | ADLER Onlineshop"
+			},
+			url2 : {
+				url: "https://www.adlermode.com/c-damen",
+				title: "Damenmode mit hoher Qualität günstig kaufen | ADLER"
+			},
+			url3 : {
+				url: "https://www.adlermode.com/c-herren",
+				title: "Herrenmode & Herrenbekleidung günstig kaufen im ADLER Onlineshop"
+			},
+			url4 : {
+				url: "https://www.adlermode.com/waesche",
+				title: "Wohlfühlwäsche für Damen und Herren im ADLER Mode Onlineshop"
+			},
+			url5 : {
+				url: "https://www.adlermode.com/sport",
+				title: "Sport"
+			},
+			url6 : {
+				url: "https://www.adlermode.com/c-schuhe_damen-schuhe",
+				title: "Damen Schuhe | ADLER Mode Onlineshop"
+			},
+			url7 : {
+				url: "https://www.adlermode.com/Markenuebersicht",
+				title: "Top Mode-Marken zu günstigen Preisen kaufen | ADLER Onlineshop"
+			},
+			url8 : {
+				url: "https://www.adlermode.com/c-aktionen",
+				title: "Aktuelle Aktionen im ADLER Onlineshop - Mode & mehr"
+			}
+		},
+		img: "adlermode",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.adlermode.com"
+	};
+
+	ar[86] = {
+		mainUrl : "http://www.limango.de/",
+		title: "limango - Dein Shoppingclub für Kinderschuhe, Kindermode & mehr",
+		secUrl : {
+			url1 : {
+				url: "http://www.limango.de/ueber-uns",
+				title: "limango - Kurzportrait, Team und Kundenstimmen"
+			},
+			url2 : {
+				url: "http://www.limango.de/angebote/",
+				title: "limango Lieblingsplatz"
+			},
+			url3 : {
+				url: "http://www.limango.de/agb",
+				title: "AGB"
+			},
+			url4 : {
+				url: "http://www.limango.de/datenschutz",
+				title: "Datenschutz"
+			},
+			url5 : {
+				url: "http://www.limango.de/impressum",
+				title: "Impressum"
+			},
+			url6 : {
+				url: "http://www.limango.de/account/faq",
+				title: "FAQ"
+			},
+			url7 : {
+				url: "http://www.limango.de/ueber-uns/kurzportrait",
+				title: "limango - von Familien für Familien"
+			},
+			url8 : {
+				url: "http://www.limango.de/ueber-uns/das-limango-prinzip",
+				title: "Markenprodukte bis zu 70% günstiger – so geht es!"
+			}
+		},
+		img: "limango",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.limango.de"
+	};
+
+	ar[87] = {
+		mainUrl : "http://www.singaporelaw.sg/sglaw/",
+		title: "Singapore Law",
+		secUrl : {
+			url1 : {
+				url: "http://www.singaporelaw.sg/sglaw/singapore-legal-system/singapore-jurisdiction-law",
+				title: "Singapore Jurisdiction & Law"
+			},
+			url2 : {
+				url: "http://www.singaporelaw.sg/sglaw/singapore-legal-system/singapore-academy-of-law",
+				title: "Singapore Academy of Law"
+			},
+			url3 : {
+				url: "http://www.singaporelaw.sg/sglaw/singapore-legal-system/2013-01-28-11-14-34/supreme-court",
+				title: "Supreme Court"
+			},
+			url4 : {
+				url: "http://www.singaporelaw.sg/sglaw/singapore-legal-system/attorney-general-s-chambers",
+				title: "Attorney-General's Chambers"
+			},
+			url5 : {
+				url: "http://www.singaporelaw.sg/sglaw/singapore-legal-system/ministry-of-law",
+				title: "Ministry of Law"
+			},
+			url6 : {
+				url: "http://www.singaporelaw.sg/sglaw/singapore-legal-system/the-law-society-of-singapore",
+				title: "The Law Society of Singapore"
+			},
+			url7 : {
+				url: "http://www.singaporelaw.sg/sglaw/singapore-legal-system/singapore-institute-of-legal-education",
+				title: "Singapore Institute of Legal Education"
+			},
+			url8 : {
+				url: "http://www.singaporelaw.sg/sglaw/singapore-legal-system/legal-related-institutions",
+				title: "Legal-Related Institutions"
+			}
+		},
+		img: "singaporelaw",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.singaporelaw.sg"
+	};
+
+	ar[88] = {
+		mainUrl : "http://www.gumtree.sg/",
+		title: "Free Classifieds on Gumtree Singapore",
+		secUrl : {
+			url1 : {
+				url: "http://www.gumtree.sg/s-home-furnishing/v1c44p1",
+				title: "Home Furnishing in Singapore | Gumtree Singapore"
+			},
+			url2 : {
+				url: "http://www.gumtree.sg/s-clothes-accessories/v1c41p1",
+				title: "Clothes & Accessories in Singapore | Gumtree Singapore"
+			},
+			url3 : {
+				url: "http://www.gumtree.sg/s-electronics/v1c146p1",
+				title: "Electronics in Singapore | Gumtree Singapore"
+			},
+			url4 : {
+				url: "http://www.gumtree.sg/s-mobile-phones/v1c46p1",
+				title: "Mobile Phones in Singapore | Gumtree Singapore"
+			},
+			url5 : {
+				url: "http://www.gumtree.sg/s-baby-children/v1c88p1",
+				title: "Baby & Children in Singapore | Gumtree Singapore"
+			},
+			url6 : {
+				url: "http://www.gumtree.sg/s-health-beauty/v1c313p1",
+				title: "Health & Beauty in Singapore | Gumtree Singapore"
+			},
+			url7 : {
+				url: "http://www.gumtree.sg/s-antiques-collectibles/v1c17p1",
+				title: "Antiques & Collectibles in Singapore | Gumtree Singapore"
+			},
+			url8 : {
+				url: "http://www.gumtree.sg/s-toys-games/v1c86p1",
+				title: "Toys & Games in Singapore | Gumtree Singapore"
+			}
+		},
+		img: "gumtree",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.gumtree.sg"
+	};
+
+	ar[89] = {
+		mainUrl : "http://www.exabytes.sg/",
+		title: "Singapore Web Hosting & Domain Name Registration - Exabytes.SG",
+		secUrl : {
+			url1 : {
+				url: "http://www.exabytes.sg/web-hosting/instant-website/",
+				title: "Instant Website & Instant Website Builder - Exabytes.SG"
+			},
+			url2 : {
+				url: "http://www.exabytes.sg/web-hosting/premium-business-email-hosting/",
+				title: "Singapore Email Hosting - Business Email Server Hosting | Exabytes"
+			},
+			url3 : {
+				url: "http://www.exabytes.sg/web-hosting/small-business-hosting/",
+				title: "Small Business Web Hosting Singapore - Exabytes.SG"
+			},
+			url4 : {
+				url: "http://www.exabytes.sg/web-hosting/small-business-hosting/windows/",
+				title: "Best Web Hosting for Business (Windows) - Exabytes.SG"
+			},
+			url5 : {
+				url: "http://www.exabytes.sg/wordpress-hosting/",
+				title: "Optimized WordPress Hosting Best in Singapore's - Exabytes.SG"
+			},
+			url6 : {
+				url: "http://www.exabytes.sg/servers/dedicated-server/instant-dedicated-server.php",
+				title: "Instant Dedicated Server Hosting Singapore - Exabytes.SG"
+			},
+			url7 : {
+				url: "http://www.exabytes.sg/cloud/hosting/",
+				title: "Cloud Hosting for Small & Medium Business - Exabytes.SG"
+			},
+			url8 : {
+				url: "http://www.exabytes.sg/about/awards.php",
+				title: "Exabytes Our Awards & Achievements - Exabytes.SG"
+			}
+		},
+		img: "exabytes",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.exabytes.sg"
+	};
 
 
 
@@ -3468,133 +3982,7 @@ function getReklama() {
 	//	source: "www.boccesbakery.com"
 	//};
 
-	//ar[23] = {
-	//	mainUrl : "",
-	//	title: "",
-	//	secUrl : {
-	//		url1 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//
-	//		url2 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//
-	//		url3 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//		url4 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//		url5 : {
-	//			url: "",
-	//			title: ""
-	//		}
-	//	},
-	//	img: "boccesbakery",
-	//	type: "reklama",
-	//	source: "www.boccesbakery.com"
-	//};
 
-	//ar[24] = {
-	//	mainUrl : "",
-	//	title: "",
-	//	secUrl : {
-	//		url1 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//
-	//		url2 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//
-	//		url3 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//		url4 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//		url5 : {
-	//			url: "",
-	//			title: ""
-	//		}
-	//	},
-	//	img: "boccesbakery",
-	//	type: "reklama",
-	//	source: "www.boccesbakery.com"
-	//};
-
-	//ar[25] = {
-	//	mainUrl : "",
-	//	title: "",
-	//	secUrl : {
-	//		url1 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//
-	//		url2 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//
-	//		url3 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//		url4 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//		url5 : {
-	//			url: "",
-	//			title: ""
-	//		}
-	//	},
-	//	img: "boccesbakery",
-	//	type: "reklama",
-	//	source: "www.boccesbakery.com"
-	//};
-
-	//ar[3] = {
-	//	mainUrl : "",
-	//	title: "",
-	//	secUrl : {
-	//		url1 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//
-	//		url2 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//
-	//		url3 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//		url4 : {
-	//			url: "",
-	//			title: ""
-	//		},
-	//		url5 : {
-	//			url: "",
-	//			title: ""
-	//		}
-	//	},
-	//	img: "boccesbakery",
-	//	type: "reklama",
-	//	source: "www.boccesbakery.com"
-	//};
 
 	return ar;
 }
