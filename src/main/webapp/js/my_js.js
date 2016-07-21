@@ -1106,8 +1106,60 @@ $(document).ready(function() {
 	});
 
 	$('#openGoogle').click(function() {
-		$("#forGoogle").modal('show');
+
+		var channelName = "TechGuyWeb";
+		//$.get("https://www.googleapis.com/youtube/v3/search", {
+		//	part: "snippet",
+		//	//part: "id",
+		//	//forUsername: channelName,
+		//	channelId: "UCJIbnmV8DdqOGEcl6hm-x8w",
+		//	//type: 'video',
+		//	//maxResults: 50,
+		//	key: 'AIzaSyD4uG1sdLHryZMwVDnUQBXXIdvGhAtGquA'}, function(data) {
+		//	$.each(data.items, function(i, item) {
+		//		console.log(item);
+		//		//var pid = item.contentDetails.relatedPlaylists.uploads;
+		//		//console.log("pid = " + pid);
+		//		//getVids(pid);
+		//	})
+		//});
+
+		$.get("https://www.googleapis.com/youtube/v3/search", {
+			part: "snippet",
+			//forUsername: channelName,
+			channelId: "UCJIbnmV8DdqOGEcl6hm-x8w",
+			maxResults: 50,
+			order: "date",
+			key: 'AIzaSyD4uG1sdLHryZMwVDnUQBXXIdvGhAtGquA'}, function(data) {
+			$.each(data.items, function(i, item) {
+				console.log(item);
+
+				//var pid = item.id.playlistId;
+				//if (pid != undefined) {
+				//	//console.log(item);
+				//	console.log(item);
+				//	console.log("pid = " + pid);
+				//	getVids(pid);
+				//}
+
+			})
+		});
+		//console.log("test2");
 	});
+
+	function getVids(pid) {
+		$.get("https://www.googleapis.com/youtube/v3/playlistItems", {
+			part: "snippet",
+			//maxResults: 50,
+			playlistId: pid,
+			key: 'AIzaSyD4uG1sdLHryZMwVDnUQBXXIdvGhAtGquA'}, function(data) {
+			var output;
+			$.each(data.items, function(i, item) {
+				console.log(item);
+
+			})
+		});
+	}
 
 	function resetForm() {
 		$('#taskId').val('');
