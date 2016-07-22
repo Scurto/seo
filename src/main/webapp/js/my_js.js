@@ -2175,6 +2175,14 @@ $('#clear-browsing-data').click(function(event) {
 			while (i == 0 && baseArray[ran].type == 'reklama') {
 				ran = Math.floor(Math.random() * (baseArray.length));
 			}
+
+			//TODO fix MIXING (out of Array)
+
+			//while (baseArray[ran].type == 'reklama' && (i == 0 || (baseArray[ran].type == etalonArray[etalonArray.length-1].type))) {
+			//	ran = Math.floor(Math.random() * (baseArray.length));
+            //
+			//}
+
 			if (baseArray[ran].type == 'reklama') {
 				var rekImg = baseArray[ran].img;
 				var rekSource = baseArray[ran].source;
