@@ -1685,371 +1685,1354 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 71431 || taskId == 938168) {
+
+    if (taskId == 313536) {
         ar[0] = {
-            url: 'https://www.youtube.com/watch?v=zbuZYLk1iuY',
+            url: 'https://www.youtube.com/watch?v=gYVQvJJMoPc',
             img: "youtube",
             type: "video",
-            title: 'Пчелы в дикой природе. Часть 3',
+            title: 'Джазовая музыка. Концерт в ДКЖ.  Дмитрий Гончаренко.',
             source: "www.youtube.com"
         };
         ar[1] = {
-            url: 'https://www.youtube.com/watch?v=bNkKjGD5F8w',
+            url: 'https://www.youtube.com/watch?v=haN1KzLuSCY',
             img: "youtube",
             type: "video",
-            title: 'Пчелы в дикой природе. Часть 2',
+            title: 'Как по горкам по горам  Русская народная песня.',
             source: "www.youtube.com"
         };
         ar[2] = {
-            url: 'https://www.youtube.com/watch?v=-LYX4nypHWw',
+            url: 'https://www.youtube.com/watch?v=M_Fge6i0S3g',
             img: "youtube",
             type: "video",
-            title: 'Пчелы в дикой природе. Часть 1',
+            title: 'Музыка из кино. Дмитрий Гончаренко и Ольга Фелькер',
             source: "www.youtube.com"
         };
         ar[3] = {
-            url: 'https://www.youtube.com/watch?v=FyIoPgwL_hQ',
+            url: 'https://www.youtube.com/watch?v=_AhTu6Ly-jg',
             img: "youtube",
             type: "video",
-            title: 'Ипотека для роя. Часть 2',
+            title: 'Прогулка по зоопарку. Зайцы, лебеди, гуси, утки.',
             source: "www.youtube.com"
         };
         ar[4] = {
-            url: 'https://www.youtube.com/watch?v=DfF9cP8ZmJM',
+            url: 'https://www.youtube.com/watch?v=kbrJ1ldo52U',
             img: "youtube",
             type: "video",
-            title: 'Ипотека для роя. Часть 1',
+            title: 'Прогулка по зоопарку. Рысь спит и не хочет позировать.',
             source: "www.youtube.com"
         };
         ar[5] = {
-            url: 'https://www.youtube.com/watch?v=Xm1Icn6GNHw',
+            url: 'https://www.youtube.com/watch?v=Gb9kUAnptVc',
             img: "youtube",
             type: "video",
-            title: 'Делаю отводки, нуклеусы.  Часть 4',
+            title: 'Прогулка по зоопарку. Семья медведей.',
             source: "www.youtube.com"
         };
         ar[6] = {
-            url: 'https://www.youtube.com/watch?v=-1BUedxtGtI',
+            url: 'https://www.youtube.com/watch?v=i1E4JGBsfUU',
             img: "youtube",
             type: "video",
-            title: 'Делаю отводки, нуклеусы.  Часть 3',
+            title: 'Прогулка по зоопарку. Пони, ослики и страусы.',
             source: "www.youtube.com"
         };
         ar[7] = {
-            url: 'https://www.youtube.com/watch?v=T2sqfC7CrEY',
+            url: 'https://www.youtube.com/watch?v=lkytvNloDtM',
             img: "youtube",
             type: "video",
-            title: 'Делаю отводки, нуклеусы.  Часть 2',
+            title: 'Прогулка по зоопарку. Кабан и Олень.',
             source: "www.youtube.com"
         };
         ar[8] = {
-            url: 'https://www.youtube.com/watch?v=qYiMctT4hKM',
+            url: 'https://www.youtube.com/watch?v=lo2WyGAsPgk',
             img: "youtube",
             type: "video",
-            title: 'Делаю отводки, нуклеусы. Часть 1',
+            title: 'Прогулка по зоопарку. Лев и верблюды.',
             source: "www.youtube.com"
         };
         ar[9] = {
-            url: 'https://www.youtube.com/watch?v=lDMHJ-M2m30',
+            url: 'https://www.youtube.com/watch?v=se-41jYj3zc',
             img: "youtube",
             type: "video",
-            title: 'Роение пчел в Митяево. Часть 5',
+            title: 'Прогулка по зоопарку. Волки.',
             source: "www.youtube.com"
         };
         ar[10] = {
-            url: 'https://www.youtube.com/watch?v=5Y90RTIBGdA',
+            url: 'https://www.youtube.com/watch?v=hbqudk7chis',
             img: "youtube",
             type: "video",
-            title: 'Отбор меда для откачки. Часть 1',
+            title: 'Прогулка по зоопарку. Еноты и лисы.',
             source: "www.youtube.com"
         };
         ar[11] = {
-            url: 'https://www.youtube.com/watch?v=s6f7DftAWoM',
+            url: 'https://www.youtube.com/watch?v=Jkh1ZfyDjNY',
             img: "youtube",
             type: "video",
-            title: 'Двух корпусный улей. Часть 3',
+            title: 'Прогулка по зоопарку.  Белка павлин и фазаны.',
             source: "www.youtube.com"
         };
         ar[12] = {
-            url: 'https://www.youtube.com/watch?v=uZAZY1AyIuA',
+            url: 'https://www.youtube.com/watch?v=MdXi2wdNV8Q',
             img: "youtube",
             type: "video",
-            title: 'Двух корпусный улей. Часть 2',
+            title: 'День победы. 9 мая парад в г. Буй',
             source: "www.youtube.com"
         };
         ar[13] = {
+            url: 'https://www.youtube.com/watch?v=YqnIn8cME7E',
+            img: "youtube",
+            type: "video",
+            title: 'Музыкальный аппарат с рупором, воспроизводящий звуки,.',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=Tjd9D3M-Er8',
+            img: "youtube",
+            type: "video",
+            title: 'Сусанинский краеведческий музей подвига И. Сусанина.',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=cIJJIpveGoo',
+            img: "youtube",
+            type: "video",
+            title: 'Село Домнино. Женский Монастырь. Часть 12',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=lhCCEov8XHI',
+            img: "youtube",
+            type: "video",
+            title: 'Колодец на болоте Чистое. Часть 8',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=VUE2d_KLgIY',
+            img: "youtube",
+            type: "video",
+            title: 'Вторая версия подвига Ивана Сусанина  Часть 6',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=TIXjbFypGos',
+            img: "youtube",
+            type: "video",
+            title: 'Идем все дальше вглубь болота. Часть 4',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=AF92ulbvjKo',
+            img: "youtube",
+            type: "video",
+            title: 'И зовут это болото Чистое  Часть 7',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=3NxOXleMPlo',
+            img: "youtube",
+            type: "video",
+            title: 'Флора и фауна болота Чистое  Часть 9',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=AtFsX2SbcPM',
+            img: "youtube",
+            type: "video",
+            title: 'Сцена подвига Ивана Сусанина  Часть 5',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=Ws2RJnptfJQ',
+            img: "youtube",
+            type: "video",
+            title: 'И повел Иван Сусанин войско Польское в лес на болото  Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=fvPrkzWBKMc',
+            img: "youtube",
+            type: "video",
+            title: 'И так, поехали, в гости к Ивану Сусанину  Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=aubptL27g4k',
+            img: "youtube",
+            type: "video",
+            title: 'Здесь стоял дом Ивана Сусанина  Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=WwQ4_yNby4Y',
+            img: "youtube",
+            type: "video",
+            title: 'История Герба нашего города',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=KIjLzxqVOhI',
+            img: "youtube",
+            type: "video",
+            title: 'Вальс. Народный танцевальный ансамбль Ленок',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=RBSpB0lASGw',
+            img: "youtube",
+            type: "video",
+            title: 'История строительства железной дороги в нашем городе',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=f7IJC1phfMk',
+            img: "youtube",
+            type: "video",
+            title: 'Кузьма Кузьмич дарит подарки детям',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=1Uca6wB-WqU',
+            img: "youtube",
+            type: "video",
+            title: 'Дедушка сапожник сшей нам сапоги',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=ekgKr86pWI4',
+            img: "youtube",
+            type: "video",
+            title: 'Едем на дачу через мост реки Шача',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=Ac9D3-nk-8k',
+            img: "youtube",
+            type: "video",
+            title: 'Что означает слово Буй  Игра в крепость',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=-JWXfww71_o',
+            img: "youtube",
+            type: "video",
+            title: 'Указ царицы Елены Глинской об основании крепости',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=Fd-TTSjHpMM',
+            img: "youtube",
+            type: "video",
+            title: 'София Карпова классно играет джаз',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=N2apijecm1g',
+            img: "youtube",
+            type: "video",
+            title: 'Танго. Утомленное солнце. Струнный квартет',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=30qOM3sLijY',
+            img: "youtube",
+            type: "video",
+            title: 'При народе в хороводе. Струнный квартет',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=PpxWRVHBoBE',
+            img: "youtube",
+            type: "video",
+            title: 'Сентиментальный вальс исполняет Анастасия Карабанова',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=PRPTyEno0CI',
+            img: "youtube",
+            type: "video",
+            title: 'Исполняет на саксофоне Владимир Лупков',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=euZNJb1Gs-4',
+            img: "youtube",
+            type: "video",
+            title: 'Летите голуби. Сводный хор',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=9vjx94sMyGw',
+            img: "youtube",
+            type: "video",
+            title: 'Квартет саксофонов. рук. Владимир Лупков',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=F1Uig67e4hI',
+            img: "youtube",
+            type: "video",
+            title: 'Марш энтузиастов. Сводный хор',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=uFRvLfMb8Do',
+            img: "youtube",
+            type: "video",
+            title: 'Квартет саксофонистов. рук.  Владимир Лупков',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=Rit2k7VgmPc',
+            img: "youtube",
+            type: "video",
+            title: 'Исполняет на рояле Анастасия Грубова',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
+            url: 'https://www.youtube.com/watch?v=47MpsoHyNg8',
+            img: "youtube",
+            type: "video",
+            title: 'Скворцы прилетели. Хоровое пение.',
+            source: "www.youtube.com"
+        };
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=JFHeX4Ubatg',
+            img: "youtube",
+            type: "video",
+            title: 'Веселый ветер. Инструментальная музыка. Хор.',
+            source: "www.youtube.com"
+        };
+        ar[45] = {
+            url: 'https://www.youtube.com/watch?v=-M18nqWnrjE',
+            img: "youtube",
+            type: "video",
+            title: 'Кубанские Казаки. Инструментальная музыка.',
+            source: "www.youtube.com"
+        };
+        ar[46] = {
+            url: 'https://www.youtube.com/watch?v=kOymTQQGfZs',
+            img: "youtube",
+            type: "video",
+            title: 'Про историю основания города часть 2',
+            source: "www.youtube.com"
+        };
+        ar[47] = {
+            url: 'https://www.youtube.com/watch?v=V95tQu_G2K8',
+            img: "youtube",
+            type: "video",
+            title: 'Про историю основания города часть 1',
+            source: "www.youtube.com"
+        };
+        ar[48] = {
+            url: 'https://www.youtube.com/watch?v=96EVEe09H8c',
+            img: "youtube",
+            type: "video",
+            title: 'Играет на рояле Фелькер Григорий. Пьеса.',
+            source: "www.youtube.com"
+        };
+        ar[49] = {
+            url: 'https://www.youtube.com/watch?v=p619_qTA_P8',
+            img: "youtube",
+            type: "video",
+            title: 'Иван Васильевич меняет профессию. Духовой оркестр.',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 71431 || taskId == 938168 || taskId == 244998) {
+        //ar[0] = {
+        //    url: 'https://www.youtube.com/watch?v=zbuZYLk1iuY',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Пчелы в дикой природе. Часть 3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[1] = {
+        //    url: 'https://www.youtube.com/watch?v=bNkKjGD5F8w',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Пчелы в дикой природе. Часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[2] = {
+        //    url: 'https://www.youtube.com/watch?v=-LYX4nypHWw',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Пчелы в дикой природе. Часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[3] = {
+        //    url: 'https://www.youtube.com/watch?v=FyIoPgwL_hQ',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Ипотека для роя. Часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[4] = {
+        //    url: 'https://www.youtube.com/watch?v=DfF9cP8ZmJM',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Ипотека для роя. Часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[5] = {
+        //    url: 'https://www.youtube.com/watch?v=Xm1Icn6GNHw',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Делаю отводки, нуклеусы.  Часть 4',
+        //    source: "www.youtube.com"
+        //};
+        //ar[6] = {
+        //    url: 'https://www.youtube.com/watch?v=-1BUedxtGtI',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Делаю отводки, нуклеусы.  Часть 3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[7] = {
+        //    url: 'https://www.youtube.com/watch?v=T2sqfC7CrEY',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Делаю отводки, нуклеусы.  Часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[8] = {
+        //    url: 'https://www.youtube.com/watch?v=qYiMctT4hKM',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Делаю отводки, нуклеусы. Часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[9] = {
+        //    url: 'https://www.youtube.com/watch?v=lDMHJ-M2m30',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Роение пчел в Митяево. Часть 5',
+        //    source: "www.youtube.com"
+        //};
+        //ar[10] = {
+        //    url: 'https://www.youtube.com/watch?v=5Y90RTIBGdA',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Отбор меда для откачки. Часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[11] = {
+        //    url: 'https://www.youtube.com/watch?v=s6f7DftAWoM',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Двух корпусный улей. Часть 3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[12] = {
+        //    url: 'https://www.youtube.com/watch?v=uZAZY1AyIuA',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Двух корпусный улей. Часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[13] = {
+        //    url: 'https://www.youtube.com/watch?v=wGlTSc1LRLs',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Двух корпусный улей. Часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[14] = {
+        //    url: 'https://www.youtube.com/watch?v=CDFhc54iZis',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Сушу рамки, усиливаю отводок. Часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[15] = {
+        //    url: 'https://www.youtube.com/watch?v=5vJ9o9ZSqVI',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Сушу рамки, усиливаю отводок. Часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[16] = {
+        //    url: 'https://www.youtube.com/watch?v=CKIRjtjHF3E',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Отбор меда для откачки. Часть 3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[17] = {
+        //    url: 'https://www.youtube.com/watch?v=7atuzjpKiis',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Отбор меда для откачки. Часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[18] = {
+        //    url: 'https://www.youtube.com/watch?v=G6D8GYqLRYw',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Ну, наконец - то, качаю мед. Часть 3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[19] = {
+        //    url: 'https://www.youtube.com/watch?v=Qw7VavO1HuM',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Ну, наконец - то, качаю мед. Часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[20] = {
+        //    url: 'https://www.youtube.com/watch?v=j3nSfNSkgTo',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Ну, наконец - то, качаю мед. Часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[21] = {
+        //    url: 'https://www.youtube.com/watch?v=ZamiBIfH-aU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Сушу рамки, усиливаю отводок. Часть 3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[22] = {
+        //    url: 'https://www.youtube.com/watch?v=Y39mJ_0a-c4',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Советы старого пчеловода. Часть 4',
+        //    source: "www.youtube.com"
+        //};
+        //ar[23] = {
+        //    url: 'https://www.youtube.com/watch?v=FOXntOI8B1E',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Советы старого пчеловода. Часть 3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[24] = {
+        //    url: 'https://www.youtube.com/watch?v=_3oTim74DaU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Советы старого пчеловода. Часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[25] = {
+        //    url: 'https://www.youtube.com/watch?v=FMqddsqqR-E',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Советы старого пчеловода. Часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[26] = {
+        //    url: 'https://www.youtube.com/watch?v=hdZULYIW4zM',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Осенняя ревизия и подготовка к зиме. Часть 3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[27] = {
+        //    url: 'https://www.youtube.com/watch?v=3HvB01T6mf0',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Осенняя ревизия и подготовка к зиме. Часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[28] = {
+        //    url: 'https://www.youtube.com/watch?v=hLM1SZ0c06s',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Осенняя ревизия и подготовка к зиме. Часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[29] = {
+        //    url: 'https://www.youtube.com/watch?v=akrPlUa_wNg',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Осенняя ревизия и подготовка к зиме. Часть 4',
+        //    source: "www.youtube.com"
+        //};
+        //ar[30] = {
+        //    url: 'https://www.youtube.com/watch?v=4zEybySMizU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Роение пчел в Митяево. Часть 4',
+        //    source: "www.youtube.com"
+        //};
+        //ar[31] = {
+        //    url: 'https://www.youtube.com/watch?v=aGBDNDHUVfg',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Роение пчел в Митяево. Часть 3 - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[32] = {
+        //    url: 'https://www.youtube.com/watch?v=pbyDd-ifP9w',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Роение пчел в Митяево. Часть 2 - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[33] = {
+        //    url: 'https://www.youtube.com/watch?v=CRiFrJqdrYs',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Роение пчел в Митяево. Часть 1 - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[34] = {
+        //    url: 'https://www.youtube.com/watch?v=RvY6eBW0ATE',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Ловим рой соседа. Часть 3 - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[35] = {
+        //    url: 'https://www.youtube.com/watch?v=kNQTiHgOttE',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Ловим рой соседа. Часть 2 - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[36] = {
+        //    url: 'https://www.youtube.com/watch?v=HdCMhP7VppU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Ловим рой соседа. Часть 1 - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[37] = {
+        //    url: 'https://www.youtube.com/watch?v=hw5U154Tmyw',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Десять лет назад. Часть 3 - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[38] = {
+        //    url: 'https://www.youtube.com/watch?v=3cqzWZeRuLA',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Десять лет назад. Часть 2 - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[39] = {
+        //    url: 'https://www.youtube.com/watch?v=WesedygQ-8Q',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Десять лет назад. Часть 1 - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=Sjq1YjfDMYU',
+            img: "youtube",
+            type: "video",
+            title: 'Высыпаю рой на старика.',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=UGQsbqw0KSU',
+            img: "youtube",
+            type: "video",
+            title: 'Высыпаю рой и делаю Селфи (а также себяшка).',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=rY3CMF9aVuo',
+            img: "youtube",
+            type: "video",
+            title: 'Подготавливаю домик для посадки роя. Часть 4',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=Z2Pr_3CX_qE',
+            img: "youtube",
+            type: "video",
+            title: 'И снова про рои свои и соседа. Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=LhwRGOpc1Qk',
+            img: "youtube",
+            type: "video",
+            title: 'Рой сам выбрал себе место на моей пасеке. Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=VMsPzEcon-U',
+            img: "youtube",
+            type: "video",
+            title: 'Сажаю рои на стариков. Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=XcbSrJ4hI04',
+            img: "youtube",
+            type: "video",
+            title: 'Ставлю корпус на основное гнездо. Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=3BmXQyGQ9j8',
+            img: "youtube",
+            type: "video",
+            title: 'Ключи. Лечебный источник воды. Колодец в деревне Митяево',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=XipHx5-LmiM',
+            img: "youtube",
+            type: "video",
+            title: 'Наращиваю силу семей для главного взятка. Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=UA9OaKtkRUE',
+            img: "youtube",
+            type: "video",
+            title: 'Ставлю корпус на основное гнездо. Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=6QzqBOdUPmg',
+            img: "youtube",
+            type: "video",
+            title: 'Медведь (Михаил Потапыч) ходит по нашей дороге.',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=WYs7gbOLuqY',
+            img: "youtube",
+            type: "video",
+            title: 'Липовая роща и пчелы в дупле.',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
             url: 'https://www.youtube.com/watch?v=wGlTSc1LRLs',
             img: "youtube",
             type: "video",
             title: 'Двух корпусный улей. Часть 1',
             source: "www.youtube.com"
         };
-        ar[14] = {
-            url: 'https://www.youtube.com/watch?v=CDFhc54iZis',
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=s6f7DftAWoM',
             img: "youtube",
             type: "video",
-            title: 'Сушу рамки, усиливаю отводок. Часть 2',
+            title: 'Двух корпусный улей. Часть 3',
             source: "www.youtube.com"
         };
-        ar[15] = {
+        ar[14] = {
             url: 'https://www.youtube.com/watch?v=5vJ9o9ZSqVI',
             img: "youtube",
             type: "video",
             title: 'Сушу рамки, усиливаю отводок. Часть 1',
             source: "www.youtube.com"
         };
-        ar[16] = {
-            url: 'https://www.youtube.com/watch?v=CKIRjtjHF3E',
-            img: "youtube",
-            type: "video",
-            title: 'Отбор меда для откачки. Часть 3',
-            source: "www.youtube.com"
-        };
-        ar[17] = {
-            url: 'https://www.youtube.com/watch?v=7atuzjpKiis',
-            img: "youtube",
-            type: "video",
-            title: 'Отбор меда для откачки. Часть 2',
-            source: "www.youtube.com"
-        };
-        ar[18] = {
+        ar[15] = {
             url: 'https://www.youtube.com/watch?v=G6D8GYqLRYw',
             img: "youtube",
             type: "video",
             title: 'Ну, наконец - то, качаю мед. Часть 3',
             source: "www.youtube.com"
         };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=7atuzjpKiis',
+            img: "youtube",
+            type: "video",
+            title: 'Отбор меда для откачки. Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=Xm1Icn6GNHw',
+            img: "youtube",
+            type: "video",
+            title: 'Делаю отводки, нуклеусы.  Часть 4',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=CDFhc54iZis',
+            img: "youtube",
+            type: "video",
+            title: 'Сушу рамки, усиливаю отводок. Часть 2',
+            source: "www.youtube.com"
+        };
         ar[19] = {
-            url: 'https://www.youtube.com/watch?v=Qw7VavO1HuM',
-            img: "youtube",
-            type: "video",
-            title: 'Ну, наконец - то, качаю мед. Часть 2',
-            source: "www.youtube.com"
-        };
-        ar[20] = {
-            url: 'https://www.youtube.com/watch?v=j3nSfNSkgTo',
-            img: "youtube",
-            type: "video",
-            title: 'Ну, наконец - то, качаю мед. Часть 1',
-            source: "www.youtube.com"
-        };
-        ar[21] = {
-            url: 'https://www.youtube.com/watch?v=ZamiBIfH-aU',
-            img: "youtube",
-            type: "video",
-            title: 'Сушу рамки, усиливаю отводок. Часть 3',
-            source: "www.youtube.com"
-        };
-        ar[22] = {
-            url: 'https://www.youtube.com/watch?v=Y39mJ_0a-c4',
-            img: "youtube",
-            type: "video",
-            title: 'Советы старого пчеловода. Часть 4',
-            source: "www.youtube.com"
-        };
-        ar[23] = {
-            url: 'https://www.youtube.com/watch?v=FOXntOI8B1E',
-            img: "youtube",
-            type: "video",
-            title: 'Советы старого пчеловода. Часть 3',
-            source: "www.youtube.com"
-        };
-        ar[24] = {
-            url: 'https://www.youtube.com/watch?v=_3oTim74DaU',
-            img: "youtube",
-            type: "video",
-            title: 'Советы старого пчеловода. Часть 2',
-            source: "www.youtube.com"
-        };
-        ar[25] = {
             url: 'https://www.youtube.com/watch?v=FMqddsqqR-E',
             img: "youtube",
             type: "video",
             title: 'Советы старого пчеловода. Часть 1',
             source: "www.youtube.com"
         };
-        ar[26] = {
-            url: 'https://www.youtube.com/watch?v=hdZULYIW4zM',
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=FyIoPgwL_hQ',
             img: "youtube",
             type: "video",
-            title: 'Осенняя ревизия и подготовка к зиме. Часть 3',
+            title: 'Ипотека для роя. Часть 2',
             source: "www.youtube.com"
         };
-        ar[27] = {
-            url: 'https://www.youtube.com/watch?v=3HvB01T6mf0',
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=T2sqfC7CrEY',
             img: "youtube",
             type: "video",
-            title: 'Осенняя ревизия и подготовка к зиме. Часть 2',
+            title: 'Делаю отводки, нуклеусы.  Часть 2',
             source: "www.youtube.com"
         };
-        ar[28] = {
-            url: 'https://www.youtube.com/watch?v=hLM1SZ0c06s',
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=DfF9cP8ZmJM',
             img: "youtube",
             type: "video",
-            title: 'Осенняя ревизия и подготовка к зиме. Часть 1',
+            title: 'Ипотека для роя. Часть 1',
             source: "www.youtube.com"
         };
-        ar[29] = {
+        ar[23] = {
             url: 'https://www.youtube.com/watch?v=akrPlUa_wNg',
             img: "youtube",
             type: "video",
             title: 'Осенняя ревизия и подготовка к зиме. Часть 4',
             source: "www.youtube.com"
         };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=Qw7VavO1HuM',
+            img: "youtube",
+            type: "video",
+            title: 'Ну, наконец - то, качаю мед. Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=hLM1SZ0c06s',
+            img: "youtube",
+            type: "video",
+            title: 'Осенняя ревизия и подготовка к зиме. Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=j3nSfNSkgTo',
+            img: "youtube",
+            type: "video",
+            title: 'Ну, наконец - то, качаю мед. Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=CKIRjtjHF3E',
+            img: "youtube",
+            type: "video",
+            title: 'Отбор меда для откачки. Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=hdZULYIW4zM',
+            img: "youtube",
+            type: "video",
+            title: 'Осенняя ревизия и подготовка к зиме. Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=5Y90RTIBGdA',
+            img: "youtube",
+            type: "video",
+            title: 'Отбор меда для откачки. Часть 1',
+            source: "www.youtube.com"
+        };
         ar[30] = {
+            url: 'https://www.youtube.com/watch?v=-1BUedxtGtI',
+            img: "youtube",
+            type: "video",
+            title: 'Делаю отводки, нуклеусы.  Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=FOXntOI8B1E',
+            img: "youtube",
+            type: "video",
+            title: 'Советы старого пчеловода. Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=Y39mJ_0a-c4',
+            img: "youtube",
+            type: "video",
+            title: 'Советы старого пчеловода. Часть 4',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=bNkKjGD5F8w',
+            img: "youtube",
+            type: "video",
+            title: 'Пчелы в дикой природе в д. Митяево.  Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=zbuZYLk1iuY',
+            img: "youtube",
+            type: "video",
+            title: 'Пчелы в дикой природе в д. Митяево. Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=_3oTim74DaU',
+            img: "youtube",
+            type: "video",
+            title: 'Советы старого пчеловода. Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=uZAZY1AyIuA',
+            img: "youtube",
+            type: "video",
+            title: 'Двух корпусный улей. Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=-LYX4nypHWw',
+            img: "youtube",
+            type: "video",
+            title: 'Пчелы в дикой природе в д. Митяево.  Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=lDMHJ-M2m30',
+            img: "youtube",
+            type: "video",
+            title: 'Роение пчел в Митяево. Часть 5',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=3HvB01T6mf0',
+            img: "youtube",
+            type: "video",
+            title: 'Осенняя ревизия и подготовка к зиме. Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=qYiMctT4hKM',
+            img: "youtube",
+            type: "video",
+            title: 'Делаю отводки, нуклеусы. Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=ZamiBIfH-aU',
+            img: "youtube",
+            type: "video",
+            title: 'Сушу рамки, усиливаю отводок. Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=aGBDNDHUVfg',
+            img: "youtube",
+            type: "video",
+            title: 'Роение пчел в Митяево. Часть 3',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
             url: 'https://www.youtube.com/watch?v=4zEybySMizU',
             img: "youtube",
             type: "video",
             title: 'Роение пчел в Митяево. Часть 4',
             source: "www.youtube.com"
         };
-        ar[31] = {
-            url: 'https://www.youtube.com/watch?v=aGBDNDHUVfg',
-            img: "youtube",
-            type: "video",
-            title: 'Роение пчел в Митяево. Часть 3 - YouTube',
-            source: "www.youtube.com"
-        };
-        ar[32] = {
-            url: 'https://www.youtube.com/watch?v=pbyDd-ifP9w',
-            img: "youtube",
-            type: "video",
-            title: 'Роение пчел в Митяево. Часть 2 - YouTube',
-            source: "www.youtube.com"
-        };
-        ar[33] = {
-            url: 'https://www.youtube.com/watch?v=CRiFrJqdrYs',
-            img: "youtube",
-            type: "video",
-            title: 'Роение пчел в Митяево. Часть 1 - YouTube',
-            source: "www.youtube.com"
-        };
-        ar[34] = {
+        ar[44] = {
             url: 'https://www.youtube.com/watch?v=RvY6eBW0ATE',
             img: "youtube",
             type: "video",
-            title: 'Ловим рой соседа. Часть 3 - YouTube',
+            title: 'Ловим рой соседа. Часть 3',
             source: "www.youtube.com"
         };
-        ar[35] = {
-            url: 'https://www.youtube.com/watch?v=kNQTiHgOttE',
-            img: "youtube",
-            type: "video",
-            title: 'Ловим рой соседа. Часть 2 - YouTube',
-            source: "www.youtube.com"
-        };
-        ar[36] = {
-            url: 'https://www.youtube.com/watch?v=HdCMhP7VppU',
-            img: "youtube",
-            type: "video",
-            title: 'Ловим рой соседа. Часть 1 - YouTube',
-            source: "www.youtube.com"
-        };
-        ar[37] = {
+        ar[45] = {
             url: 'https://www.youtube.com/watch?v=hw5U154Tmyw',
             img: "youtube",
             type: "video",
-            title: 'Десять лет назад. Часть 3 - YouTube',
+            title: 'Десять лет назад. Часть 3',
             source: "www.youtube.com"
         };
-        ar[38] = {
-            url: 'https://www.youtube.com/watch?v=3cqzWZeRuLA',
+        ar[46] = {
+            url: 'https://www.youtube.com/watch?v=pbyDd-ifP9w',
             img: "youtube",
             type: "video",
-            title: 'Десять лет назад. Часть 2 - YouTube',
+            title: 'Роение пчел в Митяево. Часть 2',
             source: "www.youtube.com"
         };
-        ar[39] = {
-            url: 'https://www.youtube.com/watch?v=WesedygQ-8Q',
+        ar[47] = {
+            url: 'https://www.youtube.com/watch?v=CRiFrJqdrYs',
             img: "youtube",
             type: "video",
-            title: 'Десять лет назад. Часть 1 - YouTube',
+            title: 'Роение пчел в Митяево. Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[48] = {
+            url: 'https://www.youtube.com/watch?v=kNQTiHgOttE',
+            img: "youtube",
+            type: "video",
+            title: 'Ловим рой соседа. Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[49] = {
+            url: 'https://www.youtube.com/watch?v=HdCMhP7VppU',
+            img: "youtube",
+            type: "video",
+            title: 'Ловим рой соседа. Часть 1',
             source: "www.youtube.com"
         };
     }
-    if (taskId == 70722 || taskId == 999896) {
+    if (taskId == 70722 || taskId == 999896 || taskId == 189660) {
+        //ar[0] = {
+        //    url: 'https://www.youtube.com/watch?v=kcBKskKB7qY',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Музей Костромской филиал г. Буй Фильм №3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[1] = {
+        //    url: 'https://www.youtube.com/watch?v=EXWtf70b0As',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Музей Костромской филиал г. Буй Фильм №5',
+        //    source: "www.youtube.com"
+        //};
+        //ar[2] = {
+        //    url: 'https://www.youtube.com/watch?v=-Pf8F9qXDMA',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Музей Костромской филиал г. Буй Фильм №4',
+        //    source: "www.youtube.com"
+        //};
+        //ar[3] = {
+        //    url: 'https://www.youtube.com/watch?v=jWLY4qhA2Q4',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Выставка резьбы по дереву',
+        //    source: "www.youtube.com"
+        //};
+        //ar[4] = {
+        //    url: 'https://www.youtube.com/watch?v=o120i_vtcfY',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Музей Костромской филиал г. Буй Фильм №1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[5] = {
+        //    url: 'https://www.youtube.com/watch?v=6hu9kQakLP0',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Музей Костромской филиал г. Буй Фильм №2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[6] = {
+        //    url: 'https://www.youtube.com/watch?v=c7Jmq1QzgLQ',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Рюриковичи, путешествие по России.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[7] = {
+        //    url: 'https://www.youtube.com/watch?v=qBA4M0rDDBI',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Макет России, путешествие по России.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[8] = {
+        //    url: 'https://www.youtube.com/watch?v=tCnGH9YQeTk',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Кронштадт, путешествие по России.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[9] = {
+        //    url: 'https://www.youtube.com/watch?v=HiIC6sz3oOU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Городецкие  самовары, путешествие по России.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[10] = {
+        //    url: 'https://www.youtube.com/watch?v=fPlwR6mIj5k',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Поволжье, Урал, Сибирь, Москва, путешествие по России.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[11] = {
+        //    url: 'https://www.youtube.com/watch?v=2Q4NL84Wvr8',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Нижний Новгород, Казань, путешествие по России.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[12] = {
+        //    url: 'https://www.youtube.com/watch?v=oF6b1NydAs4',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Кижи, путешествие по России.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[13] = {
+        //    url: 'https://www.youtube.com/watch?v=0oAkwLf9r00',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: '9 Волшебство Деда мороза',
+        //    source: "www.youtube.com"
+        //};
+        //ar[14] = {
+        //    url: 'https://www.youtube.com/watch?v=drTpJHhbuJw',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: '8 Кот Базилио коварный мошенник и плут',
+        //    source: "www.youtube.com"
+        //};
+        //ar[15] = {
+        //    url: 'https://www.youtube.com/watch?v=gm2i7eAPQc0',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: '7 Три желания Алисы и Базилио',
+        //    source: "www.youtube.com"
+        //};
+        //ar[16] = {
+        //    url: 'https://www.youtube.com/watch?v=CAVzLS0rskQ',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: '6 Лиса и Кот украли посох у Деда мороза',
+        //    source: "www.youtube.com"
+        //};
+        //ar[17] = {
+        //    url: 'https://www.youtube.com/watch?v=CMgfBB0l2dw',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: '5 Танец маленьких солдат',
+        //    source: "www.youtube.com"
+        //};
+        //ar[18] = {
+        //    url: 'https://www.youtube.com/watch?v=JiQV-2xCzgI',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: '4 Дед мороз и Буратино',
+        //    source: "www.youtube.com"
+        //};
+        //ar[19] = {
+        //    url: 'https://www.youtube.com/watch?v=LWKkZG9EAH4',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: '3 Алиса и Базилио отобрали билет у Буратино',
+        //    source: "www.youtube.com"
+        //};
+        //ar[20] = {
+        //    url: 'https://www.youtube.com/watch?v=oAq8tsPtUsE',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: '2 Деревянный мальчик Буратино',
+        //    source: "www.youtube.com"
+        //};
+        //ar[21] = {
+        //    url: 'https://www.youtube.com/watch?v=yLnvlk9M5sU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: '1 Лиса Алиса и кот Базилио',
+        //    source: "www.youtube.com"
+        //};
+        //ar[22] = {
+        //    url: 'https://www.youtube.com/watch?v=Vgl75PggV2o',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Придорожная трава',
+        //    source: "www.youtube.com"
+        //};
+        //ar[23] = {
+        //    url: 'https://www.youtube.com/watch?v=jLQULnTa6bQ',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Под Новый Год',
+        //    source: "www.youtube.com"
+        //};
+        //ar[24] = {
+        //    url: 'https://www.youtube.com/watch?v=UA2hWRau8Gk',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Парам   пам  пам   пипу!!!',
+        //    source: "www.youtube.com"
+        //};
+        //ar[25] = {
+        //    url: 'https://www.youtube.com/watch?v=__sv_MahhMU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Не забывайте Грузина.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[26] = {
+        //    url: 'https://www.youtube.com/watch?v=LEROeW_2NH8',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Четыре милых феечки',
+        //    source: "www.youtube.com"
+        //};
+        //ar[27] = {
+        //    url: 'https://www.youtube.com/watch?v=QNPx0liWdbM',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Танцуй со мной',
+        //    source: "www.youtube.com"
+        //};
+        //ar[28] = {
+        //    url: 'https://www.youtube.com/watch?v=Kwje6xomBjU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Сапожки Русские',
+        //    source: "www.youtube.com"
+        //};
+        //ar[29] = {
+        //    url: 'https://www.youtube.com/watch?v=4es_NF7qF8I',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Рок н ролл',
+        //    source: "www.youtube.com"
+        //};
+        //ar[30] = {
+        //    url: 'https://www.youtube.com/watch?v=RuGDF73XgcE',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'На руки к солнцу - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[31] = {
+        //    url: 'https://www.youtube.com/watch?v=riZrnQhYtvU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Игра в слова про зиму - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[32] = {
+        //    url: 'https://www.youtube.com/watch?v=k_erxrVqgwU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Гитаристы - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[33] = {
+        //    url: 'https://www.youtube.com/watch?v=5k5w7DqR4hI',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Beatles Blues - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[34] = {
+        //    url: 'https://www.youtube.com/watch?v=aE7EqXZwrH8',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Гардемарины - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[35] = {
+        //    url: 'https://www.youtube.com/watch?v=jH6WJ2_ot-c',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'В нашем дворе - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[36] = {
+        //    url: 'https://www.youtube.com/watch?v=BV1WMG8KmL4',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Баянисты - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[37] = {
+        //    url: 'https://www.youtube.com/watch?v=uOrxVsHK7uw',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Танец Снегурочек. - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[38] = {
+        //    url: 'https://www.youtube.com/watch?v=yFwr7KRU6Ww',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Предновогодний Городок. - YouTube',
+        //    source: "www.youtube.com"
+        //};
+        //ar[39] = {
+        //    url: 'https://www.youtube.com/watch?v=i5DiqKFCMP4',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Flaxet - On wing (Original mix) - YouTube',
+        //    source: "www.youtube.com"
+        //};
         ar[0] = {
+            url: 'https://www.youtube.com/watch?v=2cG_SwFfxXM',
+            img: "youtube",
+            type: "video",
+            title: 'Учимся кататься на роликах. Первые шаги',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=cfbkqud7hDw',
+            img: "youtube",
+            type: "video",
+            title: 'Мама папа и я, спортивная семья.',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
             url: 'https://www.youtube.com/watch?v=kcBKskKB7qY',
             img: "youtube",
             type: "video",
             title: 'Музей Костромской филиал г. Буй Фильм №3',
             source: "www.youtube.com"
         };
-        ar[1] = {
+        ar[3] = {
             url: 'https://www.youtube.com/watch?v=EXWtf70b0As',
             img: "youtube",
             type: "video",
-            title: 'Музей Костромской филиал г. Буй Фильм №5',
+            title: 'Музей Костромской филиал г. Буй Фильм №4 продолжение.',
             source: "www.youtube.com"
         };
-        ar[2] = {
+        ar[4] = {
             url: 'https://www.youtube.com/watch?v=-Pf8F9qXDMA',
             img: "youtube",
             type: "video",
             title: 'Музей Костромской филиал г. Буй Фильм №4',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[5] = {
             url: 'https://www.youtube.com/watch?v=jWLY4qhA2Q4',
             img: "youtube",
             type: "video",
             title: 'Выставка резьбы по дереву',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[6] = {
             url: 'https://www.youtube.com/watch?v=o120i_vtcfY',
             img: "youtube",
             type: "video",
             title: 'Музей Костромской филиал г. Буй Фильм №1',
             source: "www.youtube.com"
         };
-        ar[5] = {
+        ar[7] = {
             url: 'https://www.youtube.com/watch?v=6hu9kQakLP0',
             img: "youtube",
             type: "video",
             title: 'Музей Костромской филиал г. Буй Фильм №2',
             source: "www.youtube.com"
         };
-        ar[6] = {
-            url: 'https://www.youtube.com/watch?v=c7Jmq1QzgLQ',
-            img: "youtube",
-            type: "video",
-            title: 'Рюриковичи, путешествие по России.',
-            source: "www.youtube.com"
-        };
-        ar[7] = {
+        ar[8] = {
             url: 'https://www.youtube.com/watch?v=qBA4M0rDDBI',
             img: "youtube",
             type: "video",
             title: 'Макет России, путешествие по России.',
             source: "www.youtube.com"
         };
-        ar[8] = {
-            url: 'https://www.youtube.com/watch?v=tCnGH9YQeTk',
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=c7Jmq1QzgLQ',
             img: "youtube",
             type: "video",
-            title: 'Кронштадт, путешествие по России.',
+            title: 'Рюриковичи, путешествие по России.',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[10] = {
             url: 'https://www.youtube.com/watch?v=HiIC6sz3oOU',
             img: "youtube",
             type: "video",
             title: 'Городецкие  самовары, путешествие по России.',
             source: "www.youtube.com"
         };
-        ar[10] = {
-            url: 'https://www.youtube.com/watch?v=fPlwR6mIj5k',
-            img: "youtube",
-            type: "video",
-            title: 'Поволжье, Урал, Сибирь, Москва, путешествие по России.',
-            source: "www.youtube.com"
-        };
         ar[11] = {
-            url: 'https://www.youtube.com/watch?v=2Q4NL84Wvr8',
+            url: 'https://www.youtube.com/watch?v=tCnGH9YQeTk',
             img: "youtube",
             type: "video",
-            title: 'Нижний Новгород, Казань, путешествие по России.',
+            title: 'Кронштадт, путешествие по России.',
             source: "www.youtube.com"
         };
         ar[12] = {
@@ -2060,31 +3043,31 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
         ar[13] = {
-            url: 'https://www.youtube.com/watch?v=0oAkwLf9r00',
+            url: 'https://www.youtube.com/watch?v=fPlwR6mIj5k',
             img: "youtube",
             type: "video",
-            title: '9 Волшебство Деда мороза',
+            title: 'Поволжье, Урал, Сибирь, Москва, путешествие по России.',
             source: "www.youtube.com"
         };
         ar[14] = {
-            url: 'https://www.youtube.com/watch?v=drTpJHhbuJw',
+            url: 'https://www.youtube.com/watch?v=2Q4NL84Wvr8',
             img: "youtube",
             type: "video",
-            title: '8 Кот Базилио коварный мошенник и плут',
+            title: 'Нижний Новгород, Казань, путешествие по России.',
             source: "www.youtube.com"
         };
         ar[15] = {
-            url: 'https://www.youtube.com/watch?v=gm2i7eAPQc0',
+            url: 'https://www.youtube.com/watch?v=JiQV-2xCzgI',
             img: "youtube",
             type: "video",
-            title: '7 Три желания Алисы и Базилио',
+            title: '4 Дед мороз и Буратино',
             source: "www.youtube.com"
         };
         ar[16] = {
-            url: 'https://www.youtube.com/watch?v=CAVzLS0rskQ',
+            url: 'https://www.youtube.com/watch?v=oAq8tsPtUsE',
             img: "youtube",
             type: "video",
-            title: '6 Лиса и Кот украли посох у Деда мороза',
+            title: '2 Деревянный мальчик Буратино',
             source: "www.youtube.com"
         };
         ar[17] = {
@@ -2095,24 +3078,24 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
         ar[18] = {
-            url: 'https://www.youtube.com/watch?v=JiQV-2xCzgI',
-            img: "youtube",
-            type: "video",
-            title: '4 Дед мороз и Буратино',
-            source: "www.youtube.com"
-        };
-        ar[19] = {
             url: 'https://www.youtube.com/watch?v=LWKkZG9EAH4',
             img: "youtube",
             type: "video",
             title: '3 Алиса и Базилио отобрали билет у Буратино',
             source: "www.youtube.com"
         };
-        ar[20] = {
-            url: 'https://www.youtube.com/watch?v=oAq8tsPtUsE',
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=0oAkwLf9r00',
             img: "youtube",
             type: "video",
-            title: '2 Деревянный мальчик Буратино',
+            title: '9 Волшебство Деда мороза',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=gm2i7eAPQc0',
+            img: "youtube",
+            type: "video",
+            title: '7 Три желания Алисы и Базилио',
             source: "www.youtube.com"
         };
         ar[21] = {
@@ -2123,31 +3106,31 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
         ar[22] = {
-            url: 'https://www.youtube.com/watch?v=Vgl75PggV2o',
+            url: 'https://www.youtube.com/watch?v=drTpJHhbuJw',
             img: "youtube",
             type: "video",
-            title: 'Придорожная трава',
+            title: '8 Кот Базилио коварный мошенник и плут',
             source: "www.youtube.com"
         };
         ar[23] = {
-            url: 'https://www.youtube.com/watch?v=jLQULnTa6bQ',
+            url: 'https://www.youtube.com/watch?v=CAVzLS0rskQ',
             img: "youtube",
             type: "video",
-            title: 'Под Новый Год',
+            title: '6 Лиса и Кот украли посох у Деда мороза',
             source: "www.youtube.com"
         };
         ar[24] = {
             url: 'https://www.youtube.com/watch?v=UA2hWRau8Gk',
             img: "youtube",
             type: "video",
-            title: 'Парам   пам  пам   пипу!!!',
+            title: 'Парам   пам  пам   пипу!!! Веселая песенка.',
             source: "www.youtube.com"
         };
         ar[25] = {
-            url: 'https://www.youtube.com/watch?v=__sv_MahhMU',
+            url: 'https://www.youtube.com/watch?v=QNPx0liWdbM',
             img: "youtube",
             type: "video",
-            title: 'Не забывайте Грузина.',
+            title: 'Танцуй со мной',
             source: "www.youtube.com"
         };
         ar[26] = {
@@ -2158,94 +3141,164 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
         ar[27] = {
-            url: 'https://www.youtube.com/watch?v=QNPx0liWdbM',
-            img: "youtube",
-            type: "video",
-            title: 'Танцуй со мной',
-            source: "www.youtube.com"
-        };
-        ar[28] = {
-            url: 'https://www.youtube.com/watch?v=Kwje6xomBjU',
-            img: "youtube",
-            type: "video",
-            title: 'Сапожки Русские',
-            source: "www.youtube.com"
-        };
-        ar[29] = {
             url: 'https://www.youtube.com/watch?v=4es_NF7qF8I',
             img: "youtube",
             type: "video",
             title: 'Рок н ролл',
             source: "www.youtube.com"
         };
-        ar[30] = {
-            url: 'https://www.youtube.com/watch?v=RuGDF73XgcE',
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=jLQULnTa6bQ',
             img: "youtube",
             type: "video",
-            title: 'На руки к солнцу - YouTube',
+            title: 'Под Новый Год',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=Kwje6xomBjU',
+            img: "youtube",
+            type: "video",
+            title: 'Сапожки Русские',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=Vgl75PggV2o',
+            img: "youtube",
+            type: "video",
+            title: 'Придорожная трава',
             source: "www.youtube.com"
         };
         ar[31] = {
-            url: 'https://www.youtube.com/watch?v=riZrnQhYtvU',
-            img: "youtube",
-            type: "video",
-            title: 'Игра в слова про зиму - YouTube',
-            source: "www.youtube.com"
-        };
-        ar[32] = {
-            url: 'https://www.youtube.com/watch?v=k_erxrVqgwU',
-            img: "youtube",
-            type: "video",
-            title: 'Гитаристы - YouTube',
-            source: "www.youtube.com"
-        };
-        ar[33] = {
-            url: 'https://www.youtube.com/watch?v=5k5w7DqR4hI',
-            img: "youtube",
-            type: "video",
-            title: 'Beatles Blues - YouTube',
-            source: "www.youtube.com"
-        };
-        ar[34] = {
-            url: 'https://www.youtube.com/watch?v=aE7EqXZwrH8',
-            img: "youtube",
-            type: "video",
-            title: 'Гардемарины - YouTube',
-            source: "www.youtube.com"
-        };
-        ar[35] = {
             url: 'https://www.youtube.com/watch?v=jH6WJ2_ot-c',
             img: "youtube",
             type: "video",
-            title: 'В нашем дворе - YouTube',
+            title: 'В нашем дворе',
             source: "www.youtube.com"
         };
-        ar[36] = {
+        ar[32] = {
             url: 'https://www.youtube.com/watch?v=BV1WMG8KmL4',
             img: "youtube",
             type: "video",
-            title: 'Баянисты - YouTube',
+            title: 'Баянисты',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=riZrnQhYtvU',
+            img: "youtube",
+            type: "video",
+            title: 'Игра в слова про зиму',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=5k5w7DqR4hI',
+            img: "youtube",
+            type: "video",
+            title: 'Beatles Blues',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=k_erxrVqgwU',
+            img: "youtube",
+            type: "video",
+            title: 'Гитаристы',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=aE7EqXZwrH8',
+            img: "youtube",
+            type: "video",
+            title: 'Гардемарины',
             source: "www.youtube.com"
         };
         ar[37] = {
-            url: 'https://www.youtube.com/watch?v=uOrxVsHK7uw',
+            url: 'https://www.youtube.com/watch?v=RuGDF73XgcE',
             img: "youtube",
             type: "video",
-            title: 'Танец Снегурочек. - YouTube',
+            title: 'На руки к солнцу',
             source: "www.youtube.com"
         };
         ar[38] = {
-            url: 'https://www.youtube.com/watch?v=yFwr7KRU6Ww',
+            url: 'https://www.youtube.com/watch?v=uOrxVsHK7uw',
             img: "youtube",
             type: "video",
-            title: 'Предновогодний Городок. - YouTube',
+            title: 'Танец Снегурочек.',
             source: "www.youtube.com"
         };
         ar[39] = {
+            url: 'https://www.youtube.com/watch?v=yFwr7KRU6Ww',
+            img: "youtube",
+            type: "video",
+            title: 'Предновогодний Городок.',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
             url: 'https://www.youtube.com/watch?v=i5DiqKFCMP4',
             img: "youtube",
             type: "video",
-            title: 'Flaxet - On wing (Original mix) - YouTube',
+            title: 'Flaxet - On wing (Original mix)',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=9Evx13tLGT0',
+            img: "youtube",
+            type: "video",
+            title: 'Flaxet & Gazmdj - Misplaced island (Original mix)',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=t6SaQcYKm5Q',
+            img: "youtube",
+            type: "video",
+            title: 'Караоке на улице',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
+            url: 'https://www.youtube.com/watch?v=xGQpZXzsDJc',
+            img: "youtube",
+            type: "video",
+            title: 'На уроке танца',
+            source: "www.youtube.com"
+        };
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=jtVNG7vNv0Q',
+            img: "youtube",
+            type: "video",
+            title: 'Пираты',
+            source: "www.youtube.com"
+        };
+        ar[45] = {
+            url: 'https://www.youtube.com/watch?v=muPkPvZOMb8',
+            img: "youtube",
+            type: "video",
+            title: 'Stas Neufeld в нашем клубе',
+            source: "www.youtube.com"
+        };
+        ar[46] = {
+            url: 'https://www.youtube.com/watch?v=gYZFKdB8Drw',
+            img: "youtube",
+            type: "video",
+            title: 'Гонщица',
+            source: "www.youtube.com"
+        };
+        ar[47] = {
+            url: 'https://www.youtube.com/watch?v=muPkPvZOMb8',
+            img: "youtube",
+            type: "video",
+            title: 'Stas Neufeld в нашем клубе',
+            source: "www.youtube.com"
+        };
+        ar[48] = {
+            url: 'https://www.youtube.com/watch?v=RL1m8xR4Vy4',
+            img: "youtube",
+            type: "video",
+            title: 'Flaxet & GazmDJ - White mist (Original mix)',
+            source: "www.youtube.com"
+        };
+        ar[49] = {
+            url: 'https://www.youtube.com/watch?v=hdDF6qa0pOo',
+            img: "youtube",
+            type: "video",
+            title: 'Flaxet & GazmDJ - Elusive light (Original mix)',
             source: "www.youtube.com"
         };
     }
@@ -3672,286 +4725,636 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 1126852 || taskId == 78751) {
+    if (taskId == 1126852 || taskId == 78751 || taskId == 292135) {
 
+        //ar[0] = {
+        //    url: 'https://www.youtube.com/watch?v=dtwzVUDG0TE',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Читаем с выражением стихотворение А. С. Пушкина. Руслан и Людмила',
+        //    source: "www.youtube.com"
+        //};
+        //ar[1] = {
+        //    url: 'https://www.youtube.com/watch?v=IyRbh10ZcJk',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Помощница ведущей открывает конкурс детского творчества.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[2] = {
+        //    url: 'https://www.youtube.com/watch?v=r07Ge0JQSbY',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Лазерное шоу в каждый дом.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[3] = {
+        //    url: 'https://www.youtube.com/watch?v=fXHjw8Akgd0',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Любовь и голуби Концерт Мюзикл часть 10',
+        //    source: "www.youtube.com"
+        //};
+        //ar[4] = {
+        //    url: 'https://www.youtube.com/watch?v=GRC8UWyPK1s',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Любовь и голуби Концерт Мюзикл часть 8',
+        //    source: "www.youtube.com"
+        //};
+        //ar[5] = {
+        //    url: 'https://www.youtube.com/watch?v=7Syx9TK9xW4',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Любовь и голуби Концерт Мюзикл часть 9',
+        //    source: "www.youtube.com"
+        //};
+        //ar[6] = {
+        //    url: 'https://www.youtube.com/watch?v=hArAEPAHzUs',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Country and balalaika  - Talyanochka',
+        //    source: "www.youtube.com"
+        //};
+        //ar[7] = {
+        //    url: 'https://www.youtube.com/watch?v=KJr0lsLmpmU',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Любовь и голуби Концерт Мюзикл часть 7',
+        //    source: "www.youtube.com"
+        //};
+        //ar[8] = {
+        //    url: 'https://www.youtube.com/watch?v=OgJNdcbJVAk',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Любовь и голуби Концерт Мюзикл часть 6',
+        //    source: "www.youtube.com"
+        //};
+        //ar[9] = {
+        //    url: 'https://www.youtube.com/watch?v=SZt2whBVUK4',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Любовь и голуби Концерт Мюзикл часть 5',
+        //    source: "www.youtube.com"
+        //};
+        //ar[10] = {
+        //    url: 'https://www.youtube.com/watch?v=7eGZj6w6c-A',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Любовь и голуби Концерт Мюзикл часть 4',
+        //    source: "www.youtube.com"
+        //};
+        //ar[11] = {
+        //    url: 'https://www.youtube.com/watch?v=CmeyHbYd4Xw',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Любовь и голуби Концерт Мюзикл часть 3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[12] = {
+        //    url: 'https://www.youtube.com/watch?v=RtujRbLPmhs',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Любовь и голуби Концерт Мюзикл часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[13] = {
+        //    url: 'https://www.youtube.com/watch?v=-aIgxOEopzQ',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Любовь и голуби Концерт Мюзикл часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[14] = {
+        //    url: 'https://www.youtube.com/watch?v=DiTWw5aCgs8',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Шоу Николя и Марины часть 5',
+        //    source: "www.youtube.com"
+        //};
+        //ar[15] = {
+        //    url: 'https://www.youtube.com/watch?v=ZRTC6u2j3G0',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Шоу Николя и Марины часть 6',
+        //    source: "www.youtube.com"
+        //};
+        //ar[16] = {
+        //    url: 'https://www.youtube.com/watch?v=Au3UuOKPDKw',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Шоу Николя и Марины часть 4',
+        //    source: "www.youtube.com"
+        //};
+        //ar[17] = {
+        //    url: 'https://www.youtube.com/watch?v=8RlHRblmrjM',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Шоу Николя и Марины часть 3',
+        //    source: "www.youtube.com"
+        //};
+        //ar[18] = {
+        //    url: 'https://www.youtube.com/watch?v=h7gk8mjf3Nk',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Шоу Николя и Марины часть 2',
+        //    source: "www.youtube.com"
+        //};
+        //ar[19] = {
+        //    url: 'https://www.youtube.com/watch?v=YcfjxvdYs88',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Шоу Николя и Марины часть 1',
+        //    source: "www.youtube.com"
+        //};
+        //ar[20] = {
+        //    url: 'https://www.youtube.com/watch?v=RHiMnnJy60U',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Барыня Сударыня Особый случай',
+        //    source: "www.youtube.com"
+        //};
+        //ar[21] = {
+        //    url: 'https://www.youtube.com/watch?v=XykrrhvoHIk',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Русская народная песня Кадриль Камертон',
+        //    source: "www.youtube.com"
+        //};
+        //ar[22] = {
+        //    url: 'https://www.youtube.com/watch?v=KFJALjkdXCo',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Стоят девчонки, стоят в сторонке. Битва хоров.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[23] = {
+        //    url: 'https://www.youtube.com/watch?v=9mJmyik6LCo',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Задумал старый дед. Шуточная песня.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[24] = {
+        //    url: 'https://www.youtube.com/watch?v=6-yovlxqBvY',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'My intro - Oliga Nikolaevna',
+        //    source: "www.youtube.com"
+        //};
+        //ar[25] = {
+        //    url: 'https://www.youtube.com/watch?v=R74csuCRKLQ',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Народный ансамбль Ленок танец',
+        //    source: "www.youtube.com"
+        //};
+        //ar[26] = {
+        //    url: 'https://www.youtube.com/watch?v=n73EcJP0wh8',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: '"Весёлый ветер" фильм Дети капитана гранта Дунаевский',
+        //    source: "www.youtube.com"
+        //};
+        //ar[27] = {
+        //    url: 'https://www.youtube.com/watch?v=vHzvvYn9nYY',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Снежные скульптуры на площади.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[28] = {
+        //    url: 'https://www.youtube.com/watch?v=zq8xlImYZMA',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'П. И. Чайковский Неаполитанский танец. "Тальяночка"',
+        //    source: "www.youtube.com"
+        //};
+        //ar[29] = {
+        //    url: 'https://www.youtube.com/watch?v=czLKCSm0Kq0',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Эх, гармошечка играй разговаривай.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[30] = {
+        //    url: 'https://www.youtube.com/watch?v=HMW2cj6SVB0',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Попурри на Русские народные песни и танцы.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[31] = {
+        //    url: 'https://www.youtube.com/watch?v=BgpaSANLwjg',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Русский народный танец. Инструментальная игра на гармошке.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[32] = {
+        //    url: 'https://www.youtube.com/watch?v=PCWCQ1kYu2w',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Рыжая метелица вертится как мельница.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[33] = {
+        //    url: 'https://www.youtube.com/watch?v=tXTZOnCpibM',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Тополь, тополь, тополек - кучерявый паренек.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[34] = {
+        //    url: 'https://www.youtube.com/watch?v=PgQKZVUL8s0',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Русские народные загадки от Деда за печника.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[35] = {
+        //    url: 'https://www.youtube.com/watch?v=PGjtnzVPRVg',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Террариум в Доме культуры железнодорожников.',
+        //    source: "www.youtube.com"
+        //};
+        //ar[36] = {
+        //    url: 'https://www.youtube.com/watch?v=bdwvfsEWRjI',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Хоккейный матч на ледовой арене Планета',
+        //    source: "www.youtube.com"
+        //};
+        //ar[37] = {
+        //    url: 'https://www.youtube.com/watch?v=DhXgfaNwN0k',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Детские горки в нашем дворе',
+        //    source: "www.youtube.com"
+        //};
+        //ar[38] = {
+        //    url: 'https://www.youtube.com/watch?v=--Mfv9zg60Q',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Планета против Переславля хоккейный клуб',
+        //    source: "www.youtube.com"
+        //};
+        //ar[39] = {
+        //    url: 'https://www.youtube.com/watch?v=tfwc1bXIwHo',
+        //    img: "youtube",
+        //    type: "video",
+        //    title: 'Полинка делает первые шаги на льду',
+        //    source: "www.youtube.com"
+        //};
         ar[0] = {
-            url: 'https://www.youtube.com/watch?v=dtwzVUDG0TE',
+            url: 'https://www.youtube.com/watch?v=U1PmACduWa4',
             img: "youtube",
             type: "video",
-            title: 'Читаем с выражением стихотворение А. С. Пушкина. Руслан и Людмила',
+            title: 'Эх, да лапти мои. Народный хор Ветеран',
             source: "www.youtube.com"
         };
         ar[1] = {
+            url: 'https://www.youtube.com/watch?v=hhXZYvPpdGk',
+            img: "youtube",
+            type: "video",
+            title: 'Зима метельная. Народный ансамбль Надежда',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=eJ4ThlD1TBU',
+            img: "youtube",
+            type: "video",
+            title: 'На печи сижу. Народный хор Русь',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=KAzSstuz7iM',
+            img: "youtube",
+            type: "video",
+            title: 'Разлучило нас не время. Нар. хор из Чистых Боров',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=oswsjJWr1Ss',
+            img: "youtube",
+            type: "video",
+            title: 'Песня из фильма Вокзал для двоих. Пед. кол. ср. образ. школы 13',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=Nb8DxWSo9pI',
+            img: "youtube",
+            type: "video",
+            title: 'Гляжу в озера синие.Пед. хор Новые голоса',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=7W6SnwzFiC4',
+            img: "youtube",
+            type: "video",
+            title: 'Приезжайте в город Буй. Руководитель хора В. Н. Пронин',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=j0G_G3I3utY',
+            img: "youtube",
+            type: "video",
+            title: 'Караваны птиц надо мной летят. Вокал. ансамбль Родники',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=oRLwwL562Ck',
+            img: "youtube",
+            type: "video",
+            title: 'Буйский вальс. Народный хор Ветеран',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=vpwvFnDNP6o',
+            img: "youtube",
+            type: "video",
+            title: 'Стучат колеса. Народный хор Русь',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=jEul3KqHevk',
+            img: "youtube",
+            type: "video",
+            title: 'Город мой провинциальный. Пед. кол. ср. образ. школы 13',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=ZNNbMZ-BixY',
+            img: "youtube",
+            type: "video",
+            title: 'Какая песня без баяна. Народный хор Русь',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=vh_TQgk4HMU',
+            img: "youtube",
+            type: "video",
+            title: 'Где мы с тобой танцуем вальс. Народный хор Ветеран',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=HwGit7z3fKQ',
+            img: "youtube",
+            type: "video",
+            title: 'Танец Незнайки Сюрприз. Киноконцертный зал Луч.',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=qPpFn3qi5sg',
+            img: "youtube",
+            type: "video",
+            title: 'Частушки веселушки. Киноконцертный зал Луч.',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=8cWXQbzm_rM',
+            img: "youtube",
+            type: "video",
+            title: 'Полинка катается на Пони по арене цирка.',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
             url: 'https://www.youtube.com/watch?v=IyRbh10ZcJk',
             img: "youtube",
             type: "video",
             title: 'Помощница ведущей открывает конкурс детского творчества.',
             source: "www.youtube.com"
         };
-        ar[2] = {
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=dtwzVUDG0TE',
+            img: "youtube",
+            type: "video",
+            title: 'Читаем с выражением стихотворение А. С. Пушкина. Руслан и Людмила',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
             url: 'https://www.youtube.com/watch?v=r07Ge0JQSbY',
             img: "youtube",
             type: "video",
             title: 'Лазерное шоу в каждый дом.',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[19] = {
             url: 'https://www.youtube.com/watch?v=fXHjw8Akgd0',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 10',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[20] = {
             url: 'https://www.youtube.com/watch?v=GRC8UWyPK1s',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 8',
             source: "www.youtube.com"
         };
-        ar[5] = {
+        ar[21] = {
             url: 'https://www.youtube.com/watch?v=7Syx9TK9xW4',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 9',
             source: "www.youtube.com"
         };
-        ar[6] = {
+        ar[22] = {
             url: 'https://www.youtube.com/watch?v=hArAEPAHzUs',
             img: "youtube",
             type: "video",
             title: 'Country and balalaika  - Talyanochka',
             source: "www.youtube.com"
         };
-        ar[7] = {
+        ar[23] = {
             url: 'https://www.youtube.com/watch?v=KJr0lsLmpmU',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 7',
             source: "www.youtube.com"
         };
-        ar[8] = {
+        ar[24] = {
             url: 'https://www.youtube.com/watch?v=OgJNdcbJVAk',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 6',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[25] = {
             url: 'https://www.youtube.com/watch?v=SZt2whBVUK4',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 5',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[26] = {
             url: 'https://www.youtube.com/watch?v=7eGZj6w6c-A',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 4',
             source: "www.youtube.com"
         };
-        ar[11] = {
+        ar[27] = {
             url: 'https://www.youtube.com/watch?v=CmeyHbYd4Xw',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 3',
             source: "www.youtube.com"
         };
-        ar[12] = {
+        ar[28] = {
             url: 'https://www.youtube.com/watch?v=RtujRbLPmhs',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 2',
             source: "www.youtube.com"
         };
-        ar[13] = {
+        ar[29] = {
             url: 'https://www.youtube.com/watch?v=-aIgxOEopzQ',
             img: "youtube",
             type: "video",
             title: 'Любовь и голуби Концерт Мюзикл часть 1',
             source: "www.youtube.com"
         };
-        ar[14] = {
+        ar[30] = {
             url: 'https://www.youtube.com/watch?v=DiTWw5aCgs8',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 5',
             source: "www.youtube.com"
         };
-        ar[15] = {
+        ar[31] = {
             url: 'https://www.youtube.com/watch?v=ZRTC6u2j3G0',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 6',
             source: "www.youtube.com"
         };
-        ar[16] = {
+        ar[32] = {
             url: 'https://www.youtube.com/watch?v=Au3UuOKPDKw',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 4',
             source: "www.youtube.com"
         };
-        ar[17] = {
+        ar[33] = {
             url: 'https://www.youtube.com/watch?v=8RlHRblmrjM',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 3',
             source: "www.youtube.com"
         };
-        ar[18] = {
+        ar[34] = {
             url: 'https://www.youtube.com/watch?v=h7gk8mjf3Nk',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 2',
             source: "www.youtube.com"
         };
-        ar[19] = {
+        ar[35] = {
             url: 'https://www.youtube.com/watch?v=YcfjxvdYs88',
             img: "youtube",
             type: "video",
             title: 'Шоу Николя и Марины часть 1',
             source: "www.youtube.com"
         };
-        ar[20] = {
+        ar[36] = {
             url: 'https://www.youtube.com/watch?v=RHiMnnJy60U',
             img: "youtube",
             type: "video",
             title: 'Барыня Сударыня Особый случай',
             source: "www.youtube.com"
         };
-        ar[21] = {
+        ar[37] = {
             url: 'https://www.youtube.com/watch?v=XykrrhvoHIk',
             img: "youtube",
             type: "video",
             title: 'Русская народная песня Кадриль Камертон',
             source: "www.youtube.com"
         };
-        ar[22] = {
+        ar[38] = {
             url: 'https://www.youtube.com/watch?v=KFJALjkdXCo',
             img: "youtube",
             type: "video",
             title: 'Стоят девчонки, стоят в сторонке. Битва хоров.',
             source: "www.youtube.com"
         };
-        ar[23] = {
+        ar[39] = {
             url: 'https://www.youtube.com/watch?v=9mJmyik6LCo',
             img: "youtube",
             type: "video",
             title: 'Задумал старый дед. Шуточная песня.',
             source: "www.youtube.com"
         };
-        ar[24] = {
+        ar[40] = {
             url: 'https://www.youtube.com/watch?v=6-yovlxqBvY',
             img: "youtube",
             type: "video",
             title: 'My intro - Oliga Nikolaevna',
             source: "www.youtube.com"
         };
-        ar[25] = {
+        ar[41] = {
             url: 'https://www.youtube.com/watch?v=R74csuCRKLQ',
             img: "youtube",
             type: "video",
             title: 'Народный ансамбль Ленок танец',
             source: "www.youtube.com"
         };
-        ar[26] = {
+        ar[42] = {
             url: 'https://www.youtube.com/watch?v=n73EcJP0wh8',
             img: "youtube",
             type: "video",
             title: '"Весёлый ветер" фильм Дети капитана гранта Дунаевский',
             source: "www.youtube.com"
         };
-        ar[27] = {
-            url: 'https://www.youtube.com/watch?v=vHzvvYn9nYY',
-            img: "youtube",
-            type: "video",
-            title: 'Снежные скульптуры на площади.',
-            source: "www.youtube.com"
-        };
-        ar[28] = {
+        ar[43] = {
             url: 'https://www.youtube.com/watch?v=zq8xlImYZMA',
             img: "youtube",
             type: "video",
             title: 'П. И. Чайковский Неаполитанский танец. "Тальяночка"',
             source: "www.youtube.com"
         };
-        ar[29] = {
-            url: 'https://www.youtube.com/watch?v=czLKCSm0Kq0',
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=vHzvvYn9nYY',
             img: "youtube",
             type: "video",
-            title: 'Эх, гармошечка играй разговаривай.',
+            title: 'Снежные скульптуры на площади.',
             source: "www.youtube.com"
         };
-        ar[30] = {
+        ar[45] = {
             url: 'https://www.youtube.com/watch?v=HMW2cj6SVB0',
             img: "youtube",
             type: "video",
             title: 'Попурри на Русские народные песни и танцы.',
             source: "www.youtube.com"
         };
-        ar[31] = {
+        ar[46] = {
             url: 'https://www.youtube.com/watch?v=BgpaSANLwjg',
             img: "youtube",
             type: "video",
             title: 'Русский народный танец. Инструментальная игра на гармошке.',
             source: "www.youtube.com"
         };
-        ar[32] = {
+        ar[47] = {
             url: 'https://www.youtube.com/watch?v=PCWCQ1kYu2w',
             img: "youtube",
             type: "video",
             title: 'Рыжая метелица вертится как мельница.',
             source: "www.youtube.com"
         };
-        ar[33] = {
+        ar[48] = {
             url: 'https://www.youtube.com/watch?v=tXTZOnCpibM',
             img: "youtube",
             type: "video",
             title: 'Тополь, тополь, тополек - кучерявый паренек.',
             source: "www.youtube.com"
         };
-        ar[34] = {
+        ar[49] = {
             url: 'https://www.youtube.com/watch?v=PgQKZVUL8s0',
             img: "youtube",
             type: "video",
             title: 'Русские народные загадки от Деда за печника.',
-            source: "www.youtube.com"
-        };
-        ar[35] = {
-            url: 'https://www.youtube.com/watch?v=PGjtnzVPRVg',
-            img: "youtube",
-            type: "video",
-            title: 'Террариум в Доме культуры железнодорожников.',
-            source: "www.youtube.com"
-        };
-        ar[36] = {
-            url: 'https://www.youtube.com/watch?v=bdwvfsEWRjI',
-            img: "youtube",
-            type: "video",
-            title: 'Хоккейный матч на ледовой арене Планета',
-            source: "www.youtube.com"
-        };
-        ar[37] = {
-            url: 'https://www.youtube.com/watch?v=DhXgfaNwN0k',
-            img: "youtube",
-            type: "video",
-            title: 'Детские горки в нашем дворе',
-            source: "www.youtube.com"
-        };
-        ar[38] = {
-            url: 'https://www.youtube.com/watch?v=--Mfv9zg60Q',
-            img: "youtube",
-            type: "video",
-            title: 'Планета против Переславля хоккейный клуб',
-            source: "www.youtube.com"
-        };
-        ar[39] = {
-            url: 'https://www.youtube.com/watch?v=tfwc1bXIwHo',
-            img: "youtube",
-            type: "video",
-            title: 'Полинка делает первые шаги на льду',
             source: "www.youtube.com"
         };
     }
@@ -6732,7 +8135,7 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 1140610) {
+    if (taskId == 1140610 || taskId == 333262) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=fc4Fz6rQKCA',
             img: "youtube",
@@ -6941,6 +8344,460 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: 'Несколько наглядных приемов борьбы',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 343923) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=GNP6CB6HJXA',
+            img: "youtube",
+            type: "video",
+            title: 'Залы Большого Царицинского  дворца и Оперного дома Баженова',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=Q-U3oeLHMoY',
+            img: "youtube",
+            type: "video",
+            title: 'Царицино   дворцово парковый ансамбль',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=2o7tNHerWx8',
+            img: "youtube",
+            type: "video",
+            title: 'Новодевичий монастырь',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=Rm9_dBlhQqM',
+            img: "youtube",
+            type: "video",
+            title: 'Весенний ГУМ',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=vAdYxNUWwf0',
+            img: "youtube",
+            type: "video",
+            title: 'Москва Сити',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=LrLoQMcFWIY',
+            img: "youtube",
+            type: "video",
+            title: 'Видеорелакс - Мёртвое море',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=We1eb2AYBS4',
+            img: "youtube",
+            type: "video",
+            title: 'Московские Видеозарисовки',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=mEz3yp9faZs',
+            img: "youtube",
+            type: "video",
+            title: 'Выступление пилотажной группы',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=eThYj-LtmaQ',
+            img: "youtube",
+            type: "video",
+            title: 'Захватывающие виды Масады',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=2aVol5NO_q0',
+            img: "youtube",
+            type: "video",
+            title: 'Обезьяний мир в Сафари Рамат-Ган',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=RQclMa2Wl4k',
+            img: "youtube",
+            type: "video",
+            title: 'Зоологический центр Сафари В Рамат-Гане (Zoological center)',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=N531sS8qnBw',
+            img: "youtube",
+            type: "video",
+            title: 'Птичий двор',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=qHxS9eMoPoE',
+            img: "youtube",
+            type: "video",
+            title: 'Незабываемая прогулка по сафари',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=6foTHGoqiMY',
+            img: "youtube",
+            type: "video",
+            title: 'У бегемота нету талии',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=Xwfa0PkGr6o',
+            img: "youtube",
+            type: "video",
+            title: 'Парк Утопия, 2 серия',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=tB_as_dCXlU',
+            img: "youtube",
+            type: "video",
+            title: 'Парк утопия, 1 серия',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=G4TnbWExC0Q',
+            img: "youtube",
+            type: "video",
+            title: 'Москвариум на ВДНХ',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=J7sTLU0WXIo',
+            img: "youtube",
+            type: "video",
+            title: 'Чарующий мир красного моря (Red sea)',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=vHlxInn32LA',
+            img: "youtube",
+            type: "video",
+            title: 'Петергоф красочная видеозарисовка',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=nksSPozPFAI',
+            img: "youtube",
+            type: "video",
+            title: 'Кактусовый оазис  в городе Холон',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 325291) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=OrK-ocRcRyQ',
+            img: "youtube",
+            type: "video",
+            title: 'Парапланеризм с.Одаїв',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=S1FTU8y0QDs',
+            img: "youtube",
+            type: "video",
+            title: 'Звук двигателя',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=Cd7T6ZUKpf4',
+            img: "youtube",
+            type: "video",
+            title: 'Блондинка vs Новая полиция | Ивано-Франковск',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=VuUkdFk3EHY',
+            img: "youtube",
+            type: "video",
+            title: 'Падают обороты при прогреве двигателя, ВАЗ 2107',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=uUJd3Gzwz9I',
+            img: "youtube",
+            type: "video",
+            title: 'IMG 0108',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=GvGtKfKqWUI',
+            img: "youtube",
+            type: "video",
+            title: 'Сніг 20 квітня 2015, Івано-Франківськ',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=YNZxzekjQJw',
+            img: "youtube",
+            type: "video",
+            title: 'Вчимось переходити вулицю - IF',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=ytTO4uVN_TM',
+            img: "youtube",
+            type: "video",
+            title: 'Вибух гранати в Івано-Франківську',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=kUuRa8ESHlc',
+            img: "youtube",
+            type: "video",
+            title: 'Хвиля на "Арена-Львів"',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=2F_7fzNLnLQ',
+            img: "youtube",
+            type: "video",
+            title: 'Пісня на Арена-Львів. 12.10.2014',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=mxu3GKJFPv8',
+            img: "youtube",
+            type: "video",
+            title: '"Арена-Львів"',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=BYzIIlKv35s',
+            img: "youtube",
+            type: "video",
+            title: 'Град Івано-Франківськ 11 липня 2013р.',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=Nx6X72FjDTM',
+            img: "youtube",
+            type: "video",
+            title: 'IMG0394',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=JjJqScvf8xc',
+            img: "youtube",
+            type: "video",
+            title: 'Автослалом Івано-Франківськ 2013, 12 травня',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=1KZJUxDuPXk',
+            img: "youtube",
+            type: "video",
+            title: 'Автослалом Івано-Франківськ 2013, 12 травня',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=T_6OXE3oojo',
+            img: "youtube",
+            type: "video",
+            title: 'Автослалом Івано-Франківськ 2013, 12 травня',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=3CHdVJXdCss',
+            img: "youtube",
+            type: "video",
+            title: 'Автослалом Івано-Франківськ 2013, 12 травня',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=i6jQr3PpyPY',
+            img: "youtube",
+            type: "video",
+            title: 'Феєрверк до дня міста Івано-Франківськ 2013, 11 травня',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=_z2D9Bw_o4c',
+            img: "youtube",
+            type: "video",
+            title: 'Повінь.Дністер(10.07.2010)',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=9B5M0T-Y0EA',
+            img: "youtube",
+            type: "video",
+            title: 'не смотри - это страшно (прикол)',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=iKJHOCrJHHE',
+            img: "youtube",
+            type: "video",
+            title: 'Ліквідація затору на трасі Київ-Чоп',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=edCtVw-xFoA',
+            img: "youtube",
+            type: "video",
+            title: 'Правда о Януковиче',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=HroKMZwiofg',
+            img: "youtube",
+            type: "video",
+            title: 'Прощай мой ВАЗ 2107 (action movie fx)',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1221587) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=MVjROEGP0RU',
+            img: "youtube",
+            type: "video",
+            title: 'Я БЕЗУМА ОТ "OVERWATCH"',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=_DJsmdFeBZA',
+            img: "youtube",
+            type: "video",
+            title: 'МАЙНКРАФТЕРЫ ИГРАЮТ В CS',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=wDJu4mWUNTY',
+            img: "youtube",
+            type: "video",
+            title: 'НАЧНИ ЦЕНИТЬ ВРЕМЯ',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=_N10sZTeNN0',
+            img: "youtube",
+            type: "video",
+            title: 'ФИРАМИР ЗЛО ЮТУБА',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=54I_G0Ptixw',
+            img: "youtube",
+            type: "video",
+            title: 'VERSUS: OXXXYMIRON VS ST [ПОД БИТ]',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=KyL-WYZOowM',
+            img: "youtube",
+            type: "video",
+            title: 'WARCRAFT / ВАРКРАФТ – Обзор',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=uP9BmVeusqI',
+            img: "youtube",
+            type: "video",
+            title: 'Черепашки-ниндзя 2 - ОМЕРЗИТЕЛЬНОЕ УБОЖЕСТВО! (обзор фильма)',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=nVirytPpGt8',
+            img: "youtube",
+            type: "video",
+            title: 'ЧАЙНИКИ ИГРАЮТ В МАЙНКРАФТ - 2 ЧАСТЬ',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=nZty7EgUrp8',
+            img: "youtube",
+            type: "video",
+            title: 'ЧАЙНИКИ ИГРАЮТ В МАЙНКРАФТ - 1 ЧАСТЬ',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=m3PBaO9wqoM',
+            img: "youtube",
+            type: "video",
+            title: 'МОЙ ГОМУНКУЛ',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=dJu4v8IpYSY',
+            img: "youtube",
+            type: "video",
+            title: 'ХЛОЯ МОРЕЦ "5-Я ВОЛНА"',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=3rQZ7zoXERU',
+            img: "youtube",
+            type: "video",
+            title: 'ЮРИЙ ХОВАНСКИЙ ОБЛИЛ МОЛОКОМ ШКОЛЬНИКА  | ШАВЕРМА ПАТРУЛЬ',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=EImsJA5WvDA',
+            img: "youtube",
+            type: "video",
+            title: '10 ФАКТОВ О ДЖЕКИ ЧАНЕ',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=FTxMOtn13E4',
+            img: "youtube",
+            type: "video",
+            title: '4 ФАКТА О ДЖОАН РОУЛИНГ И  ГАРРИ ПОТТЕР',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=xT9yAj-v2pw',
+            img: "youtube",
+            type: "video",
+            title: 'ЛУЧШАЯ ИГРА THE LAST OF US | ОДНИ ИЗ НАС',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=W3Eo25jVT0M',
+            img: "youtube",
+            type: "video",
+            title: 'SCHOKK ХОЧЕТ ЛЕЩЕЙ',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=PgicqXPzsiU',
+            img: "youtube",
+            type: "video",
+            title: 'БУДУЩИЕ ИГР.ВИРТУАЛЬНОСТЬ.ЛИКЕЙ',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=RB7hx6LgxM0',
+            img: "youtube",
+            type: "video",
+            title: 'OXXXYMIRON - ХИТ МУЗЫКИ',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=h82mLclaoRw',
+            img: "youtube",
+            type: "video",
+            title: 'МОЯ ИСТОРИЯ SAMP',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=8dAZmMfsk1k',
+            img: "youtube",
+            type: "video",
+            title: 'ДНЕВНИК ХАЧА - МИЛЛИОНЕР ИЗ ТРУЩОБ (Амиран Сардаров)',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=9NwMJgF39C0',
+            img: "youtube",
+            type: "video",
+            title: 'ПРАНКИ ВЫМЕРЛИ / Rakamakafo НЕАКТУАЛЕН',
             source: "www.youtube.com"
         };
     }

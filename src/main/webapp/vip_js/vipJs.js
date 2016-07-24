@@ -1274,19 +1274,19 @@ $(document).ready(function() {
 		}else if
 		(item == 1200264) {
 			$('#taskIdVip').val(1200264);
-			$('#countOfVideo').val(18);
+			$('#countOfVideo').val(19);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(2);
 		}else if
 		(item == 1215689) {
 			$('#taskIdVip').val(1215689);
-			$('#countOfVideo').val(18);
+			$('#countOfVideo').val(19);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(2);
 		}else if
 		(item == 1259852) {
 			$('#taskIdVip').val(1259852);
-			$('#countOfVideo').val(18);
+			$('#countOfVideo').val(19);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(2);
 		}else if
