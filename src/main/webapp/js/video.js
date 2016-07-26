@@ -8801,6 +8801,358 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1107884) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=ORKY5XRBj0E',
+            img: "youtube",
+            type: "video",
+            title: 'чем заняться когда выпьешь в селе',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=9qIGgjs0DZ8',
+            img: "youtube",
+            type: "video",
+            title: 'Красивая девушка нереально классно поет',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=R11Nt5W1cqk',
+            img: "youtube",
+            type: "video",
+            title: 'Подсказки от дальнобойщиков',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=NHWK5A475Wg',
+            img: "youtube",
+            type: "video",
+            title: 'Неадекватные девушки приколы с девками',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=sKieGPIgHiM',
+            img: "youtube",
+            type: "video",
+            title: 'Вот для чего нужна подруга',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=5TkNs9TOhHk',
+            img: "youtube",
+            type: "video",
+            title: 'Когда лайкнул фотку другой девушки',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=Q0QsNrwUxh4',
+            img: "youtube",
+            type: "video",
+            title: 'Секреты красоты за 45 секунд',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=Bb_9OxBQHAs',
+            img: "youtube",
+            type: "video",
+            title: 'Что Будет Если Бросить Кусок Натрия в Воду',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=GJupkx1cXfw',
+            img: "youtube",
+            type: "video",
+            title: 'Кто это сделал прикол собаки',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=HBLPvGyHffM',
+            img: "youtube",
+            type: "video",
+            title: 'Одну секундочку',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=LYPGLyg8rO0',
+            img: "youtube",
+            type: "video",
+            title: 'Как едят Девушка и Жена в ресторане',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=CacB6iEB1VY',
+            img: "youtube",
+            type: "video",
+            title: 'Прикол Чайка покупает чипсы в магазине',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=RPDqJVpsTRU',
+            img: "youtube",
+            type: "video",
+            title: 'Ржачная обезьяна кушает кашу',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=1KmriyqlLh0',
+            img: "youtube",
+            type: "video",
+            title: 'Медведи нападают',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=g78p-tuT-qc',
+            img: "youtube",
+            type: "video",
+            title: 'Не надо стесняться - приглашай',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=cuLERCQ_e1s',
+            img: "youtube",
+            type: "video",
+            title: 'семейная жизнь',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=eg04j_pSSRs',
+            img: "youtube",
+            type: "video",
+            title: 'Не смей трогать торт собака охраняет торт',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=nHUXkLskkRw',
+            img: "youtube",
+            type: "video",
+            title: 'Жизнь самого смешного кота, самый смешной кот',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=tJHRqclcUDk',
+            img: "youtube",
+            type: "video",
+            title: 'Прикол с бровями WIGGLE Я ДОЛГО НАД ЭТИМ РЖАЛ',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=zwVD7u4HH-8',
+            img: "youtube",
+            type: "video",
+            title: 'Коты купаются такие милые',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=A0Ydo_zGBRk',
+            img: "youtube",
+            type: "video",
+            title: 'кот спрятался, прикол, смешно, смех, до слез, ржака',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=fCA7V0vIDok',
+            img: "youtube",
+            type: "video",
+            title: 'УГАР ХАХАХА себе прикол ржач ржака физрук универ серия сезон хаха квн смешно смех юмор школота 10050',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=7nhrw9YZ-lM',
+            img: "youtube",
+            type: "video",
+            title: 'РЖАКА  блондинка фоткается  D',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=tR7hrKXOJGg',
+            img: "youtube",
+            type: "video",
+            title: 'Пошлые селфи спалили скрытая камера',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=7tnvFGSBAjo',
+            img: "youtube",
+            type: "video",
+            title: 'Приколы Selection demotivators that lift your mood!',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=5hDo8Ne5k8A',
+            img: "youtube",
+            type: "video",
+            title: 'приколы с животными 2016!!!приколы про животных видео',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=X66olTbnUns',
+            img: "youtube",
+            type: "video",
+            title: 'Заработок на SEO Sprint  Как быстро выполнять дорогие задания',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=lGZgm41Bz5Y',
+            img: "youtube",
+            type: "video",
+            title: 'БАБЫ за рулем, новые приколы!Подборка приколов на дороге!  A selection of jokes on the road! BABA dr',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=G38QkymqozA',
+            img: "youtube",
+            type: "video",
+            title: 'Приколы над гаишниками! Подборка приколов на дороге ГИБДД!Comedy of traffic policemen! A selection o',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=100ZOA2bfZY',
+            img: "youtube",
+            type: "video",
+            title: 'Бабы зы рулем! Подборка приколов на дороге! driving! A selection of jokes',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=T0MXN0a-mnE',
+            img: "youtube",
+            type: "video",
+            title: 'Заработок в интернете Реальный заработок',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=-qG2oZ9-tOs',
+            img: "youtube",
+            type: "video",
+            title: 'Смешные жесткие ПРИКОЛЫ  Videos Compilation 2016 NEW',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=5HLVZ4p1wAw',
+            img: "youtube",
+            type: "video",
+            title: 'Пьяные прикол Алкашня',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=iZPLgZ6KprQ',
+            img: "youtube",
+            type: "video",
+            title: 'смешное видео коты котики',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=5OzrTHRam5w',
+            img: "youtube",
+            type: "video",
+            title: 'Интересное видео  Неудачные моменты с тяжелой техникой',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=fqOjoJgVZXs',
+            img: "youtube",
+            type: "video",
+            title: 'У Зайца машинку угнали',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=ybvIASWasOc',
+            img: "youtube",
+            type: "video",
+            title: 'Рама активирована',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=GPDPuKHVPyo',
+            img: "youtube",
+            type: "video",
+            title: 'Подъём! Уснула, да Да',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=jpKDdlLhL7k',
+            img: "youtube",
+            type: "video",
+            title: 'Лама, которая смеётся как Питер Грифин Not Vine',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=jCTV80q7yeQ',
+            img: "youtube",
+            type: "video",
+            title: 'Панде подарили мячик   мимими сплошное',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=NN9sRxzuteU',
+            img: "youtube",
+            type: "video",
+            title: 'Вот это прикол голая девушка зажигает, прикол, ржач, 100500, страх, жесть, вдв, драка, фильм',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=T8e-t_zr0Gc',
+            img: "youtube",
+            type: "video",
+            title: 'Покажи киску или Бабушка не вовремя Анекдот, прикол, камеди комедии клаб петросян ржака смешно задор',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=ErrOydyckDk',
+            img: "youtube",
+            type: "video",
+            title: 'Подборка танцующих  грудей, невозможно отвести взгляд, прикол, нарезка 2015',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
+            url: 'https://www.youtube.com/watch?v=wYiargPNQCc',
+            img: "youtube",
+            type: "video",
+            title: 'БЕСКОНЕЧНАЯ ПОГОНЯ',
+            source: "www.youtube.com"
+        };
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=mrAQ1lNqnRI',
+            img: "youtube",
+            type: "video",
+            title: 'Советы бывалого качка',
+            source: "www.youtube.com"
+        };
+        ar[45] = {
+            url: 'https://www.youtube.com/watch?v=hU49INjR3Cg',
+            img: "youtube",
+            type: "video",
+            title: 'Прикол! Обезьянка покупает сок в автомате',
+            source: "www.youtube.com"
+        };
+        ar[46] = {
+            url: 'https://www.youtube.com/watch?v=ggyUWXGrS44',
+            img: "youtube",
+            type: "video",
+            title: 'наглый енот ворует корм у котиков',
+            source: "www.youtube.com"
+        };
+        ar[47] = {
+            url: 'https://www.youtube.com/watch?v=rsq6LJN5lpo',
+            img: "youtube",
+            type: "video",
+            title: 'Турбо Хомяк',
+            source: "www.youtube.com"
+        };
+        ar[48] = {
+            url: 'https://www.youtube.com/watch?v=syIOPAJxcxM',
+            img: "youtube",
+            type: "video",
+            title: 'кушай дорогой ну покушай',
+            source: "www.youtube.com"
+        };
+        ar[49] = {
+            url: 'https://www.youtube.com/watch?v=YgMxeO-6rio',
+            img: "youtube",
+            type: "video",
+            title: 'Попугай танцует под дабстеп',
+            source: "www.youtube.com"
+        };
+    }
     return ar;
 
 

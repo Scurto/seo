@@ -114,7 +114,8 @@ $(document).ready(function() {
 		"333262",
 		"343923",
 		"325291",
-		"1221587"
+		"1221587",
+		"1107884"
 
 		]
 	});
@@ -549,6 +550,14 @@ $(document).ready(function() {
 			$('#countOfMove').val(3);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
+		}else if
+		(item == 1107884) {
+			$('#taskId').val(1107884);
+			$('#countOfVideo').val(15);
+			$('#countOfReklama').val(12);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
 		}else if
 		(item == 325291) {
 			$('#taskId').val(325291);
@@ -1094,6 +1103,8 @@ $(document).ready(function() {
 			connArray.push(325291);
 		} else if (taskId == 1221587) {
 			connArray.push(1221587);
+		} else if (taskId == 1107884) {
+			connArray.push(1107884);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -1405,7 +1416,7 @@ $('#clear-browsing-data').click(function(event) {
 		defaultPosition(request, taskId);
 
 
-		if (taskId == 1092046 || taskId == 1061385) {
+		if (taskId == 1092046 || taskId == 1061385 || taskId == 1107884) {
 			// TODO FIX LOGIC OF MIX HERE !!!!!!!!
 
 			var videoArray = [];
@@ -1835,6 +1846,21 @@ $('#clear-browsing-data').click(function(event) {
 				source: "www.google.com"
 			};
 			var youtube = getDefaultYouTube("Mowyn - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1107884) {
+			var whoer = getDefaultWhoer();
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = getDefaultYouTube("Рома Чех - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
