@@ -49,25 +49,25 @@ function getReklama() {
 				},
 
 				url2 : {
-					url: "https://blog.digitalrealty.com/2015/12/digital-realty-unveils-ibm-softlayer-direct-link-services-support/",
-					title: 'Digital Realty Launches "Direct Link Colo" to IBM Cloud'
+					url: "https://www.digitalrealty.com/blog/digital-realty-unveils-ibm-softlayer-dir/ect-link-services-support/",
+					title: 'Data Centers and Colocation Solutions | Digital Realty'
 				},
 
 				url3 : {
-					url: "https://blog.digitalrealty.com/posts/",
-					title: "Posts | Digital Realty Blog"
+					url: "https://www.digitalrealty.com/partners/alliance-partners/",
+					title: "Alliance Partners | Digital Realty"
 				},
 				url4 : {
-					url: "https://blog.digitalrealty.com/connect-social-media/",
-					title: "Digital Realty on Twitter, Facebook and LinkedIn | Digital Blog"
+					url: "https://www.digitalrealty.com/industries/network/",
+					title: "Networking & Carrier | | Enterprise Solutions | Digital Realty"
 				},
 				url5 : {
-					url: "https://www.digitalrealty.com/company/",
-					title: "Digital Realty | The Data Center Experts"
+					url: "https://www.digitalrealty.com/meet-digital-realty/",
+					title: "Meet Digital Realty | Digital Realty"
 				},
 				url6 : {
-					url: "https://blog.digitalrealty.com/category/resource/",
-					title: "Resource Archives | Digital Realty Blog"
+					url: "https://www.digitalrealty.com/resource-center/",
+					title: "Data Center Resource Center | Digital Realty"
 				}
 			},
 			img: "digitalrealty",

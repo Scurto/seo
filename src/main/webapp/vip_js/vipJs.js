@@ -373,6 +373,8 @@ $(document).ready(function() {
 		"999393",
 		"1004892",
 		"1011645",
+		"1273318",
+		"1273319",
 		"1080945",
 		"1080949",
 		"1094591",
@@ -446,6 +448,7 @@ $(document).ready(function() {
 		"1200264",
 		"1215689",
 		"1259852",
+		"1266951",
 		"985824",
 		"1071173",
 		"1232663",
@@ -893,6 +896,20 @@ $(document).ready(function() {
 			$('#countOfMove').val(3);
 		}
 		else if
+		(item == 1273318) {
+			$('#taskIdVip').val(1273318);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+		}
+		else if
+		(item == 1273319) {
+			$('#taskIdVip').val(1273319);
+			$('#countOfVideo').val(5);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+		}
+		else if
 		(item == 1124008) {
 			$('#taskIdVip').val(1124008);
 			$('#countOfVideo').val(5);
@@ -980,14 +997,14 @@ $(document).ready(function() {
 		(item == 1172104) {
 			$('#taskIdVip').val(1172104);
 			$('#countOfVideo').val(5);
-			$('#countOfReklama').val(1);
+			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
 		}
 		else if
 		(item == 1172517) {
 			$('#taskIdVip').val(1172517);
 			$('#countOfVideo').val(5);
-			$('#countOfReklama').val(1);
+			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
 		}
 		else if
@@ -1286,6 +1303,12 @@ $(document).ready(function() {
 		}else if
 		(item == 1259852) {
 			$('#taskIdVip').val(1259852);
+			$('#countOfVideo').val(19);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(2);
+		}else if
+		(item == 1266951) {
+			$('#taskIdVip').val(1266951);
 			$('#countOfVideo').val(19);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(2);
@@ -2077,10 +2100,12 @@ $(document).ready(function() {
 			connArray.push(75085);
 		} else if (taskId == 75395) {
 			connArray.push(75395);
-		} else if (taskId == 999393 || taskId == 1004892 || taskId == 1011645) {
+		} else if (taskId == 999393 || taskId == 1004892 || taskId == 1011645 || taskId == 1273318 || taskId == 1273319) {
 			connArray.push(999393);
 			connArray.push(1004892);
 			connArray.push(1011645);
+			connArray.push(1273318);
+			connArray.push(1273319);
 		} else if (taskId == 1124008 || taskId == 1124028 || taskId == 1124038 || taskId == 1124053 || taskId == 1124059 ||
 			taskId == 317244 || taskId == 317246 || taskId == 317248 || taskId == 320723) {
 			connArray.push(1124008);
@@ -2192,10 +2217,11 @@ $(document).ready(function() {
 			connArray.push(1222315);
 		} else if (taskId == 543675) {
 			connArray.push(543675);
-		} else if (taskId == 1200264 || taskId == 1215689 || taskId == 1259852) {
+		} else if (taskId == 1200264 || taskId == 1215689 || taskId == 1259852 || taskId == 1266951) {
 			connArray.push(1200264);
 			connArray.push(1215689);
 			connArray.push(1259852);
+			connArray.push(1266951);
 		} else if (taskId == 985824) {
 			connArray.push(985824);
 		} else if (taskId == 1071173) {

@@ -2038,7 +2038,7 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 71431 || taskId == 938168 || taskId == 244998) {
+    if (taskId == 71431 || taskId == 938168 || taskId == 244998 || taskId == 309721) {
         //ar[0] = {
         //    url: 'https://www.youtube.com/watch?v=zbuZYLk1iuY',
         //    img: "youtube",
@@ -2670,7 +2670,7 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 70722 || taskId == 999896 || taskId == 189660) {
+    if (taskId == 70722 || taskId == 999896 || taskId == 189660 || taskId == 280863) {
         //ar[0] = {
         //    url: 'https://www.youtube.com/watch?v=kcBKskKB7qY',
         //    img: "youtube",

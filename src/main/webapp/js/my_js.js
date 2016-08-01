@@ -77,11 +77,13 @@ $(document).ready(function() {
 		"70722",
 		"938168",
 		"244998",
+		"309721",
 		"1126852",
 		"292135",
 		"999896",
 		"313536",
 		"189660",
+		"280863",
 		"73136",
 		"76310",
 		"75739",
@@ -287,6 +289,14 @@ $(document).ready(function() {
 			$('#betweenVideo').val(35);
 			$('#betweenReklama').val(40);
 		}else if
+		(item == 280863) {
+			$('#taskId').val(280863);
+			$('#countOfVideo').val(45);
+			$('#countOfReklama').val(6);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(35);
+			$('#betweenReklama').val(40);
+		}else if
 		(item == 938168) {
 			$('#taskId').val(938168);
 			$('#countOfVideo').val(40);
@@ -299,6 +309,14 @@ $(document).ready(function() {
 			$('#taskId').val(244998);
 			$('#countOfVideo').val(50);
 			$('#countOfReklama').val(7);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(35);
+			$('#betweenReklama').val(40);
+		}else if
+		(item == 309721) {
+			$('#taskId').val(309721);
+			$('#countOfVideo').val(45);
+			$('#countOfReklama').val(6);
 			$('#countOfMove').val(2);
 			$('#betweenVideo').val(35);
 			$('#betweenReklama').val(40);
@@ -1036,7 +1054,7 @@ $(document).ready(function() {
 			connArray.push(62714);
 			connArray.push(68148);
 		} else if (taskId == 71431 || taskId == 938168 || taskId == 999896 || taskId == 70722 || taskId == 1126852 || taskId == 78751
-			|| taskId == 189660 || taskId == 292135 || taskId == 244998 || taskId == 313536) {
+			|| taskId == 189660 || taskId == 292135 || taskId == 244998 || taskId == 313536 || taskId == 309721 || taskId == 280863) {
 			connArray.push(71431);
 			connArray.push(70722);
 			connArray.push(78751);
@@ -1047,6 +1065,8 @@ $(document).ready(function() {
 			connArray.push(292135);
 			connArray.push(244998);
 			connArray.push(313536);
+			connArray.push(309721);
+			connArray.push(280863);
 		} else if (taskId == 73136 || taskId == 76310) {
 			connArray.push(73136);
 			connArray.push(76310);
@@ -2235,7 +2255,7 @@ $('#clear-browsing-data').click(function(event) {
 					linkText = 'https://www.google.com/?gfe_rd=cr&ei=z3WsVviTGqOi8wev86DYBA&gws_rd=ssl#q=%D1%86%D0%B8%D1%80%D0%BA+%D0%B8%D0%BB%D0%B8+%D0%B0%D1%80%D0%BC%D0%B8%D1%8F';
 				}
 			}
-			else if (taskId == 71431 || taskId == 938168 || taskId == 244998) {
+			else if (taskId == 71431 || taskId == 938168 || taskId == 244998 || taskId == 309721) {
 				var youtube = {
 					title: "Pitr Puzhaev - YouTube",
 					type: "def",
@@ -2259,7 +2279,7 @@ $('#clear-browsing-data').click(function(event) {
 					img: "youtube",
 					source: "www.youtube.com"
 				};
-			} else if (taskId == 70722 || taskId == 999896 || taskId == 189660) {
+			} else if (taskId == 70722 || taskId == 999896 || taskId == 189660 || taskId == 280863) {
 				var youtube = {
 					title: "Anatolievich - YouTube",
 					type: "def",
@@ -2477,6 +2497,9 @@ $('#clear-browsing-data').click(function(event) {
 						break;
 					case '7':
 						month = "июля";
+						break;
+					case '8':
+						month = "августа";
 						break;
 				}
 				var date = "Сегодня - " + dayOfWeek + ", " + dateOfMonth + " " +  month + " " + year + " г.";
