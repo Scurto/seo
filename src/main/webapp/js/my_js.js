@@ -93,6 +93,8 @@ $(document).ready(function() {
 		"1061385",
 		"1092879",
 		"1128139",
+		"335972",
+		"288151",
 		"1184830",
 		"1204213",
 		"78626",
@@ -113,6 +115,7 @@ $(document).ready(function() {
 		"79016",
 		"75641",
 		"1140610",
+		"294721",
 		"333262",
 		"343923",
 		"325291",
@@ -433,6 +436,22 @@ $(document).ready(function() {
 			$('#betweenVideo').val(45);
 			$('#betweenReklama').val(45);
 		}else if
+		(item == 335972) {
+			$('#taskId').val(335972);
+			$('#countOfVideo').val(18);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 288151) {
+			$('#taskId').val(288151);
+			$('#countOfVideo').val(18);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
 		(item == 79016) {
 			$('#taskId').val(79016);
 			$('#countOfVideo').val(18);
@@ -555,6 +574,14 @@ $(document).ready(function() {
 		}else if
 		(item == 1140610) {
 			$('#taskId').val(1140610);
+			$('#countOfVideo').val(30);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 294721) {
+			$('#taskId').val(294721);
 			$('#countOfVideo').val(30);
 			$('#countOfReklama').val(4);
 			$('#countOfMove').val(3);
@@ -1087,9 +1114,11 @@ $(document).ready(function() {
 			connArray.push(1132609);
 		} else if (taskId == 1092879) {
 			connArray.push(1092879);
-		} else if (taskId == 1128139 || taskId == 79016) {
+		} else if (taskId == 1128139 || taskId == 79016 || taskId == 288151 || taskId == 335972) {
 			connArray.push(1128139);
 			connArray.push(79016);
+			connArray.push(288151);
+			connArray.push(335972);
 		} else if (taskId == 1184830) {
 			connArray.push(1184830);
 		} else if (taskId == 1204213) {
@@ -1114,9 +1143,10 @@ $(document).ready(function() {
 			connArray.push(78182);
 		} else if (taskId == 75641) {
 			connArray.push(75641);
-		} else if (taskId == 1140610 || taskId == 333262) {
+		} else if (taskId == 1140610 || taskId == 333262 || taskId == 294721) {
 			connArray.push(1140610);
 			connArray.push(333262);
+			connArray.push(294721);
 		} else if (taskId == 343923) {
 			connArray.push(343923);
 		} else if (taskId == 325291) {
@@ -1842,7 +1872,7 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
-		}else if (taskId == 1140610 || taskId == 333262) {
+		}else if (taskId == 1140610 || taskId == 333262 || taskId == 294721) {
 			var whoer = getDefaultWhoer();
 			var google = {
 				title: request + " - Поиск в Google",
@@ -2109,9 +2139,9 @@ $('#clear-browsing-data').click(function(event) {
 			$("#forGoogle").modal('show');
 			etalonArray.push(google);
 			etalonArray.push(youtube);
-		}else if (taskId == 1128139 || taskId == 79016) {
+		}else if (taskId == 1128139 || taskId == 79016 || taskId == 288151 || taskId == 335972) {
 			var google = {
-				title: "Фонтан (Ярославль). Поющий фонтан (Парк Горького.Москва) - Поиск в Google",
+				title: request + " - Поиск в Google",
 				type: "def",
 				img: "google",
 				source: "www.google.com"
