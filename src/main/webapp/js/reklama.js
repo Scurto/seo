@@ -3937,6 +3937,135 @@ function getReklama() {
 		source: "www.exabytes.sg"
 	};
 
+	ar[90] = {
+		mainUrl : "http://www.oreillyauto.com/site/c/home.oap",
+		title: "Home Page | O'Reilly Auto Parts",
+		secUrl : {
+			url1 : {
+				url: "http://www.oreillyauto.com/site/c/cat/Accessories+-+Exterior/C0325/C0002.oap",
+				title: "Exterior | O'Reilly Auto Parts"
+			},
+			url2 : {
+				url: "http://www.oreillyauto.com/site/c/cat/Accessories+-+Interior/C0326/C0002.oap",
+				title: "Interior | O'Reilly Auto Parts"
+			},
+			url3 : {
+				url: "http://www.oreillyauto.com/site/c/cat/Air+Conditioning/C0328/C0001.oap",
+				title: "Air Conditioning | O'Reilly Auto Parts"
+			},
+			url4 : {
+				url: "http://www.oreillyauto.com/site/c/cat/Battery+%26+Accessories/C0005/C0001.oap",
+				title: "Battery & Accessories | O'Reilly Auto Parts"
+			},
+			url5 : {
+				url: "http://www.oreillyauto.com/site/c/cat/Belts+%26+Hoses/C0007/C0001.oap",
+				title: "Belts & Hoses | O'Reilly Auto Parts"
+			},
+			url6 : {
+				url: "https://corporate.oreillyauto.com/corporate/HomePage.do",
+				title: "Home | O'Reilly Auto Parts Corporate"
+			},
+			url7 : {
+				url: "http://www.oreillyauto.com/site/c/currentad/get.oap",
+				title: "Zip Code Select | O'Reilly Auto Parts"
+			},
+			url8 : {
+				url: "http://www.oreillyauto.com/site/c/rebatecenter.oap",
+				title: "Rebate Center | O'Reilly Auto Parts"
+			}
+		},
+		img: "oreillyauto",
+		type: "reklama",
+		location: "USA",
+		source: "www.oreillyauto.com"
+	};
+
+	ar[91] = {
+		mainUrl : "http://us.shein.com/",
+		title: "SheIn(Sheinside)-Women Fast Fashion Online",
+		secUrl : {
+			url1 : {
+				url: "http://us.shein.com/About-US-a-117.html",
+				title: "About Us | SHEIN"
+			},
+			url2 : {
+				url: "http://us.shein.com/affiliate-a-427.html",
+				title: "Affiliate Program"
+			},
+			url3 : {
+				url: "http://us.shein.com/read-policy-a-453.html",
+				title: "Fashion Blogger Program"
+			},
+			url4 : {
+				url: "http://us.shein.com/Wholesale-a-284.html",
+				title: "Wholesale"
+			},
+			url5 : {
+				url: "http://us.shein.com/Shipping-Info-a-280.html",
+				title: "Shipping Info | SHEIN"
+			},
+			url6 : {
+				url: "http://us.shein.com/Return-Policy-a-281.html",
+				title: "Return Policy | SHEIN"
+			},
+			url7 : {
+				url: "http://us.shein.com/help.html",
+				title: "SHEIN HELP & SUPPORT"
+			},
+			url8 : {
+				url: "http://us.shein.com/How-to-order-a-276.html",
+				title: "How to Order | SHEIN"
+			}
+		},
+		img: "us.shein",
+		type: "reklama",
+		location: "USA",
+		source: "us.shein.com"
+	};
+
+	ar[92] = {
+		mainUrl : "http://www.bremont.com/",
+		title: "British Luxury Watchmakers | Chronograph Watches | Bremont",
+		secUrl : {
+			url1 : {
+				url: "http://www.bremont.com/collection",
+				title: "Core Collection | Luxury Watches | Bremont Chronometers"
+			},
+			url2 : {
+				url: "http://www.bremont.com/explore-bremont/heritage",
+				title: "Heritage | British Chronometers | Bremont Watches"
+			},
+			url3 : {
+				url: "http://www.bremont.com/military",
+				title: "Military and Special Projects | Bremont Watch Company"
+			},
+			url4 : {
+				url: "http://www.bremont.com/nearest-stores/store-locator",
+				title: "Store Locator | Store | Bremont Watches"
+			},
+			url5 : {
+				url: "http://www.bremont.com/logbook",
+				title: "Log Book – Bremont Watch Company"
+			},
+			url6 : {
+				url: "http://www.bremont.com/customer-service/contact-us",
+				title: "Read about the cookie policy we operate on the Bremont site"
+			},
+			url7 : {
+				url: "http://shop.bremont.com/collections/small-accessories",
+				title: "Small Accessories – Bremont"
+			},
+			url8 : {
+				url: "http://www.bremont.com/careers",
+				title: "Careers at Bremont – Bremont Watch Company"
+			}
+		},
+		img: "bremont",
+		type: "reklama",
+		location: "USA",
+		source: "www.bremont.com"
+	};
+
 
 
 	//ar[22] = {
