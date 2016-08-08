@@ -79,9 +79,11 @@ $(document).ready(function() {
 		"244998",
 		"309721",
 		"1126852",
+		"329632",
 		"292135",
 		"999896",
 		"313536",
+		"347151",
 		"189660",
 		"280863",
 		"73136",
@@ -284,6 +286,14 @@ $(document).ready(function() {
 			$('#betweenVideo').val(35);
 			$('#betweenReklama').val(40);
 		}else if
+		(item == 347151) {
+			$('#taskId').val(347151);
+			$('#countOfVideo').val(45);
+			$('#countOfReklama').val(6);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(35);
+			$('#betweenReklama').val(40);
+		}else if
 		(item == 189660) {
 			$('#taskId').val(189660);
 			$('#countOfVideo').val(50);
@@ -329,6 +339,14 @@ $(document).ready(function() {
 			$('#countOfVideo').val(40);
 			$('#countOfReklama').val(5);
 			$('#countOfMove').val(3);
+			$('#betweenVideo').val(35);
+			$('#betweenReklama').val(40);
+		}else if
+		(item == 329632) {
+			$('#taskId').val(329632);
+			$('#countOfVideo').val(45);
+			$('#countOfReklama').val(6);
+			$('#countOfMove').val(2);
 			$('#betweenVideo').val(35);
 			$('#betweenReklama').val(40);
 		}else if
@@ -1081,7 +1099,7 @@ $(document).ready(function() {
 			connArray.push(62714);
 			connArray.push(68148);
 		} else if (taskId == 71431 || taskId == 938168 || taskId == 999896 || taskId == 70722 || taskId == 1126852 || taskId == 78751
-			|| taskId == 189660 || taskId == 292135 || taskId == 244998 || taskId == 313536 || taskId == 309721 || taskId == 280863) {
+			|| taskId == 189660 || taskId == 292135 || taskId == 244998 || taskId == 313536 || taskId == 309721 || taskId == 280863 || taskId == 347151 || taskId == 329632) {
 			connArray.push(71431);
 			connArray.push(70722);
 			connArray.push(78751);
@@ -1094,6 +1112,8 @@ $(document).ready(function() {
 			connArray.push(313536);
 			connArray.push(309721);
 			connArray.push(280863);
+			connArray.push(347151);
+			connArray.push(329632);
 		} else if (taskId == 73136 || taskId == 76310) {
 			connArray.push(73136);
 			connArray.push(76310);
@@ -2302,7 +2322,7 @@ $('#clear-browsing-data').click(function(event) {
 				if (request == 'Синьор помидор и тыква.') {
 					linkText = '';
 				}
-			}else if (taskId == 1126852 || taskId == 78751 || taskId == 292135) {
+			}else if (taskId == 1126852 || taskId == 78751 || taskId == 292135 || taskId == 329632) {
 				var youtube = {
 					title: "Oliga Nikolaevna - YouTube",
 					type: "def",
@@ -2316,7 +2336,7 @@ $('#clear-browsing-data').click(function(event) {
 					img: "youtube",
 					source: "www.youtube.com"
 				};
-			} else if (taskId == 313536) {
+			} else if (taskId == 313536 || taskId == 347151) {
 				var youtube = {
 					title: "Household TV - YouTube",
 					type: "def",

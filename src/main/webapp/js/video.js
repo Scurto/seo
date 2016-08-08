@@ -1686,7 +1686,7 @@ function getVideo(taskId) {
         };
     }
 
-    if (taskId == 313536) {
+    if (taskId == 313536 || taskId == 347151) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=gYVQvJJMoPc',
             img: "youtube",
@@ -4725,7 +4725,7 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 1126852 || taskId == 78751 || taskId == 292135) {
+    if (taskId == 1126852 || taskId == 78751 || taskId == 292135 || taskId == 329632) {
 
         //ar[0] = {
         //    url: 'https://www.youtube.com/watch?v=dtwzVUDG0TE',
@@ -5670,17 +5670,17 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
         ar[2] = {
-            url: 'https://www.youtube.com/watch?v=OgvNHJ2JqeM',
-            img: "youtube",
-            type: "video",
-            title: 'Аварии на снегоходах',
-            source: "www.youtube.com"
-        };
-        ar[3] = {
             url: 'https://www.youtube.com/watch?v=6kPB6zzOIDc',
             img: "youtube",
             type: "video",
             title: 'Приколы 2015',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=OgvNHJ2JqeM',
+            img: "youtube",
+            type: "video",
+            title: 'Аварии на снегоходах',
             source: "www.youtube.com"
         };
         ar[4] = {
@@ -5691,66 +5691,66 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
         ar[5] = {
-            url: 'https://www.youtube.com/watch?v=25YH75qXKts',
-            img: "youtube",
-            type: "video",
-            title: 'Украинец и поляк!!! Ржака!!',
-            source: "www.youtube.com"
-        };
-        ar[6] = {
             url: 'https://www.youtube.com/watch?v=YJsehcjKHCU',
             img: "youtube",
             type: "video",
             title: 'Прикольное видео 2!!!',
             source: "www.youtube.com"
         };
-        ar[7] = {
+        ar[6] = {
             url: 'https://www.youtube.com/watch?v=jPZNz_fmny0',
             img: "youtube",
             type: "video",
             title: 'Прикольное видео!!!',
             source: "www.youtube.com"
         };
-        ar[8] = {
+        ar[7] = {
             url: 'https://www.youtube.com/watch?v=Y8zbCjebwSc',
             img: "youtube",
             type: "video",
             title: 'Песня - Время',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[8] = {
             url: 'https://www.youtube.com/watch?v=OslB9fmbUmw',
             img: "youtube",
             type: "video",
             title: 'Песня Минимум (Супер!!)',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[9] = {
             url: 'https://www.youtube.com/watch?v=H0vjuqF4TQc',
             img: "youtube",
             type: "video",
             title: 'Сфинкс vs Йорк!!',
             source: "www.youtube.com"
         };
-        ar[11] = {
+        ar[10] = {
             url: 'https://www.youtube.com/watch?v=_Ty0_M5TABg',
             img: "youtube",
             type: "video",
             title: 'Йорк против кота',
             source: "www.youtube.com"
         };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=lGIXra28a30',
+            img: "youtube",
+            type: "video",
+            title: 'Видео с кошками NEW!!',
+            source: "www.youtube.com"
+        };
         ar[12] = {
+            url: 'https://www.youtube.com/watch?v=pO9carLy4I8',
+            img: "youtube",
+            type: "video",
+            title: 'Позирование перед котом',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
             url: 'https://www.youtube.com/watch?v=oBUlk7ax6sc',
             img: "youtube",
             type: "video",
             title: 'Вот докопался!!!',
-            source: "www.youtube.com"
-        };
-        ar[13] = {
-            url: 'https://www.youtube.com/watch?v=9XiCDGCMkY8',
-            img: "youtube",
-            type: "video",
-            title: 'В большой семье...)))',
             source: "www.youtube.com"
         };
         ar[14] = {
@@ -5768,10 +5768,10 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
         ar[16] = {
-            url: 'https://www.youtube.com/watch?v=pO9carLy4I8',
+            url: 'https://www.youtube.com/watch?v=9XiCDGCMkY8',
             img: "youtube",
             type: "video",
-            title: 'Позирование перед котом',
+            title: 'В большой семье...)))',
             source: "www.youtube.com"
         };
         ar[17] = {
@@ -5782,13 +5782,6 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
         ar[18] = {
-            url: 'https://www.youtube.com/watch?v=lGIXra28a30',
-            img: "youtube",
-            type: "video",
-            title: 'Видео с кошками NEW!!',
-            source: "www.youtube.com"
-        };
-        ar[19] = {
             url: 'https://www.youtube.com/watch?v=WLwo4sgU1r0',
             img: "youtube",
             type: "video",
