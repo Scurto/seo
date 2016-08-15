@@ -90,6 +90,7 @@ $(document).ready(function() {
 		"76310",
 		"75739",
 		"69628",
+		"69625",
 		"1132609",
 		"1092046",
 		"1061385",
@@ -417,6 +418,14 @@ $(document).ready(function() {
 		(item == 69628) {
 			$('#taskId').val(69628);
 			$('#countOfVideo').val(18);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 69625) {
+			$('#taskId').val(69625);
+			$('#countOfVideo').val(15);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
 			$('#betweenVideo').val(61);
@@ -1125,8 +1134,9 @@ $(document).ready(function() {
 			connArray.push(72688);
 			connArray.push(74444);
 			connArray.push(1119333);
-		} else if (taskId == 69628) {
+		} else if (taskId == 69628 || taskId == 69625) {
 			connArray.push(69628);
+			connArray.push(69625);
 		} else if (taskId == 1092046 || taskId == 1061385) {
 			connArray.push(1092046);
 			connArray.push(1061385);
@@ -2041,6 +2051,44 @@ $('#clear-browsing-data').click(function(event) {
 			};
 			var youtube3 = {
 				title: "Необыкновенный мир - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			//var google = {
+			//	title: "star-blog - Поиск в Google",
+			//	type: "def",
+			//	img: "google",
+			//	source: "www.google.com"
+			//};
+			var whoer = {
+				title: "Узнать свой IP адрес",
+				type: "def",
+				img: "whoer",
+				source: "whoer.net"
+			};
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
+			etalonArray.push(youtube3);
+			//etalonArray.push(google);
+			//etalonArray.push(youtube);
+		}else if (taskId == 69625) {
+			var youtube1 = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube2 = {
+				title: request + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube3 = {
+				title: "МИР ПРИРОДЫ - YouTube",
 				type: "def",
 				img: "youtube",
 				source: "www.youtube.com"

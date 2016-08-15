@@ -3637,46 +3637,46 @@ function getReklama() {
 	};
 
 	ar[83] = {
-		mainUrl : "http://www.albamoda.de/",
-		title: "Mode & Damenmode bei Alba Moda kaufen - exklusiv und italienisch",
+		mainUrl : "https://www.mazdausa.com/",
+		title: "Mazda USA Official Site | Cars, SUVs & Crossovers | Mazda USA",
 		secUrl : {
 			url1 : {
-				url: "http://www.albamoda.de/damen/blazer/sh765701.html",
-				title: "Blazer für Damen bei Alba Moda | Damenblazer Online kaufen"
+				url: "https://www.mazdausa.com/shopping-tools/build-and-price",
+				title: "Mazda Build & Price Your Vehicle | Mazda USA"
 			},
 			url2 : {
-				url: "http://www.albamoda.de/damen/blusen-tuniken/sh765389.html",
-				title: "Blusen online | Damenblusen entdecken und kaufen | Alba Moda"
+				url: "https://www.mazdausa.com/shopping-tools/inventory",
+				title: "Mazda New & Used Car Inventory | Mazda USA"
 			},
 			url3 : {
-				url: "http://www.albamoda.de/damen/homewear/sh5126829.html",
-				title: "Homewear | Hausanzug und Pyjama heute kaufen | Alba Moda"
+				url: "https://www.mazdausa.com/shopping-tools/request-a-quote",
+				title: "Mazda New & Used Car Quotes - Request a Quote | Mazda USA"
 			},
 			url4 : {
-				url: "http://www.albamoda.de/damen/hosen/sh765696.html",
-				title: "Hosen für Damen | Alba Moda Online | Damenhosen kaufen"
+				url: "https://www.mazdausa.com/brochures-and-guides",
+				title: "Mazda Vehicle Brochures and Guides - Download Center | Mazda USA"
 			},
 			url5 : {
-				url: "http://www.albamoda.de/damen/jacken-maentel/sh1085052.html",
-				title: "Jacken & Mäntel für Damen - Damenjacken jetzt kaufen"
+				url: "https://www.mazdausa.com/shopping-tools/compare-vehicles",
+				title: "Mazda Vehicle Comparison | Mazda USA"
 			},
 			url6 : {
-				url: "http://www.albamoda.de/damen/pullover-strickjacken/sh1059012.html",
-				title: "Pullover und Strickjacken für Damen - bei Alba Moda kaufen"
+				url: "https://www.mazdausa.com/shopping-tools/trade-in-estimator",
+				title: "Used Car & Vehicle Trade-In Value - Trade-In Appraisal | Mazda USA"
 			},
 			url7 : {
-				url: "http://www.albamoda.de/damen/roecke/sh1044729.html",
-				title: "Röcke in unverwechselbaren Farben und Formen | Alba Moda"
+				url: "https://www.mazdausa.com/mazda-extended-confidence",
+				title: "Mazda Extended Confidence - Warranty Plans | Mazda USA"
 			},
 			url8 : {
-				url: "http://www.albamoda.de/damen/unterwaesche/sh3086124.html",
-				title: "Unterwäsche für Damen jetzt online kaufen | Alba Moda"
+				url: "https://www.mazdausa.com/shopping-tools/apply-for-financing",
+				title: "Apply for Financing - Online Application | Mazda USA"
 			}
 		},
-		img: "albamoda",
+		img: "mazdausa",
 		type: "reklama",
-		location: "GERMANY",
-		source: "www.albamoda.de"
+		location: "USA",
+		source: "www.mazdausa.com"
 	};
 
 	ar[84] = {
@@ -4064,6 +4064,92 @@ function getReklama() {
 		type: "reklama",
 		location: "USA",
 		source: "www.bremont.com"
+	};
+
+	ar[93] = {
+		mainUrl : "https://www.mazda.co.uk/",
+		title: "Mazda UK | Explore our full range of models & fantastic deals",
+		secUrl : {
+			url1 : {
+				url: "https://www.mazda.co.uk/contact-us-page/",
+				title: "Contact Us - Mazda UK"
+			},
+			url2 : {
+				url: "https://www.mazda.co.uk/videos/",
+				title: "Videos - Mazda UK"
+			},
+			url3 : {
+				url: "https://www.mazda.co.uk/downloads/",
+				title: "Downloads - Mazda UK"
+			},
+			url4 : {
+				url: "https://www.mazda.co.uk/end-of-life/",
+				title: "End Of Life - Mazda UK"
+			},
+			url5 : {
+				url: "https://www.mazda.co.uk/apps/",
+				title: "Mazda Apps for Android and iOS - Mazda UK"
+			},
+			url6 : {
+				url: "https://www.mazda.co.uk/euro5/",
+				title: "Euro5 - Mazda UK"
+			},
+			url7 : {
+				url: "https://www.mazda.co.uk/careers/careersatmazda/",
+				title: "Careers at Mazda - Mazda UK"
+			},
+			url8 : {
+				url: "https://www.mazda.co.uk/taxfreesales/",
+				title: "Tax Free Sales - Mazda UK"
+			}
+		},
+		img: "mazda.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.mazda.co.uk"
+	};
+
+	ar[94] = {
+		mainUrl : "http://shop.ee.co.uk/",
+		title: "4G Phones, Broadband & Tablets | EE Shop | EE",
+		secUrl : {
+			url1 : {
+				url: "http://ee.co.uk/our-company/about-us",
+				title: "About Us | Our Company | EE"
+			},
+			url2 : {
+				url: "http://ee.co.uk/our-company/our-brands-and-services",
+				title: "Our Brands and Services | Our Company | EE"
+			},
+			url3 : {
+				url: "http://ee.co.uk/our-company/newsroom",
+				title: "Newsroom | Our Company | EE"
+			},
+			url4 : {
+				url: "http://ee.co.uk/our-company/financials",
+				title: "Financials | Our Company | EE"
+			},
+			url5 : {
+				url: "http://ee.co.uk/our-company/corporate-responsibility",
+				title: "Being Responsible | Our Company | EE"
+			},
+			url6 : {
+				url: "http://shop.ee.co.uk/family-home/insurance-and-protection",
+				title: "EE Insurance | Insurance & Protection | EE"
+			},
+			url7 : {
+				url: "http://ee.co.uk/our-company/corporate-responsibility/keeping-children-safe-online",
+				title: "Staying safe online"
+			},
+			url8 : {
+				url: "http://ee.co.uk/our-company/ee-franchise",
+				title: "EE Franchise | Run an EE Store | EE"
+			}
+		},
+		img: "shop.ee.co",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "shop.ee.co.uk"
 	};
 
 
