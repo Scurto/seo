@@ -2231,12 +2231,8 @@ $('#clear-browsing-data').click(function(event) {
 				source: "2ip.ru"
 			};
 
-			var google = {
-				title: request + " - Поиск в Google",
-				type: "def",
-				img: "google",
-				source: "www.google.com"
-			};
+			var google = getLocationGoogle(request);
+
 			$('#').text('');
 			var linkText = '';
 			if (taskId == 50662) {
@@ -2743,6 +2739,27 @@ $('#clear-browsing-data').click(function(event) {
 			source: "whoer.net"
 		};
 		return whoer;
+	}
+
+	function getLocationGoogle(request) {
+		var google = {
+			title: request + " - Поиск в Google",
+			type: "def",
+			img: "google"
+		};
+
+		if ($('#reklamaLocation').val() == "ALL") {
+			google.source = "www.google.com";
+		} else if ($('#reklamaLocation').val() == "USA") {
+			google.source = "www.google.com";
+		} else if ($('#reklamaLocation').val() == "GERMANY") {
+			google.source = "www.google.de";
+		} else if ($('#reklamaLocation').val() == "SINGAPORE") {
+			google.source = "www.google.com.sg";
+		} else if ($('#reklamaLocation').val() == "ENGLAND") {
+			google.source = "www.google.co.uk";
+		}
+		return google;
 	}
 });
 

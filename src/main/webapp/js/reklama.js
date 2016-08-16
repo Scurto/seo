@@ -4152,6 +4152,221 @@ function getReklama() {
 		source: "shop.ee.co.uk"
 	};
 
+	ar[95] = {
+		mainUrl : "http://www.vodafone.co.uk/",
+		title: "Connect on mobile phones, tablets or broadband with Vodafone",
+		secUrl : {
+			url1 : {
+				url: "http://www.vodafone.co.uk/explore/network/network-improvements/index.htm",
+				title: "Find out how we're improving our network at Vodafone"
+			},
+			url2 : {
+				url: "http://www.vodafone.co.uk/explore/network/4g-network/index.htm",
+				title: "Live life on 4G with Vodafone's ultrafast 4G network"
+			},
+			url3 : {
+				url: "http://www.vodafone.co.uk/accessibility-services/index.htm",
+				title: "Accessibility – access for all at Vodafone"
+			},
+			url4 : {
+				url: "http://www.vodafone.co.uk/explore/music-tv-and-sports/nowtv/index.htm",
+				title: "Get a free NOW TV Entertainment Pass from Vodafone"
+			},
+			url5 : {
+				url: "http://www.vodafone.co.uk/explore/music-tv-and-sports/spotify/index.htm",
+				title: "Enjoy Spotify Premium on Red Value Bundles from Vodafone"
+			},
+			url6 : {
+				url: "http://www.vodafone.co.uk/explore/network/uk-coverage-map/index.htm?=network",
+				title: "Check your coverage and get updates on the Vodafone network"
+			},
+			url7 : {
+				url: "http://www.vodafone.co.uk/explore/music-tv-and-sports/sky-sports-mobile-tv/index.htm",
+				title: "Watch Sky Sports Mobile TV for free with Vodafone"
+			},
+			url8 : {
+				url: "http://www.vodafone.co.uk/contact-us/index.htm",
+				title: "How to get in touch with Vodafone"
+			}
+		},
+		img: "vodafone.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.vodafone.co.uk"
+	};
+
+	ar[96] = {
+		mainUrl : "https://www.fraunhofer.de/",
+		title: "Startseite Fraunhofer-Gesellschaft",
+		secUrl : {
+			url1 : {
+				url: "https://www.fraunhofer.de/de/schnelleinstieg/kunden.html",
+				title: "Kunden"
+			},
+			url2 : {
+				url: "https://www.fraunhofer.de/de/schnelleinstieg/wissenschaftler.html",
+				title: "Wissenschaftler"
+			},
+			url3 : {
+				url: "https://www.fraunhofer.de/de/jobs-und-karriere/studierende.html",
+				title: "Studierende"
+			},
+			url4 : {
+				url: "https://www.fraunhofer.de/de/schnelleinstieg/alumni.html",
+				title: "Fraunhofer-Alumni e.V."
+			},
+			url5 : {
+				url: "https://www.fraunhofer.de/de/jobs-und-karriere/schueler.html",
+				title: "Schülerinnen und Schüler"
+			},
+			url6 : {
+				url: "https://www.fraunhofer.de/de/jobs-und-karriere/schueler/Nachwuchsprogramme/kleine-forscher.html",
+				title: "Angebote für kleine Forscherinnen und Forscher"
+			},
+			url7 : {
+				url: "https://www.fraunhofer.de/de/ausschreibungen.html",
+				title: "Ausschreibungen"
+			},
+			url8 : {
+				url: "https://www.fraunhofer.de/de/impressum.html",
+				title: "Impressum"
+			}
+		},
+		img: "fraunhofer",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.fraunhofer.de"
+	};
+
+	ar[97] = {
+		mainUrl : "https://www.anerkennung-in-deutschland.de/html/en/",
+		title: "Recognition in Germany - Homepage",
+		secUrl : {
+			url1 : {
+				url: "https://www.anerkennung-in-deutschland.de/html/de/",
+				title: "Anerkennung in Deutschland - Startseite"
+			},
+			url2 : {
+				url: "https://www.anerkennung-in-deutschland.de/html/de/qualifizierungsangebote.php",
+				title: "Qualifizierungsangebote"
+			},
+			url3 : {
+				url: "https://www.anerkennung-in-deutschland.de/html/de/1843.php",
+				title: "Berufsanerkennung für Flüchtlinge"
+			},
+			url4 : {
+				url: "https://www.anerkennung-in-deutschland.de/html/de/anerkennungsverfahren.php",
+				title: "Anerkennungsverfahren"
+			},
+			url5 : {
+				url: "https://www.anerkennung-in-deutschland.de/html/de/rechtliche_grundlagen.php",
+				title: "Rechtliche Grundlagen"
+			},
+			url6 : {
+				url: "https://www.anerkennung-in-deutschland.de/html/de/zustaendige_stellen.php",
+				title: "Zuständige Stellen"
+			},
+			url7 : {
+				url: "https://www.anerkennung-in-deutschland.de/html/de/schulabschluesse_studienabschluesse.php",
+				title: "Schul-/Studienabschlüsse"
+			},
+			url8 : {
+				url: "https://www.anerkennung-in-deutschland.de/html/de/daten_und_berichte.php",
+				title: "Daten und Berichte"
+			}
+		},
+		img: "anerkennung-in-deutschland",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.anerkennung-in-deutschland.de"
+	};
+
+	ar[98] = {
+		mainUrl : "http://www.very.co.uk/women/e/b/1589.end",
+		title: "Womens Fashion | Womens Clothes | Womens Clothing | Very.co.uk",
+		secUrl : {
+			url1 : {
+				url: "http://www.very.co.uk/help/en/online-help-system/help_returns",
+				title: "Online Help System"
+			},
+			url2 : {
+				url: "http://www.very.co.uk/web/en/next-day-delivery.page",
+				title: "Next day Delivery"
+			},
+			url3 : {
+				url: "http://www.very.co.uk/web/en/brand-store.page",
+				title: "Brand Store"
+			},
+			url4 : {
+				url: "http://www.very.co.uk/web/en/buying-guides.page",
+				title: "Buying Guides"
+			},
+			url5 : {
+				url: "http://www.very.co.uk/web/en/bnpl.page",
+				title: "Buy Now Pay Later"
+			},
+			url6 : {
+				url: "http://www.very.co.uk/web/en/protect-your-purchases.page",
+				title: "Protect Your Purchases"
+			},
+			url7 : {
+				url: "https://www.very.co.uk/financialservices/en/homeinsurance.page?thirdPartyCampaignId=SDWSHPNA.BAU",
+				title: "Home Insurance | Buildings & Contents Insurance | very.co.uk"
+			},
+			url8 : {
+				url: "http://www.very.co.uk/creditcard.page",
+				title: "Credit Card | Very Credit Card"
+			}
+		},
+		img: "very.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.very.co.uk"
+	};
+
+	ar[99] = {
+		mainUrl : "http://www.poppyshop.org.uk/",
+		title: "Poppy Shop UK - The Royal British Legion Online Charity Shop and Gift Shop",
+		secUrl : {
+			url1 : {
+				url: "http://www.poppyshop.org.uk/who-we-are/",
+				title: "Poppy Shop Who we are"
+			},
+			url2 : {
+				url: "http://www.poppyshop.org.uk/other-ways-to-shop/",
+				title: "Poppy Shop Other ways to shop"
+			},
+			url3 : {
+				url: "http://www.poppyshop.org.uk/contact-us/",
+				title: "Poppy Shop Contact us"
+			},
+			url4 : {
+				url: "http://www.poppyshop.org.uk/why-shop-with-us",
+				title: "Poppy Shop Why shop with us?"
+			},
+			url5 : {
+				url: "http://www.poppyshop.org.uk/how-to-order/",
+				title: "Poppy Shop How to order"
+			},
+			url6 : {
+				url: "http://www.poppyshop.org.uk/faqs/",
+				title: "Poppy Shop FAQs"
+			},
+			url7 : {
+				url: "http://www.poppyshop.org.uk/delivery-and-returns/",
+				title: "Poppy Shop Delivery and returns"
+			},
+			url8 : {
+				url: "http://www.poppyshop.org.uk/payment-methods/",
+				title: "Poppy Shop Payment methods"
+			}
+		},
+		img: "poppyshop.org.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.poppyshop.org.uk"
+	};
+
 
 
 	//ar[22] = {
