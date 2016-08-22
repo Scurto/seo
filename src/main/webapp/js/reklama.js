@@ -4367,6 +4367,135 @@ function getReklama() {
 		source: "www.poppyshop.org.uk"
 	};
 
+	ar[100] = {
+		mainUrl : "http://www.stelladot.co.uk/",
+		title: "Host a Trunk Show, Shop Fashion Jewelry & Accessories | Stella & Dot",
+		secUrl : {
+			url1 : {
+				url: "http://www.stelladot.co.uk/aboutus",
+				title: "Our Story - UK | Stella & Dot"
+			},
+			url2 : {
+				url: "http://www.stelladot.co.uk/media",
+				title: "Press - UK | Stella & Dot"
+			},
+			url3 : {
+				url: "http://www.stelladot.co.uk/help",
+				title: "Help UK | Stella & Dot"
+			},
+			url4 : {
+				url: "http://www.stelladot.co.uk/help/shipping-rates-gb",
+				title: "Shipping Rates - UK | Stella & Dot"
+			},
+			url5 : {
+				url: "http://www.stelladot.co.uk/help/return-policy",
+				title: "Returns - UK | Stella & Dot"
+			},
+			url6 : {
+				url: "http://www.stelladot.co.uk/aboutus/careers",
+				title: "Stella and Dot Careers - UK and Ireland Current Job Vacancies | Stella & Dot"
+			},
+			url7 : {
+				url: "http://www.stelladot.co.uk/help/privacypolicy",
+				title: "Privacy Policy - UK | Stella & Dot"
+			},
+			url8 : {
+				url: "http://www.stelladot.co.uk/terms-of-use",
+				title: "Terms of Use | Stella & Dot"
+			}
+		},
+		img: "stelladot.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.stelladot.co.uk"
+	};
+
+	ar[101] = {
+		mainUrl : "http://www.countryliving.co.uk/",
+		title: "Countryliving.co.uk",
+		secUrl : {
+			url1 : {
+				url: "http://www.countryliving.co.uk/news/a259/contact-us/",
+				title: "Contact Us - Country Living Magazine UK"
+			},
+			url2 : {
+				url: "http://www.countryliving.co.uk/news/g32/meet-the-team/",
+				title: "Meet the Team"
+			},
+			url3 : {
+				url: "http://www.countryliving.co.uk/news/",
+				title: "News - Country Living Magazine UK"
+			},
+			url4 : {
+				url: "http://www.countryliving.co.uk/wellbeing/",
+				title: "Mental health and wellbeing"
+			},
+			url5 : {
+				url: "http://www.countryliving.co.uk/country-living-products/",
+				title: "Licensed products"
+			},
+			url6 : {
+				url: "http://www.countryliving.co.uk/homes-interiors/interiors/g98/organisation-storage-ideas/",
+				title: "13 organisers that would definitely be in our dream home"
+			},
+			url7 : {
+				url: "http://www.countryliving.co.uk/news/news/a780/prince-george-third-birthday-photo-controversy/",
+				title: "Why people are a bit upset about this photo of Prince George and his dog"
+			},
+			url8 : {
+				url: "http://www.countryliving.co.uk/homes-interiors/gardens/advice/a529/garden-ideas-on-a-budget/",
+				title: "5 smart garden ideas on a budget"
+			}
+		},
+		img: "countryliving.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.countryliving.co.uk"
+	};
+
+	ar[102] = {
+		mainUrl : "http://www.hearst.co.uk/",
+		title: "Home Page - Hearst UKHearst UK",
+		secUrl : {
+			url1 : {
+				url: "http://www.hearst.co.uk/terms-and-conditions",
+				title: "Terms & Conditions - Hearst UKHearst UK"
+			},
+			url2 : {
+				url: "http://www.hearst.co.uk/contact-us",
+				title: "Contact us - Hearst UKHearst UK"
+			},
+			url3 : {
+				url: "http://www.hearst.co.uk/advertiser-terms",
+				title: "Advertiser Terms - Hearst UKHearst UK"
+			},
+			url4 : {
+				url: "http://www.hearst.co.uk/cookie-policy",
+				title: "Cookie Policy - Hearst UKHearst UK"
+			},
+			url5 : {
+				url: "http://www.hearst.co.uk/advertise",
+				title: "Advertise - Hearst UKHearst UK"
+			},
+			url6 : {
+				url: "http://www.hearst.co.uk/privacy-policy",
+				title: "Privacy Policy - Hearst UKHearst UK"
+			},
+			url7 : {
+				url: "http://www.hearst.co.uk/hearst-magazines-uk-complaints-procedure",
+				title: "Editorial Complaints Policy - Hearst UKHearst UK"
+			},
+			url8 : {
+				url: "http://www.hearst.co.uk/category/news",
+				title: "News Archives - Hearst UKHearst UK"
+			}
+		},
+		img: "hearst.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.hearst.co.uk"
+	};
+
 
 
 	//ar[22] = {
