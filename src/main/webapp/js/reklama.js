@@ -4541,6 +4541,135 @@ function getReklama() {
 	//	source: "www.boccesbakery.com"
 	//};
 
+	ar[] = {
+		mainUrl : "https://www.bose.de/de_de/index.html",
+		title: "Bose | Better Sound Through Research",
+		secUrl : {
+			url1 : {
+				url: "https://www.bose.de/de_de/products/featured/featured_wireless_headphones.html",
+				title: "Kabellose Kopfhörer von Bose | Noise Cancelling-Kopfhörer | Sport-Kopfhörer"
+			},
+			url2 : {
+				url: "https://www.bose.de/de_de/products/featured/top_rated.html",
+				title: "Produkte mit den besten Kundenbewertungen"
+			},
+			url3 : {
+				url: "https://www.bose.de/de_de/products/featured/wave.html",
+				title: "Wave Systeme"
+			},
+			url4 : {
+				url: "https://www.bose.de/de_de/products/featured/qc35.html",
+				title: "Bose QC35 headphones – wireless headphones"
+			},
+			url5 : {
+				url: "https://www.bose.de/de_de/products/featured/soundlink_speakers.html",
+				title: "SoundLink Bluetooth-Lautsprecher"
+			},
+			url6 : {
+				url: "https://www.bose.de/de_de/products/featured/wireless.html",
+				title: "Kabellos"
+			},
+			url7 : {
+				url: "https://www.bose.de/de_de/products/featured/soundsport_wireless.html",
+				title: "Bose SoundSport headphones – wireless earphones"
+			},
+			url8 : {
+				url: "https://www.bose.de/de_de/products/speakers/stereo_speakers.html",
+				title: "Stereo-Lautsprecher"
+			}
+		},
+		img: "bose.de",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.bose.de"
+	};
+
+	ar[] = {
+		mainUrl : "https://www.gasag.de/Privatkunden/Seiten/default.aspx",
+		title: "GASAG | Berliner Gaswerke AG - Privatkunden",
+		secUrl : {
+			url1 : {
+				url: "https://www.gasag.de/Privatkunden/Produkte/berlin/GASAG-Komfort/Seiten/default.aspx",
+				title: "GASAG | ERDGAS Komfort"
+			},
+			url2 : {
+				url: "https://www.gasag.de/Privatkunden/Produkte/berlin/Hausmacherstrom/Seiten/default.aspx",
+				title: "GASAG | STROM Hausmacherstrom"
+			},
+			url3 : {
+				url: "https://www.gasag.de/Privatkunden/Produkte/berlin/gasag-waerme-heizkomfort/Seiten/default.aspx",
+				title: "GASAG | Ihre neue Heizung – GASAG | WÄRME Heizkomfort"
+			},
+			url4 : {
+				url: "https://www.gasag.de/Privatkunden/Services/kundenservice/kundenzentrum/Seiten/default.aspx",
+				title: "Unsere Kunden liegen uns am Herzen"
+			},
+			url5 : {
+				url: "https://www.gasag.de/Privatkunden/Services/Foerderwelt/Foerderassistent/Seiten/default.aspx",
+				title: "GASAG | Förderprogramme"
+			},
+			url6 : {
+				url: "https://www.gasag.de/Privatkunden/Services/Energiedienstleistungen/Oeltankentsorgung/Seiten/default.aspx",
+				title: "GASAG | Service Öltankentsorgung"
+			},
+			url7 : {
+				url: "https://www.gasag.de/Privatkunden/Services/Versorgung/Anbieterwechsel/Seiten/default.aspx",
+				title: "GASAG | Ihr einfacher Weg zur GASAG. Anbieterwechsel leicht gemacht."
+			},
+			url8 : {
+				url: "https://www.gasag.de/Marktpartner/Weiterverteiler/Vertriebspartner/Vertriebspartner/Seiten/default.aspx",
+				title: "Vertriebspartner"
+			}
+		},
+		img: "gasag.de",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.gasag.de"
+	};
+
+	ar[] = {
+		mainUrl : "http://www.welthungerhilfe.de/home.html",
+		title: "Welthungerhilfe.de - Für eine Welt ohne Hunger und Armut",
+		secUrl : {
+			url1 : {
+				url: "http://www.welthungerhilfe.de/spenden.html",
+				title: "Spenden & Helfen - Welthungerhilfe"
+			},
+			url2 : {
+				url: "http://www.welthungerhilfe.de/spenden-helfen/unternehmen.html",
+				title: "Unternehmen - Welthungerhilfe"
+			},
+			url3 : {
+				url: "http://www.welthungerhilfe.de/weg-der-spende.html",
+				title: "Was passiert mit Ihrer Spende? - Welthungerhilfe"
+			},
+			url4 : {
+				url: "https://www.welthungerhilfe.de/spenderservice.html",
+				title: "Spenderservice - Welthungerhilfe"
+			},
+			url5 : {
+				url: "http://www.welthungerhilfe.de/mitmachen/jetzt-aktiv-werden.html",
+				title: "Jetzt aktiv werden - Welthungerhilfe"
+			},
+			url6 : {
+				url: "http://www.welthungerhilfe.de/mitmachen/schulen.html",
+				title: "Schulen - Welthungerhilfe"
+			},
+			url7 : {
+				url: "http://www.welthungerhilfe.de/mitmachen/aktionslandkarte.html",
+				title: "Aktionslandkarte - Welthungerhilfe"
+			},
+			url8 : {
+				url: "http://www.welthungerhilfe.de/mitmachen/freunde-und-unterstuetzer.html",
+				title: "Unsere Unterstützer - Welthungerhilfe"
+			}
+		},
+		img: "welthungerhilfe.de",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.welthungerhilfe.de"
+	};
+
 
 
 	return ar;
