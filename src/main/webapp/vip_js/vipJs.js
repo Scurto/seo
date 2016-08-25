@@ -1309,7 +1309,7 @@ $(document).ready(function() {
 		}else if
 		(item == 1266951) {
 			$('#taskIdVip').val(1266951);
-			$('#countOfVideo').val(19);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(2);
 		}else if

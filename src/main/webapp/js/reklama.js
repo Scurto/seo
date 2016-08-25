@@ -4625,6 +4625,135 @@ function getReklama() {
 		source: "www.welthungerhilfe.de"
 	};
 
+	ar[106] = {
+		mainUrl : "http://www.philips.co.uk/",
+		title: "Philips - United Kingdom",
+		secUrl : {
+			url1 : {
+				url: "http://www.philips.co.uk/c-m/consumer-products",
+				title: "Consumer products | Philips"
+			},
+			url2 : {
+				url: "http://www.philips-shop.co.uk/store/",
+				title: "Philips Online Shop UK"
+			},
+			url3 : {
+				url: "http://www.philips.co.uk/c-m/consumer-support",
+				title: "Consumer care | Philips"
+			},
+			url4 : {
+				url: "http://www.philips.co.uk/c-e/products",
+				title: "Philips Experience"
+			},
+			url5 : {
+				url: "http://www.philips.co.uk/c-w/support-home/parts-and-accessories.html",
+				title: "Philips Parts and Accessories | Find parts for your product"
+			},
+			url6 : {
+				url: "http://www.philips.co.uk/healthcare",
+				title: "Innovating meaningful healthcare | Philips Healthcare"
+			},
+			url7 : {
+				url: "http://www.lighting.philips.co.uk/home",
+				title: "Philips Lighting - LED & Conventional lighting solutions"
+			},
+			url8 : {
+				url: "http://www.philips.co.uk/c-m-pe/dental-professionals",
+				title: "Dental Professional - Oral HealthCare | Philips"
+			}
+		},
+		img: "philips.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.philips.co.uk"
+	};
+
+	ar[107] = {
+		mainUrl : "http://www.avis.co.uk/",
+		title: "Car Hire in the UK, Europe and Worldwide | Avis Car Hire UK",
+		secUrl : {
+			url1 : {
+				url: "http://www.avis.co.uk/contact-us",
+				title: "Car hire query? Contact Avis by phone, form or email"
+			},
+			url2 : {
+				url: "http://www.avis.co.uk/contact-us/customer-services",
+				title: "Car hire query? Get in touch with Avis customer services"
+			},
+			url3 : {
+				url: "http://www.avis.co.uk/faqs",
+				title: "Got a car hire query? Read our FAQs all about car rentals"
+			},
+			url4 : {
+				url: "http://www.avis.co.uk/your-avis/manage-booking",
+				title: "Manage Booking"
+			},
+			url5 : {
+				url: "http://www.avis.co.uk/your-avis/manage-booking/request-rental-invoice",
+				title: "Request an invoice"
+			},
+			url6 : {
+				url: "http://www.avis.co.uk/TermsAndCondition",
+				title: "Terms and Conditions"
+			},
+			url7 : {
+				url: "http://www.avis.co.uk/about-avis/cookie-policy",
+				title: "Avis Cookie Policy"
+			},
+			url8 : {
+				url: "http://www.avis.co.uk/car-hire-offers",
+				title: "Car Hire Offers | Avis UK"
+			}
+		},
+		img: "avis.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.avis.co.uk"
+	};
+
+	ar[108] = {
+		mainUrl : "https://tregothnan.co.uk/",
+		title: "Tregothnan",
+		secUrl : {
+			url1 : {
+				url: "https://tregothnan.co.uk/stockists.php",
+				title: "Tregothnan - Stockists"
+			},
+			url2 : {
+				url: "https://tregothnan.co.uk/about/contact-us/",
+				title: "Contact Us - Tregothnan Tregothnan"
+			},
+			url3 : {
+				url: "https://tregothnan.co.uk/make-payment.php",
+				title: "Make a Payment to Tregothnan"
+			},
+			url4 : {
+				url: "https://tregothnan.co.uk/about/living-estate/jobs/",
+				title: "Jobs - Tregothnan Tregothnan"
+			},
+			url5 : {
+				url: "https://tregothnan.co.uk/delivery.php",
+				title: "Delivery"
+			},
+			url6 : {
+				url: "https://tregothnan.co.uk/returns.php",
+				title: "Refund & Return Policy"
+			},
+			url7 : {
+				url: "https://tregothnan.co.uk/privacy.php",
+				title: "Privacy"
+			},
+			url8 : {
+				url: "https://tregothnan.co.uk/about/competitions/",
+				title: "Competitions - Tregothnan Tregothnan"
+			}
+		},
+		img: "tregothnan.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "tregothnan.co.uk"
+	};
+
 
 
 	//ar[22] = {
