@@ -235,7 +235,7 @@ $(document).ready(function() {
 			$('#taskId').val(73769);
 			$('#countOfVideo').val(13);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(3);
+			$('#countOfMove').val(4);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
@@ -251,7 +251,7 @@ $(document).ready(function() {
 			$('#taskId').val(68148);
 			$('#countOfVideo').val(16);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(3);
+			$('#countOfMove').val(4);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
@@ -425,9 +425,9 @@ $(document).ready(function() {
 		}else if
 		(item == 69625) {
 			$('#taskId').val(69625);
-			$('#countOfVideo').val(15);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(3);
+			$('#countOfMove').val(4);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
@@ -1371,11 +1371,19 @@ $(document).ready(function() {
 				//window.open(item.url);
 
 			}
-			var diva = "<div>" +
+			console.log("item = " + item.url);
+			var itemUrl = item.url;
+			//var url = window.open(item.url);
+			//var checkBox = "<input type='checkbox' class='liCheckBox' onclick='window.open(url)'>";
+			var newInput = document.createElement("input");
+			newInput.type="checkbox";
+			newInput.class="liCheckBox";
+
+			var diva = "<div id='asdf'>" +
 				"<div class='customWidth'>" +
 						leftBackground +
-					         	"<input type='checkbox' class='liCheckBox'>" +
-								"<span class='time'>" + item.time + "</span>" +
+					         	"<input type='checkbox' class='liCheckBox' title=" + item.url + " onclick='window.open(this.title)'>" +
+								"<span class='time' id='testSpan'>" + item.time + "</span>" +
 						"</div>" +
 						rightBackground +
 					        //"<div class='addrImg' style='" + "color:blue" + ";'></div>" +
@@ -1386,9 +1394,12 @@ $(document).ready(function() {
 						"</div>"
 				+ "</div>"
 			+"</div>";
+
+
 			$('#olList').append("<li class='liStyle'>" + diva +"</li>");
 
 		});
+
 
 		//window.open('file/time.bat');
 		//document.location.hash = "show_picture";
@@ -2036,7 +2047,47 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube2);
 			etalonArray.push(youtube3);
 
-		} else if (taskId == 73769 || taskId == 68467 || taskId == 68148) {
+		} else if (taskId == 73769 || taskId == 68148) {
+			var youtube1 = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube2 = {
+				title: request + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube3 = {
+				title: "Необыкновенный мир - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			//var google = {
+			//	title: "star-blog - Поиск в Google",
+			//	type: "def",
+			//	img: "google",
+			//	source: "www.google.com"
+			//};
+			var whoer = {
+				title: "Узнать свой IP адрес",
+				type: "def",
+				img: "whoer",
+				source: "whoer.net"
+			};
+			var google = getLocationGoogle(request);
+			$("#forGoogle").modal('show');
+			//etalonArray.push(whoer);
+			//etalonArray.push(youtube1);
+			//etalonArray.push(youtube2);
+			etalonArray.push(google);
+			etalonArray.push(youtube3);
+			//etalonArray.push(google);
+			//etalonArray.push(youtube);
+		} else if (taskId == 68467) {
 			var youtube1 = {
 				title: "YouTube",
 				type: "def",
@@ -2072,8 +2123,6 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
 			etalonArray.push(youtube3);
-			//etalonArray.push(google);
-			//etalonArray.push(youtube);
 		}else if (taskId == 69625) {
 			var youtube1 = {
 				title: "YouTube",
@@ -2099,6 +2148,9 @@ $('#clear-browsing-data').click(function(event) {
 			//	img: "google",
 			//	source: "www.google.com"
 			//};
+
+			var google = getLocationGoogle(request);
+
 			var whoer = {
 				title: "Узнать свой IP адрес",
 				type: "def",
@@ -2106,9 +2158,10 @@ $('#clear-browsing-data').click(function(event) {
 				source: "whoer.net"
 			};
 			$("#forGoogle").modal('show');
-			etalonArray.push(whoer);
-			etalonArray.push(youtube1);
-			etalonArray.push(youtube2);
+			//etalonArray.push(whoer);
+			//etalonArray.push(youtube1);
+			//etalonArray.push(youtube2);
+			etalonArray.push(google);
 			etalonArray.push(youtube3);
 			//etalonArray.push(google);
 			//etalonArray.push(youtube);
