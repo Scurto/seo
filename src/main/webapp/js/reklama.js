@@ -4754,6 +4754,92 @@ function getReklama() {
 		source: "tregothnan.co.uk"
 	};
 
+	ar[109] = {
+		mainUrl : "http://www.herbalife.co.uk/",
+		title: "Herbalife - United Kingdom - Home",
+		secUrl : {
+			url1 : {
+				url: "http://products.herbalife.co.uk/healthy-breakfast/how-do-you-feel",
+				title: "Herbalife - United Kingdom - Healthy Breakfast - How does your breakfast make you feel?"
+			},
+			url2 : {
+				url: "http://products.herbalife.co.uk/healthy-breakfast/start-your-day-healthy",
+				title: "Herbalife - United Kingdom - Healthy Breakfast - Start your day the healthy way"
+			},
+			url3 : {
+				url: "http://products.herbalife.co.uk/weight-management",
+				title: "Herbalife - United Kingdom - Weight Management"
+			},
+			url4 : {
+				url: "http://products.herbalife.co.uk/formula-1",
+				title: "Herbalife - United Kingdom - Weight Managment - Formula 1"
+			},
+			url5 : {
+				url: "http://products.herbalife.co.uk/weight-management/formula3",
+				title: "Herbalife - United Kingdom - FORMULA 3 - personalised protein powder"
+			},
+			url6 : {
+				url: "http://products.herbalife.co.uk/weight-management/bar-vanilla",
+				title: "Herbalife - United Kingdom - Protein Bars"
+			},
+			url7 : {
+				url: "http://products.herbalife.co.uk/weight-management/herbal-tea",
+				title: "Herbalife - United Kingdom - Instant Herbal Beverage"
+			},
+			url8 : {
+				url: "http://products.herbalife.co.uk/energy-and-fitness/cr7-drive",
+				title: "Herbalife - United Kingdom - CR7 Drive"
+			}
+		},
+		img: "herbalife.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "products.herbalife.co.uk"
+	};
+
+	ar[110] = {
+		mainUrl : "http://www.landrover.co.uk/index.html",
+		title: "Premium 4x4 Vehicles & Luxury SUVs - Land Rover UK",
+		secUrl : {
+			url1 : {
+				url: "http://www.landrover.co.uk/ownership/accessories/index.html",
+				title: "Accessories - Ownership - Land Rover UK"
+			},
+			url2 : {
+				url: "http://www.landrover.co.uk/ownership/guides-and-manuals/index.html",
+				title: "Guide and Manuals - Ownership - Land Rover UK"
+			},
+			url3 : {
+				url: "http://www.landrover.co.uk/ownership/incontrol/index.html",
+				title: "InControl & Bluetooth - Ownership - Land Rover UK"
+			},
+			url4 : {
+				url: "http://www.landrover.co.uk/ownership/warranty/index.html",
+				title: "Warranties and Roadside Assistance - Ownership - Land Rover UK"
+			},
+			url5 : {
+				url: "http://www.landrover.co.uk/ownership/insurance/index.html",
+				title: "Insurance - Ownership - Land Rover UK"
+			},
+			url6 : {
+				url: "http://www.landrover.co.uk/contact-us.html",
+				title: "Contact Us - Land Rover UK"
+			},
+			url7 : {
+				url: "http://www.landrover.co.uk/above-and-beyond/takeback-and-recycle/index.html",
+				title: "Takeback and Recycle - Responsibility - Land Rover UK"
+			},
+			url8 : {
+				url: "http://www.landrover.co.uk/above-and-beyond/land-rover-live/index.html",
+				title: "Land Rover Live - Above & Beyond - Land Rover UK"
+			}
+		},
+		img: "landrover.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.landrover.co.uk"
+	};
+
 
 
 	//ar[22] = {
