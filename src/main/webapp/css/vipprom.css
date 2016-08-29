@@ -11,7 +11,7 @@
 	height: 90px;
 	font-size: 14px;
 	resize: none;
-	left: 433px;
+	left: 234px;
 	position: relative;
 }
 
@@ -38,4 +38,9 @@
 	margin: 5px;
 	padding: 10px;
 	font-family: monospace;
+}
+#hardYouTube {
+	width: 399px;
+	position: relative;
+	right: 16px;
 }

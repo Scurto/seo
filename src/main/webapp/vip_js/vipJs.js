@@ -87,155 +87,173 @@ $(document).ready(function() {
 
 	$('#apply').click(function() {
 
-		var taskId = $('#taskIdVip').val();
-		//var taskId = 72574;
-		var countOfVideo = $('#countOfVideo').val();
-		var countOfReklama = $('#countOfReklama').val();
-		var countOfMove = $('#countOfMove').val();
-		//var countOfVideo = 5;
+		if ($("#hardYouTube").val() == "") {
+			var taskId = $('#taskIdVip').val();
+			//var taskId = 72574;
+			var countOfVideo = $('#countOfVideo').val();
+			var countOfReklama = $('#countOfReklama').val();
+			var countOfMove = $('#countOfMove').val();
+			//var countOfVideo = 5;
 
-		var dataJson = {
-			id: taskId.toString(),
-			count: countOfVideo
-		};
+			var dataJson = {
+				id: taskId.toString(),
+				count: countOfVideo
+			};
 
-		//$.ajax({
-		//	type: "POST",
-		//	url: "/getLinkVideo",
-		//	data: dataJson,
-		//	success: function(json) {
-		//		//hour = json.hour;
-		//		//minute = json.minute;
-		//		//
-		//		//$('#timeHour').val(hour);
-		//		//$('#timeMinute').val(minute);
-        //
-		//		console.log(json);
-		//	},
-		//	dataType: "json"
-		//});
+			var video = getLinkVideo(taskId);
+			var baseArray = new Array();
+			//for (var i = 0; i < countOfVideo; i++) {
+			//	var ran1 = Math.floor(Math.random() * (video.length));
+			//	baseArray.push(video[ran1]);
+			//	video.splice(ran1, 1);
+			//}
+			$.ajax({
+				type: "POST",
+				url: "/getLinkVideo",
+				async: false,
+				data: dataJson,
+				success: function(json) {
+					//hour = json.hour;
+					//minute = json.minute;
+					//
+					//$('#timeHour').val(hour);
+					//$('#timeMinute').val(minute);
 
-		var video = getLinkVideo(taskId);
-		var baseArray = new Array();
-		//for (var i = 0; i < countOfVideo; i++) {
-		//	var ran1 = Math.floor(Math.random() * (video.length));
-		//	baseArray.push(video[ran1]);
-		//	video.splice(ran1, 1);
-		//}
-		$.ajax({
-			type: "POST",
-			url: "/getLinkVideo",
-			async: false,
-			data: dataJson,
-			success: function(json) {
-				//hour = json.hour;
-				//minute = json.minute;
-				//
-				//$('#timeHour').val(hour);
-				//$('#timeMinute').val(minute);
-
-				baseArray = json.video;
-			},
-			dataType: "json"
-		});
+					baseArray = json.video;
+				},
+				dataType: "json"
+			});
 
 
-		//var foreignFlag = $('#foreignVideo').prop("checked");
+			//var foreignFlag = $('#foreignVideo').prop("checked");
 
-		var allReklama = getLinkReklama();
-		console.log("-allReklama-")
-		console.log(allReklama);
-		//console.log('-forRemoveFromDBReklama-');
-		//console.log(forRemoveFromDBReklama);
-		console.log('===============-=canRemoveReklama=-==================');
+			var allReklama = getLinkReklama();
+			console.log("-allReklama-")
+			console.log(allReklama);
+			//console.log('-forRemoveFromDBReklama-');
+			//console.log(forRemoveFromDBReklama);
+			console.log('===============-=canRemoveReklama=-==================');
 
-		for (var j=0; j < forRemoveFromDBReklama.length; j++) {
-			canRemoveReklama.push(forRemoveFromDBReklama[j]);
-		}
-		console.log(canRemoveReklama);
-
-
-
-		var withoutDbReklama = new Array();
-		console.log()
-		for (var i=0; i < allReklama.length; i++) {
-			var obj = allReklama[i];
-			var tat = $.inArray(obj.img, canRemoveReklama);
-			if (tat < 0) {
-				withoutDbReklama.push(obj);
+			for (var j=0; j < forRemoveFromDBReklama.length; j++) {
+				canRemoveReklama.push(forRemoveFromDBReklama[j]);
 			}
-		}
+			console.log(canRemoveReklama);
 
-		console.log("-withoutDbReklama-");
-		console.log(withoutDbReklama);
 
-		var reklama = new Array();
-		//for (var i=0; i < allReklama.length; i++) {
-		//	var obj = allReklama[i];
-		//	var tat = $.inArray(obj.img, forRemoveReklama);
-		//	if (tat < 0) {
-		//		reklama.push(obj);
-		//	}
-		//}
 
-		for (var i=0; i < withoutDbReklama.length; i++) {
-			var obj = withoutDbReklama[i];
-			var tat = $.inArray(obj.img, forRemoveReklama);
-			if (tat < 0) {
-				reklama.push(obj);
-			}
-		}
-
-		console.log("-afterFilter-");
-		console.log(reklama);
-
-		var reklamaForShow = new Array();
-		for (var s = 0; s < countOfReklama; s++) {
-			var ran2 = Math.floor(Math.random() * (reklama.length));
-			reklamaForShow.push(reklama[ran2]);
-			reklama.splice(ran2, 1);
-		}
-
-		var objArray = new Array();
-		arrayReklamaForUpdateDB = new Array();
-		for (var t = 0; t < reklamaForShow.length; t++) {
-			var reklamaForShowAll = new Array();
-			reklamaForShowAll.push(reklamaForShow[t].mainUrl);
-			arrayReklamaForUpdateDB.push(reklamaForShow[t].img);
-			var obj = reklamaForShow[t].secUrl;
-			var secondaryArray = new Array();
-			for (a in obj) {
-				secondaryArray.push(obj[a]);
+			var withoutDbReklama = new Array();
+			console.log()
+			for (var i=0; i < allReklama.length; i++) {
+				var obj = allReklama[i];
+				var tat = $.inArray(obj.img, canRemoveReklama);
+				if (tat < 0) {
+					withoutDbReklama.push(obj);
+				}
 			}
 
-			for (var z = 0; z < countOfMove; z++) {
-				var ranf = Math.floor(Math.random() * (secondaryArray.length));
-				reklamaForShowAll.push(secondaryArray[ranf].url);
-				secondaryArray.splice(ranf, 1);
+			console.log("-withoutDbReklama-");
+			console.log(withoutDbReklama);
+
+			var reklama = new Array();
+			//for (var i=0; i < allReklama.length; i++) {
+			//	var obj = allReklama[i];
+			//	var tat = $.inArray(obj.img, forRemoveReklama);
+			//	if (tat < 0) {
+			//		reklama.push(obj);
+			//	}
+			//}
+
+			for (var i=0; i < withoutDbReklama.length; i++) {
+				var obj = withoutDbReklama[i];
+				var tat = $.inArray(obj.img, forRemoveReklama);
+				if (tat < 0) {
+					reklama.push(obj);
+				}
 			}
-			objArray.push(reklamaForShowAll);
-		}
 
-		//console.log(objArray);
-		console.log(arrayReklamaForUpdateDB);
+			console.log("-afterFilter-");
+			console.log(reklama);
 
-		var videoText = '';
-		for (var i=0; i < baseArray.length; i++) {
-			videoText = videoText + baseArray[i] + "\n";
-		}
-		gClidVideoText =  videoText;
-		var reklamaText = '';
-		for (var z = 0; z < objArray.length; z++) {
-			//console.log(objArray[z]);
-			var elem = objArray[z];
-			for (var n = 0; n < elem.length; n++) {
-				reklamaText = reklamaText + elem[n] + "\n";
+			var reklamaForShow = new Array();
+			for (var s = 0; s < countOfReklama; s++) {
+				var ran2 = Math.floor(Math.random() * (reklama.length));
+				reklamaForShow.push(reklama[ran2]);
+				reklama.splice(ran2, 1);
 			}
-			reklamaText = reklamaText + "\n";
-		}
-		gClidReklamaText = reklamaText;
 
-		$('#resultTextArea').text(videoText + "\n" + reklamaText);
+			var objArray = new Array();
+			arrayReklamaForUpdateDB = new Array();
+			for (var t = 0; t < reklamaForShow.length; t++) {
+				var reklamaForShowAll = new Array();
+				reklamaForShowAll.push(reklamaForShow[t].mainUrl);
+				arrayReklamaForUpdateDB.push(reklamaForShow[t].img);
+				var obj = reklamaForShow[t].secUrl;
+				var secondaryArray = new Array();
+				for (a in obj) {
+					secondaryArray.push(obj[a]);
+				}
+
+				for (var z = 0; z < countOfMove; z++) {
+					var ranf = Math.floor(Math.random() * (secondaryArray.length));
+					reklamaForShowAll.push(secondaryArray[ranf].url);
+					secondaryArray.splice(ranf, 1);
+				}
+				objArray.push(reklamaForShowAll);
+			}
+
+			//console.log(objArray);
+			console.log(arrayReklamaForUpdateDB);
+
+			var videoText = '';
+			for (var i=0; i < baseArray.length; i++) {
+				videoText = videoText + baseArray[i] + "\n";
+			}
+			gClidVideoText =  videoText;
+			var reklamaText = '';
+			for (var z = 0; z < objArray.length; z++) {
+				//console.log(objArray[z]);
+				var elem = objArray[z];
+				for (var n = 0; n < elem.length; n++) {
+					reklamaText = reklamaText + elem[n] + "\n";
+				}
+				reklamaText = reklamaText + "\n";
+			}
+			gClidReklamaText = reklamaText;
+
+			$('#resultTextArea').text(videoText + "\n" + reklamaText);
+		} else {
+			console.log($("#hardYouTube").val());
+			var youTubeUrl = $("#hardYouTube").val();
+			var countOfVideo = $('#countOfVideo').val();
+			var countOfReklama = $('#countOfReklama').val();
+			var countOfMove = $('#countOfMove').val();
+			if (countOfMove == "" || countOfVideo == "" || countOfReklama == "") {
+				window.alert("Пустое значение в одном из полей");
+			}
+
+			var dataJson = {
+				url: youTubeUrl,
+				count: countOfVideo
+			};
+
+			var baseArray = new Array();
+			$.ajax({
+				type: "POST",
+				url: "/getHardLinkVideo",
+				async: false,
+				data: dataJson,
+				success: function(json) {
+					baseArray = json.video;
+				},
+				dataType: "json"
+			});
+
+			var allReklama = getLinkReklama();
+			console.log("-allReklama-");
+			console.log(allReklama);
+		}
+
+
 	});
 
 	$('#updateDb').click(function() {
