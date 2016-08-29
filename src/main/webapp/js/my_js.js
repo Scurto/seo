@@ -1356,47 +1356,80 @@ $(document).ready(function() {
 		arrayForDraw = [];
 		arrayForDraw = etalonArray.reverse();
 
-		var leftBackground = "<div class='liLeft liBackground'>";
-		var rightBackground = "<div class='liRight liBackground'>";
+		//var leftBackground = "<div class='liLeft liBackground'>";
+		//var rightBackground = "<div class='liRight liBackground'>";
 
 		arrayForDraw.forEach(function(item, i, arr) {
+			var testLeftBackground = document.createElement('div');
+			$(testLeftBackground).addClass("liLeft");
+			$(testLeftBackground).addClass("liBackground");
+			var testRightBackground = document.createElement('div');
+			$(testRightBackground).addClass("liRight");
+			$(testRightBackground).addClass("liBackground");
+
 			if (i > 0) {
-				leftBackground = "<div class='liLeft'>";
-				rightBackground = "<div class='liRight'>";
+				//leftBackground = "<div class='liLeft'>";
+				//rightBackground = "<div class='liRight'>";
+
+				$(testLeftBackground).removeClass("liBackground");
+				$(testRightBackground).removeClass("liBackground");
 			}
 
 
+			var testInput = document.createElement('input');
+			var testSpan = document.createElement('span');
+			$(testInput).attr('type', 'checkbox');
+			$(testInput).addClass("liCheckBox");
+			$(testInput).click(function() {
+				window.open(item.url);
+			});
+			$(testSpan).addClass("time");
+			$(testSpan).text(item.time);
+			$(testLeftBackground).append(testInput).append(testSpan);
 
-			if (item.type == "reklama") {
-				//window.open(item.url);
+			var addrImg = document.createElement('div');
+			$(addrImg).addClass("addrImg");
+			$(addrImg).attr('style', "background:url(./picture/" + item.img + ".png)");
+			var addrText = document.createElement('div');
+			$(addrText).addClass("addrText");
+			$(addrText).text(item.title);
+			var addrShort = document.createElement('div');
+			$(addrShort).addClass("addrShort");
+			$(addrShort).text(item.source);
+			var addrButton = document.createElement('button');
+			$(addrButton).addClass("addrButton");
 
-			}
-			console.log("item = " + item.url);
-			var itemUrl = item.url;
-			//var url = window.open(item.url);
-			//var checkBox = "<input type='checkbox' class='liCheckBox' onclick='window.open(url)'>";
-			var newInput = document.createElement("input");
-			newInput.type="checkbox";
-			newInput.class="liCheckBox";
+			$(testRightBackground).append(addrImg).append(addrText).append(addrShort).append(addrButton);
 
-			var diva = "<div id='asdf'>" +
-				"<div class='customWidth'>" +
-						leftBackground +
-					         	"<input type='checkbox' class='liCheckBox' title=" + item.url + " onclick='window.open(this.title)'>" +
-								"<span class='time' id='testSpan'>" + item.time + "</span>" +
-						"</div>" +
-						rightBackground +
-					        //"<div class='addrImg' style='" + "color:blue" + ";'></div>" +
-					        "<div class='addrImg' style='" + "background:url(./picture/" + item.img + ".png)" + ";'></div>" +
-							"<div class='addrText'>" + item.title + "</div>" +
-							"<div class='addrShort'>" + item.source + "</div>" +
-							"<button class='addrButton'></button>" +
-						"</div>"
-				+ "</div>"
-			+"</div>";
+			var testDiv = document.createElement('div');
+			var customWidthDiv = document.createElement('div');
+			$(customWidthDiv).addClass("customWidth");
+			$(customWidthDiv).append(testLeftBackground).append(testRightBackground);
+			$(testDiv).append(customWidthDiv);
 
+			var testLi = document.createElement('li');
+			$(testLi).addClass('liStyle');
+			$(testLi).append(testDiv);
 
-			$('#olList').append("<li class='liStyle'>" + diva +"</li>");
+			$('#olList').append(testLi);
+			//var diva = "<div>" +
+			//	"<div class='customWidth'>" +
+			//			leftBackground +
+			//		         	"<input type='checkbox' class='liCheckBox' title=" + item.url + " onclick='window.open(this.title)'>" +
+			//					"<span class='time' id='testSpan'>" + item.time + "</span>" +
+			//			"</div>" +
+			//			rightBackground +
+			//		        //"<div class='addrImg' style='" + "color:blue" + ";'></div>" +
+			//		        "<div class='addrImg' style='" + "background:url(./picture/" + item.img + ".png)" + ";'></div>" +
+			//				"<div class='addrText'>" + item.title + "</div>" +
+			//				"<div class='addrShort'>" + item.source + "</div>" +
+			//				"<button class='addrButton'></button>" +
+			//			"</div>"
+			//	+ "</div>"
+			//+"</div>";
+            //
+            //
+			//$('#olList').append("<li class='liStyle'>" + diva +"</li>");
 
 		});
 
