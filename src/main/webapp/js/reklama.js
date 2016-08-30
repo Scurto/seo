@@ -4840,6 +4840,92 @@ function getReklama() {
 		source: "www.landrover.co.uk"
 	};
 
+	ar[111] = {
+		mainUrl : "http://www.olay.co.uk/en-gb",
+		title: "Olay: Skin Care Products & Tips for All Skin Types",
+		secUrl : {
+			url1 : {
+				url: "http://www.olay.co.uk/en-gb/skin-care-products/cleanser",
+				title: "Facial Cleanser for All Skin Types | Olay UK"
+			},
+			url2 : {
+				url: "http://www.olay.co.uk/en-gb/skin-care-products/moisturiser",
+				title: "Facial Moisturisers - Day & Night Creams | Olay UK"
+			},
+			url3 : {
+				url: "http://www.olay.co.uk/en-gb/skin-care-products/treatment",
+				title: "Facial Treatment Products | Olay UK"
+			},
+			url4 : {
+				url: "http://www.olay.co.uk/en-gb/skin-care-products?page/en-gb/skin-care-products#viewtype:gridview/facets:by-collection=toppicks/category:skin-care-products/page:0/sortby:popularity-desc/cwidth:3/pscroll:",
+				title: "Skin Care Products for All Types of Skin | Olay UK"
+			},
+			url5 : {
+				url: "http://www.olay.co.uk/en-gb/olay-story/regenerist",
+				title: "Olay Regenerist Collection for Ageing Skin | Olay UK"
+			},
+			url6 : {
+				url: "http://www.olay.co.uk/en-gb/olay-story/total-effects",
+				title: "Face care - Olay Total Effects"
+			},
+			url7 : {
+				url: "http://www.olay.co.uk/en-gb/olay-story/anti-wrinkle",
+				title: "Anti-Wrinkle Skin Care - Olay Anti-Wrinkle"
+			},
+			url8 : {
+				url: "http://www.olay.co.uk/en-gb/olay-story/essentials",
+				title: "Essential Skin Care - Olay Essentials"
+			}
+		},
+		img: "olay.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.olay.co.uk"
+	};
+
+	ar[112] = {
+		mainUrl : "https://www.expedia.com.sg/",
+		title: "Cheap Hote",
+		secUrl : {
+			url1 : {
+				url: "https://www.expedia.com.sg/Destinations-In-Malaysia.d108.Hotel-Destinations",
+				title: "Malaysia Hotels: Top Hotel and Accommodation Destinations in Malaysia | Expedia.com.sg"
+			},
+			url2 : {
+				url: "https://www.expedia.com.sg/p/corporate/about",
+				title: "Online Travel Agency - Singapore Travel Agents| Expedia.com.sg"
+			},
+			url3 : {
+				url: "https://www.expedia.com.sg/Destinations-In-Thailand.d178.Hotel-Destinations",
+				title: "Thailand Hotels: Top Hotel and Accommodation Destinations in Thailand | Expedia.com.sg"
+			},
+			url4 : {
+				url: "https://advertising.expedia.com/",
+				title: "Expedia Media Solutions :: Home"
+			},
+			url5 : {
+				url: "https://www.expedia.com.sg/p/corporate/privacypolicy",
+				title: "Expedia, Inc. Privacy Pledge | Expedia.com.sg"
+			},
+			url6 : {
+				url: "https://www.expedia.com.sg/g/rf/terms-of-use",
+				title: "Expedia Web Site Terms, Conditions, and Notices | Expedia.com.sg"
+			},
+			url7 : {
+				url: "http://www.expedia.com.sg/vc/cheap-flights",
+				title: "Cheap tickets from 400+ airlines, book on Expedia.com.sg"
+			},
+			url8 : {
+				url: "https://www.expedia.com.sg/TAAP-Info",
+				title: "Travel Agent Affiliate Programme"
+			}
+		},
+		img: "expedia.com.sg",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.expedia.com.sg"
+	};
+
 
 
 	//ar[22] = {
