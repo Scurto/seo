@@ -106,6 +106,7 @@ $(document).ready(function() {
 		"68148",
 		"1157210",
 		"1189678",
+		"1270064",
 		"1178491",
 		"1021308",
 		"1247748",
@@ -596,6 +597,14 @@ $(document).ready(function() {
 			$('#countOfVideo').val(33);
 			$('#countOfReklama').val(5);
 			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1270064) {
+			$('#taskId').val(1270064);
+			$('#countOfVideo').val(30);
+			$('#countOfReklama').val(6);
+			$('#countOfMove').val(5);
 			$('#betweenVideo').val(45);
 			$('#betweenReklama').val(45);
 		}else if
@@ -1185,6 +1194,8 @@ $(document).ready(function() {
 			connArray.push(1221587);
 		} else if (taskId == 1107884) {
 			connArray.push(1107884);
+		} else if (taskId == 1270064) {
+			connArray.push(1270064);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -1940,6 +1951,16 @@ $('#clear-browsing-data').click(function(event) {
 				source: "www.google.com"
 			};
 			var youtube = getDefaultYouTube("Северный Ветер - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1270064) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("Helena - YouTube"); //TODO https://www.youtube.com/channel/UCiVoHIJiSzu6Q30rRAxCPuA
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
