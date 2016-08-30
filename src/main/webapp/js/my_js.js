@@ -91,6 +91,7 @@ $(document).ready(function() {
 		"75739",
 		"69628",
 		"69625",
+		"68507",
 		"1132609",
 		"1092046",
 		"1061385",
@@ -428,6 +429,14 @@ $(document).ready(function() {
 			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(4);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 68507) {
+			$('#taskId').val(68507);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
@@ -1134,9 +1143,10 @@ $(document).ready(function() {
 			connArray.push(72688);
 			connArray.push(74444);
 			connArray.push(1119333);
-		} else if (taskId == 69628 || taskId == 69625) {
+		} else if (taskId == 69628 || taskId == 69625 || taskId == 68507) {
 			connArray.push(69628);
 			connArray.push(69625);
+			connArray.push(68507);
 		} else if (taskId == 1092046 || taskId == 1061385) {
 			connArray.push(1092046);
 			connArray.push(1061385);
@@ -2156,7 +2166,7 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
 			etalonArray.push(youtube3);
-		}else if (taskId == 69625) {
+		}else if (taskId == 69625 || taskId == 68507) {
 			var youtube1 = {
 				title: "YouTube",
 				type: "def",
