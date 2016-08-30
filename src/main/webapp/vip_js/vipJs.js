@@ -1309,27 +1309,27 @@ $(document).ready(function() {
 		}else if
 		(item == 1200264) {
 			$('#taskIdVip').val(1200264);
-			$('#countOfVideo').val(19);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(2);
+			$('#countOfMove').val(3);
 		}else if
 		(item == 1215689) {
 			$('#taskIdVip').val(1215689);
-			$('#countOfVideo').val(19);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(2);
+			$('#countOfMove').val(3);
 		}else if
 		(item == 1259852) {
 			$('#taskIdVip').val(1259852);
-			$('#countOfVideo').val(19);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(2);
+			$('#countOfMove').val(3);
 		}else if
 		(item == 1266951) {
 			$('#taskIdVip').val(1266951);
 			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(2);
+			$('#countOfMove').val(3);
 		}else if
 		(item == 985824) {
 			$('#taskIdVip').val(985824);

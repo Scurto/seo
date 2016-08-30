@@ -116,6 +116,7 @@ $(document).ready(function() {
 		"1022890",
 		"1093511",
 		"78167",
+		"1136480",
 		"78182",
 		"79016",
 		"75641",
@@ -235,11 +236,11 @@ $(document).ready(function() {
 		}else if
 		(item == 73769) {
 			$('#taskId').val(73769);
-			$('#countOfVideo').val(13);
+			$('#countOfVideo').val(15);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(4);
-			$('#betweenVideo').val(61);
-			$('#betweenReklama').val(61);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
 		}else if
 		(item == 68467) {
 			$('#taskId').val(68467);
@@ -547,6 +548,14 @@ $(document).ready(function() {
 		}else if
 		(item == 78167) {
 			$('#taskId').val(78167);
+			$('#countOfVideo').val(30);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1136480) {
+			$('#taskId').val(1136480);
 			$('#countOfVideo').val(30);
 			$('#countOfReklama').val(5);
 			$('#countOfMove').val(4);
@@ -1186,8 +1195,9 @@ $(document).ready(function() {
 			connArray.push(1057980);
 			connArray.push(1093511);
 			connArray.push(1022890);
-		} else if (taskId == 78167) {
+		} else if (taskId == 78167 || taskId == 1136480) {
 			connArray.push(78167);
+			connArray.push(1136480);
 		} else if (taskId == 78182) {
 			connArray.push(78182);
 		} else if (taskId == 75641) {
@@ -1842,6 +1852,24 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
+		}else if (taskId == 1136480) {
+			var whoer = getDefaultWhoer();
+			//var google = {
+			//	title: "JohnSilver1975 - Поиск в Google",
+			//	type: "def",
+			//	img: "google",
+			//	source: "www.google.com"
+			//};
+
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("Sergey Bobkov - YouTube");
+
+			//etalonArray.push(ip);
+			//etalonArray.push(whoer);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
 		}else if (taskId == 1090888) {
 			var whoer = getDefaultWhoer();
 			//var google = {

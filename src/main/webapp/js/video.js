@@ -7304,7 +7304,7 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 78167) {
+    if (taskId == 78167 || taskId == 1136480) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=v8OHI5oLD00',
             img: "youtube",
@@ -9147,7 +9147,216 @@ function getVideo(taskId) {
         };
     }
     if (taskId == 1270064) {
-    //    TODO
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=qo4xPYCPeoY',
+            img: "youtube",
+            type: "video",
+            title: 'обзор',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=VKb2n_E6AEo',
+            img: "youtube",
+            type: "video",
+            title: 'я и так посижу',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=5n8PFXxxovA',
+            img: "youtube",
+            type: "video",
+            title: 'елочка гирлянда',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=FcX2ont-5Lg',
+            img: "youtube",
+            type: "video",
+            title: 'меломан',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=iWPDcyLKRSY',
+            img: "youtube",
+            type: "video",
+            title: 'первый атомобиль',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=0RofzDMsrdg',
+            img: "youtube",
+            type: "video",
+            title: 'ты как я',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=fNLBUkI-Ojw',
+            img: "youtube",
+            type: "video",
+            title: 'некому прибраться',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=HCNT_5P0Blg',
+            img: "youtube",
+            type: "video",
+            title: 'Бррюмм бррюмм',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=XkG0917K_TY',
+            img: "youtube",
+            type: "video",
+            title: 'детский сад',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=0gKS5iMB-ms',
+            img: "youtube",
+            type: "video",
+            title: 'маленький Будда',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=w6gvXhvpFVQ',
+            img: "youtube",
+            type: "video",
+            title: 'занятие в бассейне4',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=1E-LOmpWFn0',
+            img: "youtube",
+            type: "video",
+            title: 'занятие в бассейне3',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=OIvn2Gz6HIw',
+            img: "youtube",
+            type: "video",
+            title: 'занятия в бассейне2',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=_KVJcW5ruYs',
+            img: "youtube",
+            type: "video",
+            title: 'зима подкралась',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=x84Z_xFp0jI',
+            img: "youtube",
+            type: "video",
+            title: 'и такая дребедень каждый день',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=iLcwsCItkV0',
+            img: "youtube",
+            type: "video",
+            title: 'старший брат',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=gv0LPGP9QrI',
+            img: "youtube",
+            type: "video",
+            title: 'хозяин',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=aaY0JRK1HZ4',
+            img: "youtube",
+            type: "video",
+            title: 'мальчик энерджайзер',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=ORyD1hTgXGo',
+            img: "youtube",
+            type: "video",
+            title: 'обзор с колеса обозрения',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=fn11QRHiSmk',
+            img: "youtube",
+            type: "video",
+            title: 'занятие в бассейне',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=f2pty9XG7ow',
+            img: "youtube",
+            type: "video",
+            title: 'мы едем   едем   едем',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=TqZQCCO-33o',
+            img: "youtube",
+            type: "video",
+            title: 'это че вобще такое',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=zrqdXrKB6Yg',
+            img: "youtube",
+            type: "video",
+            title: 'батут',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=jhXl1zK6deE',
+            img: "youtube",
+            type: "video",
+            title: 'детская площадка',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=gyVtV4Jkgso',
+            img: "youtube",
+            type: "video",
+            title: 'рыба рыба',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=CGAl1ZmR8NY',
+            img: "youtube",
+            type: "video",
+            title: 'мастер самоделкин',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=xlARtfRIlcY',
+            img: "youtube",
+            type: "video",
+            title: 'ладушки ладушки',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=W5F6N66rQdA',
+            img: "youtube",
+            type: "video",
+            title: 'первые шаги',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=eLcQH7GhPAo',
+            img: "youtube",
+            type: "video",
+            title: 'тиграпони',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=2vIuP5NZOxM',
+            img: "youtube",
+            type: "video",
+            title: 'горка',
+            source: "www.youtube.com"
+        };
     }
     return ar;
 
