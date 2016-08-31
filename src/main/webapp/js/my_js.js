@@ -2740,6 +2740,9 @@ $('#clear-browsing-data').click(function(event) {
 					case '8':
 						month = "августа";
 						break;
+					case '9':
+						month = "сентября";
+						break;
 				}
 				var date = "Сегодня - " + dayOfWeek + ", " + dateOfMonth + " " +  month + " " + year + " г.";
 				$("#day").text(date);
