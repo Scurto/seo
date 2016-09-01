@@ -4926,6 +4926,135 @@ function getReklama() {
 		source: "www.expedia.com.sg"
 	};
 
+	ar[113] = {
+		mainUrl : "http://www.motors.co.uk/",
+		title: "Motors.co.uk - buy and sell new & used cars safely",
+		secUrl : {
+			url1 : {
+				url: "http://www.motors.co.uk/contact",
+				title: "contact - Motors.co.uk"
+			},
+			url2 : {
+				url: "http://www.motors.co.uk/jobs",
+				title: "Jobs - Motors.co.uk"
+			},
+			url3 : {
+				url: "http://media.motors.co.uk/",
+				title: "Home - Motors.co.uk Media CentreMotors.co.uk Media Centre"
+			},
+			url4 : {
+				url: "http://www.motors.co.uk/terms",
+				title: "terms - Motors.co.uk"
+			},
+			url5 : {
+				url: "http://www.motors.co.uk/acceptable-use",
+				title: "Website Acceptable Use Policy | motors.co.uk - Motors.co.uk"
+			},
+			url6 : {
+				url: "http://www.motors.co.uk/security",
+				title: "security - Motors.co.uk"
+			},
+			url7 : {
+				url: "http://www.motors.co.uk/privacy/",
+				title: "Privacy - Motors.co.uk"
+			},
+			url8 : {
+				url: "http://www.motors.co.uk/news/",
+				title: "Latest Motoring News - Motors.co.uk"
+			}
+		},
+		img: "motors.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.motors.co.uk"
+	};
+
+	ar[114] = {
+		mainUrl : "http://www.liberty.co.uk/#",
+		title: "Liberty.co.uk | Unique Gifts, Designer Brands & Liberty Print",
+		secUrl : {
+			url1 : {
+				url: "http://www.liberty.co.uk/fcp/departmenthome/dept/liberty-products",
+				title: "Liberty Products | Liberty London and Liberty Print | Liberty.co.uk"
+			},
+			url2 : {
+				url: "http://www.liberty.co.uk/fcp/departmenthome/dept/beauty",
+				title: "Beauty | Perfume, Make up, Skin care | Liberty.co.uk"
+			},
+			url3 : {
+				url: "http://www.liberty.co.uk/fcp/departmenthome/dept/accessories",
+				title: "Accessories | Designer Handbags, Scarves, Jewellery | Liberty.co.uk"
+			},
+			url4 : {
+				url: "http://www.liberty.co.uk/fcp/departmenthome/dept/fabrics",
+				title: "Fabric | Liberty Print, Interiors, Haberdashery | Liberty.co.uk"
+			},
+			url5 : {
+				url: "http://www.liberty.co.uk/fcp/departmenthome/dept/womenswear",
+				title: "Womenswear | A Unique Edit of Designer Fashion | Liberty.co.uk"
+			},
+			url6 : {
+				url: "http://www.liberty.co.uk/fcp/departmenthome/dept/menswear",
+				title: "Men | Men’s designer clothing, Accessories, and Fashion | Liberty.co.uk"
+			},
+			url7 : {
+				url: "http://www.liberty.co.uk/fcp/departmenthome/dept/kids",
+				title: "Kids | Designer Kids and Baby Clothes | Liberty.co.uk"
+			},
+			url8 : {
+				url: "http://www.liberty.co.uk/fcp/departmenthome/dept/home",
+				title: "Home | Homeware, Furnishings, Stationery | Liberty.co.uk"
+			}
+		},
+		img: "liberty.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.liberty.co.uk"
+	};
+
+	ar[115] = {
+		mainUrl : "https://www.pizzahut.co.uk/",
+		title: "Pizza Delivery, Restaurants and Takeaway | Order Online with Pizza Hut",
+		secUrl : {
+			url1 : {
+				url: "https://www.pizzahut.co.uk/menu/pizza",
+				title: "Pizza | Pizza Hut"
+			},
+			url2 : {
+				url: "https://www.pizzahut.co.uk/menu/sides",
+				title: "Sides | Pizza Hut"
+			},
+			url3 : {
+				url: "https://www.pizzahut.co.uk/menu/desserts",
+				title: "Desserts | Pizza Hut"
+			},
+			url4 : {
+				url: "https://www.pizzahut.co.uk/menu/drinks",
+				title: "Drinks | Pizza Hut"
+			},
+			url5 : {
+				url: "https://www.pizzahut.co.uk/deals",
+				title: "Pizza Deals, Discounts & Offers | Pizza Hut Deals"
+			},
+			url6 : {
+				url: "https://www.pizzahut.co.uk/aboutus",
+				title: "About Us | Find Out More About the History of Pizza Hut"
+			},
+			url7 : {
+				url: "https://www.pizzahut.co.uk/aboutus/recruitment",
+				title: "Pizza Hut UK Recruitment - Restaurants, Delivery and Head Office Careers"
+			},
+			url8 : {
+				url: "https://www.pizzahut.co.uk/faqs",
+				title: "Pizza Hut FAQ | Frequently Asked Pizza Hut Questions"
+			}
+		},
+		img: "pizzahut.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.pizzahut.co.uk"
+	};
+
 
 
 	//ar[22] = {
