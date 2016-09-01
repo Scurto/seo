@@ -1998,7 +1998,7 @@ $('#clear-browsing-data').click(function(event) {
 		}else if (taskId == 1270064) {
 			var whoer = getDefaultWhoer();
 			var google = getLocationGoogle(request);
-			var youtube = getDefaultYouTube("Helena - YouTube"); //TODO https://www.youtube.com/channel/UCiVoHIJiSzu6Q30rRAxCPuA
+			var youtube = getDefaultYouTube("Helena - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
