@@ -3304,213 +3304,185 @@ function getVideo(taskId) {
     }
     if (taskId == 73769 || taskId == 68467 || taskId == 68148) {
         ar[0] = {
+            url: 'https://www.youtube.com/watch?v=KgfmKbcp4Mo',
+            img: "youtube",
+            type: "video",
+            title: 'Zenith Media Canada-Turn Key Solutions',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=DY0weazBFKQ',
+            img: "youtube",
+            type: "video",
+            title: 'Zenith Media Canada -Cloud Hosting',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
             url: 'https://www.youtube.com/watch?v=3GOgEUNw2Uo',
             img: "youtube",
             type: "video",
             title: 'Самые ожидаемые фильмы 2016 года',
             source: "www.youtube.com"
         };
-        ar[1] = {
-            url: 'https://www.youtube.com/watch?v=-rDo-FLX7vo',
-            img: "youtube",
-            type: "video",
-            title: 'Экипаж 2016 оффицыальный трейлер',
-            source: "www.youtube.com"
-        };
-        ar[2] = {
+        ar[3] = {
             url: 'https://www.youtube.com/watch?v=vL88wR4VQvE',
             img: "youtube",
             type: "video",
             title: 'Introducing Windows Azure',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[4] = {
             url: 'https://www.youtube.com/watch?v=gtrLvlJnJio',
             img: "youtube",
             type: "video",
             title: 'Best Website Hosting Ipage Review 2015',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[5] = {
             url: 'https://www.youtube.com/watch?v=wImPy8FxD70',
             img: "youtube",
             type: "video",
             title: 'MLA Style Using Microsoft Word',
             source: "www.youtube.com"
         };
-        ar[5] = {
+        ar[6] = {
             url: 'https://www.youtube.com/watch?v=nJIGSuST4I4',
             img: "youtube",
             type: "video",
             title: 'How to Install Windows 10 on Your Mac Using Parallels Desktop 11',
             source: "www.youtube.com"
         };
-        ar[6] = {
+        ar[7] = {
             url: 'https://www.youtube.com/watch?v=g46SgIPEMyI',
             img: "youtube",
             type: "video",
             title: 'CloudPassage:Secure Your Cloud Servers',
             source: "www.youtube.com"
         };
-        ar[7] = {
+        ar[8] = {
             url: 'https://www.youtube.com/watch?v=WOW5hYma4o8',
             img: "youtube",
             type: "video",
             title: 'Microsoft Virtual Academy & Cloud Computing Solutions',
             source: "www.youtube.com"
         };
-        ar[8] = {
+        ar[9] = {
             url: 'https://www.youtube.com/watch?v=o2mIGFvUL2I',
             img: "youtube",
             type: "video",
             title: 'Singapore',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[10] = {
             url: 'https://www.youtube.com/watch?v=8nw5-uyVF0s',
             img: "youtube",
             type: "video",
             title: 'Optimal clouds hosting',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[11] = {
             url: 'https://www.youtube.com/watch?v=0uJH7Xo0ioc',
             img: "youtube",
             type: "video",
             title: 'How to Order Clouds VPS',
             source: "www.youtube.com"
         };
-        ar[11] = {
+        ar[12] = {
             url: 'https://www.youtube.com/watch?v=Y_hZ9NVTJJk',
             img: "youtube",
             type: "video",
             title: 'Обезьяна хохочет вовсю!Суперулетный прикол!!!!',
             source: "www.youtube.com"
         };
-        ar[12] = {
+        ar[13] = {
             url: 'https://www.youtube.com/watch?v=0y2mggoFgMo',
             img: "youtube",
             type: "video",
             title: 'Мiss Universe India 2015',
             source: "www.youtube.com"
         };
-        ar[13] = {
+        ar[14] = {
             url: 'https://www.youtube.com/watch?v=eLev6kOFTsk',
             img: "youtube",
             type: "video",
             title: 'Cars driving at night',
             source: "www.youtube.com"
         };
-        ar[14] = {
+        ar[15] = {
             url: 'https://www.youtube.com/watch?v=a0dhPZ1s9Gc',
             img: "youtube",
             type: "video",
             title: 'City at night',
             source: "www.youtube.com"
         };
-        ar[15] = {
+        ar[16] = {
             url: 'https://www.youtube.com/watch?v=N1VCnK10QZk',
             img: "youtube",
             type: "video",
             title: 'Обезьяна страстно целует кошку',
             source: "www.youtube.com"
         };
-        ar[16] = {
+        ar[17] = {
             url: 'https://www.youtube.com/watch?v=37y1jLFnpZU',
             img: "youtube",
             type: "video",
             title: 'Coit Tower',
             source: "www.youtube.com"
         };
-        ar[17] = {
+        ar[18] = {
             url: 'https://www.youtube.com/watch?v=q-53CZB_a2Q',
             img: "youtube",
             type: "video",
             title: 'Секреты истинной любви',
             source: "www.youtube.com"
         };
-        ar[18] = {
+        ar[19] = {
             url: 'https://www.youtube.com/watch?v=iNs_fCJa7H4',
             img: "youtube",
             type: "video",
             title: 'San Francisco Bay Bridge',
             source: "www.youtube.com"
         };
-        ar[19] = {
+        ar[20] = {
             url: 'https://www.youtube.com/watch?v=oiApSRDT3WE',
             img: "youtube",
             type: "video",
             title: 'Couple holding hands',
             source: "www.youtube.com"
         };
-        ar[20] = {
+        ar[21] = {
             url: 'https://www.youtube.com/watch?v=be-FgUArlR0',
             img: "youtube",
             type: "video",
             title: 'Statue of Buddha',
             source: "www.youtube.com"
         };
-        ar[21] = {
+        ar[22] = {
             url: 'https://www.youtube.com/watch?v=KJQTZRfHY7w',
             img: "youtube",
             type: "video",
             title: 'Alkatraz',
             source: "www.youtube.com"
         };
-        ar[22] = {
+        ar[23] = {
             url: 'https://www.youtube.com/watch?v=sbKXvXNobDA',
             img: "youtube",
             type: "video",
             title: 'ORIGINAL - When a Silverback attacks.',
             source: "www.youtube.com"
         };
-        ar[23] = {
+        ar[24] = {
             url: 'https://www.youtube.com/watch?v=m_gB5-Zog7Q',
             img: "youtube",
             type: "video",
             title: 'Внезапное возгорание автомобиля на улице!Вот это жесть!!!',
             source: "www.youtube.com"
         };
-        ar[24] = {
+        ar[25] = {
             url: 'https://www.youtube.com/watch?v=13XVzCqumkM',
             img: "youtube",
             type: "video",
             title: 'ABBA the best intro',
-            source: "www.youtube.com"
-        };
-        ar[25] = {
-            url: 'https://www.youtube.com/watch?v=3CnzjhqJrf8',
-            img: "youtube",
-            type: "video",
-            title: 'Цветочное ассорти',
-            source: "www.youtube.com"
-        };
-        ar[26] = {
-            url: 'https://www.youtube.com/watch?v=HpBnbyrUVC4',
-            img: "youtube",
-            type: "video",
-            title: 'ПЕРВЫЕ ГРИБЫ!СМОРЧКИ',
-            source: "www.youtube.com"
-        };
-        ar[27] = {
-            url: 'https://www.youtube.com/watch?v=0OAJfhPyuF0',
-            img: "youtube",
-            type: "video",
-            title: 'Весна!Летят журавли!',
-            source: "www.youtube.com"
-        };
-        ar[28] = {
-            url: 'https://www.youtube.com/watch?v=9Bh6ekq96hQ',
-            img: "youtube",
-            type: "video",
-            title: 'Зимняя сказка в конце марта',
-            source: "www.youtube.com"
-        };
-        ar[29] = {
-            url: 'https://www.youtube.com/watch?v=g8ltb9i_QqQ',
-            img: "youtube",
-            type: "video",
-            title: 'Зима не сдается(29марта 2015года)',
             source: "www.youtube.com"
         };
     }
