@@ -5055,6 +5055,178 @@ function getReklama() {
 		source: "www.pizzahut.co.uk"
 	};
 
+	ar[116] = {
+		mainUrl : "http://www.sph.com.sg/home/",
+		title: "Home - Singapore Press Holdings",
+		secUrl : {
+			url1 : {
+				url: "http://www.sph.com.sg/contact-us/news-centre-print-centre-and-media-centre/",
+				title: "News Centre, Print Centre and Media Centre - Singapore Press Holdings"
+			},
+			url2 : {
+				url: "http://www.sph.com.sg/about-sph/sph-corporate-profile/",
+				title: "SPH Corporate Profile - Singapore Press Holdings"
+			},
+			url3 : {
+				url: "http://www.sph.com.sg/awards-accolades/",
+				title: "Awards & Accolades - Singapore Press Holdings"
+			},
+			url4 : {
+				url: "http://www.sph.com.sg/corporate-social-responsibility/",
+				title: "Corporate Social Responsibility - Singapore Press Holdings"
+			},
+			url5 : {
+				url: "http://sph.listedcompany.com/home.html",
+				title: "IR Home - Singapore Press Holdings"
+			},
+			url6 : {
+				url: "http://www.sph.com.sg/corporate-governance/whistleblowing-policy-procedure/",
+				title: "Whistleblowing Policy & Procedure - Singapore Press Holdings"
+			},
+			url7 : {
+				url: "http://www.sph.com.sg/corporate-governance/supplier-code-of-conduct/",
+				title: "Supplier Code of Conduct - Singapore Press Holdings"
+			},
+			url8 : {
+				url: "http://www.sph.com.sg/about-sph/board-of-directors/",
+				title: "Board Of Directors - Singapore Press Holdings"
+			}
+		},
+		img: "sph.com.sg",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.sph.com.sg"
+	};
+
+	ar[117] = {
+		mainUrl : "https://www.axa.com.sg/",
+		title: "Online Life Insurance Singapore | Travel & Car Insurance Policy | Health Insurance, Home & Personal Insurance - AXA Singapore",
+		secUrl : {
+			url1 : {
+				url: "https://www.axa.com.sg/about-axa/axa-at-a-glance",
+				title: "AXA at a Glance | AXA Singapore"
+			},
+			url2 : {
+				url: "https://www.axa.com.sg/customer-care/file-a-claim",
+				title: "File A Claim | AXA Singapore"
+			},
+			url3 : {
+				url: "https://www.axa.com.sg/customer-care/useful-information",
+				title: "Useful information | AXA Singapore"
+			},
+			url4 : {
+				url: "https://www.axa.com.sg/sitemap",
+				title: "Sitemap | AXA Singapore"
+			},
+			url5 : {
+				url: "https://www.axa.com.sg/latest-news",
+				title: "Latest News | AXA Singapore"
+			},
+			url6 : {
+				url: "https://www.axa.com.sg/disclaimer",
+				title: "Disclaimer and Copyright Policy | AXA Singapore"
+			},
+			url7 : {
+				url: "https://www.axa.com.sg/our-solutions/personal/health",
+				title: "AXA - Health Insurance Singapore | Medical Insurance | Private Healthcare Insurance"
+			},
+			url8 : {
+				url: "https://www.axa.com.sg/our-solutions/personal/personal-accident",
+				title: "Buy Personal Accident Insurance Cover at AXA Singapore"
+			}
+		},
+		img: "axa.com.sg",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.axa.com.sg"
+	};
+
+	ar[118] = {
+		mainUrl : "http://www.turfclub.com.sg/Pages/Homepage.aspx",
+		title: "Singapore Turf Club",
+		secUrl : {
+			url1 : {
+				url: "http://www.turfclub.com.sg/Racing/Handicapping/Pages/Handicaps.aspx",
+				title: "Handicaps"
+			},
+			url2 : {
+				url: "http://www.turfclub.com.sg/Racing/Pages/RaceResultsAndDividends.aspx",
+				title: "Race Results & Dividends"
+			},
+			url3 : {
+				url: "http://www.turfclub.com.sg/Racing/Pages/RaceCards.aspx",
+				title: "Race Cards"
+			},
+			url4 : {
+				url: "http://www.turfclub.com.sg/Racing/Pages/StewardsReport.aspx",
+				title: "Stewards’ Report"
+			},
+			url5 : {
+				url: "http://www.turfclub.com.sg/Industry/Trainers/Pages/Trainers.aspx",
+				title: "Trainers"
+			},
+			url6 : {
+				url: "http://www.turfclub.com.sg/Industry/Jockeys/Pages/Jockey.aspx",
+				title: "Jockeys"
+			},
+			url7 : {
+				url: "http://www.turfclub.com.sg/Industry/StablesAndTrainingFacilities/Pages/StablesAndTrainingFacilities.aspx",
+				title: "Stables & Training Facilities"
+			},
+			url8 : {
+				url: "http://www.turfclub.com.sg/Wagering/BettingGuideAndInfo/Pages/BettingGuideAndInfo.aspx",
+				title: "Betting Guide & Info"
+			}
+		},
+		img: "turfclub.com.sg",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.turfclub.com.sg"
+	};
+
+	ar[119] = {
+		mainUrl : "http://www.britcham.org.sg/",
+		title: "British Chamber Of Commerce Singapore",
+		secUrl : {
+			url1 : {
+				url: "http://www.britcham.org.sg/membership/m_introduction",
+				title: "Membership"
+			},
+			url2 : {
+				url: "http://www.britcham.org.sg/membership/types--applications",
+				title: "Types & Applications"
+			},
+			url3 : {
+				url: "http://www.britcham.org.sg/membership/chamber-facilities",
+				title: "Chamber Facilities"
+			},
+			url4 : {
+				url: "http://www.britcham.org.sg/business-group/business-groups",
+				title: "Business Groups"
+			},
+			url5 : {
+				url: "http://www.britcham.org.sg/business-group-details/energy--utilities",
+				title: "Energy & Utilities"
+			},
+			url6 : {
+				url: "http://www.britcham.org.sg/business-group-details/it--communications-technology",
+				title: "Information and Communications Technology"
+			},
+			url7 : {
+				url: "http://www.britcham.org.sg/business-group-details/professional-services",
+				title: "Professional Services"
+			},
+			url8 : {
+				url: "http://www.britcham.org.sg/business-services/introduction-businessservices",
+				title: "Trade Services Support"
+			}
+		},
+		img: "britcham.org.sg",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.britcham.org.sg"
+	};
+
 
 
 	//ar[22] = {
