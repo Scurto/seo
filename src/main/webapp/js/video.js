@@ -5628,132 +5628,153 @@ function getVideo(taskId) {
     }
     if (taskId == 1128139 || taskId == 79016 || taskId == 288151 || taskId == 335972) {
         ar[0] = {
+            url: 'https://www.youtube.com/watch?v=URzNXw5GpzU',
+            img: "youtube",
+            type: "video",
+            title: 'Гранитный шар крутящийся на воде',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=SvR1Q9OhS0g',
+            img: "youtube",
+            type: "video",
+            title: 'Экопарк  Эрфурт(Германия)',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=XDb-JIaCcyk',
+            img: "youtube",
+            type: "video",
+            title: 'Фонтаны Фрайберга',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
             url: 'https://www.youtube.com/watch?v=rV4iTGCbMMY',
             img: "youtube",
             type: "video",
             title: 'Фонтан (Ярославль)',
             source: "www.youtube.com"
         };
-        ar[1] = {
+        ar[4] = {
             url: 'https://www.youtube.com/watch?v=LibN9QS24dc',
             img: "youtube",
             type: "video",
             title: 'Поющий фонтан (Парк Горького.Москва)',
             source: "www.youtube.com"
         };
-        ar[2] = {
+        ar[5] = {
             url: 'https://www.youtube.com/watch?v=6kPB6zzOIDc',
             img: "youtube",
             type: "video",
             title: 'Приколы 2015',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[6] = {
             url: 'https://www.youtube.com/watch?v=OgvNHJ2JqeM',
             img: "youtube",
             type: "video",
             title: 'Аварии на снегоходах',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[7] = {
             url: 'https://www.youtube.com/watch?v=e1xNIENSOuA',
             img: "youtube",
             type: "video",
             title: 'Авто - мото- вело - новое',
             source: "www.youtube.com"
         };
-        ar[5] = {
+        ar[8] = {
             url: 'https://www.youtube.com/watch?v=YJsehcjKHCU',
             img: "youtube",
             type: "video",
             title: 'Прикольное видео 2!!!',
             source: "www.youtube.com"
         };
-        ar[6] = {
+        ar[9] = {
             url: 'https://www.youtube.com/watch?v=jPZNz_fmny0',
             img: "youtube",
             type: "video",
             title: 'Прикольное видео!!!',
             source: "www.youtube.com"
         };
-        ar[7] = {
+        ar[10] = {
             url: 'https://www.youtube.com/watch?v=Y8zbCjebwSc',
             img: "youtube",
             type: "video",
             title: 'Песня - Время',
             source: "www.youtube.com"
         };
-        ar[8] = {
+        ar[11] = {
             url: 'https://www.youtube.com/watch?v=OslB9fmbUmw',
             img: "youtube",
             type: "video",
             title: 'Песня Минимум (Супер!!)',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[12] = {
             url: 'https://www.youtube.com/watch?v=H0vjuqF4TQc',
             img: "youtube",
             type: "video",
             title: 'Сфинкс vs Йорк!!',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[13] = {
             url: 'https://www.youtube.com/watch?v=_Ty0_M5TABg',
             img: "youtube",
             type: "video",
             title: 'Йорк против кота',
             source: "www.youtube.com"
         };
-        ar[11] = {
+        ar[14] = {
             url: 'https://www.youtube.com/watch?v=lGIXra28a30',
             img: "youtube",
             type: "video",
             title: 'Видео с кошками NEW!!',
             source: "www.youtube.com"
         };
-        ar[12] = {
+        ar[15] = {
             url: 'https://www.youtube.com/watch?v=pO9carLy4I8',
             img: "youtube",
             type: "video",
             title: 'Позирование перед котом',
             source: "www.youtube.com"
         };
-        ar[13] = {
+        ar[16] = {
             url: 'https://www.youtube.com/watch?v=oBUlk7ax6sc',
             img: "youtube",
             type: "video",
             title: 'Вот докопался!!!',
             source: "www.youtube.com"
         };
-        ar[14] = {
+        ar[17] = {
             url: 'https://www.youtube.com/watch?v=_tJE6GS_vh8',
             img: "youtube",
             type: "video",
             title: 'Постирушки!!!',
             source: "www.youtube.com"
         };
-        ar[15] = {
+        ar[18] = {
             url: 'https://www.youtube.com/watch?v=bN04rgFTTiE',
             img: "youtube",
             type: "video",
             title: 'Веселые игры щенка с мамой',
             source: "www.youtube.com"
         };
-        ar[16] = {
+        ar[19] = {
             url: 'https://www.youtube.com/watch?v=9XiCDGCMkY8',
             img: "youtube",
             type: "video",
             title: 'В большой семье...)))',
             source: "www.youtube.com"
         };
-        ar[17] = {
+        ar[20] = {
             url: 'https://www.youtube.com/watch?v=Q-a3M5BOVoo',
             img: "youtube",
             type: "video",
             title: 'Самое лучшее видео с животными',
             source: "www.youtube.com"
         };
-        ar[18] = {
+        ar[21] = {
             url: 'https://www.youtube.com/watch?v=WLwo4sgU1r0',
             img: "youtube",
             type: "video",

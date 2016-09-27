@@ -184,23 +184,23 @@ $(document).ready(function() {
 			$('#taskId').val(72688);
 			$('#countOfVideo').val(15);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(3);
+			$('#countOfMove').val(2);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
 		(item == 74444) {
 			$('#taskId').val(74444);
-			$('#countOfVideo').val(9);
-			$('#countOfReklama').val(2);
+			$('#countOfVideo').val(15);
+			$('#countOfReklama').val(3);
 			$('#countOfMove').val(2);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		} else if
 		(item == 1119333) {
 			$('#taskId').val(1119333);
-			$('#countOfVideo').val(15);
-			$('#countOfReklama').val(3);
-			$('#countOfMove').val(4);
+			$('#countOfVideo').val(16);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(2);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
@@ -484,7 +484,7 @@ $(document).ready(function() {
 		}else if
 		(item == 288151) {
 			$('#taskId').val(288151);
-			$('#countOfVideo').val(18);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(4);
 			$('#countOfMove').val(3);
 			$('#betweenVideo').val(45);
