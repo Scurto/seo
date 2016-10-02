@@ -5626,7 +5626,156 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 1128139 || taskId == 79016 || taskId == 288151 || taskId == 335972) {
+    if (taskId == 288151) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=uYPNE7yaQtk',
+            img: "youtube",
+            type: "video",
+            title: 'Замок Рапунцель',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=H754H9hJmS8',
+            img: "youtube",
+            type: "video",
+            title: 'Флорибунда',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=CKkjgvNFdgk',
+            img: "youtube",
+            type: "video",
+            title: 'Сад цветов',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=wHRRsbtuTR4',
+            img: "youtube",
+            type: "video",
+            title: 'Тропичекие растения 2',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=HdiVUef8Hfc',
+            img: "youtube",
+            type: "video",
+            title: 'Тропические растения',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=ndtwMYsfotw',
+            img: "youtube",
+            type: "video",
+            title: 'Разновидности кактусов 2',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=N_d30lG5sj4',
+            img: "youtube",
+            type: "video",
+            title: 'Разновидности кактусов',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=vK7oJRHwnCA',
+            img: "youtube",
+            type: "video",
+            title: 'Круглые кактусы',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=thHJm7bPcww',
+            img: "youtube",
+            type: "video",
+            title: 'Кактусы',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=4hyKPrLCjKs',
+            img: "youtube",
+            type: "video",
+            title: 'Бабочка ест ананас',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=ZSmTg-gY3e0',
+            img: "youtube",
+            type: "video",
+            title: 'Красивый сад 2',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=mX4crInmYzc',
+            img: "youtube",
+            type: "video",
+            title: 'Красивый сад',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=M54PlG_XScM',
+            img: "youtube",
+            type: "video",
+            title: 'Японский сад камней 6',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=OluhVSc-LXQ',
+            img: "youtube",
+            type: "video",
+            title: 'Японский сад камней 5',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=YWRXdtcExFI',
+            img: "youtube",
+            type: "video",
+            title: 'Япоский сад камней 4',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=m-d5CSV0XgM',
+            img: "youtube",
+            type: "video",
+            title: 'Японсктй сад камней 3',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=g1zD-HuE0yw',
+            img: "youtube",
+            type: "video",
+            title: 'Японский сад камней 2',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=eyVjgKHDCTs',
+            img: "youtube",
+            type: "video",
+            title: 'Японский сад камней',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=Vpu9XUjw2ao',
+            img: "youtube",
+            type: "video",
+            title: 'Порвали спанч - боба!!!',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=6QJx7kKnQaw',
+            img: "youtube",
+            type: "video",
+            title: 'Дачи в Германии',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=-cRx6MxB9cs',
+            img: "youtube",
+            type: "video",
+            title: 'Бурундук "Чуча"',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1128139 || taskId == 79016 || taskId == 335972) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=URzNXw5GpzU',
             img: "youtube",
@@ -7625,125 +7774,139 @@ function getVideo(taskId) {
     }
     if (taskId == 1093511) {
         ar[0] = {
+            url: 'https://www.youtube.com/watch?v=Ji1zJcwiJdk',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Tesla Motors',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=GYLf93orBbQ',
+            img: "youtube",
+            type: "video",
+            title: 'US auto - Chevrolet Corvette Stingray',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
             url: 'https://www.youtube.com/watch?v=l-YzIKHlfrc',
             img: "youtube",
             type: "video",
             title: 'US auto - Freightliner Trucks',
             source: "www.youtube.com"
         };
-        ar[1] = {
+        ar[3] = {
             url: 'https://www.youtube.com/watch?v=6orTWMoRnck',
             img: "youtube",
             type: "video",
             title: 'US auto - Dodge Charger',
             source: "www.youtube.com"
         };
-        ar[2] = {
+        ar[4] = {
             url: 'https://www.youtube.com/watch?v=ASXyYfq8Jb4',
             img: "youtube",
             type: "video",
             title: 'US auto - Cadillac 1959 (Ghostbusters)',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[5] = {
             url: 'https://www.youtube.com/watch?v=b_czFwl0kJM',
             img: "youtube",
             type: "video",
             title: 'US auto - Dodge Challenger',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[6] = {
             url: 'https://www.youtube.com/watch?v=PFyYU-xWtBM',
             img: "youtube",
             type: "video",
             title: 'US auto - Chevrolet Camaro',
             source: "www.youtube.com"
         };
-        ar[5] = {
+        ar[7] = {
             url: 'https://www.youtube.com/watch?v=J9cVmInOVrE',
             img: "youtube",
             type: "video",
             title: 'US auto - Cadillac Escalade',
             source: "www.youtube.com"
         };
-        ar[6] = {
+        ar[8] = {
             url: 'https://www.youtube.com/watch?v=1rHqcw-yZ4Y',
             img: "youtube",
             type: "video",
             title: 'US auto - Lincoln Town Car',
             source: "www.youtube.com"
         };
-        ar[7] = {
+        ar[9] = {
             url: 'https://www.youtube.com/watch?v=yb2mW_R-cLI',
             img: "youtube",
             type: "video",
             title: 'US auto - Ford Mustang',
             source: "www.youtube.com"
         };
-        ar[8] = {
+        ar[10] = {
             url: 'https://www.youtube.com/watch?v=jEaO5I6yEbU',
             img: "youtube",
             type: "video",
             title: 'US auto - Delorean (back to the Future)',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[11] = {
             url: 'https://www.youtube.com/watch?v=wsDxkbi_N60',
             img: "youtube",
             type: "video",
             title: 'US auto - Lincoln',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[12] = {
             url: 'https://www.youtube.com/watch?v=g71VjWpiRMQ',
             img: "youtube",
             type: "video",
             title: 'US auto - GMC',
             source: "www.youtube.com"
         };
-        ar[11] = {
+        ar[13] = {
             url: 'https://www.youtube.com/watch?v=4IfY2Jm-FrQ',
             img: "youtube",
             type: "video",
             title: 'US auto - Chevrolet',
             source: "www.youtube.com"
         };
-        ar[12] = {
+        ar[14] = {
             url: 'https://www.youtube.com/watch?v=yLnqWRLf77E',
             img: "youtube",
             type: "video",
             title: 'US auto - Buick',
             source: "www.youtube.com"
         };
-        ar[13] = {
+        ar[15] = {
             url: 'https://www.youtube.com/watch?v=wDjiLsxsn74',
             img: "youtube",
             type: "video",
             title: 'US auto - Dodge',
             source: "www.youtube.com"
         };
-        ar[14] = {
+        ar[16] = {
             url: 'https://www.youtube.com/watch?v=xZZHF6V00TY',
             img: "youtube",
             type: "video",
             title: 'US auto - Jeep',
             source: "www.youtube.com"
         };
-        ar[15] = {
+        ar[17] = {
             url: 'https://www.youtube.com/watch?v=TNpy4mjM41Y',
             img: "youtube",
             type: "video",
             title: 'US auto - Cadillac',
             source: "www.youtube.com"
         };
-        ar[16] = {
+        ar[18] = {
             url: 'https://www.youtube.com/watch?v=ehjrY98X3yY',
             img: "youtube",
             type: "video",
             title: 'US auto - Ford',
             source: "www.youtube.com"
         };
-        ar[17] = {
+        ar[19] = {
             url: 'https://www.youtube.com/watch?v=L-D-MY1z_1k',
             img: "youtube",
             type: "video",
@@ -8789,136 +8952,136 @@ function getVideo(taskId) {
     }
     if (taskId == 1107884) {
         ar[0] = {
+            url: 'https://www.youtube.com/watch?v=_ustbcf563Q',
+            img: "youtube",
+            type: "video",
+            title: 'девушка боится пауков',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=Alv6n0mc90w',
+            img: "youtube",
+            type: "video",
+            title: 'Прикалывается над женой',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
             url: 'https://www.youtube.com/watch?v=ORKY5XRBj0E',
             img: "youtube",
             type: "video",
             title: 'чем заняться когда выпьешь в селе',
             source: "www.youtube.com"
         };
-        ar[1] = {
+        ar[3] = {
             url: 'https://www.youtube.com/watch?v=9qIGgjs0DZ8',
             img: "youtube",
             type: "video",
             title: 'Красивая девушка нереально классно поет',
             source: "www.youtube.com"
         };
-        ar[2] = {
+        ar[4] = {
             url: 'https://www.youtube.com/watch?v=R11Nt5W1cqk',
             img: "youtube",
             type: "video",
             title: 'Подсказки от дальнобойщиков',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[5] = {
             url: 'https://www.youtube.com/watch?v=NHWK5A475Wg',
             img: "youtube",
             type: "video",
             title: 'Неадекватные девушки приколы с девками',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[6] = {
             url: 'https://www.youtube.com/watch?v=sKieGPIgHiM',
             img: "youtube",
             type: "video",
             title: 'Вот для чего нужна подруга',
             source: "www.youtube.com"
         };
-        ar[5] = {
+        ar[7] = {
             url: 'https://www.youtube.com/watch?v=5TkNs9TOhHk',
             img: "youtube",
             type: "video",
             title: 'Когда лайкнул фотку другой девушки',
             source: "www.youtube.com"
         };
-        ar[6] = {
+        ar[8] = {
             url: 'https://www.youtube.com/watch?v=Q0QsNrwUxh4',
             img: "youtube",
             type: "video",
             title: 'Секреты красоты за 45 секунд',
             source: "www.youtube.com"
         };
-        ar[7] = {
+        ar[9] = {
             url: 'https://www.youtube.com/watch?v=Bb_9OxBQHAs',
             img: "youtube",
             type: "video",
             title: 'Что Будет Если Бросить Кусок Натрия в Воду',
             source: "www.youtube.com"
         };
-        ar[8] = {
+        ar[10] = {
             url: 'https://www.youtube.com/watch?v=GJupkx1cXfw',
             img: "youtube",
             type: "video",
             title: 'Кто это сделал прикол собаки',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[11] = {
             url: 'https://www.youtube.com/watch?v=HBLPvGyHffM',
             img: "youtube",
             type: "video",
             title: 'Одну секундочку',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[12] = {
             url: 'https://www.youtube.com/watch?v=LYPGLyg8rO0',
             img: "youtube",
             type: "video",
             title: 'Как едят Девушка и Жена в ресторане',
             source: "www.youtube.com"
         };
-        ar[11] = {
-            url: 'https://www.youtube.com/watch?v=CacB6iEB1VY',
-            img: "youtube",
-            type: "video",
-            title: 'Прикол Чайка покупает чипсы в магазине',
-            source: "www.youtube.com"
-        };
-        ar[12] = {
+        ar[13] = {
             url: 'https://www.youtube.com/watch?v=RPDqJVpsTRU',
             img: "youtube",
             type: "video",
             title: 'Ржачная обезьяна кушает кашу',
             source: "www.youtube.com"
         };
-        ar[13] = {
+        ar[14] = {
             url: 'https://www.youtube.com/watch?v=1KmriyqlLh0',
             img: "youtube",
             type: "video",
             title: 'Медведи нападают',
             source: "www.youtube.com"
         };
-        ar[14] = {
+        ar[15] = {
             url: 'https://www.youtube.com/watch?v=g78p-tuT-qc',
             img: "youtube",
             type: "video",
             title: 'Не надо стесняться - приглашай',
             source: "www.youtube.com"
         };
-        ar[15] = {
+        ar[16] = {
             url: 'https://www.youtube.com/watch?v=cuLERCQ_e1s',
             img: "youtube",
             type: "video",
             title: 'семейная жизнь',
             source: "www.youtube.com"
         };
-        ar[16] = {
+        ar[17] = {
             url: 'https://www.youtube.com/watch?v=eg04j_pSSRs',
             img: "youtube",
             type: "video",
             title: 'Не смей трогать торт собака охраняет торт',
             source: "www.youtube.com"
         };
-        ar[17] = {
+        ar[18] = {
             url: 'https://www.youtube.com/watch?v=nHUXkLskkRw',
             img: "youtube",
             type: "video",
             title: 'Жизнь самого смешного кота, самый смешной кот',
-            source: "www.youtube.com"
-        };
-        ar[18] = {
-            url: 'https://www.youtube.com/watch?v=tJHRqclcUDk',
-            img: "youtube",
-            type: "video",
-            title: 'Прикол с бровями WIGGLE Я ДОЛГО НАД ЭТИМ РЖАЛ',
             source: "www.youtube.com"
         };
         ar[19] = {

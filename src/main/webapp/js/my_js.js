@@ -485,7 +485,7 @@ $(document).ready(function() {
 		(item == 288151) {
 			$('#taskId').val(288151);
 			$('#countOfVideo').val(20);
-			$('#countOfReklama').val(4);
+			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
 			$('#betweenVideo').val(45);
 			$('#betweenReklama').val(45);
@@ -1770,7 +1770,14 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(bing);
 			etalonArray.push(youtube);
 		} else if (taskId == 1157210) {
-			var whoer = getDefaultWhoer();
+			//var whoer = getDefaultWhoer();
+
+			var ip = {
+				title: "Узнать IP адрес",
+				type: "def",
+				img: "2ip",
+				source: "2ip.ru"
+			};
 			var google = {
 				title: request + " - Поиск в Google",
 				type: "def",
@@ -1781,11 +1788,17 @@ $('#clear-browsing-data').click(function(event) {
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
-			etalonArray.push(whoer);
+			etalonArray.push(ip);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
 		} else if (taskId == 1178491) {
-			var whoer = getDefaultWhoer();
+			//var whoer = getDefaultWhoer();
+			var ip = {
+				title: "Узнать IP адрес",
+				type: "def",
+				img: "2ip",
+				source: "2ip.ru"
+			};
 			var google = {
 				title: request + " - Поиск в Google",
 				type: "def",
@@ -1796,7 +1809,7 @@ $('#clear-browsing-data').click(function(event) {
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
-			etalonArray.push(whoer);
+			etalonArray.push(ip);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
 		}else if (taskId == 1021308) {
@@ -2052,8 +2065,8 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube);
 		}else if (taskId == 325291) {
 			var whoer = getDefaultWhoer();
-			var youtube = {
-				title: "YouTube",
+			var youtube1 = {
+				title: request + " - YouTube",
 				type: "def",
 				img: "youtube",
 				source: "www.youtube.com"
@@ -2352,7 +2365,7 @@ $('#clear-browsing-data').click(function(event) {
 			$("#forGoogle").modal('show');
 			etalonArray.push(google);
 			etalonArray.push(youtube);
-		}else if (taskId == 1128139 || taskId == 79016 || taskId == 288151 || taskId == 335972) {
+		}else if (taskId == 1128139 || taskId == 79016 || taskId == 335972) {
 			var google = {
 				title: request + " - Поиск в Google",
 				type: "def",
@@ -2361,6 +2374,22 @@ $('#clear-browsing-data').click(function(event) {
 			};
 			var youtube = {
 				title: "Uncle Death - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			$("#forGoogle").modal('show');
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 288151) {
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = {
+				title: "Schmeiser TV - YouTube",
 				type: "def",
 				img: "youtube",
 				source: "www.youtube.com"
@@ -2742,6 +2771,9 @@ $('#clear-browsing-data').click(function(event) {
 						break;
 					case '9':
 						month = "сентября";
+						break;
+					case '10':
+						month = "октября";
 						break;
 				}
 				var date = "Сегодня - " + dayOfWeek + ", " + dateOfMonth + " " +  month + " " + year + " г.";
