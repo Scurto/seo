@@ -8179,101 +8179,101 @@ function getVideo(taskId) {
     }
     if (taskId == 75641) {
         ar[0] = {
+            url: 'https://www.youtube.com/watch?v=4E4oCT5hVVs',
+            img: "youtube",
+            type: "video",
+            title: 'Install WordPress hosting',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
             url: 'https://www.youtube.com/watch?v=b0_4937fwto',
             img: "youtube",
             type: "video",
             title: 'mega penalty',
             source: "www.youtube.com"
         };
-        ar[1] = {
+        ar[2] = {
             url: 'https://www.youtube.com/watch?v=O2MIFE9Zg2A',
             img: "youtube",
             type: "video",
             title: 'the funniest goal in the history of world football',
             source: "www.youtube.com"
         };
-        ar[2] = {
+        ar[3] = {
             url: 'https://www.youtube.com/watch?v=Y4kiv0z8n4M',
             img: "youtube",
             type: "video",
             title: 'The most awesome penalty in 2016',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[4] = {
             url: 'https://www.youtube.com/watch?v=la06g8NxEZ0',
             img: "youtube",
             type: "video",
             title: 'the craziest penalty in football history',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[5] = {
             url: 'https://www.youtube.com/watch?v=w-cZ4a4IAhk',
             img: "youtube",
             type: "video",
             title: 'Впечатляющие битвы диких животных',
             source: "www.youtube.com"
         };
-        ar[5] = {
-            url: 'https://www.youtube.com/watch?v=Gh4CwLiRXzQ',
-            img: "youtube",
-            type: "video",
-            title: 'Australia Unlimited',
-            source: "www.youtube.com"
-        };
         ar[6] = {
-            url: 'https://www.youtube.com/watch?v=_d2iDm906Z8',
+            url: 'https://www.youtube.com/watch?v=OECnVdFrd3I',
             img: "youtube",
             type: "video",
-            title: 'Fishing in the Norway',
+            title: 'Шокирующая битва между львом и буйволом!Жесть!!!',
             source: "www.youtube.com"
         };
         ar[7] = {
+            url: 'https://www.youtube.com/watch?v=vKz987HsTaY',
+            img: "youtube",
+            type: "video",
+            title: '10 фактов о фастфуде',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
             url: 'https://www.youtube.com/watch?v=9FSe7N_CNAc',
             img: "youtube",
             type: "video",
             title: '10 ценных фактов о кофе',
             source: "www.youtube.com"
         };
-        ar[8] = {
-            url: 'https://www.youtube.com/watch?v=Rk-3Zr87qOI',
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=c0R9bZdslgQ',
             img: "youtube",
             type: "video",
-            title: 'Chiara in Australia',
+            title: 'Кто нибудь видел или слыхал как смеется и хохочет сова?',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[10] = {
             url: 'https://www.youtube.com/watch?v=6-1KVLvG2Pw',
             img: "youtube",
             type: "video",
             title: 'TOP 10 Fastest Aircraft in the World',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[11] = {
             url: 'https://www.youtube.com/watch?v=o7xPeJBwxMY',
             img: "youtube",
             type: "video",
             title: '10 мифов об алкоголе',
             source: "www.youtube.com"
         };
-        ar[11] = {
+        ar[12] = {
             url: 'https://www.youtube.com/watch?v=75LdVWeTdGk',
             img: "youtube",
             type: "video",
             title: 'ТОП 10 самых быстрых поездов в мире',
             source: "www.youtube.com"
         };
-        ar[12] = {
-            url: 'https://www.youtube.com/watch?v=F15b51uWKGA',
-            img: "youtube",
-            type: "video",
-            title: 'ICT Discovery: How internet works',
-            source: "www.youtube.com"
-        };
         ar[13] = {
-            url: 'https://www.youtube.com/watch?v=kuZqxcbN7ZE',
+            url: 'https://www.youtube.com/watch?v=9jPdBfpKmz0',
             img: "youtube",
             type: "video",
-            title: 'Windows 10',
+            title: 'Необычные поезда MITOKANBAI',
             source: "www.youtube.com"
         };
         ar[14] = {
@@ -8283,8 +8283,549 @@ function getVideo(taskId) {
             title: 'Невероятно красивая песня про настоящую любовь',
             source: "www.youtube.com"
         };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=WpZOTliwK18',
+            img: "youtube",
+            type: "video",
+            title: 'Самые странные и необычные рекорды Гиннеса',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=vSiTjdikQnI',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 10 самых опасных пород собак в мире',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=9sDRmdl8KDA',
+            img: "youtube",
+            type: "video",
+            title: '5 жутких паранормальных сенсаций заснятых на видеокамеру',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=IjI2pfHv_fg',
+            img: "youtube",
+            type: "video",
+            title: 'Нереально удивительная молния',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=ZQPslWibWyM',
+            img: "youtube",
+            type: "video",
+            title: 'Это просто нереальная меткость ножей!',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=K97LMNDm5EY',
+            img: "youtube",
+            type: "video",
+            title: 'Это нереально!Неожиданный обман зрения!',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=8WLQJzsN7qI',
+            img: "youtube",
+            type: "video",
+            title: 'Самые необычные люди со всего мира',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=XmOZDuDWndM',
+            img: "youtube",
+            type: "video",
+            title: 'С Днем  святого Валентина поздравляю !!!',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=DwiKk53gXHU',
+            img: "youtube",
+            type: "video",
+            title: 'Что будет если поджечь 1000 петард одновременно?',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=Gus1OSZVMwo',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 10 самых нелепых поступков по пьяни',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=iVjQr2AcrHA',
+            img: "youtube",
+            type: "video",
+            title: '5 лайфхаков про YouTube',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=kLygBgEI-5I',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 5 лайфхаков с батарейками',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=oeI30my7lJs',
+            img: "youtube",
+            type: "video",
+            title: 'ТОП 10 Полезнейших лайфхаков для жизни',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=kuZqxcbN7ZE',
+            img: "youtube",
+            type: "video",
+            title: 'Windows 10',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=ZDCIPKvfsWg',
+            img: "youtube",
+            type: "video",
+            title: 'Топ самых улетных ржачных приколов с падениями',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=F15b51uWKGA',
+            img: "youtube",
+            type: "video",
+            title: 'ICT Discovery:  How internet works',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=Gyh-5BroFzA',
+            img: "youtube",
+            type: "video",
+            title: 'Эволюция ПК',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=xXLBKSYB9nM',
+            img: "youtube",
+            type: "video",
+            title: 'Видеокомикс про мобильные телефоны.',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=Zv3jtIBzndI',
+            img: "youtube",
+            type: "video",
+            title: 'Как распилить пень очень толстого дерева?',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=Rk-3Zr87qOI',
+            img: "youtube",
+            type: "video",
+            title: 'Chiara in Australia',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=mexRWd4eogQ',
+            img: "youtube",
+            type: "video",
+            title: 'Что было бы  если население Земли сократилось бы до 100 жителей',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=Gh4CwLiRXzQ',
+            img: "youtube",
+            type: "video",
+            title: 'Australia Unlimited',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=SFXEuJBXmcI',
+            img: "youtube",
+            type: "video",
+            title: 'Австралия.Рыбы большого Рифа',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=ilu5QUw8DIM',
+            img: "youtube",
+            type: "video",
+            title: 'Озеро Гиппсленд (Австралия)',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=i_Nyar2hXmw',
+            img: "youtube",
+            type: "video",
+            title: 'Кенгуру в Австралии',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=_d2iDm906Z8',
+            img: "youtube",
+            type: "video",
+            title: 'Fishing in the Norway',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=yFP0RfvbOB4',
+            img: "youtube",
+            type: "video",
+            title: 'Что бы произошло если бы вы засунули голову в микроволновку?',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=0elCayd0G5w',
+            img: "youtube",
+            type: "video",
+            title: 'Что будет если Земля останется без кислорода на 5 секунд?',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
+            url: 'https://www.youtube.com/watch?v=kPtxNAAOlAI',
+            img: "youtube",
+            type: "video",
+            title: 'что вышло когда залили раскаленный алюминий в муравейник?',
+            source: "www.youtube.com"
+        };
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=J1MMmpDwv0A',
+            img: "youtube",
+            type: "video",
+            title: 'что если пощекотать пингвина?',
+            source: "www.youtube.com"
+        };
+        ar[45] = {
+            url: 'https://www.youtube.com/watch?v=IhW_3AqIrI8',
+            img: "youtube",
+            type: "video",
+            title: 'Что будет если брызнуть дезодорант в бутылку и поджечь',
+            source: "www.youtube.com"
+        };
+        ar[46] = {
+            url: 'https://www.youtube.com/watch?v=DCNgw5rBuIY',
+            img: "youtube",
+            type: "video",
+            title: 'Люди получают по заслугам',
+            source: "www.youtube.com"
+        };
+        ar[47] = {
+            url: 'https://www.youtube.com/watch?v=eCbWuu7jb50',
+            img: "youtube",
+            type: "video",
+            title: 'Что будет если напугать мопса(собаку)',
+            source: "www.youtube.com"
+        };
+        ar[48] = {
+            url: 'https://www.youtube.com/watch?v=jiXoyE3-FLk',
+            img: "youtube",
+            type: "video",
+            title: 'что будет если в стиральную машинку засунуть фейерверк?',
+            source: "www.youtube.com"
+        };
     }
-    if (taskId == 1140610 || taskId == 333262 || taskId == 294721) {
+    if (taskId == 294721) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=QJMGJiNsTiE',
+            img: "youtube",
+            type: "video",
+            title: 'Спектакль в детском саду',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=xzrD_Ckw6F8',
+            img: "youtube",
+            type: "video",
+            title: 'Конкретный захват',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=Yh4wLyXyjKQ',
+            img: "youtube",
+            type: "video",
+            title: 'Стена Дербентской крепости',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=IW3NOdVVjp0',
+            img: "youtube",
+            type: "video",
+            title: 'Singing fountains of Yerevan. Երգող շատրվաններ. Поющие фонтаны',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=YtzkRnRAAJM',
+            img: "youtube",
+            type: "video",
+            title: 'Autoremtv. Кузовной ремонт Lada Granta',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=ycI9zWSr2c4',
+            img: "youtube",
+            type: "video",
+            title: 'Лезгинка на улице',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=eNI_k8Q2MW4',
+            img: "youtube",
+            type: "video",
+            title: 'Лезгиночка!',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=8Ex_dVZLl48',
+            img: "youtube",
+            type: "video",
+            title: 'Музей культуры народов 2 часть',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=p1Zo28RyPRw',
+            img: "youtube",
+            type: "video",
+            title: 'The Museum culture of the peoples',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=dJfwQWAol98',
+            img: "youtube",
+            type: "video",
+            title: 'Музей культуры народов',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=rQ8Vhv-ZJqo',
+            img: "youtube",
+            type: "video",
+            title: 'Autoremtv. Наненсение пудры и зачистка финишная',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=MfvB9023MEM',
+            img: "youtube",
+            type: "video",
+            title: 'Пособие от Autoremtv. Нанесение шпаклевки',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=CQGZUeIlPrA',
+            img: "youtube",
+            type: "video",
+            title: 'Наш голубоглазый малыш',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=weG7ZGpw5SE',
+            img: "youtube",
+            type: "video",
+            title: 'Autoremtv. Обклеенная деталь для грунтования',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=RKpfmmx981k',
+            img: "youtube",
+            type: "video",
+            title: 'Autoremtv. Образец работы спотером',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=tQ4nwjGrYi4',
+            img: "youtube",
+            type: "video",
+            title: 'Отдых на катамаране. Анапа',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=2_dxPR8TN04',
+            img: "youtube",
+            type: "video",
+            title: 'Экстремальный аттракцион в России',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=qLAB3AUtk2s',
+            img: "youtube",
+            type: "video",
+            title: 'Подводный мир. Крабы. Crabs',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=EGS_AyMXauA',
+            img: "youtube",
+            type: "video",
+            title: 'Дорога на Дербентскую крепость',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=zTA9jhjtagQ',
+            img: "youtube",
+            type: "video",
+            title: 'Дорога на Юг России. The road to the South of Russia',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=61wS8S6A1cU',
+            img: "youtube",
+            type: "video",
+            title: 'Autoremtv. Зачищенная шпаклёвка',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=-wXmLyhxSVU',
+            img: "youtube",
+            type: "video",
+            title: 'Autoremtv. Подготовка к нанесению шпаклевки.',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=EGykKUUgub4',
+            img: "youtube",
+            type: "video",
+            title: 'Подводный мир. Скаты',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=s2zqu8FtlHc',
+            img: "youtube",
+            type: "video",
+            title: 'Парни круто танцуют!',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=hB8-7AhzKcE',
+            img: "youtube",
+            type: "video",
+            title: 'СМОТРЕТЬ ВСЕМ!!! Вот такое у нас “чистое“ море!!!',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=fkktqOWQQAY',
+            img: "youtube",
+            type: "video",
+            title: 'Карусель для любителей адреналина',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=649zgOZBfW4',
+            img: "youtube",
+            type: "video",
+            title: 'Карусель “Лавица“',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=sMSpAbNBRqQ',
+            img: "youtube",
+            type: "video",
+            title: 'Зоотеррариум в Питере  Кто ето؟ what is it؟',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=YUwOIAFAIpA',
+            img: "youtube",
+            type: "video",
+            title: 'Деталь готова к покраске. Кузовной ремонт Autoremtv',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=6X6srw8UN2A',
+            img: "youtube",
+            type: "video",
+            title: 'Вытягивание мелких вмятин на пороге от Autoremtv',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=PDxLmN6GkSc',
+            img: "youtube",
+            type: "video",
+            title: 'Аттракцион Freestyle',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=J7ozQrQBtv4',
+            img: "youtube",
+            type: "video",
+            title: 'В поисках Немо  Finding Nemo',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=fvOBCT8WYp8',
+            img: "youtube",
+            type: "video",
+            title: 'Аквариум с интересными рыбками',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=PPYiImCTTN8',
+            img: "youtube",
+            type: "video",
+            title: 'Алмазный фазан',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=3sqlGCRRI_A',
+            img: "youtube",
+            type: "video",
+            title: 'Дикобразный тихий час',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=1vqsVNw5czo',
+            img: "youtube",
+            type: "video",
+            title: 'Весёлая обезьянка',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=4hj-DgR6Awg',
+            img: "youtube",
+            type: "video",
+            title: 'Нетронутая людьми природа',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=qoUSygr6eJE',
+            img: "youtube",
+            type: "video",
+            title: 'Интересные попугаи',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=jgllJKeyVbI',
+            img: "youtube",
+            type: "video",
+            title: 'Классные мордашки',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=Gy_wkq1MZCY',
+            img: "youtube",
+            type: "video",
+            title: 'Приютили медвежонка',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=kPDgXhujpcM',
+            img: "youtube",
+            type: "video",
+            title: 'Проверка силы удара',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=jpdqRvdkWqY',
+            img: "youtube",
+            type: "video",
+            title: 'Страус в зоопарке',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=pAs_VuVGKmY',
+            img: "youtube",
+            type: "video",
+            title: 'Азиатский дикобраз в зоопарке',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1140610 || taskId == 333262) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=fc4Fz6rQKCA',
             img: "youtube",

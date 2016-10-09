@@ -270,6 +270,7 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("1233824", "https://www.youtube.com/channel/UC_yM4b6pkT7h5CgogFRbmag/videos");
 		urlMap.put("1205301", "https://www.youtube.com/channel/UC48DURvA0KtM6-_ldH7f_bg/videos");
 		urlMap.put("1222315", "https://www.youtube.com/channel/UCpUzGFdYx19IfkeFIJx5vtA/videos");
+		urlMap.put("1325365", "https://www.youtube.com/channel/UCpUzGFdYx19IfkeFIJx5vtA/videos");
 		urlMap.put("543675", "https://www.youtube.com/channel/UCTT-ZDMuF3paZeR61ia9ZFw/videos");
 		urlMap.put("1200264", "https://www.youtube.com/channel/UCk61G6NRiifQpujHr-CqyIQ/videos");
 		urlMap.put("1215689", "https://www.youtube.com/channel/UCvDwXFtZKRUCzou9IfWrYDA/videos");
@@ -321,6 +322,8 @@ public class LinkVideoServlet extends HttpServlet {
 
 		urlMap.put("80880", "https://www.youtube.com/channel/UCIkBLbS31V2GyK6E_ea3hGA/videos");
 		urlMap.put("65475", "https://www.youtube.com/channel/UCARzipUZ6HDp7APES_1TAOw/videos");
+
+		urlMap.put("1264118", "https://www.youtube.com/channel/UCtgXNkU78oG-6jYpLb3tVWg/videos");
 
 
 

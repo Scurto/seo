@@ -182,7 +182,7 @@ $(document).ready(function() {
 		}else if
 		(item == 72688) {
 			$('#taskId').val(72688);
-			$('#countOfVideo').val(15);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(2);
 			$('#betweenVideo').val(61);
@@ -604,7 +604,7 @@ $(document).ready(function() {
 		}else if
 		(item == 75641) {
 			$('#taskId').val(75641);
-			$('#countOfVideo').val(15);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
 			$('#betweenVideo').val(61);
@@ -636,8 +636,8 @@ $(document).ready(function() {
 		}else if
 		(item == 294721) {
 			$('#taskId').val(294721);
-			$('#countOfVideo').val(30);
-			$('#countOfReklama').val(4);
+			$('#countOfVideo').val(36);
+			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
 			$('#betweenVideo').val(45);
 			$('#betweenReklama').val(45);
@@ -2018,7 +2018,7 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
-		}else if (taskId == 1140610 || taskId == 333262 || taskId == 294721) {
+		}else if (taskId == 1140610 || taskId == 333262) {
 			var whoer = getDefaultWhoer();
 			var google = {
 				title: request + " - Поиск в Google",
@@ -2027,6 +2027,17 @@ $('#clear-browsing-data').click(function(event) {
 				source: "www.google.com"
 			};
 			var youtube = getDefaultYouTube("Galina Margaryan - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 294721) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+
+			var youtube = getDefaultYouTube("Philip Persian - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
@@ -2071,14 +2082,14 @@ $('#clear-browsing-data').click(function(event) {
 				img: "youtube",
 				source: "www.youtube.com"
 			};
-			var youtube1 = getDefaultYouTube("Serhii Tsinyk - YouTube");
+			var youtube2 = getDefaultYouTube("Serhii Tsinyk - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
 
 			etalonArray.push(whoer);
-			etalonArray.push(youtube);
 			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
 		} else if (taskId == 343923) {
 			var whoer = getDefaultWhoer();
 			var google = {
@@ -2679,6 +2690,7 @@ $('#clear-browsing-data').click(function(event) {
 			//} else {
 			//	sec = sec + 25;
 			//}
+			console.log("etalonaArray", etalonArray);
 
 			if (etalonArray[i].type == 'reklama') {
 				sec = sec + Number(betweenReklama);
