@@ -3486,7 +3486,7 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 73136 || taskId == 76310) {
+    if (taskId == 73136 || taskId == 76310 || taskId == 75898) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=KSWdPignmnU',
             img: "youtube",
@@ -7448,213 +7448,353 @@ function getVideo(taskId) {
     }
     if (taskId == 78167 || taskId == 1136480) {
         ar[0] = {
+            url: 'https://www.youtube.com/watch?v=guktAfX2mLE',
+            img: "youtube",
+            type: "video",
+            title: 'Management of a lamp from two switches. Управление лампой от двух выключателей',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=wTqO4tylUqk',
+            img: "youtube",
+            type: "video",
+            title: 'The fan in a vegetable storehouse. Вентилятор в овощехранилище.',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=gTmdcemtoXU',
+            img: "youtube",
+            type: "video",
+            title: 'Live and learn. Век живи - век учись.',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=wNJo2JMg2x8',
+            img: "youtube",
+            type: "video",
+            title: 'we remove a heating radiator. Снимаем радиатор отопления',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=a3eyqOetwBg',
+            img: "youtube",
+            type: "video",
+            title: 'Repair of the crane of mayevsky. Ремонт крана маевского',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=7P2yZBa3KS0',
+            img: "youtube",
+            type: "video",
+            title: 'repair of the electric fan. ремонт вентилятора на батарейках',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=2UIahtjlGlQ',
+            img: "youtube",
+            type: "video",
+            title: 'Сбор дождевой воды с крыши в бочку',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=dFbecGc3zCU',
+            img: "youtube",
+            type: "video",
+            title: 'borehole. Скважина',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=zm4wwCY3l1Y',
+            img: "youtube",
+            type: "video",
+            title: 'Развлекаем гостей 3',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
             url: 'https://www.youtube.com/watch?v=v8OHI5oLD00',
             img: "youtube",
             type: "video",
             title: 'развлекаем гостей 2',
             source: "www.youtube.com"
         };
-        ar[1] = {
+        ar[10] = {
             url: 'https://www.youtube.com/watch?v=TWYfb8Eeecg',
             img: "youtube",
             type: "video",
             title: 'желтеют листья огурцов',
             source: "www.youtube.com"
         };
-        ar[2] = {
+        ar[11] = {
             url: 'https://www.youtube.com/watch?v=tVzh1ho1PW0',
             img: "youtube",
             type: "video",
             title: 'Выкладываем дорожку во дворе',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[12] = {
             url: 'https://www.youtube.com/watch?v=4BwOV7hYwJA',
             img: "youtube",
             type: "video",
             title: 'Готовим грядку под огурцы',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[13] = {
             url: 'https://www.youtube.com/watch?v=hff4IDfvB7A',
             img: "youtube",
             type: "video",
             title: 'Ранняя клубника  Результат',
             source: "www.youtube.com"
         };
-        ar[5] = {
+        ar[14] = {
             url: 'https://www.youtube.com/watch?v=SGwSrXSi97w',
             img: "youtube",
             type: "video",
             title: 'Ландыши в центре города',
             source: "www.youtube.com"
         };
-        ar[6] = {
+        ar[15] = {
             url: 'https://www.youtube.com/watch?v=tounfvdyxgw',
             img: "youtube",
             type: "video",
             title: 'Замена батарейки в ключе автомобиля',
             source: "www.youtube.com"
         };
-        ar[7] = {
+        ar[16] = {
             url: 'https://www.youtube.com/watch?v=NkHr81f--HQ',
             img: "youtube",
             type: "video",
             title: 'Ремонт воздушного фильтра культиватора',
             source: "www.youtube.com"
         };
-        ar[8] = {
+        ar[17] = {
             url: 'https://www.youtube.com/watch?v=7gA2COmpcrM',
             img: "youtube",
             type: "video",
             title: 'Развлекаем гостей',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[18] = {
             url: 'https://www.youtube.com/watch?v=69iYc2ifdNI',
             img: "youtube",
             type: "video",
             title: 'Не работает видеорегистратор',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[19] = {
             url: 'https://www.youtube.com/watch?v=SD7WAIwQphM',
             img: "youtube",
             type: "video",
             title: 'Ранняя клубника. Этап 2.',
             source: "www.youtube.com"
         };
-        ar[11] = {
+        ar[20] = {
             url: 'https://www.youtube.com/watch?v=hP--QK6Jmnk',
             img: "youtube",
             type: "video",
             title: 'Полка для рассады в теплице',
             source: "www.youtube.com"
         };
-        ar[12] = {
+        ar[21] = {
             url: 'https://www.youtube.com/watch?v=SuI4Dmhw1h8',
             img: "youtube",
             type: "video",
             title: 'Russian military equipment. Военная техника',
             source: "www.youtube.com"
         };
-        ar[13] = {
+        ar[22] = {
             url: 'https://www.youtube.com/watch?v=xwQLmtQ0ob8',
             img: "youtube",
             type: "video",
             title: 'Сборка и установка "Умного дома" в кабель-канал',
             source: "www.youtube.com"
         };
-        ar[14] = {
+        ar[23] = {
             url: 'https://www.youtube.com/watch?v=E92j4_3x0ao',
             img: "youtube",
             type: "video",
             title: 'Умный дом на ESP8266. 2 канала освещения',
             source: "www.youtube.com"
         };
-        ar[15] = {
+        ar[24] = {
             url: 'https://www.youtube.com/watch?v=27PaYw6PqTs',
             img: "youtube",
             type: "video",
-            title: 'Баскетбол  Буй Кострома 2',
+            title: 'Баскетбол  Буй Кострома 2. Basketball tournament',
             source: "www.youtube.com"
         };
-        ar[16] = {
+        ar[25] = {
             url: 'https://www.youtube.com/watch?v=JeWtqxsAuuE',
             img: "youtube",
             type: "video",
-            title: 'Баскетбол  Буй Кострома  1',
+            title: 'Basketball tournament. Баскетбол  Буй Кострома  1',
             source: "www.youtube.com"
         };
-        ar[17] = {
+        ar[26] = {
             url: 'https://www.youtube.com/watch?v=J2nXglZI7kA',
             img: "youtube",
             type: "video",
             title: 'We put bloodsuckers. Обработка ран после гирудотерапии',
             source: "www.youtube.com"
         };
-        ar[18] = {
+        ar[27] = {
             url: 'https://www.youtube.com/watch?v=2lDboX3Z-O4',
             img: "youtube",
             type: "video",
             title: 'We put bloodsuckers. Снимаем пиявок',
             source: "www.youtube.com"
         };
-        ar[19] = {
+        ar[28] = {
             url: 'https://www.youtube.com/watch?v=3yxA4EbPmEw',
             img: "youtube",
             type: "video",
             title: 'We put bloodsuckers. Ставим пиявок',
             source: "www.youtube.com"
         };
-        ar[20] = {
+        ar[29] = {
             url: 'https://www.youtube.com/watch?v=tmF5IIocIXQ',
             img: "youtube",
             type: "video",
             title: 'We put bloodsuckers. Ставим пиявок. Подготовка',
             source: "www.youtube.com"
         };
-        ar[21] = {
+        ar[30] = {
             url: 'https://www.youtube.com/watch?v=2W0TYdMpMso',
             img: "youtube",
             type: "video",
             title: 'Все хотят кататься',
             source: "www.youtube.com"
         };
-        ar[22] = {
+        ar[31] = {
             url: 'https://www.youtube.com/watch?v=UkRhDI1AM-s',
             img: "youtube",
             type: "video",
             title: 'Russian Maslenitsa. Win prize',
             source: "www.youtube.com"
         };
-        ar[23] = {
+        ar[32] = {
             url: 'https://www.youtube.com/watch?v=a_RdPLPUibM',
             img: "youtube",
             type: "video",
             title: 'Russian Maslenitsa. Dances',
             source: "www.youtube.com"
         };
-        ar[24] = {
+        ar[33] = {
             url: 'https://www.youtube.com/watch?v=12wpUXg9K8w',
             img: "youtube",
             type: "video",
             title: 'Russian Maslenitsa. Effigy of winter',
             source: "www.youtube.com"
         };
-        ar[25] = {
+        ar[34] = {
             url: 'https://www.youtube.com/watch?v=CyTzNikGfjY',
             img: "youtube",
             type: "video",
             title: 'Russian Maslenitsa. Songs',
             source: "www.youtube.com"
         };
-        ar[26] = {
+        ar[35] = {
             url: 'https://www.youtube.com/watch?v=CMnh7_oIDaA',
             img: "youtube",
             type: "video",
-            title: 'фонарик  шокер, ремонт',
+            title: 'repair of an electric small lamp - a shocker. фонарик  шокер, ремонт',
             source: "www.youtube.com"
         };
-        ar[27] = {
+        ar[36] = {
             url: 'https://www.youtube.com/watch?v=CD2gJVfXVvU',
             img: "youtube",
             type: "video",
             title: 'Ранняя клубника. Этап 1. Готовим емкость',
             source: "www.youtube.com"
         };
-        ar[28] = {
+        ar[37] = {
             url: 'https://www.youtube.com/watch?v=Lg85rU_c4Ug',
             img: "youtube",
             type: "video",
             title: 'установка premier pro',
             source: "www.youtube.com"
         };
-        ar[29] = {
+        ar[38] = {
             url: 'https://www.youtube.com/watch?v=flWvMTxQ4s8',
             img: "youtube",
             type: "video",
             title: 'Спорт - ты жизнь Волейбол 2',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=8ECajQOm4eM',
+            img: "youtube",
+            type: "video",
+            title: 'Спорт - ты жизнь  Волейбол 1',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=qYr4Dmpfl44',
+            img: "youtube",
+            type: "video",
+            title: '"Конец света"',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=6np2WthsO8s',
+            img: "youtube",
+            type: "video",
+            title: 'Резьба по дереву 2',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=ahTIzZte_B0',
+            img: "youtube",
+            type: "video",
+            title: 'Резьба по дереву 1',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
+            url: 'https://www.youtube.com/watch?v=zZOw4SyLeh4',
+            img: "youtube",
+            type: "video",
+            title: 'Деревянные скульптуры',
+            source: "www.youtube.com"
+        };
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=BWes7QGZxn8',
+            img: "youtube",
+            type: "video",
+            title: 'Хочешь - не хочешь, а съешь!!!',
+            source: "www.youtube.com"
+        };
+        ar[45] = {
+            url: 'https://www.youtube.com/watch?v=lvl4vNHLyeY',
+            img: "youtube",
+            type: "video",
+            title: 'Грозные псы',
+            source: "www.youtube.com"
+        };
+        ar[46] = {
+            url: 'https://www.youtube.com/watch?v=YzZiidY9ni8',
+            img: "youtube",
+            type: "video",
+            title: 'Забавные котята (2)',
+            source: "www.youtube.com"
+        };
+        ar[47] = {
+            url: 'https://www.youtube.com/watch?v=9nxgBXF-w-w',
+            img: "youtube",
+            type: "video",
+            title: 'забавные котята',
+            source: "www.youtube.com"
+        };
+        ar[48] = {
+            url: 'https://www.youtube.com/watch?v=wsljbEsnktA',
+            img: "youtube",
+            type: "video",
+            title: 'Как убрать баннер',
+            source: "www.youtube.com"
+        };
+        ar[49] = {
+            url: 'https://www.youtube.com/watch?v=Q0XI9gxBVnQ',
+            img: "youtube",
+            type: "video",
+            title: 'Разбить жесткий диск  OS Windows 7',
             source: "www.youtube.com"
         };
     }

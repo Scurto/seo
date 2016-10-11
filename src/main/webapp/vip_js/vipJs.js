@@ -2150,7 +2150,7 @@ $(document).ready(function() {
 		}else if
 		(item == 76487) {
 			$('#taskIdVip').val(76487);
-			$('#countOfVideo').val(4);
+			$('#countOfVideo').val(7);
 			$('#countOfReklama').val(2);
 			$('#countOfMove').val(3);
 		}else if

@@ -87,6 +87,7 @@ $(document).ready(function() {
 		"189660",
 		"280863",
 		"73136",
+		"75898",
 		"76310",
 		"75739",
 		"69628",
@@ -380,6 +381,14 @@ $(document).ready(function() {
 		}else if
 		(item == 73136) {
 			$('#taskId').val(73136);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(40);
+			$('#betweenReklama').val(40);
+		}else if
+		(item == 75898) {
+			$('#taskId').val(75898);
 			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
@@ -1150,9 +1159,10 @@ $(document).ready(function() {
 			connArray.push(280863);
 			connArray.push(347151);
 			connArray.push(329632);
-		} else if (taskId == 73136 || taskId == 76310) {
+		} else if (taskId == 73136 || taskId == 76310 || taskId == 75898) {
 			connArray.push(73136);
 			connArray.push(76310);
+			connArray.push(75898);
 		} else if (taskId == 75739 || taskId == 78626 || taskId == 80348) {
 			connArray.push(75739);
 			connArray.push(78626);
@@ -1741,7 +1751,7 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
-		} else if (taskId == 73136 || taskId == 76310) {
+		} else if (taskId == 73136 || taskId == 76310 || taskId == 75898) {
 			//var whoer = {
 			//	title: "Узнать свой IP адрес",
 			//	type: "def",
