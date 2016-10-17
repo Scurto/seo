@@ -253,11 +253,11 @@ $(document).ready(function() {
 		}else if
 		(item == 68148) {
 			$('#taskId').val(68148);
-			$('#countOfVideo').val(16);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(4);
-			$('#betweenVideo').val(61);
-			$('#betweenReklama').val(61);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
 		}else if
 		(item == 71431) {
 			$('#taskId').val(71431);
@@ -501,8 +501,8 @@ $(document).ready(function() {
 		}else if
 		(item == 79016) {
 			$('#taskId').val(79016);
-			$('#countOfVideo').val(18);
-			$('#countOfReklama').val(4);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
 			$('#betweenVideo').val(45);
 			$('#betweenReklama').val(45);
@@ -589,7 +589,15 @@ $(document).ready(function() {
 		}else if
 		(item == 1093511) {
 			$('#taskId').val(1093511);
-			$('#countOfVideo').val(18);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(7);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 1270671) {
+			$('#taskId').val(1270671);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(7);
 			$('#countOfMove').val(3);
 			$('#betweenVideo').val(61);
@@ -1200,11 +1208,12 @@ $(document).ready(function() {
 			connArray.push(1021308);
 		} else if (taskId == 1247748) {
 			connArray.push(1247748);
-		} else if (taskId == 1090888 || taskId == 1057980 || taskId == 1093511 || taskId == 1022890) {
+		} else if (taskId == 1090888 || taskId == 1057980 || taskId == 1093511 || taskId == 1022890 || taskId == 1270671) {
 			connArray.push(1090888);
 			connArray.push(1057980);
 			connArray.push(1093511);
 			connArray.push(1022890);
+			connArray.push(1270671);
 		} else if (taskId == 78167 || taskId == 1136480) {
 			connArray.push(78167);
 			connArray.push(1136480);
@@ -1950,6 +1959,23 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
+		}else if (taskId == 1270671) {
+			var whoer = getDefaultWhoer();
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("the show of old games - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
 		}else if (taskId == 75641) {
 			var whoer = getDefaultWhoer();
 			var youtube = {
@@ -2386,7 +2412,7 @@ $('#clear-browsing-data').click(function(event) {
 			$("#forGoogle").modal('show');
 			etalonArray.push(google);
 			etalonArray.push(youtube);
-		}else if (taskId == 1128139 || taskId == 79016 || taskId == 335972) {
+		}else if (taskId == 1128139 || taskId == 335972) {
 			var google = {
 				title: request + " - Поиск в Google",
 				type: "def",
@@ -2402,7 +2428,7 @@ $('#clear-browsing-data').click(function(event) {
 			$("#forGoogle").modal('show');
 			etalonArray.push(google);
 			etalonArray.push(youtube);
-		}else if (taskId == 288151) {
+		}else if (taskId == 288151 || taskId == 79016) {
 			var google = {
 				title: request + " - Поиск в Google",
 				type: "def",

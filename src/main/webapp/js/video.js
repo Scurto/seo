@@ -5626,7 +5626,7 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 288151) {
+    if (taskId == 288151 || taskId == 79016) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=uYPNE7yaQtk',
             img: "youtube",
@@ -5775,7 +5775,7 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 1128139 || taskId == 79016 || taskId == 335972) {
+    if (taskId == 1128139 || taskId == 335972) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=URzNXw5GpzU',
             img: "youtube",
@@ -7909,6 +7909,225 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: 'DE Cars Passat - VW Passat B1',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1270671) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=EAdj1utOF_I',
+            img: "youtube",
+            type: "video",
+            title: 'Aladdin (PС DOS)',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=xUzKqZBZ67A',
+            img: "youtube",
+            type: "video",
+            title: 'The way of the exploding fist (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=d9GzGvRvu4k',
+            img: "youtube",
+            type: "video",
+            title: 'Bronx Street Cop (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=QpS-lEBRPVk',
+            img: "youtube",
+            type: "video",
+            title: 'Target Renegade (part 3) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=JmGAk5sBLNc',
+            img: "youtube",
+            type: "video",
+            title: 'Target Renegade (part 2) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=C2bFEhZACf4',
+            img: "youtube",
+            type: "video",
+            title: 'Target Renegade (part 1) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=YhzTBHpAz6c',
+            img: "youtube",
+            type: "video",
+            title: 'Commando (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=jovDUiBQOKs',
+            img: "youtube",
+            type: "video",
+            title: 'RAMBO First blood part II (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=Ep2ROZT8jLs',
+            img: "youtube",
+            type: "video",
+            title: 'Glug Glug (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=tMYLorXfC5M',
+            img: "youtube",
+            type: "video",
+            title: 'Frost Byte (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=x6cJ5PPWf1U',
+            img: "youtube",
+            type: "video",
+            title: 'Bosconian (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=cD9NZ1qkMdA',
+            img: "youtube",
+            type: "video",
+            title: 'Yie-Ar-Kung Fu (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=_Q1bXrelgrI',
+            img: "youtube",
+            type: "video",
+            title: 'Bruce Lee (part 2) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=kYlPYJZT8L8',
+            img: "youtube",
+            type: "video",
+            title: 'Bruce Lee (part 1) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=AyXD7xpG1zo',
+            img: "youtube",
+            type: "video",
+            title: 'Tetris (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=3H5VIUR44IM',
+            img: "youtube",
+            type: "video",
+            title: 'Krakout (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=XGdiTZAMlTc',
+            img: "youtube",
+            type: "video",
+            title: 'Mario Bros (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=u8JxAcmQ3Es',
+            img: "youtube",
+            type: "video",
+            title: 'Boulder Dash (часть 2) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=6tcDutGmKyU',
+            img: "youtube",
+            type: "video",
+            title: 'Boulder Dash (часть 1) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=CEMXCxeynFQ',
+            img: "youtube",
+            type: "video",
+            title: 'R-Type (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=tAGsNuf2xGI',
+            img: "youtube",
+            type: "video",
+            title: 'Batty (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=8IWk03Zm-yY',
+            img: "youtube",
+            type: "video",
+            title: 'River Raid (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=9G9NiabwcR4',
+            img: "youtube",
+            type: "video",
+            title: 'Lode Runner (часть 8) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=njDC3VnYJkw',
+            img: "youtube",
+            type: "video",
+            title: 'Lode Runner (часть 7) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=ow_-0AWcVOA',
+            img: "youtube",
+            type: "video",
+            title: 'Lode Runner (часть 6) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=Yt540taZc8I',
+            img: "youtube",
+            type: "video",
+            title: 'Lode Runner (часть 5) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=ZztAXKB-1d8',
+            img: "youtube",
+            type: "video",
+            title: 'Lode Runner (часть 4) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=eX7m28rhU7o',
+            img: "youtube",
+            type: "video",
+            title: 'Lode Runner (часть 3) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=sPe0YVSH9CU',
+            img: "youtube",
+            type: "video",
+            title: 'Lode Runner (часть 2) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=Uf3TSKNL1yg',
+            img: "youtube",
+            type: "video",
+            title: 'Lode Runner (часть 1) (ZX Spectrum)',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=RPWGYqCzG1M',
+            img: "youtube",
+            type: "video",
+            title: 'Трейлер / Тrailer',
             source: "www.youtube.com"
         };
     }

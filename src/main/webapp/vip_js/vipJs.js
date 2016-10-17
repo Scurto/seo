@@ -515,6 +515,7 @@ $(document).ready(function() {
 		"1220946",
 		"1252229",
 		"1264118",
+		"1242716",
 		"1065512",
 		"1066614",
 		"1087773",
@@ -1654,6 +1655,12 @@ $(document).ready(function() {
 			$('#countOfVideo').val(13);
 			$('#countOfReklama').val(2);
 			$('#countOfMove').val(4);
+		}else if
+		(item == 1242716) {
+			$('#taskIdVip').val(1242716);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(2);
 		}
 	}
 
@@ -2552,6 +2559,8 @@ $(document).ready(function() {
 			connArray.push(80880);
 		} else if (taskId == 1264118) {
 			connArray.push(1264118);
+		} else if (taskId == 1242716) {
+			connArray.push(1242716);
 		}
 		addTextInSosediReklam(connArray)
 	};
