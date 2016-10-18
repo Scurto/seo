@@ -95,4 +95,33 @@ public class Parser {
         Collections.shuffle(listById);
         return listById;
     }
+
+    public ArrayList<String> getVideoDescription(String[] urls, int count) {
+        ArrayList<String> listById = new ArrayList<>();
+        for(int i =0; i < count; i++) {
+            Document doc = null;
+            try {
+                doc = Jsoup.connect(urls[i]).get();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            String title = doc.title();
+            String body = doc.html();
+
+            Element content = doc.getElementById("eow-description");
+
+            System.out.println(content.text());
+            listById.add(content.text());
+//            listById.add(myText);
+        }
+
+
+
+
+//        for (int x = 0; x < count; x++) {
+//            listById.add(fullVideoList.get(x));
+//        }
+//        Collections.shuffle(listById);
+        return listById;
+    }
 }

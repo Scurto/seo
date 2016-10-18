@@ -107,22 +107,77 @@ $(document).ready(function() {
 			//	baseArray.push(video[ran1]);
 			//	video.splice(ran1, 1);
 			//}
-			$.ajax({
-				type: "POST",
-				url: "/getLinkVideo",
-				async: false,
-				data: dataJson,
-				success: function(json) {
-					//hour = json.hour;
-					//minute = json.minute;
-					//
-					//$('#timeHour').val(hour);
-					//$('#timeMinute').val(minute);
+			if (taskId != 1200264) {
+				$.ajax({
+					type: "POST",
+					url: "/getLinkVideo",
+					async: false,
+					data: dataJson,
+					success: function(json) {
+						//hour = json.hour;
+						//minute = json.minute;
+						//
+						//$('#timeHour').val(hour);
+						//$('#timeMinute').val(minute);
 
-					baseArray = json.video;
-				},
-				dataType: "json"
-			});
+						baseArray = json.video;
+					},
+					dataType: "json"
+				});
+			} else {
+
+				var youtubeChannelId;
+				if (taskId == 1200264) {
+					youtubeChannelId = "UCk61G6NRiifQpujHr-CqyIQ";
+				}
+				$.get("https://www.googleapis.com/youtube/v3/search", {
+					part: "snippet",
+					//forUsername: channelName,
+					channelId: youtubeChannelId,
+					async: false,
+					maxResults: 50,
+					order: "date",
+					key: 'AIzaSyD4uG1sdLHryZMwVDnUQBXXIdvGhAtGquA'}, function(data) {
+					var fullLinkVideoArray = [];
+
+					$.each(data.items, function(i, item) {
+
+						if (item.id.videoId != undefined) {
+							var linkTitle = item.snippet.title;
+							var  linkHref = item.id.videoId;
+							var  linkDescription = item.snippet.description;
+							//console.log("linkDescription", linkDescription);
+							//console.log("item", item);
+
+							var fullLink = "https://www.youtube.com/watch?v=" + linkHref;
+							fullLinkVideoArray.push(fullLink);
+						}
+					});
+					console.log('fullLinkVideoArray', fullLinkVideoArray);
+					var dataJson = {
+						array: fullLinkVideoArray,
+						count: countOfVideo
+					};
+					$.ajax({
+						type: "POST",
+						url: "/getDescriptionVideo",
+						async: false,
+						data: dataJson,
+						success: function(json) {
+							//hour = json.hour;
+							//minute = json.minute;
+							//
+							//$('#timeHour').val(hour);
+							//$('#timeMinute').val(minute);
+
+							baseArray = json.video;
+							console.log('baseArray', baseArray);
+						},
+						dataType: "json"
+					});
+				});
+			}
+
 
 
 			//var foreignFlag = $('#foreignVideo').prop("checked");
@@ -1430,9 +1485,9 @@ $(document).ready(function() {
 		}else if
 		(item == 1200264) {
 			$('#taskIdVip').val(1200264);
-			$('#countOfVideo').val(20);
-			$('#countOfReklama').val(3);
-			$('#countOfMove').val(3);
+			$('#countOfVideo').val(8);
+			$('#countOfReklama').val(8);
+			$('#countOfMove').val(1);
 		}else if
 		(item == 1215689) {
 			$('#taskIdVip').val(1215689);
