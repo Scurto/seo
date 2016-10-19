@@ -110,12 +110,15 @@ $(document).ready(function() {
 		"1189678",
 		"1270064",
 		"1178491",
+		"352243",
 		"1021308",
+		"1326194",
 		"1247748",
 		"1090888",
 		"1057980",
 		"1022890",
 		"1093511",
+		"1270669",
 		"78167",
 		"1136480",
 		"78182",
@@ -441,16 +444,16 @@ $(document).ready(function() {
 			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(4);
-			$('#betweenVideo').val(61);
-			$('#betweenReklama').val(61);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
 		}else if
 		(item == 68507) {
 			$('#taskId').val(68507);
 			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
-			$('#betweenVideo').val(61);
-			$('#betweenReklama').val(61);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
 		}else if
 		(item == 1092046) {
 			$('#taskId').val(1092046);
@@ -540,8 +543,24 @@ $(document).ready(function() {
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
+		(item == 352243) {
+			$('#taskId').val(352243);
+			$('#countOfVideo').val(25);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
 		(item == 1021308) {
 			$('#taskId').val(1021308);
+			$('#countOfVideo').val(12);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 1326194) {
+			$('#taskId').val(1326194);
 			$('#countOfVideo').val(12);
 			$('#countOfReklama').val(2);
 			$('#countOfMove').val(3);
@@ -590,6 +609,14 @@ $(document).ready(function() {
 		}else if
 		(item == 1093511) {
 			$('#taskId').val(1093511);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(7);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 1270669) {
+			$('#taskId').val(1270669);
 			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(7);
 			$('#countOfMove').val(3);
@@ -1205,16 +1232,18 @@ $(document).ready(function() {
 			connArray.push(1178491);
 		} else if (taskId == 1189678) {
 			connArray.push(1189678);
-		} else if (taskId == 1021308) {
+		} else if (taskId == 1021308 || taskId == 1326194) {
 			connArray.push(1021308);
+			connArray.push(1326194);
 		} else if (taskId == 1247748) {
 			connArray.push(1247748);
-		} else if (taskId == 1090888 || taskId == 1057980 || taskId == 1093511 || taskId == 1022890 || taskId == 1270671) {
+		} else if (taskId == 1090888 || taskId == 1057980 || taskId == 1093511 || taskId == 1022890 || taskId == 1270671 || taskId == 1270669) {
 			connArray.push(1090888);
 			connArray.push(1057980);
 			connArray.push(1093511);
 			connArray.push(1022890);
 			connArray.push(1270671);
+			connArray.push(1270669);
 		} else if (taskId == 78167 || taskId == 1136480) {
 			connArray.push(78167);
 			connArray.push(1136480);
@@ -1236,6 +1265,8 @@ $(document).ready(function() {
 			connArray.push(1107884);
 		} else if (taskId == 1270064) {
 			connArray.push(1270064);
+		} else if (taskId == 352243) {
+			connArray.push(352243);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -1832,6 +1863,23 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(ip);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
+		}else if (taskId == 352243) {
+
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("Позови меня удача - YouTube");
+
+
+			$("#forGoogle").modal('show');
+
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
 		}else if (taskId == 1021308) {
 			var whoer = getDefaultWhoer();
 			var google = {
@@ -1841,6 +1889,21 @@ $('#clear-browsing-data').click(function(event) {
 				source: "www.google.com"
 			};
 			var youtube = getDefaultYouTube("Marik Tyminskiy - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1326194) {
+			var whoer = getDefaultWhoer();
+			var google = {
+				title: request + " - Поиск в Google",
+				type: "def",
+				img: "google",
+				source: "www.google.com"
+			};
+			var youtube = getDefaultYouTube("Epic Car Pictures - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
@@ -1953,6 +2016,23 @@ $('#clear-browsing-data').click(function(event) {
 			};
 			var youtube1 = getDefaultYouTube(request + " - YouTube");
 			var youtube2 = getDefaultYouTube("US auto industry - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
+		}else if (taskId == 1270669) {
+			var whoer = getDefaultWhoer();
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("my favorite console - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
@@ -2445,7 +2525,24 @@ $('#clear-browsing-data').click(function(event) {
 			$("#forGoogle").modal('show');
 			etalonArray.push(google);
 			etalonArray.push(youtube);
-		}else {
+		} else if (taskId == 70722 || taskId == 999896 || taskId == 189660 || taskId == 280863) {
+			var youtube = {
+				title: "Anatolievich - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+
+			var ip = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+
+			//$('#googleLink').text(linkText);
+			$("#forGoogle").modal('show');
+			etalonArray.push(ip);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+
+		} else {
 			var ip = {
 				title: "Узнать IP адрес",
 				type: "def",
@@ -2595,14 +2692,7 @@ $('#clear-browsing-data').click(function(event) {
 					img: "youtube",
 					source: "www.youtube.com"
 				};
-			} else if (taskId == 70722 || taskId == 999896 || taskId == 189660 || taskId == 280863) {
-				var youtube = {
-					title: "Anatolievich - YouTube",
-					type: "def",
-					img: "youtube",
-					source: "www.youtube.com"
-				};
-			} else if (taskId == 313536 || taskId == 347151) {
+			}  else if (taskId == 313536 || taskId == 347151) {
 				var youtube = {
 					title: "Household TV - YouTube",
 					type: "def",
