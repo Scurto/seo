@@ -2414,6 +2414,366 @@ function getLinkReklama() {
 		};
 	}  //
 
+	{
+		ar[60] = {
+			mainUrl: "http://shop.tso.com.ua/index.php?route=information/news?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://shop.tso.com.ua/index.php?route=product/category&path=20",
+					title: ""
+				},
+				url2: {
+					url: "http://shop.tso.com.ua/index.php?route=product/category&path=18",
+					title: ""
+				},
+				url3: {
+					url: "http://shop.tso.com.ua/index.php?route=product/category&path=25",
+					title: ""
+				},
+				url4: {
+					url: "http://shop.tso.com.ua/index.php?route=product/category&path=57",
+					title: ""
+				},
+				url5: {
+					url: "http://shop.tso.com.ua/index.php?route=product/category&path=76",
+					title: ""
+				},
+				url6: {
+					url: "http://shop.tso.com.ua/index.php?route=product/category&path=20_58",
+					title: ""
+				},
+				url7: {
+					url: "http://shop.tso.com.ua/index.php?route=product/special",
+					title: ""
+				}
+			},
+			img: "shop.tso",
+			type: "reklama",
+			source: "www.shop.tso.com.ua"
+		};
+	}  //
+
+	{
+		ar[61] = {
+			mainUrl: "http://www.maxxroyal.com/Hotels-ru?adwords_remarketing&gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.maxxroyal.com/Galereya",
+					title: ""
+				},
+				url2: {
+					url: "http://www.maxxroyal.com/royalty-ru",
+					title: ""
+				},
+				url3: {
+					url: "http://www.maxxroyal.com/rukovodstvo-po-ekspluatatsii",
+					title: ""
+				},
+				url4: {
+					url: "http://www.maxxroyal.com/Politika-konfidentsialnosti",
+					title: ""
+				},
+				url5: {
+					url: "http://www.maxxroyal.com/chelovecheskiye-resursy",
+					title: ""
+				},
+				url6: {
+					url: "http://www.maxxroyal.com/contact-ru",
+					title: ""
+				},
+				url7: {
+					url: "http://www.maxxroyal.com/Maxx-Royal-Hotel-Belek/S-jut-ru",
+					title: ""
+				}
+			},
+			img: "maxxroyal",
+			type: "reklama",
+			source: "www.maxxroyal.com"
+		};
+	}  //
+
+	{
+		ar[62] = {
+			mainUrl: "http://www.ailas.com.ua/novosti/o_klinike_AILAZ.html?from=ad&gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.ailas.com.ua/metody_lecheniya/lazernaya_korrekciya.html",
+					title: ""
+				},
+				url2: {
+					url: "http://www.ailas.com.ua/metody_lecheniya/hirurgiya_katarakty.html",
+					title: ""
+				},
+				url3: {
+					url: "http://www.ailas.com.ua/metody_lecheniya/astigmatomiya.html",
+					title: ""
+				},
+				url4: {
+					url: "http://www.ailas.com.ua/eye-disease/blizorukost_miopiya.html",
+					title: ""
+				},
+				url5: {
+					url: "http://www.ailas.com.ua/eye-disease/presbiopiya.html",
+					title: ""
+				},
+				url6: {
+					url: "http://www.ailas.com.ua/eye-disease/kosoglazie.html",
+					title: ""
+				},
+				url7: {
+					url: "http://www.ailas.com.ua/eye-disease/ptoz-opushenie-verhnego-veka.html",
+					title: ""
+				}
+			},
+			img: "ailas",
+			type: "reklama",
+			source: "www.ailas.com.ua"
+		};
+	}  //
+
+	{
+		ar[63] = {
+			mainUrl: "https://brusnichka.com.ua/pokupatelyam/aktsii/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "https://brusnichka.com.ua/magaziny/",
+					title: ""
+				},
+				url2: {
+					url: "https://brusnichka.com.ua/partnyeram/postavshchikam/",
+					title: ""
+				},
+				url3: {
+					url: "https://brusnichka.com.ua/soiskatelyam/",
+					title: ""
+				},
+				url4: {
+					url: "https://brusnichka.com.ua/kompaniya/istoriya-kompanii/",
+					title: ""
+				},
+				url5: {
+					url: "https://brusnichka.com.ua/pokupatelyam/eksklyuzivnye-tovary/",
+					title: ""
+				},
+				url6: {
+					url: "https://brusnichka.com.ua/pokupatelyam/freshcard/",
+					title: ""
+				},
+				url7: {
+					url: "https://brusnichka.com.ua/pokupatelyam/kontakt-tsentr/",
+					title: ""
+				}
+			},
+			img: "brusnichka",
+			type: "reklama",
+			source: "www.brusnichka.com.ua"
+		};
+	}  //
+
+	{
+		ar[64] = {
+			mainUrl: "http://bosch-ua.com/krupnaya-bytovaya-tehnika.html?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://bosch-ua.com/vstraivaemaya-tehnika.html",
+					title: ""
+				},
+				url2: {
+					url: "http://bosch-ua.com/klimaticheskaya-tehnika.html",
+					title: ""
+				},
+				url3: {
+					url: "http://bosch-ua.com/melkaya-bytovaya-tehnika.html",
+					title: ""
+				},
+				url4: {
+					url: "http://bosch-ua.com/1197.html",
+					title: ""
+				},
+				url5: {
+					url: "http://bosch-ua.com/about/",
+					title: ""
+				},
+				url6: {
+					url: "http://bosch-ua.com/ustanovka/",
+					title: ""
+				},
+				url7: {
+					url: "http://bosch-ua.com/service-center/",
+					title: ""
+				}
+			},
+			img: "bosch-ua",
+			type: "reklama",
+			source: "www.bosch-ua.com"
+		};
+	}  //
+
+	{
+		ar[65] = {
+			mainUrl: "http://www.leon.ua/ua/cat.htm?from=ad&gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://www.leon.ua/ua/library.htm",
+					title: ""
+				},
+				url2: {
+					url: "http://www.leon.ua/ua/prices.htm",
+					title: ""
+				},
+				url3: {
+					url: "http://www.leon.ua/ua/stores.htm",
+					title: ""
+				},
+				url4: {
+					url: "http://www.leon.ua/ua/news.htm",
+					title: ""
+				},
+				url5: {
+					url: "http://www.leon.ua/ua/brands.htm",
+					title: ""
+				},
+				url6: {
+					url: "http://www.leon.ua/ua/about.htm",
+					title: ""
+				},
+				url7: {
+					url: "http://www.leon.ua/ua/contact.htm",
+					title: ""
+				}
+			},
+			img: "leon",
+			type: "reklama",
+			source: "www.leon.ua"
+		};
+	}  //
+
+	{
+		ar[66] = {
+			mainUrl: "http://alaska.ua/?adwords_remarketing&gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://alaska.ua/bottlespromo/",
+					title: ""
+				},
+				url2: {
+					url: "http://alaska.ua/about_company/",
+					title: ""
+				},
+				url3: {
+					url: "http://alaska.ua/about/manufacture/",
+					title: ""
+				},
+				url4: {
+					url: "http://alaska.ua/stocks/",
+					title: ""
+				},
+				url5: {
+					url: "http://alaska.ua/delivery/",
+					title: ""
+				},
+				url6: {
+					url: "http://alaska.ua/about/",
+					title: ""
+				},
+				url7: {
+					url: "http://alaska.ua/shop/bottle_water/",
+					title: ""
+				}
+			},
+			img: "alaska",
+			type: "reklama",
+			source: "www.alaska.ua"
+		};
+	}  //
+
+	{
+		ar[67] = {
+			mainUrl: "http://askalon.com.ua/katalog/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://askalon.com.ua/katalog/kukhonnye-ugolki/",
+					title: ""
+				},
+				url2: {
+					url: "http://askalon.com.ua/katalog/kukhonnye-divany/",
+					title: ""
+				},
+				url3: {
+					url: "http://askalon.com.ua/katalog/kukhonnye-stoly/",
+					title: ""
+				},
+				url4: {
+					url: "http://askalon.com.ua/o-kompanii/",
+					title: ""
+				},
+				url5: {
+					url: "http://askalon.com.ua/oplata-i-dostavka/",
+					title: ""
+				},
+				url6: {
+					url: "http://askalon.com.ua/tonirovki-drevesiny/",
+					title: ""
+				},
+				url7: {
+					url: "http://askalon.com.ua/predlozheniia-dilleram/",
+					title: ""
+				}
+			},
+			img: "askalon",
+			type: "reklama",
+			source: "www.askalon.com.ua"
+		};
+	}  //
+
+	{
+		ar[68] = {
+			mainUrl: "http://terminus.ua/catalog/doors/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://terminus.ua/windows/",
+					title: ""
+				},
+				url2: {
+					url: "http://terminus.ua/kontakty/",
+					title: ""
+				},
+				url3: {
+					url: "http://terminus.ua/missiya_principy_cennosti.html",
+					title: ""
+				},
+				url4: {
+					url: "http://terminus.ua/news/",
+					title: ""
+				},
+				url5: {
+					url: "http://terminus.ua/ouerwork/",
+					title: ""
+				},
+				url6: {
+					url: "http://terminus.ua/partners/",
+					title: ""
+				},
+				url7: {
+					url: "http://terminus.ua/wb/",
+					title: ""
+				}
+			},
+			img: "terminus",
+			type: "reklama",
+			source: "www.terminus.ua"
+		};
+	}  //
+
 	//{
 	//	ar[45] = {
 	//		mainUrl: "",
