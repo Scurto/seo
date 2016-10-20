@@ -6901,6 +6901,120 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1326194) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=u-sTP9bYMHo',
+            img: "youtube",
+            type: "video",
+            title: '● Lamborghini Huracan [GTA 5 mods] ● 2016',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=3u-EF7MoDqE',
+            img: "youtube",
+            type: "video",
+            title: '● Lamborghini Aventador || The best Lamborghini ever ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=lx_3npVFw1Q',
+            img: "youtube",
+            type: "video",
+            title: '● Chevrolet Corvette ZR1  || Unstable Power ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=owq09j-ZnxY',
+            img: "youtube",
+            type: "video",
+            title: '● Lotus Exige || Powerful & Compact ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=mWqpKXR5jM4',
+            img: "youtube",
+            type: "video",
+            title: '● TVR Sagaris || Just more than AWESOME ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=brCi5Wu7MXc',
+            img: "youtube",
+            type: "video",
+            title: '● Nissan GT-R (R35) || Sports car of the Year (2007) ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=hnJPqDwTFqU',
+            img: "youtube",
+            type: "video",
+            title: '● Porsche Carrera GT || The Elegance ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=LfvjJYSlMAQ',
+            img: "youtube",
+            type: "video",
+            title: '● Lamborghini Veneno || Better Than The Best ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=sjvxOh57ql4',
+            img: "youtube",
+            type: "video",
+            title: '● Saleen S7 || Real Photos ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=PIJ_r71AAE8',
+            img: "youtube",
+            type: "video",
+            title: '● Shelby GT500 1967 || The Legend ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=LOo4OIEodao',
+            img: "youtube",
+            type: "video",
+            title: '● Mansory McLaren MP4-12C || True Art (Geneva 2012) ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=BH1jUYciwuw',
+            img: "youtube",
+            type: "video",
+            title: '● Pagani Zonda || True Love ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=Kis4l11kpRQ',
+            img: "youtube",
+            type: "video",
+            title: '● Koenigsegg CCX || Car of Future ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=HGEfqZKh0yA',
+            img: "youtube",
+            type: "video",
+            title: '● Audi R8 || Slideshow ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=h_eZmhqWluU',
+            img: "youtube",
+            type: "video",
+            title: '● BMW M3 E46 || Just Some Photos ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=EnE83CeTTEg',
+            img: "youtube",
+            type: "video",
+            title: '● Dodge Viper SRT-10 || Real Photos ► 2015 ᴴᴰ ●',
+            source: "www.youtube.com"
+        };
+    }
     if (taskId == 1021308) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=4oYLqPsCzL0',
@@ -8128,6 +8242,211 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: 'Трейлер / Тrailer',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1270669) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=7n8KbPgUyuQ',
+            img: "youtube",
+            type: "video",
+            title: 'Bomber Man (stage 2) (Sega)',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=4NP3Qyc6blw',
+            img: "youtube",
+            type: "video",
+            title: 'Bomber Man (stage 1) (Sega)',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=cPK5HMRKwJI',
+            img: "youtube",
+            type: "video",
+            title: 'Lion the King (Sega)',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=QHc25s0vC_Y',
+            img: "youtube",
+            type: "video",
+            title: 'Felix the Cat (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=m4ZGZsGPmes',
+            img: "youtube",
+            type: "video",
+            title: 'Captain America (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=tS19HwVnVwg',
+            img: "youtube",
+            type: "video",
+            title: 'Circus Charlie (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=h6KubIerBc0',
+            img: "youtube",
+            type: "video",
+            title: 'Abadox (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=LwCnS6cI0lE',
+            img: "youtube",
+            type: "video",
+            title: 'Antarctic Adventure (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=qd63mjXrJZ0',
+            img: "youtube",
+            type: "video",
+            title: 'Galaga (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=n0mIK3gUb_4',
+            img: "youtube",
+            type: "video",
+            title: 'Star Soldier (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=sR1sudrfsag',
+            img: "youtube",
+            type: "video",
+            title: 'Star Force (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=_3mirVKRYpg',
+            img: "youtube",
+            type: "video",
+            title: 'Front Line (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=GcEXcFvy54A',
+            img: "youtube",
+            type: "video",
+            title: 'Spartan X (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=rLxQLevIsrM',
+            img: "youtube",
+            type: "video",
+            title: 'City Conect. (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=JoBy15bpmJA',
+            img: "youtube",
+            type: "video",
+            title: 'Maze Song (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=f-bZ0rUc664',
+            img: "youtube",
+            type: "video",
+            title: 'Coonies (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=ZLexVJyJfDA',
+            img: "youtube",
+            type: "video",
+            title: 'Super Arabian (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=YuqpgXhJg3o',
+            img: "youtube",
+            type: "video",
+            title: 'Action in New York (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=gBxE2sZNZA4',
+            img: "youtube",
+            type: "video",
+            title: 'Exerion (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=uoxEY5ke5es',
+            img: "youtube",
+            type: "video",
+            title: 'Ice Climber (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=yF3C3I2T09Q',
+            img: "youtube",
+            type: "video",
+            title: 'Pac - Man (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=tnHTqxvE70w',
+            img: "youtube",
+            type: "video",
+            title: 'Donkey Kong (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=FyXlZwM4iQ0',
+            img: "youtube",
+            type: "video",
+            title: 'Battletoads - Double Dragon (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=UMY1F3fVufI',
+            img: "youtube",
+            type: "video",
+            title: 'Galaxian (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=7LcHuMBHda0',
+            img: "youtube",
+            type: "video",
+            title: 'Adventures of Dino Riki (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=-88XzAoMd9U',
+            img: "youtube",
+            type: "video",
+            title: 'Prince of Persia (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=oodYyccGy94',
+            img: "youtube",
+            type: "video",
+            title: 'Lode Runner (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=ajkMwuc3B3w',
+            img: "youtube",
+            type: "video",
+            title: 'Pin ball (Dandy)',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=2PcumA6cNBc',
+            img: "youtube",
+            type: "video",
+            title: 'Tetris (Dandy)',
             source: "www.youtube.com"
         };
     }
@@ -10199,6 +10518,218 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: 'Попугай танцует под дабстеп',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 352243) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=OrzEYfhZzxA',
+            img: "youtube",
+            type: "video",
+            title: 'Firebird/жар-птица',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=St4wrddCSd4',
+            img: "youtube",
+            type: "video",
+            title: 'Recreation/Отдых',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=amtHotPYA1I',
+            img: "youtube",
+            type: "video",
+            title: 'Healing spring in Truskavets Yuzya/Целебный источник в Трускавце  Юзя',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=-Hae0a6MhWc',
+            img: "youtube",
+            type: "video",
+            title: '1.rainbow/Радуга',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=HTEEJ_4VMBk',
+            img: "youtube",
+            type: "video",
+            title: 'Dogs/Собаки',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=gd1jbxC9f0U',
+            img: "youtube",
+            type: "video",
+            title: 'Beautiful sunflowers/Красивые подсолнухи',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=2dcU9BFlurw',
+            img: "youtube",
+            type: "video",
+            title: 'beauty/красавица',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=zaEXe4SpoCg',
+            img: "youtube",
+            type: "video",
+            title: 'Talent/Талант не пропьешь',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=5CpAjIOZy1w',
+            img: "youtube",
+            type: "video",
+            title: 'Shy hedgehog/Стеснительный еж',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=F-Ddd5IbyRw',
+            img: "youtube",
+            type: "video",
+            title: 'The original fountain/Оригинальный фонтан',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=RzXvWRpW6Y8',
+            img: "youtube",
+            type: "video",
+            title: 'Squirrel cracking nuts./Белка трескает орехи.',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=Ppid4iGPmuU',
+            img: "youtube",
+            type: "video",
+            title: 'Просто голуби/ Just pigeons',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=O037cDTYYWE',
+            img: "youtube",
+            type: "video",
+            title: 'Я же говорил что они прилетят/ I told you that they arrive',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=xesKIRcdvfo',
+            img: "youtube",
+            type: "video",
+            title: 'А он так мечтал жить в частном секторе,в зеленой зоне.',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=eg1kCZ8V3Uk',
+            img: "youtube",
+            type: "video",
+            title: 'P1013006',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=4WguGBuSyKo',
+            img: "youtube",
+            type: "video",
+            title: 'Копія відео "Красавчики/Handsome"',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=TJ1YrNxuj0k',
+            img: "youtube",
+            type: "video",
+            title: 'ЛЕС',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=OB8FTzvdeCQ',
+            img: "youtube",
+            type: "video",
+            title: 'дом/ house',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=Htddqhtev2k',
+            img: "youtube",
+            type: "video",
+            title: 'Собор',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=FLTNlgwKdPk',
+            img: "youtube",
+            type: "video",
+            title: 'Играем в хокей/Playing hockey',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=FjuhsbKZBKQ',
+            img: "youtube",
+            type: "video",
+            title: 'Денежное дерево/Money Tree',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=voDZqLJuVFM',
+            img: "youtube",
+            type: "video",
+            title: 'Курить опасно для здоровья/Smoking is dangerous to health',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=YUUqTxMabx4',
+            img: "youtube",
+            type: "video",
+            title: 'Памятник Белогородской казачьей сотне',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=PI9J5DrNWGg',
+            img: "youtube",
+            type: "video",
+            title: 'красивый пейзаж/beautiful landscape',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=xte1IaWobKc',
+            img: "youtube",
+            type: "video",
+            title: 'св.Владимир с крестом/St. Vladimir with a cross',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=USpPDeN0dnc',
+            img: "youtube",
+            type: "video",
+            title: 'Квинтет ласточек',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=oAsKxCFwamA',
+            img: "youtube",
+            type: "video",
+            title: 'Фиеста на Нью-Йоркской финансовой бирже/Fiesta on the New York Stock Exchange',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=QD4f8_2CVuI',
+            img: "youtube",
+            type: "video",
+            title: "Индейцы из племени ''Золотое перо''/The Indians of the tribe of '' Golden Pen ''",
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=Rd66r-UHtng',
+            img: "youtube",
+            type: "video",
+            title: 'Банковский денежный валютный поезд/Bank cash currency train',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=HJr7A8K8vfc',
+            img: "youtube",
+            type: "video",
+            title: 'музей вышивки при токийской бирже / embroidery at the Tokyo Stock Exchange Museum',
             source: "www.youtube.com"
         };
     }
