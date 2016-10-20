@@ -2774,6 +2774,86 @@ function getLinkReklama() {
 		};
 	}  //
 
+	{
+		ar[69] = {
+			mainUrl: "http://domtexnik.com.ua/category/terminus?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://domtexnik.com.ua/category/formet",
+					title: ""
+				},
+				url2: {
+					url: "http://domtexnik.com.ua/category/verto",
+					title: ""
+				},
+				url3: {
+					url: "http://domtexnik.com.ua/category/myunhen",
+					title: ""
+				},
+				url4: {
+					url: "http://domtexnik.com.ua/category/furnitura",
+					title: ""
+				},
+				url5: {
+					url: "http://domtexnik.com.ua/category/arki-mezhkomnatnye",
+					title: ""
+				},
+				url6: {
+					url: "http://domtexnik.com.ua/category/polotencesushiteli",
+					title: ""
+				},
+				url7: {
+					url: "http://domtexnik.com.ua/blogs/news",
+					title: ""
+				}
+			},
+			img: "domtexnik",
+			type: "reklama",
+			source: "www.domtexnik.com.ua"
+		};
+	}  //
+
+	{
+		ar[70] = {
+			mainUrl: "http://stekloarmatura.com.ua/?gclid=",
+			title: "",
+			secUrl: {
+				url1: {
+					url: "http://stekloarmatura.com.ua/o-nas",
+					title: ""
+				},
+				url2: {
+					url: "http://stekloarmatura.com.ua/produktsiya",
+					title: ""
+				},
+				url3: {
+					url: "http://stekloarmatura.com.ua/kharakteristiki",
+					title: ""
+				},
+				url4: {
+					url: "http://stekloarmatura.com.ua/preimushchestva",
+					title: ""
+				},
+				url5: {
+					url: "http://stekloarmatura.com.ua/stekloplastikovaya-armatura-tsena",
+					title: ""
+				},
+				url6: {
+					url: "http://stekloarmatura.com.ua/galereya",
+					title: ""
+				},
+				url7: {
+					url: "http://stekloarmatura.com.ua/kontakty",
+					title: ""
+				}
+			},
+			img: "stekloarmatura",
+			type: "reklama",
+			source: "www.stekloarmatura.com.ua"
+		};
+	}  //
+
 	//{
 	//	ar[45] = {
 	//		mainUrl: "",
