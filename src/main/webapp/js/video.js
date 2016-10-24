@@ -2039,286 +2039,6 @@ function getVideo(taskId) {
         };
     }
     if (taskId == 71431 || taskId == 938168 || taskId == 244998 || taskId == 309721) {
-        //ar[0] = {
-        //    url: 'https://www.youtube.com/watch?v=zbuZYLk1iuY',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Пчелы в дикой природе. Часть 3',
-        //    source: "www.youtube.com"
-        //};
-        //ar[1] = {
-        //    url: 'https://www.youtube.com/watch?v=bNkKjGD5F8w',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Пчелы в дикой природе. Часть 2',
-        //    source: "www.youtube.com"
-        //};
-        //ar[2] = {
-        //    url: 'https://www.youtube.com/watch?v=-LYX4nypHWw',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Пчелы в дикой природе. Часть 1',
-        //    source: "www.youtube.com"
-        //};
-        //ar[3] = {
-        //    url: 'https://www.youtube.com/watch?v=FyIoPgwL_hQ',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Ипотека для роя. Часть 2',
-        //    source: "www.youtube.com"
-        //};
-        //ar[4] = {
-        //    url: 'https://www.youtube.com/watch?v=DfF9cP8ZmJM',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Ипотека для роя. Часть 1',
-        //    source: "www.youtube.com"
-        //};
-        //ar[5] = {
-        //    url: 'https://www.youtube.com/watch?v=Xm1Icn6GNHw',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Делаю отводки, нуклеусы.  Часть 4',
-        //    source: "www.youtube.com"
-        //};
-        //ar[6] = {
-        //    url: 'https://www.youtube.com/watch?v=-1BUedxtGtI',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Делаю отводки, нуклеусы.  Часть 3',
-        //    source: "www.youtube.com"
-        //};
-        //ar[7] = {
-        //    url: 'https://www.youtube.com/watch?v=T2sqfC7CrEY',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Делаю отводки, нуклеусы.  Часть 2',
-        //    source: "www.youtube.com"
-        //};
-        //ar[8] = {
-        //    url: 'https://www.youtube.com/watch?v=qYiMctT4hKM',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Делаю отводки, нуклеусы. Часть 1',
-        //    source: "www.youtube.com"
-        //};
-        //ar[9] = {
-        //    url: 'https://www.youtube.com/watch?v=lDMHJ-M2m30',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Роение пчел в Митяево. Часть 5',
-        //    source: "www.youtube.com"
-        //};
-        //ar[10] = {
-        //    url: 'https://www.youtube.com/watch?v=5Y90RTIBGdA',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Отбор меда для откачки. Часть 1',
-        //    source: "www.youtube.com"
-        //};
-        //ar[11] = {
-        //    url: 'https://www.youtube.com/watch?v=s6f7DftAWoM',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Двух корпусный улей. Часть 3',
-        //    source: "www.youtube.com"
-        //};
-        //ar[12] = {
-        //    url: 'https://www.youtube.com/watch?v=uZAZY1AyIuA',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Двух корпусный улей. Часть 2',
-        //    source: "www.youtube.com"
-        //};
-        //ar[13] = {
-        //    url: 'https://www.youtube.com/watch?v=wGlTSc1LRLs',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Двух корпусный улей. Часть 1',
-        //    source: "www.youtube.com"
-        //};
-        //ar[14] = {
-        //    url: 'https://www.youtube.com/watch?v=CDFhc54iZis',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Сушу рамки, усиливаю отводок. Часть 2',
-        //    source: "www.youtube.com"
-        //};
-        //ar[15] = {
-        //    url: 'https://www.youtube.com/watch?v=5vJ9o9ZSqVI',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Сушу рамки, усиливаю отводок. Часть 1',
-        //    source: "www.youtube.com"
-        //};
-        //ar[16] = {
-        //    url: 'https://www.youtube.com/watch?v=CKIRjtjHF3E',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Отбор меда для откачки. Часть 3',
-        //    source: "www.youtube.com"
-        //};
-        //ar[17] = {
-        //    url: 'https://www.youtube.com/watch?v=7atuzjpKiis',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Отбор меда для откачки. Часть 2',
-        //    source: "www.youtube.com"
-        //};
-        //ar[18] = {
-        //    url: 'https://www.youtube.com/watch?v=G6D8GYqLRYw',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Ну, наконец - то, качаю мед. Часть 3',
-        //    source: "www.youtube.com"
-        //};
-        //ar[19] = {
-        //    url: 'https://www.youtube.com/watch?v=Qw7VavO1HuM',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Ну, наконец - то, качаю мед. Часть 2',
-        //    source: "www.youtube.com"
-        //};
-        //ar[20] = {
-        //    url: 'https://www.youtube.com/watch?v=j3nSfNSkgTo',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Ну, наконец - то, качаю мед. Часть 1',
-        //    source: "www.youtube.com"
-        //};
-        //ar[21] = {
-        //    url: 'https://www.youtube.com/watch?v=ZamiBIfH-aU',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Сушу рамки, усиливаю отводок. Часть 3',
-        //    source: "www.youtube.com"
-        //};
-        //ar[22] = {
-        //    url: 'https://www.youtube.com/watch?v=Y39mJ_0a-c4',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Советы старого пчеловода. Часть 4',
-        //    source: "www.youtube.com"
-        //};
-        //ar[23] = {
-        //    url: 'https://www.youtube.com/watch?v=FOXntOI8B1E',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Советы старого пчеловода. Часть 3',
-        //    source: "www.youtube.com"
-        //};
-        //ar[24] = {
-        //    url: 'https://www.youtube.com/watch?v=_3oTim74DaU',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Советы старого пчеловода. Часть 2',
-        //    source: "www.youtube.com"
-        //};
-        //ar[25] = {
-        //    url: 'https://www.youtube.com/watch?v=FMqddsqqR-E',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Советы старого пчеловода. Часть 1',
-        //    source: "www.youtube.com"
-        //};
-        //ar[26] = {
-        //    url: 'https://www.youtube.com/watch?v=hdZULYIW4zM',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Осенняя ревизия и подготовка к зиме. Часть 3',
-        //    source: "www.youtube.com"
-        //};
-        //ar[27] = {
-        //    url: 'https://www.youtube.com/watch?v=3HvB01T6mf0',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Осенняя ревизия и подготовка к зиме. Часть 2',
-        //    source: "www.youtube.com"
-        //};
-        //ar[28] = {
-        //    url: 'https://www.youtube.com/watch?v=hLM1SZ0c06s',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Осенняя ревизия и подготовка к зиме. Часть 1',
-        //    source: "www.youtube.com"
-        //};
-        //ar[29] = {
-        //    url: 'https://www.youtube.com/watch?v=akrPlUa_wNg',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Осенняя ревизия и подготовка к зиме. Часть 4',
-        //    source: "www.youtube.com"
-        //};
-        //ar[30] = {
-        //    url: 'https://www.youtube.com/watch?v=4zEybySMizU',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Роение пчел в Митяево. Часть 4',
-        //    source: "www.youtube.com"
-        //};
-        //ar[31] = {
-        //    url: 'https://www.youtube.com/watch?v=aGBDNDHUVfg',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Роение пчел в Митяево. Часть 3 - YouTube',
-        //    source: "www.youtube.com"
-        //};
-        //ar[32] = {
-        //    url: 'https://www.youtube.com/watch?v=pbyDd-ifP9w',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Роение пчел в Митяево. Часть 2 - YouTube',
-        //    source: "www.youtube.com"
-        //};
-        //ar[33] = {
-        //    url: 'https://www.youtube.com/watch?v=CRiFrJqdrYs',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Роение пчел в Митяево. Часть 1 - YouTube',
-        //    source: "www.youtube.com"
-        //};
-        //ar[34] = {
-        //    url: 'https://www.youtube.com/watch?v=RvY6eBW0ATE',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Ловим рой соседа. Часть 3 - YouTube',
-        //    source: "www.youtube.com"
-        //};
-        //ar[35] = {
-        //    url: 'https://www.youtube.com/watch?v=kNQTiHgOttE',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Ловим рой соседа. Часть 2 - YouTube',
-        //    source: "www.youtube.com"
-        //};
-        //ar[36] = {
-        //    url: 'https://www.youtube.com/watch?v=HdCMhP7VppU',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Ловим рой соседа. Часть 1 - YouTube',
-        //    source: "www.youtube.com"
-        //};
-        //ar[37] = {
-        //    url: 'https://www.youtube.com/watch?v=hw5U154Tmyw',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Десять лет назад. Часть 3 - YouTube',
-        //    source: "www.youtube.com"
-        //};
-        //ar[38] = {
-        //    url: 'https://www.youtube.com/watch?v=3cqzWZeRuLA',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Десять лет назад. Часть 2 - YouTube',
-        //    source: "www.youtube.com"
-        //};
-        //ar[39] = {
-        //    url: 'https://www.youtube.com/watch?v=WesedygQ-8Q',
-        //    img: "youtube",
-        //    type: "video",
-        //    title: 'Десять лет назад. Часть 1 - YouTube',
-        //    source: "www.youtube.com"
-        //};
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=Sjq1YjfDMYU',
             img: "youtube",
@@ -10518,6 +10238,1427 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: 'Попугай танцует под дабстеп',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1174674) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=wE99r_L-l-I',
+            img: "youtube",
+            type: "video",
+            title: 'Alaskan Malamute',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=W7QyECQOf_A',
+            img: "youtube",
+            type: "video",
+            title: 'Afghan hound',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=U85zgD57wf4',
+            img: "youtube",
+            type: "video",
+            title: 'English Foxhound',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=yQNSJ21zy2U',
+            img: "youtube",
+            type: "video",
+            title: 'Basset Hound',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=ZCJ4pyZyVo8',
+            img: "youtube",
+            type: "video",
+            title: 'Mastino Napoletano',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=V-8Zoh3ehZo',
+            img: "youtube",
+            type: "video",
+            title: 'Mastiff',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=qI5XQp6gG1Y',
+            img: "youtube",
+            type: "video",
+            title: 'Tibetan mastiff',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=aXoy3hENrz0',
+            img: "youtube",
+            type: "video",
+            title: 'Rottweiler',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=rQvsOFd7uKc',
+            img: "youtube",
+            type: "video",
+            title: 'German Shepherd',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=qV4Yi_d8Ycg',
+            img: "youtube",
+            type: "video",
+            title: 'Chow-chow',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=ocgj36czT1A',
+            img: "youtube",
+            type: "video",
+            title: 'Airedale Terrier',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=nGCS4qLf2c8',
+            img: "youtube",
+            type: "video",
+            title: 'Akita Inu',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=_ECBgqBPlgM',
+            img: "youtube",
+            type: "video",
+            title: 'Newfoundland',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=3N5THg1lihQ',
+            img: "youtube",
+            type: "video",
+            title: 'Border Collie',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=FCZzPz7hWBs',
+            img: "youtube",
+            type: "video",
+            title: 'Beagle',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=KAzJBLaD4Gs',
+            img: "youtube",
+            type: "video",
+            title: 'Cocker Spaniel',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=W_JPF7atuIU',
+            img: "youtube",
+            type: "video",
+            title: 'Labrador retriever',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1201198) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=CIREbkG1Q-g',
+            img: "youtube",
+            type: "video",
+            title: 'has won fight! Вытащил бой!',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=fBhnxHuJ4tU',
+            img: "youtube",
+            type: "video",
+            title: 'Debacle. Разгром',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=A2UkNfI2b20',
+            img: "youtube",
+            type: "video",
+            title: 'WoT   Lucky. Счастливчик',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=tIdu_aZE2nk',
+            img: "youtube",
+            type: "video",
+            title: 'И за горой достану!',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=NzXtnRYUiag',
+            img: "youtube",
+            type: "video",
+            title: 'охота на арту',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=m1MvutXKZHQ',
+            img: "youtube",
+            type: "video",
+            title: 'Предпочел утонуть!',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=DMyNlP1K-Gs',
+            img: "youtube",
+            type: "video",
+            title: 'Мини-футбол',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=MkBxdne9T1Y',
+            img: "youtube",
+            type: "video",
+            title: 'Турнир по пляжному волейболу  Фильм 02',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=dRLgxu-P8iU',
+            img: "youtube",
+            type: "video",
+            title: 'Турнир по пляжному волейболу " Фильм 01',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=8Nio804JkQA',
+            img: "youtube",
+            type: "video",
+            title: 'Веселуха на рок-фестивале',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=4G4tPT2i710',
+            img: "youtube",
+            type: "video",
+            title: 'День молодежи. Пляжный волейбол. Полуфинал',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=vIqoVOCJNrk',
+            img: "youtube",
+            type: "video",
+            title: 'День молодежи. Футбол',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=YGdfOYDw9X8',
+            img: "youtube",
+            type: "video",
+            title: 'День молодежи. Пляжный волейбол 2.',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=gkJe6i6geAo',
+            img: "youtube",
+            type: "video",
+            title: 'День молодежи. Пляжный волейбол 1',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=zsd_SMSlHe4',
+            img: "youtube",
+            type: "video",
+            title: '... и немного везения',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=I7uxMc89ppw',
+            img: "youtube",
+            type: "video",
+            title: 'soccer on tanks   футбол на танках',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=VcANJb39tiA',
+            img: "youtube",
+            type: "video",
+            title: 'Не ждали',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=4jVMPZ7QkP0',
+            img: "youtube",
+            type: "video",
+            title: 'Пора действовать',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=MEHoic6NcYw',
+            img: "youtube",
+            type: "video",
+            title: 'засветился   -  беги',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=dobv1IfpaeY',
+            img: "youtube",
+            type: "video",
+            title: 'Основной калибр',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=_Dpo1zFZH1g',
+            img: "youtube",
+            type: "video",
+            title: 'Непробиваемый',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=beMi6JgPpvs',
+            img: "youtube",
+            type: "video",
+            title: 'Начиналось все хорошо',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=hL8R9zQPi9s',
+            img: "youtube",
+            type: "video",
+            title: 'убедительная победа',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=sYfLmtlfng8',
+            img: "youtube",
+            type: "video",
+            title: 'Пришлось вернуться',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=E7OZv6YHHjo',
+            img: "youtube",
+            type: "video",
+            title: 'Ничья',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=-zVcM0Ytfr0',
+            img: "youtube",
+            type: "video",
+            title: 'Без повреждений',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=W1yGLAYqIAg',
+            img: "youtube",
+            type: "video",
+            title: 'Обходной маневр',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=sfwRNb1LGSA',
+            img: "youtube",
+            type: "video",
+            title: 'ЛТ думал   он самый хитрый',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=oMD8fOvO0EM',
+            img: "youtube",
+            type: "video",
+            title: 'Хевик',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=LnbbkkqV9zw',
+            img: "youtube",
+            type: "video",
+            title: 'СТ -  Вперед',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=yt67HV1T_rE',
+            img: "youtube",
+            type: "video",
+            title: 'Бой в Химельсдорфе',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=bXS9FV7R4CE',
+            img: "youtube",
+            type: "video",
+            title: 'Боец',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=WsNgoAgfw5U',
+            img: "youtube",
+            type: "video",
+            title: 'Прикрыл арту',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=cUO6_cjlIjk',
+            img: "youtube",
+            type: "video",
+            title: 'Огневая поддержка',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=EAS_Jl4xezU',
+            img: "youtube",
+            type: "video",
+            title: 'ЛТ заходит в тыл',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=UwzK3wlhZrU',
+            img: "youtube",
+            type: "video",
+            title: 'Застрял в горах',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=lbQNBbfs1qU',
+            img: "youtube",
+            type: "video",
+            title: 'Арта рулит!',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=rpl1vgknLdk',
+            img: "youtube",
+            type: "video",
+            title: 'Добивальщик',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=6AaPuwa_UMs',
+            img: "youtube",
+            type: "video",
+            title: 'Без потерь',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=YwO4EcKQ5Dw',
+            img: "youtube",
+            type: "video",
+            title: 'ТТ  50Б',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=DYMBXpuWFi8',
+            img: "youtube",
+            type: "video",
+            title: 'Битва в горах',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=KfxGi9mQYCQ',
+            img: "youtube",
+            type: "video",
+            title: 'Атака отбита',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=UHLRThk-GcU',
+            img: "youtube",
+            type: "video",
+            title: 'Последний в списке',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
+            url: 'https://www.youtube.com/watch?v=M4mjNQMv5y4',
+            img: "youtube",
+            type: "video",
+            title: 'Бой могли бы выиграть!',
+            source: "www.youtube.com"
+        };
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=nTd_IKGzkWA',
+            img: "youtube",
+            type: "video",
+            title: 'Артовод',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1341449) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=q-VJ4WDCT_k',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 Race 7 NFS SHIFT',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=NGnTOuiS9SE',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 Race 7/2 NFS SHIFT',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=YCuhyfhe8Qc',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 Race 6/4 NFS SHIFT',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=75Y9ZLXlN08',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 Race 6/3 NFS SHIFT',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=NKvQu7FT_CQ',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 Race 6/2 NFS SHIFT',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=zSUGH09Ju0Q',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 Race 6 NFS SHIFT',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=2wTQ6Y6WtCM',
+            img: "youtube",
+            type: "video",
+            title: 'Chevrolet cobalt race 3/3  NFS Shift',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=yWsaa2VRMP4',
+            img: "youtube",
+            type: "video",
+            title: 'Chevrolet cobalt Race 1/4 NFS Shift',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=S36rZvEJFjk',
+            img: "youtube",
+            type: "video",
+            title: 'Chevrolet cobalt Race 1/3 NFS Shift',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=LG0egSvhSNE',
+            img: "youtube",
+            type: "video",
+            title: 'Chevrolet cobalt Race 1/2 NFS Shift',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=M_YXQLeIr0A',
+            img: "youtube",
+            type: "video",
+            title: 'Chevrolet cobalt Race 1 NFS Shift',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=ynL1XV16JKk',
+            img: "youtube",
+            type: "video",
+            title: 'BMW M3 Race 5 NFS SHIFT',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=k1005LkdhBo',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Shift 7 Гонка',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=zFKnw9eDrpw',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Shift 6 Гонка',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=d4ByRvjsfco',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Shift 5 Гонка',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=xRUujbwvSHc',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Shift 4 Гонка',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=fFM9m0IrNiI',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Shift 3 Гонка',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=TyhoaRnq0pM',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Shift 2 Гонка',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=luJHCOFUeGA',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Shift 1 Гонка',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=TS8cv3U7AvY',
+            img: "youtube",
+            type: "video",
+            title: 'Прохождение игры NFS Shift Знакомство с игрой',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1248113) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=94cbcE_p-Ps',
+            img: "youtube",
+            type: "video",
+            title: 'Hyundai tiburon NFS Undegraun 2 ring Race 53/4',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=cPK4FZnlCV0',
+            img: "youtube",
+            type: "video",
+            title: 'Hyundai tiburon NFS Undegraun 2 ring Race 53/3',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=MbzCkeopuXw',
+            img: "youtube",
+            type: "video",
+            title: 'Hyundai tiburon NFS Undegraun 2 ring Race 53/2',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=d4mSfldhPPM',
+            img: "youtube",
+            type: "video",
+            title: 'Hyundai tiburon NFS Undegraun 2 ring Race 53',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=4HhTRP3djSY',
+            img: "youtube",
+            type: "video",
+            title: 'Hyundai tiburon NFS Undegraun 2 ring Race 52/2',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=ZNqyjNOk80w',
+            img: "youtube",
+            type: "video",
+            title: 'Hyundai tiburon NFS Undegraun 2 ring Race 52',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=WuSDpeqjmfM',
+            img: "youtube",
+            type: "video",
+            title: 'hyundai tiburon NFS Undegraun 2 ring Race 51/3',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=SPQc4yXRy2g',
+            img: "youtube",
+            type: "video",
+            title: 'hyundai tiburon NFS Undegraun 2 ring Race 51',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=Gwze3VT36ug',
+            img: "youtube",
+            type: "video",
+            title: 'hyundai tiburon NFS Undegraun 2 ring Race 51/2',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=zgasG1cA67o',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 49/3',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=jnpMqz2mi9I',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 50',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=GXLlmCyPdkY',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 49/2',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=bA8VAJQDfmc',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 49',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=_c1gmxFYXoo',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 48/2',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=TEt63nd9Dok',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 47/2',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=uw1fh3f4qNs',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 48',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=WNmzjv84aAk',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 47',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=0TDyRjGK4Gk',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 46/3',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=wiljXW2SAMM',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 46/2',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=HQglg1-Erjs',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 46/4',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=nH31W6G4r8s',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 ring Race 46/1',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=1vTkHv7D4Mw',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 44',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=dhsUY_CqqL4',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 45',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=J4XPukQnGnY',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 240sx NFS Undegraun 2 Race 43',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=-OqMFnzh-LM',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 240sx NFS Undegraun 2 Race 43/2',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=zNutT9X4kpg',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 240sx NFS Undegraun 2 Race 42',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=wVT2pmDua6Y',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 240sx NFS Undegraun 2 Race 41',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=5CebD8xGwjA',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 240sx NFS Undegraun 2 Race 40',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=jCTqNt03QzQ',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 240sx NFS Undegraun 2 Race 39',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=2Cjvsz-Iq30',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan GTR NFS Undegraun 2 Race 38',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=uiPLBwsmdJM',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan GTR NFS Undegraun 2 Race 37',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=qg_iVCiAOrg',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan GTR NFS Undegraun 2 Race 36/3',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=kix7LvuB35g',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan NFS Undegraun 2 Race 36',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=2XOcGXW-mq8',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan NFS Undegraun 2 Race 35',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=NgNbYREoamg',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 34',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=YylM3J0CGgM',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 33',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=QLNJ2l2s-is',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 32',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=NDpP_FmI1GQ',
+            img: "youtube",
+            type: "video",
+            title: 'Hyundai Tiburon GT NFS Undegraun 2 Race 31/2',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=AV0phl7clf0',
+            img: "youtube",
+            type: "video",
+            title: 'Hyundai Tiburon GT NFS Undegraun 2 Race 31',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=lOlB3Ujkx5Y',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 31',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=VMn7IwBqCs0',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 30/2',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=RWjNMkYrQbU',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 30',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=Dq6dAcA5ZAc',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 29/2',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
+            url: 'https://www.youtube.com/watch?v=31y-DuTnDB4',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 29',
+            source: "www.youtube.com"
+        };
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=mSgMPi41xcU',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 28',
+            source: "www.youtube.com"
+        };
+        ar[45] = {
+            url: 'https://www.youtube.com/watch?v=jNDfF8ul8hg',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race 27',
+            source: "www.youtube.com"
+        };
+        ar[46] = {
+            url: 'https://www.youtube.com/watch?v=mfwxUjdxxws',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 four on the floor',
+            source: "www.youtube.com"
+        };
+        ar[47] = {
+            url: 'https://www.youtube.com/watch?v=JXzvTNlthCk',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda MX-5 NFS Undegraun 2 Race Liga 1.3',
+            source: "www.youtube.com"
+        };
+        ar[48] = {
+            url: 'https://www.youtube.com/watch?v=yPKw9_Jj7ek',
+            img: "youtube",
+            type: "video",
+            title: '2:33  Mazda MX-5 NFS Undegraun 2 Race Liga 1.2',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1068079) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=mIboiBvVhU4',
+            img: "youtube",
+            type: "video",
+            title: 'Downhill MTB - The Rise',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=qh_X9A4FLhk',
+            img: "youtube",
+            type: "video",
+            title: 'MTB: Подборка прыжков на отвалах',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=6RaXKd9biuI',
+            img: "youtube",
+            type: "video",
+            title: 'скоростной спуск на Kona',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=shkkssABFj0',
+            img: "youtube",
+            type: "video",
+            title: 'Поле,покатушки,велы',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=SHhWYGRWFk4',
+            img: "youtube",
+            type: "video",
+            title: 'incredible jumps on a bike',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=QL1fI4a0uOI',
+            img: "youtube",
+            type: "video",
+            title: 'Dert - Замедленная съемка прыжком',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=xpr5yaspr2c',
+            img: "youtube",
+            type: "video",
+            title: 'Заповедник Боржоми | Красивые,Дикие,Цветы',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=pUvGed8AKTQ',
+            img: "youtube",
+            type: "video",
+            title: 'Clash of clans 100 миньенов | снос базы |  3 звезды',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=pzcpWkazDlo',
+            img: "youtube",
+            type: "video",
+            title: 'ПОЛЬША ВЫЕЗД ИЗ ГОРОДА ( интересное видео )',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=IZmAZ9jcPUM',
+            img: "youtube",
+            type: "video",
+            title: 'Работа в Польше на складах',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=eMAzJxXMi80',
+            img: "youtube",
+            type: "video",
+            title: 'Как уступают дорогу в Польше',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=UkfFCryxoVg',
+            img: "youtube",
+            type: "video",
+            title: 'Красота неописуемой природы',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=kd8_sHvcnpQ',
+            img: "youtube",
+            type: "video",
+            title: 'Леонбергер Собака | Leonberger Dog',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=E-aJkKWgynY',
+            img: "youtube",
+            type: "video",
+            title: 'Ясень Дерево природа',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=7r7gRDjkxtw',
+            img: "youtube",
+            type: "video",
+            title: 'Лес,Горы,Природа,Германии и Туристические места',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=lKtwTVcvsm0',
+            img: "youtube",
+            type: "video",
+            title: 'Прекрасный вид с холма на реку Хадсен',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=l8fXd7TYU7Q',
+            img: "youtube",
+            type: "video",
+            title: 'Гора Пивиха',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=UCcq1UXMoII',
+            img: "youtube",
+            type: "video",
+            title: 'Цвергпинчер (мини доберман) - Full HD - Miniature Pinscher',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 990718) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=ejmrGh6fSxg',
+            img: "youtube",
+            type: "video",
+            title: 'Game review VK : Войны Престолов ★⁄★★★',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=LaK43eJwZ2s',
+            img: "youtube",
+            type: "video",
+            title: 'Дневник хача - БРАТ ДАЙ БИТ. КЛИП ( Новая песня)',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=Lh4meeFSuYk',
+            img: "youtube",
+            type: "video",
+            title: 'Меч в душу',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=_SMavWi8Ebc',
+            img: "youtube",
+            type: "video",
+            title: 'Путь Воина: Битва Героев  ★★⁄★★★',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=I43Gi7SWsKw',
+            img: "youtube",
+            type: "video",
+            title: 'Game review VK  В окопе ★⁄★★★',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=aIedzOwzi2A',
+            img: "youtube",
+            type: "video",
+            title: 'Game review VK   DSF Звёздный Флот ★',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=KlPhO3zYOpI',
+            img: "youtube",
+            type: "video",
+            title: 'Game review VK   Zombie Shooter Online ★',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=MDorednylmo',
+            img: "youtube",
+            type: "video",
+            title: 'Game review VK   Бои без правил  ★⁄★★★',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=r9dizPXpvVY',
+            img: "youtube",
+            type: "video",
+            title: 'Game review VK   Золотой Рубеж  ★★⁄★★★',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=wAKugQRoGD0',
+            img: "youtube",
+            type: "video",
+            title: 'Game review VK   Норды Герои cевера ★★★',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=gW3ghETjtXA',
+            img: "youtube",
+            type: "video",
+            title: 'Kaspersky internet   как активировать на бесплатную версию',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=qeIWDq0B60s',
+            img: "youtube",
+            type: "video",
+            title: 'Game Review VK   Слотомания   ★⁄★★★',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=pgZJWUQsOuM',
+            img: "youtube",
+            type: "video",
+            title: 'Olympic Summer Games 96 - нинтендо',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=WCz7jh405RQ',
+            img: "youtube",
+            type: "video",
+            title: 'Mortal Kombat 3 ¦ Смертельная битва 3 Sega',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=2qUXLR2ktak',
+            img: "youtube",
+            type: "video",
+            title: 'Shoot and Ski',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=yKul_RaIoI0',
+            img: "youtube",
+            type: "video",
+            title: 'Призрачный гонщик',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=8fDq4-48_hs',
+            img: "youtube",
+            type: "video",
+            title: 'Аватария  - знакомства с игрой',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=bdO4I1Pafiw',
+            img: "youtube",
+            type: "video",
+            title: 'Битва пиратов   Scot играет',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=LP5T3ls3Uco',
+            img: "youtube",
+            type: "video",
+            title: 'Бродяга 6   мини игра',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=-3mEeafJ1jU',
+            img: "youtube",
+            type: "video",
+            title: 'Нано ферма и Гарри Поттер',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=6iOK0QBr11E',
+            img: "youtube",
+            type: "video",
+            title: 'Наследие времён Beta   нерабочая игра',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=Wvgzo7LH5HA',
+            img: "youtube",
+            type: "video",
+            title: 'Втопе  - программа для накрутки соц сетей',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 353877) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=jLwrTDQDloY',
+            img: "youtube",
+            type: "video",
+            title: 'BMW Sport Car. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=cLg4D5oFhWg',
+            img: "youtube",
+            type: "video",
+            title: 'Audi Sport Car. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=o9HFhbCp7Oo',
+            img: "youtube",
+            type: "video",
+            title: 'NEW HYUNDAI CRETA. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=7aNwMGVMotg',
+            img: "youtube",
+            type: "video",
+            title: 'New 2016 / TOYOTA C-HR. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=XanwRaBLcIQ',
+            img: "youtube",
+            type: "video",
+            title: 'Ecstasea. Luxury Yacht. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=PbWk6ciS704',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Luxury Yachts.',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=MT1gfKdQzVQ',
+            img: "youtube",
+            type: "video",
+            title: 'luxury yacht The Admiral X Force 145. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=ZK2p5B89Zdg',
+            img: "youtube",
+            type: "video",
+            title: 'Yacht Bavaria 47 Cruiser. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=mgL8IrDxYT0',
+            img: "youtube",
+            type: "video",
+            title: 'VARIO Alkoven 1200 на шасси Mercedes-Benz Actros 2542. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=0KyrtoHZLdI',
+            img: "youtube",
+            type: "video",
+            title: 'YAMAHA YZF R6. 2016. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=tuH-nLTLoE0',
+            img: "youtube",
+            type: "video",
+            title: 'Ford Mustang 2015 rtr. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=6qYctGpA7o0',
+            img: "youtube",
+            type: "video",
+            title: 'Mercedes-Benz SL. Smarcazzz',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=w6i_4voSnDg',
+            img: "youtube",
+            type: "video",
+            title: 'Машина Тимати - Porsche Cayenne Turbo S',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=oml0qP-VKZ0',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Renault Sandero Stepway',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=Gxi3SwJiskE',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Audi R8',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=ALl4Xtpgeto',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Honda Pilot',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=oe8DO5uaPFc',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz.  Acura Precision Concept',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=YOhZQ37bXLI',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz.  Lamborghini Huracán LP 610-4 Spyder',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=0w3N3ggrB2Y',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. 2015 Dodge Challenger Shaker',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=1_b7F6oRx9c',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Volvo XC60',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=LljOEMxKe-E',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. SUBARU XV',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=a3CQLZcfBjI',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Nissan Sentra (2016)',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=yG5kZHZVhv8',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Opel Astra Sports Tourer',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=-JRle5DDQVk',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Mercedes-Benz C-Class AMG',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=zew53tCqYsc',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Hyundai Sonata 2016',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=9pi4Sa2W17I',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Mazda СХ-5',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=ygCyINHLxRk',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Bentley Continental Supersports',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=jJSw9EtdY7c',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. BMW 3 series',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=7fQ0FRybUWE',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. Audi A7 Sportback',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=dxaAJKgCSSc',
+            img: "youtube",
+            type: "video",
+            title: 'Smarcazzz. 2015 Aston Martin Vanquish',
             source: "www.youtube.com"
         };
     }

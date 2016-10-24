@@ -111,16 +111,19 @@ $(document).ready(function() {
 		"1270064",
 		"1178491",
 		"352243",
+		"353877",
 		"1021308",
 		"1326194",
 		"1247748",
 		"1090888",
 		"1057980",
+		"1174674",
 		"1022890",
 		"1093511",
 		"1270669",
 		"78167",
 		"1136480",
+		"1201198",
 		"78182",
 		"79016",
 		"75641",
@@ -130,6 +133,10 @@ $(document).ready(function() {
 		"343923",
 		"325291",
 		"1221587",
+		"1068079",
+		"1248113",
+		"1341449",
+		"990718",
 		"1270671",
 		"1107884"
 
@@ -551,6 +558,14 @@ $(document).ready(function() {
 			$('#betweenVideo').val(45);
 			$('#betweenReklama').val(45);
 		}else if
+		(item == 353877) {
+			$('#taskId').val(353877);
+			$('#countOfVideo').val(30);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(50);
+			$('#betweenReklama').val(50);
+		}else if
 		(item == 1021308) {
 			$('#taskId').val(1021308);
 			$('#countOfVideo').val(12);
@@ -591,6 +606,14 @@ $(document).ready(function() {
 			$('#betweenVideo').val(45);
 			$('#betweenReklama').val(45);
 		}else if
+		(item == 1201198) {
+			$('#taskId').val(1201198);
+			$('#countOfVideo').val(29);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
 		(item == 1090888) {
 			$('#taskId').val(1090888);
 			$('#countOfVideo').val(17);
@@ -602,6 +625,14 @@ $(document).ready(function() {
 		(item == 1057980) {
 			$('#taskId').val(1057980);
 			$('#countOfVideo').val(16);
+			$('#countOfReklama').val(7);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1174674) {
+			$('#taskId').val(1174674);
+			$('#countOfVideo').val(17);
 			$('#countOfReklama').val(7);
 			$('#countOfMove').val(3);
 			$('#betweenVideo').val(45);
@@ -689,6 +720,38 @@ $(document).ready(function() {
 		}else if
 		(item == 1221587) {
 			$('#taskId').val(1221587);
+			$('#countOfVideo').val(12);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 1068079) {
+			$('#taskId').val(1068079);
+			$('#countOfVideo').val(12);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 1248113) {
+			$('#taskId').val(1248113);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1341449) {
+			$('#taskId').val(1341449);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 990718) {
+			$('#taskId').val(990718);
 			$('#countOfVideo').val(12);
 			$('#countOfReklama').val(5);
 			$('#countOfMove').val(3);
@@ -1237,16 +1300,18 @@ $(document).ready(function() {
 			connArray.push(1326194);
 		} else if (taskId == 1247748) {
 			connArray.push(1247748);
-		} else if (taskId == 1090888 || taskId == 1057980 || taskId == 1093511 || taskId == 1022890 || taskId == 1270671 || taskId == 1270669) {
+		} else if (taskId == 1090888 || taskId == 1057980 || taskId == 1093511 || taskId == 1022890 || taskId == 1270671 || taskId == 1270669 || taskId == 1174674) {
 			connArray.push(1090888);
 			connArray.push(1057980);
 			connArray.push(1093511);
 			connArray.push(1022890);
 			connArray.push(1270671);
 			connArray.push(1270669);
-		} else if (taskId == 78167 || taskId == 1136480) {
+			connArray.push(1174674);
+		} else if (taskId == 78167 || taskId == 1136480 || taskId == 1201198) {
 			connArray.push(78167);
 			connArray.push(1136480);
+			connArray.push(1201198);
 		} else if (taskId == 78182) {
 			connArray.push(78182);
 		} else if (taskId == 75641) {
@@ -1259,14 +1324,21 @@ $(document).ready(function() {
 			connArray.push(343923);
 		} else if (taskId == 325291) {
 			connArray.push(325291);
-		} else if (taskId == 1221587) {
+		} else if (taskId == 1221587 || taskId == 990718 || taskId == 1068079) {
 			connArray.push(1221587);
+			connArray.push(990718);
+			connArray.push(1068079);
 		} else if (taskId == 1107884) {
 			connArray.push(1107884);
 		} else if (taskId == 1270064) {
 			connArray.push(1270064);
 		} else if (taskId == 352243) {
 			connArray.push(352243);
+		} else if (taskId == 353877) {
+			connArray.push(353877);
+		} else if (taskId == 1248113 || taskId == 1341449) {
+			connArray.push(1248113);
+			connArray.push(1341449);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -1880,6 +1952,26 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
+		}else if (taskId == 353877) {
+
+			var ip = getDefaultWhoer();
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var google = getLocationGoogle(request);
+			//var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("Smarcazzz - YouTube");
+
+
+			$("#forGoogle").modal('show');
+
+			etalonArray.push(ip);
+			etalonArray.push(google);
+			//etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
 		}else if (taskId == 1021308) {
 			var whoer = getDefaultWhoer();
 			var google = {
@@ -1948,6 +2040,24 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
+		}else if (taskId == 1201198) {
+			var whoer = getDefaultWhoer();
+			//var google = {
+			//	title: "JohnSilver1975 - Поиск в Google",
+			//	type: "def",
+			//	img: "google",
+			//	source: "www.google.com"
+			//};
+
+			var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube = getDefaultYouTube("Николай Васильков - YouTube");
+
+			//etalonArray.push(ip);
+			//etalonArray.push(whoer);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube);
 		}else if (taskId == 1136480) {
 			var whoer = getDefaultWhoer();
 			//var google = {
@@ -1999,6 +2109,23 @@ $('#clear-browsing-data').click(function(event) {
 			};
 			var youtube1 = getDefaultYouTube(request + " - YouTube");
 			var youtube2 = getDefaultYouTube("Vetal Vetal - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube1);
+			etalonArray.push(youtube2);
+		}else if (taskId == 1174674) {
+			var whoer = getDefaultWhoer();
+			var youtube = {
+				title: "YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var youtube1 = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("Natali Natali - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
@@ -2161,15 +2288,50 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
+		}else if (taskId == 1248113) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("Дмитрий Дмитриев - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1341449) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("Super Cars - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
 		}else if (taskId == 1221587) {
 			var whoer = getDefaultWhoer();
-			var google = {
-				title: request + " - Поиск в Google",
-				type: "def",
-				img: "google",
-				source: "www.google.com"
-			};
+			var google = getLocationGoogle(request);
 			var youtube = getDefaultYouTube("Mowyn - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1068079) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("Злой Сэм - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 990718) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("BrianShow Production - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
@@ -2535,14 +2697,64 @@ $('#clear-browsing-data').click(function(event) {
 
 			var ip = getDefaultWhoer();
 			var google = getLocationGoogle(request);
+			var youtube2 = {
+				title: request + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			//$('#googleLink').text(linkText);
+			$("#forGoogle").modal('show');
+			etalonArray.push(ip);
+			etalonArray.push(google);
+			etalonArray.push(youtube2);
+			etalonArray.push(youtube);
+
+		} else if (taskId == 1126852 || taskId == 78751 || taskId == 292135 || taskId == 329632) {
+			var youtube = {
+				title: "Oliga Nikolaevna - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var ip = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube2 = {
+				title: request + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			//$('#googleLink').text(linkText);
+			$("#forGoogle").modal('show');
+			etalonArray.push(ip);
+			etalonArray.push(google);
+			etalonArray.push(youtube2);
+			etalonArray.push(youtube);
+		} else if (taskId == 71431 || taskId == 938168 || taskId == 244998 || taskId == 309721) {
+			var youtube = {
+				title: "Pitr Puzhaev - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var ip = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube2 = {
+				title: request + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
 
 			//$('#googleLink').text(linkText);
 			$("#forGoogle").modal('show');
 			etalonArray.push(ip);
 			etalonArray.push(google);
+			etalonArray.push(youtube2);
 			etalonArray.push(youtube);
 
-		} else {
+		}else {
 			var ip = {
 				title: "Узнать IP адрес",
 				type: "def",
@@ -2668,31 +2880,7 @@ $('#clear-browsing-data').click(function(event) {
 					linkText = 'https://www.google.com/?gfe_rd=cr&ei=z3WsVviTGqOi8wev86DYBA&gws_rd=ssl#q=%D1%86%D0%B8%D1%80%D0%BA+%D0%B8%D0%BB%D0%B8+%D0%B0%D1%80%D0%BC%D0%B8%D1%8F';
 				}
 			}
-			else if (taskId == 71431 || taskId == 938168 || taskId == 244998 || taskId == 309721) {
-				var youtube = {
-					title: "Pitr Puzhaev - YouTube",
-					type: "def",
-					img: "youtube",
-					source: "www.youtube.com"
-				};
-
-				if (request == 'Замена стойки стабилизатора Suzuki Grand Vitara.') {
-					linkText = 'https://www.google.com.ua/?gws_rd=ssl#q=%D0%97%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0+%D1%81%D1%82%D0%BE%D0%B9%D0%BA%D0%B8+%D1%81%D1%82%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D0%B0+Suzuki+Grand+Vitara.';
-				}
-				if (request == 'Настройка спутниковой тарелки.') {
-					linkText = '';
-				}
-				if (request == 'Синьор помидор и тыква.') {
-					linkText = '';
-				}
-			}else if (taskId == 1126852 || taskId == 78751 || taskId == 292135 || taskId == 329632) {
-				var youtube = {
-					title: "Oliga Nikolaevna - YouTube",
-					type: "def",
-					img: "youtube",
-					source: "www.youtube.com"
-				};
-			}  else if (taskId == 313536 || taskId == 347151) {
+			 else if (taskId == 313536 || taskId == 347151) {
 				var youtube = {
 					title: "Household TV - YouTube",
 					type: "def",
