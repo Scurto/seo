@@ -10821,6 +10821,346 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1303044) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=PEIFkj-UNCA',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 180sx NFS PRO Street Race 7/3',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=ajJICI0ZptI',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 180sx NFS PRO Street Race 7/2',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=0vpqVs5nuC4',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 180sx NFS PRO Street Race 7',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=PNEvM0WRgrM',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 180sx NFS PRO Street Race 6/2',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=mLzpXQt09nM',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 180sx NFS PRO Street Race 6',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=7Sej_FG4_3c',
+            img: "youtube",
+            type: "video",
+            title: 'Dodge charger r/t  NFS PRO Street Race 5',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=Fe3nulekfNs',
+            img: "youtube",
+            type: "video",
+            title: 'Dodge charger r/t  NFS PRO Street Race 5/2',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=SQDpOvMHPh4',
+            img: "youtube",
+            type: "video",
+            title: 'Dodge charger r/t  NFS PRO Street Race 5/3',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=tQ3kq-t2-IM',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 180sx NFS PRO Street Race 4',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=vPe8rZ1lM9k',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan 180sx NFS PRO Street Race 4/2',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=TvM_TVk3be0',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street BMW m5 Race 3',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=eqtQ1qZWa1M',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street BMW m5 Race 2',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=badATlyNV9U',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street BMW m5 Race 1',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=1v_oP-uadj4',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street BMW m5',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=cnu-Bkm1li4',
+            img: "youtube",
+            type: "video",
+            title: 'Cardin Battle Machine Nissan Super turbo',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=n8FNr-vhB5s',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street Продолжаю проходить ветку Battle Machine',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=Ypg0gEfhIcE',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street  Знакомство с Уиллоу Спрингс',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=iFbXCgYr4kU',
+            img: "youtube",
+            type: "video",
+            title: 'ВНИМАНИЕ КОНКУРС!!',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=qwrgoJZAWX8',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street Третий Уик-Енд Дрег на Шевролет Кобльбат и победа в УК-ЕНДЕ',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=M_hucdmrYKQ',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street Третий Уик-Енд Грип на Нисан 240SX',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=sF_j5L22K2c',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street Третий Уик-Енд Драг на Нисан 240SX',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=palY_HuJFQA',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street 2 Уик-Енд Грип 2 на Нисан 240SX',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=R_j02OC_h9o',
+            img: "youtube",
+            type: "video",
+            title: 'NFS PRO Street 2 Уик-Енд Грип на Нисан 240SX',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=_BDdExJJSTU',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Pro Stree Первый турнир Грип на гольфе',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=ZzHcjrg21Zw',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Pro Stree Первый турнир продолжение на Хонде',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=PpTVC7kcQMY',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Pro Stree Первый турнир продолжение',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=QuQQAd2o4E8',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Pro Stree Первый турнир',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=OyS-8w8FXT8',
+            img: "youtube",
+            type: "video",
+            title: 'Need For speed Pro Street-Знакомство и первая гонка',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1341451) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=_fOZ8qEVcNo',
+            img: "youtube",
+            type: "video",
+            title: 'Audi R8 Race 12/3 NFS Most Wanted',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=xabTfS93Kew',
+            img: "youtube",
+            type: "video",
+            title: 'Audi R8 Race 12/2 NFS Most Wanted',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=Z-18lrCISMw',
+            img: "youtube",
+            type: "video",
+            title: 'Audi R8 Race 12 NFS Most Wanted',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=fgI33SQ41lk',
+            img: "youtube",
+            type: "video",
+            title: 'Audi Rs Race 11/3 NFS Most Wanted',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=C9sr-Istho4',
+            img: "youtube",
+            type: "video",
+            title: 'Audi Rs Race 11/2 NFS Most Wanted',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=fEeFfbAEt0o',
+            img: "youtube",
+            type: "video",
+            title: 'Audi Race 11 NFS Most Wanted mp4',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=Hy68B-fRUDU',
+            img: "youtube",
+            type: "video",
+            title: 'Audi a4 NFS Most Wanted Race 10/2',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=gSTrWUx0SQw',
+            img: "youtube",
+            type: "video",
+            title: 'Audi a4 NFS Most Wanted Race 10/3',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=G25w4uS9YAE',
+            img: "youtube",
+            type: "video",
+            title: 'Audi a4 NFS Most Wanted Race 10',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=lUweJ_g8DyE',
+            img: "youtube",
+            type: "video",
+            title: 'Mercedes amg gt r Race 5.2 NFS Most Wanted',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=JEYGkqjpr4g',
+            img: "youtube",
+            type: "video",
+            title: 'Mercedes amg gt r Race 6.2 NFS Most Wanted',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=sVSknQLQeuw',
+            img: "youtube",
+            type: "video",
+            title: 'Mercedes amg gt r Race 5 NFS Most Wanted',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=JYd_jeBfJEk',
+            img: "youtube",
+            type: "video",
+            title: 'Mercedes amg gt r Race 6 NFS Most Wanted',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=RO1VR3lpYeI',
+            img: "youtube",
+            type: "video",
+            title: 'Mersedes AMG Race 6 NFS Most wanted',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=gyajqPy_dik',
+            img: "youtube",
+            type: "video",
+            title: 'Mersedes AMG Race 4 NFS Most wanted',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=QCel_OGusss',
+            img: "youtube",
+            type: "video",
+            title: 'Mersedes AMG Race 5 NFS Most wanted',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=jze45IWTViQ',
+            img: "youtube",
+            type: "video",
+            title: 'Toyota Supra Race 15 NFS Most wanted',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=gU6UrF389UM',
+            img: "youtube",
+            type: "video",
+            title: 'Toyota Supra Race 24 NFS Most wanted',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=-5dnzxynDBg',
+            img: "youtube",
+            type: "video",
+            title: 'Toyota Supra Race 14 NFS Most wanted',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=mGPY9lAVZps',
+            img: "youtube",
+            type: "video",
+            title: 'speed 2016 01 14 19 00 55 570',
+            source: "www.youtube.com"
+        };
+    }
     if (taskId == 1248113) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=94cbcE_p-Ps',

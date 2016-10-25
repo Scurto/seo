@@ -135,6 +135,8 @@ $(document).ready(function() {
 		"1221587",
 		"1068079",
 		"1248113",
+		"1303044",
+		"1341451",
 		"1341449",
 		"990718",
 		"1270671",
@@ -742,6 +744,22 @@ $(document).ready(function() {
 			$('#betweenVideo').val(45);
 			$('#betweenReklama').val(45);
 		}else if
+		(item == 1303044) {
+			$('#taskId').val(1303044);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1341451) {
+			$('#taskId').val(1341451);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
 		(item == 1341449) {
 			$('#taskId').val(1341449);
 			$('#countOfVideo').val(20);
@@ -1336,9 +1354,11 @@ $(document).ready(function() {
 			connArray.push(352243);
 		} else if (taskId == 353877) {
 			connArray.push(353877);
-		} else if (taskId == 1248113 || taskId == 1341449) {
+		} else if (taskId == 1248113 || taskId == 1341449 || taskId == 1341451 || taskId == 1303044) {
 			connArray.push(1248113);
 			connArray.push(1341449);
+			connArray.push(1341451);
+			connArray.push(1303044);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -2298,6 +2318,26 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
+		}else if (taskId == 1303044) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("Влад Михайлов - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1341451) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("Travel Travel - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
 		}else if (taskId == 1341449) {
 			var whoer = getDefaultWhoer();
 			var google = getLocationGoogle(request);
@@ -2754,6 +2794,28 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube2);
 			etalonArray.push(youtube);
 
+		}else if (taskId == 313536 || taskId == 347151) {
+			var youtube = {
+				title: "Household TV - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var ip = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube2 = {
+				title: request + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+
+			//$('#googleLink').text(linkText);
+			$("#forGoogle").modal('show');
+			etalonArray.push(ip);
+			etalonArray.push(google);
+			etalonArray.push(youtube2);
+			etalonArray.push(youtube);
 		}else {
 			var ip = {
 				title: "Узнать IP адрес",
@@ -2880,14 +2942,7 @@ $('#clear-browsing-data').click(function(event) {
 					linkText = 'https://www.google.com/?gfe_rd=cr&ei=z3WsVviTGqOi8wev86DYBA&gws_rd=ssl#q=%D1%86%D0%B8%D1%80%D0%BA+%D0%B8%D0%BB%D0%B8+%D0%B0%D1%80%D0%BC%D0%B8%D1%8F';
 				}
 			}
-			 else if (taskId == 313536 || taskId == 347151) {
-				var youtube = {
-					title: "Household TV - YouTube",
-					type: "def",
-					img: "youtube",
-					source: "www.youtube.com"
-				};
-			} else if (taskId == 69628) {
+			  else if (taskId == 69628) {
 				var youtube = {
 					title: "МИР ПРИРОДЫ - YouTube",
 					type: "def",
