@@ -326,6 +326,18 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("1264118", "https://www.youtube.com/channel/UCtgXNkU78oG-6jYpLb3tVWg/videos");
 		urlMap.put("1242716", "https://www.youtube.com/channel/UCn8KNpnhjT7-LiatERWpPag/videos");
 
+		urlMap.put("771719", "https://www.youtube.com/user/retuyko/videos");
+		urlMap.put("1309530", "https://www.youtube.com/channel/UCL_6J2Qk78QkKdUWXwh8swA/videos");
+		urlMap.put("1308828", "https://www.youtube.com/channel/UCzMhaJPOk4aCr491kg-Tp6g/videos");
+		urlMap.put("1275624", "https://www.youtube.com/channel/UCAlcFGxDt0bpHsp_dE55LlQ/videos");
+		urlMap.put("1336334", "https://www.youtube.com/channel/UCea6452aiL5u8VHzQKHEg0w/videos");
+		urlMap.put("1167630", "https://www.youtube.com/channel/UC7cPKlmSjZXnEg8sxrUA4hQ/videos");
+		urlMap.put("1342127", "https://www.youtube.com/channel/UC83LNqpXl-4kdXATyd3ll0Q/videos");
+		urlMap.put("1335868", "https://www.youtube.com/channel/UCuu8EV4YTas76JC7qAMBJUA/videos");
+		urlMap.put("1335655", "https://www.youtube.com/channel/UCznXU4C0v24FbYGa416_fig/videos");
+		urlMap.put("847431", "https://www.youtube.com/channel/UCArXOCHDiO4WR_mGCuuBTbA/videos");
+		urlMap.put("1328508", "https://www.youtube.com/channel/UC2oXtF95A9v8dnMqJOTxA9A/videos");
+
 
 
 		String url = urlMap.get(id);

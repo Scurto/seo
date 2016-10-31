@@ -3632,216 +3632,217 @@ function getVideo(taskId) {
     }
     if (taskId == 74444 || taskId == 1119333) {
         ar[0] = {
+            url: 'https://www.youtube.com/watch?v=xpHulMmjwrU',
+            img: "youtube",
+            type: "video",
+            title: 'People . ORD',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=HYxbHG7vwvE',
+            img: "youtube",
+            type: "video",
+            title: 'My Land . ORD (JH) . HD',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=u5tbscRRF3U',
+            img: "youtube",
+            type: "video",
+            title: 'In Japan . ORD (VU) . HD',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=rFABC3GxXRs',
+            img: "youtube",
+            type: "video",
+            title: 'Life in Haiti . ORD . HD',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=JvUho49WXHA',
+            img: "youtube",
+            type: "video",
+            title: 'Amazing Australia . ORD . HD',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=vKIXEsmP2hE',
+            img: "youtube",
+            type: "video",
+            title: 'Malta wild . ORD . HD',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=E9MIVXDAFeQ',
+            img: "youtube",
+            type: "video",
+            title: 'Southern Kazakhstan. Kyzylorda province . HD . ORD / 2016',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=3MrpLxtFpZ4',
+            img: "youtube",
+            type: "video",
+            title: 'Stunning Scotland . ORD . HD',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=l4HOuuNjl0c',
+            img: "youtube",
+            type: "video",
+            title: 'SKIES of PERU . ORD . HD',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=m90RndFJZAk',
+            img: "youtube",
+            type: "video",
+            title: 'PYR?N?ES D’AUTOMNE . ORD . HD',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=oZUvNczUFfw',
+            img: "youtube",
+            type: "video",
+            title: 'IMERS?O . ORD',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=tAr-V7jS7KI',
+            img: "youtube",
+            type: "video",
+            title: 'The Woods . ORD',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=Gnedy_tc8Ww',
+            img: "youtube",
+            type: "video",
+            title: 'Kauai: In to the Wild . ORD',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=fneNno5MMok',
+            img: "youtube",
+            type: "video",
+            title: 'Infinite Space . Sky . World . ORD',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=BWnt-Z1J4ig',
+            img: "youtube",
+            type: "video",
+            title: 'One World . ORD',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=xajtaBCvy8M',
+            img: "youtube",
+            type: "video",
+            title: 'Round the World trip . ORD',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=xspZ_2csNcY',
+            img: "youtube",
+            type: "video",
+            title: 'AirTime . ORD . HD',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
             url: 'https://www.youtube.com/watch?v=NEUcVtx_ubI',
             img: "youtube",
             type: "video",
             title: 'Our Amazing Planet - ORD Channel - Drone - HD',
             source: "www.youtube.com"
         };
-        ar[1] = {
+        ar[18] = {
             url: 'https://www.youtube.com/watch?v=HVdKNbCScNQ',
             img: "youtube",
             type: "video",
             title: 'Our Amazing Planet - ORD Channel - Drone - Ultra',
             source: "www.youtube.com"
         };
-        ar[2] = {
+        ar[19] = {
             url: 'https://www.youtube.com/watch?v=79URMZrdaCc',
             img: "youtube",
             type: "video",
             title: 'Our Amazing Planet - ORD Channel - Drone - EXCLUSIVE',
             source: "www.youtube.com"
         };
-        ar[3] = {
+        ar[20] = {
             url: 'https://www.youtube.com/watch?v=6XsEGqJJcvI',
             img: "youtube",
             type: "video",
             title: 'Our Amazing Planet - ORD Channel',
             source: "www.youtube.com"
         };
-        ar[4] = {
+        ar[21] = {
             url: 'https://www.youtube.com/watch?v=2WAn9EkLVvE',
             img: "youtube",
             type: "video",
             title: 'Atom . Galaxy . Universe . ORD',
             source: "www.youtube.com"
         };
-        ar[5] = {
+        ar[22] = {
             url: 'https://www.youtube.com/watch?v=vHTAJsigkz4',
             img: "youtube",
             type: "video",
             title: 'Travel . Tour . Trip . ORD',
             source: "www.youtube.com"
         };
-        ar[6] = {
+        ar[23] = {
             url: 'https://www.youtube.com/watch?v=nGzMpsX23Fw',
             img: "youtube",
             type: "video",
             title: 'My friends . My family . ORD',
             source: "www.youtube.com"
         };
-        ar[7] = {
+        ar[24] = {
             url: 'https://www.youtube.com/watch?v=FTijX022N2E',
             img: "youtube",
             type: "video",
             title: 'Big City Life . ORD',
             source: "www.youtube.com"
         };
-        ar[8] = {
+        ar[25] = {
             url: 'https://www.youtube.com/watch?v=16RSKvtvQrc',
             img: "youtube",
             type: "video",
             title: 'Awareness . ORD',
             source: "www.youtube.com"
         };
-        ar[9] = {
+        ar[26] = {
             url: 'https://www.youtube.com/watch?v=CQeg98UAyvo',
             img: "youtube",
             type: "video",
             title: 'Life . Style . Hobby . Sport . ORD',
             source: "www.youtube.com"
         };
-        ar[10] = {
+        ar[27] = {
             url: 'https://www.youtube.com/watch?v=-7q3DrhACf8',
             img: "youtube",
             type: "video",
             title: 'Battle . Struggle . ORD (Global Issues)',
             source: "www.youtube.com"
         };
-        ar[11] = {
+        ar[28] = {
             url: 'https://www.youtube.com/watch?v=OEFruZa42rg',
             img: "youtube",
             type: "video",
             title: 'Battle . Struggle . ORD',
             source: "www.youtube.com"
         };
-        ar[12] = {
+        ar[29] = {
             url: 'https://www.youtube.com/watch?v=aV0nGmaWJWs',
             img: "youtube",
             type: "video",
             title: 'City Life . LUX . ORD #1',
             source: "www.youtube.com"
         };
-        ar[13] = {
-            url: 'https://www.youtube.com/watch?v=RawUbXlG-co',
-            img: "youtube",
-            type: "video",
-            title: 'City Life . LUX . ORD #2',
-            source: "www.youtube.com"
-        };
-        ar[14] = {
-            url: 'https://www.youtube.com/watch?v=acF2SLS9mQk',
-            img: "youtube",
-            type: "video",
-            title: 'Flora and fauna . ORD',
-            source: "www.youtube.com"
-        };
-        ar[15] = {
-            url: 'https://www.youtube.com/watch?v=Dwqa2-3pVpU',
-            img: "youtube",
-            type: "video",
-            title: 'Animals . ORD',
-            source: "www.youtube.com"
-        };
-        ar[16] = {
-            url: 'https://www.youtube.com/watch?v=8WN7zyWXT5w',
-            img: "youtube",
-            type: "video",
-            title: 'Amazing Planet . ORD . 2016',
-            source: "www.youtube.com"
-        };
-        ar[17] = {
-            url: 'https://www.youtube.com/watch?v=Nwu1R-7LWME',
-            img: "youtube",
-            type: "video",
-            title: 'Global Challenges . ORD',
-            source: "www.youtube.com"
-        };
-        ar[18] = {
-            url: 'https://www.youtube.com/watch?v=3dy512BTla4',
-            img: "youtube",
-            type: "video",
-            title: 'Fear . ORD',
-            source: "www.youtube.com"
-        };
-        ar[19] = {
-            url: 'https://www.youtube.com/watch?v=mLdo4sshlzc',
-            img: "youtube",
-            type: "video",
-            title: 'Paradox . ORD',
-            source: "www.youtube.com"
-        };
-        ar[20] = {
-            url: 'https://www.youtube.com/watch?v=BemWQEyqn58',
-            img: "youtube",
-            type: "video",
-            title: 'World . ORD',
-            source: "www.youtube.com"
-        };
-        ar[21] = {
-            url: 'https://www.youtube.com/watch?v=Qc9OhZm3Qq0',
-            img: "youtube",
-            type: "video",
-            title: 'OUR AMAZING PLANET . ORD',
-            source: "www.youtube.com"
-        };
-        ar[22] = {
-            url: 'https://www.youtube.com/watch?v=D0QA1hZLRqQ',
-            img: "youtube",
-            type: "video",
-            title: 'HAPPY . ORD',
-            source: "www.youtube.com"
-        };
-        ar[23] = {
-            url: 'https://www.youtube.com/watch?v=KfYtbFj7bqc',
-            img: "youtube",
-            type: "video",
-            title: 'HOME . ORD . HD',
-            source: "www.youtube.com"
-        };
-        ar[24] = {
-            url: 'https://www.youtube.com/watch?v=vR7TopfrgTA',
-            img: "youtube",
-            type: "video",
-            title: 'LIFE . ORD - HD',
-            source: "www.youtube.com"
-        };
-        ar[25] = {
-            url: 'https://www.youtube.com/watch?v=MfQreCkrBus',
-            img: "youtube",
-            type: "video",
-            title: 'My Planet',
-            source: "www.youtube.com"
-        };
-        ar[26] = {
-            url: 'https://www.youtube.com/watch?v=kcLUwEuiOQo',
-            img: "youtube",
-            type: "video",
-            title: 'New York City. Manhattan. Times Square',
-            source: "www.youtube.com"
-        };
-        ar[27] = {
-            url: 'https://www.youtube.com/watch?v=6807uZgumOc',
-            img: "youtube",
-            type: "video",
-            title: 'My Iceland. My World. My Life.',
-            source: "www.youtube.com"
-        };
-        ar[28] = {
-            url: 'https://www.youtube.com/watch?v=N8Qg8maF6bA',
-            img: "youtube",
-            type: "video",
-            title: 'ORD',
-            source: "www.youtube.com"
-        };
-        ar[29] = {
-            url: 'https://www.youtube.com/watch?v=H900pblkVW4',
-            img: "youtube",
-            type: "video",
-            title: 'HOT K-POP \ DJ Masa / Remix \ 2012  [ Exclusive ]',
-            source: "www.youtube.com"
-        };
     }
+
     if (taskId == 69628 || taskId == 69625 || taskId == 68507) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=Tv3TEllzXp0',
@@ -4051,6 +4052,267 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: 'Crotalus ruber ruber  in the zoo',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1298408) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=2Y_8ZmuSx_0',
+            img: "youtube",
+            type: "video",
+            title: 'ACURA MDX',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=Dm1VuAc4k40',
+            img: "youtube",
+            type: "video",
+            title: 'Alfa Romeo Giulia',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=CnL_SBEQftc',
+            img: "youtube",
+            type: "video",
+            title: 'Rolls Royce Phantom',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=GxJ9KgH0Z7c',
+            img: "youtube",
+            type: "video",
+            title: 'Honda NSX',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=QRliOEUGXOk',
+            img: "youtube",
+            type: "video",
+            title: 'Hummer H3',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=5Udkvl2h4jU',
+            img: "youtube",
+            type: "video",
+            title: 'Maybach',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=LmPjNBaZunE',
+            img: "youtube",
+            type: "video",
+            title: 'Volvo XC90',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=vG17lntHnFg',
+            img: "youtube",
+            type: "video",
+            title: 'Cadillac Escalade',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=qOcazkUL7NM',
+            img: "youtube",
+            type: "video",
+            title: 'Jeep',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=gQSkoQ5FyQg',
+            img: "youtube",
+            type: "video",
+            title: 'GMC',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=jZ91VQyWchE',
+            img: "youtube",
+            type: "video",
+            title: 'Aston Martin Lagonda 2016 WOT ОНО',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=k6wRXsrqPGs',
+            img: "youtube",
+            type: "video",
+            title: 'Volkswagen Touareg WOT ОНО',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=K7awtX-xsvU',
+            img: "youtube",
+            type: "video",
+            title: 'Porsche Macan WOT ОНО',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=Z0mPOBOEEeo',
+            img: "youtube",
+            type: "video",
+            title: 'Toyota Land Cruiser 200 2016  WOT ОНО',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=hrBTUf2KKbU',
+            img: "youtube",
+            type: "video",
+            title: 'Maserati WOT ОНО',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=reJg4KVNUig',
+            img: "youtube",
+            type: "video",
+            title: 'Mercedes Benz S',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=AtkYWoC_C3I',
+            img: "youtube",
+            type: "video",
+            title: 'Lexus LX 570',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=7oaM5ZULXoQ',
+            img: "youtube",
+            type: "video",
+            title: 'Bentley Continental GT Speed',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=-OTeKVuyWl4',
+            img: "youtube",
+            type: "video",
+            title: 'Opel Vectra C',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=6PvxSqof92Q',
+            img: "youtube",
+            type: "video",
+            title: 'SUBARU FORESTER 2016 WOT OHO',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=FigakeviH_E',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan X Trail',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=DVlRkeyKkGk',
+            img: "youtube",
+            type: "video",
+            title: 'Hyundai Sonata 2016',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=iPHvZ1PPjfM',
+            img: "youtube",
+            type: "video",
+            title: 'Jaguar XF 2016',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=l5oHYUDyh54',
+            img: "youtube",
+            type: "video",
+            title: 'BMW X5 M 2016',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=wtBkCFn7ugk',
+            img: "youtube",
+            type: "video",
+            title: 'Bugatti Chiron',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=HONphSbqVmA',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda CX 9',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=ak_O65Vcy4s',
+            img: "youtube",
+            type: "video",
+            title: 'worldoftanks 2016 01 06 20 38 46 270',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=kmOGzv04jdA',
+            img: "youtube",
+            type: "video",
+            title: 'worldoftanks 2016 01 06 20 28 28 313',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=y6ipPQ1Li5Q',
+            img: "youtube",
+            type: "video",
+            title: 'worldoftanks 2016 01 06 20 22 59 168',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=JpZuTXTPQ7c',
+            img: "youtube",
+            type: "video",
+            title: 'worldoftanks 2016 01 06 20 42 38 544',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=vR85ZOuK9No',
+            img: "youtube",
+            type: "video",
+            title: 'world of tanks артилерия',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=fOo0D4fAKrE',
+            img: "youtube",
+            type: "video",
+            title: 'world of tanks лучшая',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=dQdeHTHXV3I',
+            img: "youtube",
+            type: "video",
+            title: 'world of tanks то что надо',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=pfKcVMXg3Lo',
+            img: "youtube",
+            type: "video",
+            title: 'world of tanks best of the best',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=bNnDOXAZIQk',
+            img: "youtube",
+            type: "video",
+            title: 'world of tanks BEST',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=_m3vxI7BF14',
+            img: "youtube",
+            type: "video",
+            title: 'world of tanks 2016',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=Vfgv_p7LKaQ',
+            img: "youtube",
+            type: "video",
+            title: 'world of tanks',
             source: "www.youtube.com"
         };
     }
@@ -6143,6 +6405,581 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: "Cs go часть 1",
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1343094) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=w7xZKnPC1Y8',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online Lets play #1 START FIGHT!',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=iKQAC8jKbZU',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online Lets play #10 WIN!',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=3BzeairgVVM',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online Lets play #4 GOLD GOLD GOLD!!!',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=wOiXV3d2GIw',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online Lets play #8 KILL THEM!',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=cUXtbAVm8ks',
+            img: "youtube",
+            type: "video",
+            title: "Tanki Online Lets play #7 I'M THE WINNER!",
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=u8HTxSz-3Ts',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online Lets play #2 High Mountains',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=ZYLiHm8TVSU',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online Lets play #9 NICE GAME!',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=-cI_Plkf-Kk',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online Lets play #5 VICTORY!!!',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=02nrK1kvMuc',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online Lets play #6 GO GO GO!!!',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=sLr855A2f-0',
+            img: "youtube",
+            type: "video",
+            title: 'Tanki Online Lets play #3 Great battles',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1336069) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=db3HsLwttsw',
+            img: "youtube",
+            type: "video",
+            title: 'Уникальный мотоцикл от Wakan Motorcycles',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=u6YkQ72KAbw',
+            img: "youtube",
+            type: "video",
+            title: 'Гоночный мотоцикл Honda CR750',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=rEAJrNu52VU',
+            img: "youtube",
+            type: "video",
+            title: 'Mitsubishi MMR Concept',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=MoAajSD8UdY',
+            img: "youtube",
+            type: "video",
+            title: 'Электрический мотоцикл Tesla Motor M',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=DZGJX9D8LRw',
+            img: "youtube",
+            type: "video",
+            title: 'Художественная механика   позолоченный мотоцикл Nehmesis',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=z6oHZRcTeUU',
+            img: "youtube",
+            type: "video",
+            title: 'Уникальный мотоцикл от Mercedes AMG',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=Oe4kphj3enc',
+            img: "youtube",
+            type: "video",
+            title: 'Мотоцикл Lotus VEERYGOOD',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=V5L97T8_nSI',
+            img: "youtube",
+            type: "video",
+            title: 'Кастом Recidivist Convention от польских мастеров',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=01JWwfwUWxc',
+            img: "youtube",
+            type: "video",
+            title: 'Yamaha BIKE VEERYGOOD',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=hV2ctkAI_dA',
+            img: "youtube",
+            type: "video",
+            title: 'SUZUKI BIKE VEERYGOOD',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=tcaoYvMkRt0',
+            img: "youtube",
+            type: "video",
+            title: 'Yaguar BIKE VEERYGOOD',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=L-yeZ5vMtp8',
+            img: "youtube",
+            type: "video",
+            title: 'Skeleton bike VEERYGOOD',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=FT0v2R6rT68',
+            img: "youtube",
+            type: "video",
+            title: 'MV AGUSTA SENNA LIMITED EDITION',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=T6JEqysYmLQ',
+            img: "youtube",
+            type: "video",
+            title: 'MV Agusta Rivale 800',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=8Snr5pwcVLI',
+            img: "youtube",
+            type: "video",
+            title: 'Legacy Inspired Motorcycle',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=qsXw0BZmbec',
+            img: "youtube",
+            type: "video",
+            title: 'Lazareth BIKE',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=GL4AxE3xG2g',
+            img: "youtube",
+            type: "video",
+            title: 'Harley Davidson',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=Jz6JCs82Kl0',
+            img: "youtube",
+            type: "video",
+            title: 'Goldfinger an unique motorcycle',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=m5qbNJ3w0KI',
+            img: "youtube",
+            type: "video",
+            title: 'Electric Motercycles Valetta Electric',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=exO8lbusMLw',
+            img: "youtube",
+            type: "video",
+            title: 'El Solitario Trimotoro Motorcycle',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=KOJw_I3tyrU',
+            img: "youtube",
+            type: "video",
+            title: 'Ducati BIKE',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=A2E4KovuAKM',
+            img: "youtube",
+            type: "video",
+            title: 'bike, ferrari,',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=yXH1_1W8wxU',
+            img: "youtube",
+            type: "video",
+            title: 'BMW BIKE',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=WcAFjWLOR_M',
+            img: "youtube",
+            type: "video",
+            title: 'Audi Bikes',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=vcLbEO1OhWk',
+            img: "youtube",
+            type: "video",
+            title: 'Aprilia Shiver 750',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1331141) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=MvMmwMXC02c',
+            img: "youtube",
+            type: "video",
+            title: 'Mercedes Benz ARROW460',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=d7PWiH4OzJY',
+            img: "youtube",
+            type: "video",
+            title: 'Rolls Royce Claydon Reeves',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=KGDDWO9rjD4',
+            img: "youtube",
+            type: "video",
+            title: 'Arman Dune 90 superyacht',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=da-VpJfLqbo',
+            img: "youtube",
+            type: "video",
+            title: 'Яхта Джеймса Бонда Regina,',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=Ae0Sr8Pdt_0',
+            img: "youtube",
+            type: "video",
+            title: 'AEROYACHT 110 MEE GA YAAHTS',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=QECgIgOunmM',
+            img: "youtube",
+            type: "video",
+            title: 'яхта Lamborghini Yacht',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=pG2HbrVtX8o',
+            img: "youtube",
+            type: "video",
+            title: 'Самая дорогая яхта в мире   Admiral X Force 145',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=ZsPX9eACIxg',
+            img: "youtube",
+            type: "video",
+            title: 'Необычная яхта Origami',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=jsxwapnIAyg',
+            img: "youtube",
+            type: "video",
+            title: 'Мега яхта Serene',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=mNg1GTdmHzQ',
+            img: "youtube",
+            type: "video",
+            title: 'WALLY POWER 118',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=Tqk65BWgKwc',
+            img: "youtube",
+            type: "video",
+            title: 'Trimaran Yacht',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=puSNy2UQVSs',
+            img: "youtube",
+            type: "video",
+            title: 'Strand Craft',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=M4k_nXsckac',
+            img: "youtube",
+            type: "video",
+            title: 'Numptia MEE GA YAAHTS',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=AIEsuiZtNBM',
+            img: "youtube",
+            type: "video",
+            title: 'Spire Speedboat',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=7n0TWpLSiI4',
+            img: "youtube",
+            type: "video",
+            title: 'Pelorus MEE GA YAAHTS',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=s7_GLQ__9gc',
+            img: "youtube",
+            type: "video",
+            title: 'Intermarine 55 яхта от BMW',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=ZF1hhgBv4x8',
+            img: "youtube",
+            type: "video",
+            title: 'Baia 100 Supreme all Самая дорогая яхта',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=_sO0GLFzwPQ',
+            img: "youtube",
+            type: "video",
+            title: 'Beluga Emperor',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=GCigGygUzFk',
+            img: "youtube",
+            type: "video",
+            title: 'Audi Trimaran',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=TOXNiP2ZAXM',
+            img: "youtube",
+            type: "video",
+            title: 'AZIMUT GRANDE 95 RPH',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1319679) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=RHXPO6SjFY0',
+            img: "youtube",
+            type: "video",
+            title: 'Mazda Furai',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=SZyrL2EzIjs',
+            img: "youtube",
+            type: "video",
+            title: 'Audi R10',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=dhlmt6NJEpw',
+            img: "youtube",
+            type: "video",
+            title: 'Mclaren MP4 12C',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=m_qVeW57Sjg',
+            img: "youtube",
+            type: "video",
+            title: 'Lamborghini Egoista',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=TR5YrbpvvOA',
+            img: "youtube",
+            type: "video",
+            title: 'Honda NSX',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=Mac-exUj51k',
+            img: "youtube",
+            type: "video",
+            title: 'Carlsson C25 Royale',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=J4BNXYcrU54',
+            img: "youtube",
+            type: "video",
+            title: 'Audi R8 sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=XrltHraQ2DQ',
+            img: "youtube",
+            type: "video",
+            title: 'BMW i8 sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=PfYY93VjQCc',
+            img: "youtube",
+            type: "video",
+            title: 'Lamborghini sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=Q8o_PAP2NjA',
+            img: "youtube",
+            type: "video",
+            title: 'porsche sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=gmtrG2gn4pw',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan GT R sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=lt7d_riolMw',
+            img: "youtube",
+            type: "video",
+            title: 'Toyota sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=gnlOJrHsqek',
+            img: "youtube",
+            type: "video",
+            title: 'Mustang sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=YCDv-va3lwo',
+            img: "youtube",
+            type: "video",
+            title: 'Mercedes AMG sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=neIr3ZeRjvw',
+            img: "youtube",
+            type: "video",
+            title: 'mazda sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=qrpj6pvG1I8',
+            img: "youtube",
+            type: "video",
+            title: 'Lexus sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=hNmfThGML-E',
+            img: "youtube",
+            type: "video",
+            title: 'marussia sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=kvsRR3Uo-Wg',
+            img: "youtube",
+            type: "video",
+            title: 'maserati sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=bKhJbC3ZCCw',
+            img: "youtube",
+            type: "video",
+            title: 'Honda sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=58c7nFexr34',
+            img: "youtube",
+            type: "video",
+            title: 'Infiniti sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=QUjeqioeKs0',
+            img: "youtube",
+            type: "video",
+            title: 'Ferrari sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=zNOf3WURa3M',
+            img: "youtube",
+            type: "video",
+            title: 'Dodge sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=v1_ZCSq0DuE',
+            img: "youtube",
+            type: "video",
+            title: 'Chrysler Cros sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=6DK6Tl9_j_8',
+            img: "youtube",
+            type: "video",
+            title: 'Bugatti',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=g3H9GYbQ-QU',
+            img: "youtube",
+            type: "video",
+            title: 'Bentley sssuperr',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=0FtVzCDv-dg',
+            img: "youtube",
+            type: "video",
+            title: 'Aston Martin sssuperr',
             source: "www.youtube.com"
         };
     }
@@ -11158,6 +11995,218 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: 'speed 2016 01 14 19 00 55 570',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1248110) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=E6y5fwAwTsU',
+            img: "youtube",
+            type: "video",
+            title: 'Astor martin Race 57/2 NFS Carbon',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=FfP7Vv9g3Sw',
+            img: "youtube",
+            type: "video",
+            title: 'Astor martin Race 57 NFS Carbon',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=ox8NFMpVlaY',
+            img: "youtube",
+            type: "video",
+            title: 'Ford mustang NFS CARBON Race 57',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=GjwwxgAFzuk',
+            img: "youtube",
+            type: "video",
+            title: 'Ford mustang NFS CARBON Race 56',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=NRyGyVkraq8',
+            img: "youtube",
+            type: "video",
+            title: 'Ford mustang  NFS CARBON Race 55/2',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=IlFEV_QK6tI',
+            img: "youtube",
+            type: "video",
+            title: 'Ford mustang  NFS CARBON Race 55',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=dWYKVAHA7Fg',
+            img: "youtube",
+            type: "video",
+            title: 'chevrolet corvette z06 NFS CARBON Race 54/3',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=yH775iZKz7A',
+            img: "youtube",
+            type: "video",
+            title: 'chevrolet corvette z06 NFS CARBON Race 54/2',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=ymuJ60r88TQ',
+            img: "youtube",
+            type: "video",
+            title: 'chevrolet corvette z06 NFS CARBON Race 54',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=-YzIvNEZETY',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race 53',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=BtdKQQfspoc',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race 52/3',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=_U7xbvbl-Vs',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race 52/2',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=Trc_zobgAj8',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race 52',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=h6lyvKyYNTM',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race 51',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=eHbNr97veeY',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race 50/4',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=UnqeGfuLj0Y',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race 50/3',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=hc1qPUAejqw',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race 50/2',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=QcCpXYOv0GU',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race 50/1',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=zdoVD9sElFs',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race 50',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=vIM6IwSzD78',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race NEW Touwn',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=MZz2qIV0T7M',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race Boss Engi 3',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=FzuJbGuzzjU',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race Boss Engi 2',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=ytU1nOWVFzs',
+            img: "youtube",
+            type: "video",
+            title: 'Porshe Cayman NFS Carbon Race Boss Engi 1',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=vLe0LhmQ2qE',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan GTR NFS Carbon Race 47',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=uqjoXw4jNRY',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan GTR NFS Carbon Race 46',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=7lrNbVkPfCE',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan NFS Carbon Race 45',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=4NlivTBSe9Q',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan NFS Carbon Race 44',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=W6uMjPPQC7k',
+            img: "youtube",
+            type: "video",
+            title: 'Nissan NFS Carbon Race 43',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=M70nTvgSlC4',
+            img: "youtube",
+            type: "video",
+            title: 'Reno Clio NFS Carbon Boss/2',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=MwXlcPETeDo',
+            img: "youtube",
+            type: "video",
+            title: 'reno clio NFS Carbon Enjji',
             source: "www.youtube.com"
         };
     }

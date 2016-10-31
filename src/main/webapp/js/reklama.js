@@ -4540,40 +4540,40 @@ function getReklama() {
 	};
 
 	ar[104] = {
-		mainUrl : "https://www.gasag.de/Privatkunden/Seiten/default.aspx",
-		title: "GASAG | Berliner Gaswerke AG - Privatkunden",
+		mainUrl : "https://www.gasag.de/privatkunden/",
+		title: "Privatkunden",
 		secUrl : {
 			url1 : {
-				url: "https://www.gasag.de/Privatkunden/Produkte/berlin/GASAG-Komfort/Seiten/default.aspx",
-				title: "GASAG | ERDGAS Komfort"
+				url: "https://www.gasag.de/footer/installateurverzeichnis",
+				title: "Installateurverzeichnis"
 			},
 			url2 : {
-				url: "https://www.gasag.de/Privatkunden/Produkte/berlin/Hausmacherstrom/Seiten/default.aspx",
-				title: "GASAG | STROM Hausmacherstrom"
+				url: "https://www.gasag.de/footer/inbetriebsetzungsantrag",
+				title: "Inbetriebsetzungsantrag"
 			},
 			url3 : {
-				url: "https://www.gasag.de/Privatkunden/Produkte/berlin/gasag-waerme-heizkomfort/Seiten/default.aspx",
-				title: "GASAG | Ihre neue Heizung – GASAG | WÄRME Heizkomfort"
+				url: "https://www.gasag.de/footer/schornsteinfegerverzeichnis",
+				title: "Schornsteinfeger-Verzeichnis"
 			},
 			url4 : {
-				url: "https://www.gasag.de/Privatkunden/Services/kundenservice/kundenzentrum/Seiten/default.aspx",
-				title: "Unsere Kunden liegen uns am Herzen"
+				url: "https://www.gasag.de/geschaeftskunden/energieloesungen/oeltankentsorgung",
+				title: "Öltankentsorgung"
 			},
 			url5 : {
-				url: "https://www.gasag.de/Privatkunden/Services/Foerderwelt/Foerderassistent/Seiten/default.aspx",
-				title: "GASAG | Förderprogramme"
+				url: "https://www.gasag.de/privatkunden/energieloesungen/hausanschluss/versorgungsanfrage",
+				title: "Versorgungsanfrage"
 			},
 			url6 : {
-				url: "https://www.gasag.de/Privatkunden/Services/Energiedienstleistungen/Oeltankentsorgung/Seiten/default.aspx",
-				title: "GASAG | Service Öltankentsorgung"
+				url: "https://www.gasag.de/privatkunden/service/foerderwelt",
+				title: "Förderwelt"
 			},
 			url7 : {
-				url: "https://www.gasag.de/Privatkunden/Services/Versorgung/Anbieterwechsel/Seiten/default.aspx",
-				title: "GASAG | Ihr einfacher Weg zur GASAG. Anbieterwechsel leicht gemacht."
+				url: "https://www.gasag.de/footer/geraetehersteller",
+				title: "GASAG | Partner der Geräteindustrie"
 			},
 			url8 : {
-				url: "https://www.gasag.de/Marktpartner/Weiterverteiler/Vertriebspartner/Vertriebspartner/Seiten/default.aspx",
-				title: "Vertriebspartner"
+				url: "https://www.gasag.de/footer/weiterverteiler",
+				title: "Weiterverteiler"
 			}
 		},
 		img: "gasag.de",
@@ -5225,6 +5225,178 @@ function getReklama() {
 		type: "reklama",
 		location: "SINGAPORE",
 		source: "www.britcham.org.sg"
+	};
+
+	ar[120] = {
+		mainUrl : "http://www.schneider-electric.com/ww/en/about-us/company-profile.jsp",
+		title: "Company Profile | Schneider Electric",
+		secUrl : {
+			url1 : {
+				url: "http://www.schneider-electric.com/ww/en/about-us/careers/overview.jsp",
+				title: "Careers | Schneider Electric"
+			},
+			url2 : {
+				url: "http://www.schneider-electric.com/ww/en/about-us/investor-relations.jsp",
+				title: "Investor Relations | Schneider Electric"
+			},
+			url3 : {
+				url: "http://www.schneider-electric.com/ww/en/about-us/press.jsp",
+				title: "Press Centre | Schneider Electric"
+			},
+			url4 : {
+				url: "http://www2.schneider-electric.com/corporate/en/finance/general-information/share-price/share-price.page",
+				title: "Share price - Schneider Electric"
+			},
+			url5 : {
+				url: "http://www.schneider-electric.com/ww/en/about-us/sustainability.jsp",
+				title: "Sustainability | Schneider Electric"
+			},
+			url6 : {
+				url: "http://www.schneider-electric.com/ww/en/about-us/diversity-and-inclusion.jsp",
+				title: "Diversity and Inclusion | Schneider Electric"
+			},
+			url7 : {
+				url: "http://www.schneider-electric.com/ww/en/about-us/events.jsp",
+				title: "Events | Schneider Electric"
+			},
+			url8 : {
+				url: "http://www.schneider-electric.com/b2b/en/support/",
+				title: "Support | Schneider Electric"
+			}
+		},
+		img: "schneider-electric",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.schneider-electric.com"
+	};
+
+	ar[121] = {
+		mainUrl : "https://www.steiner-vision.de/testseherclub",
+		title: "STEINER-Vision - Testseherclub",
+		secUrl : {
+			url1 : {
+				url: "https://www.steiner-vision.de/uber-uns",
+				title: "STEINER-Vision - Uber-uns"
+			},
+			url2 : {
+				url: "https://www.steiner-vision.de/blog",
+				title: "STEINER-Vision - Blog"
+			},
+			url3 : {
+				url: "https://www.steiner-vision.de/kontakt",
+				title: "STEINER-Vision - Kontakt"
+			},
+			url4 : {
+				url: "https://www.steiner-vision.de/datenschutz",
+				title: "STEINER-Vision - Datenschutz"
+			},
+			url5 : {
+				url: "https://www.steiner-vision.de/impressum",
+				title: "STEINER-Vision - Impressum"
+			},
+			url6 : {
+				url: "https://www.steiner-vision.de/AGB",
+				title: "STEINER-Vision - AGB"
+			},
+			url7 : {
+				url: "https://www.steiner-vision.de/partneroptiker",
+				title: "STEINER-Vision - Partneroptiker"
+			},
+			url8 : {
+				url: "https://www.steiner-vision.de/sitemap",
+				title: "STEINER-Vision - Sitemap"
+			}
+		},
+		img: "steiner-vision",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.steiner-vision.de"
+	};
+
+	ar[122] = {
+		mainUrl : "https://dopper.com/shop/",
+		title: "Shop | Dopper",
+		secUrl : {
+			url1 : {
+				url: "https://dopper.com/mission/",
+				title: "Dopper | Mission"
+			},
+			url2 : {
+				url: "https://dopper.com/about-dopper/jobs/",
+				title: "Dopper | Jobs"
+			},
+			url3 : {
+				url: "https://dopper.com/find-a-store/",
+				title: "Dopper | Find a store"
+			},
+			url4 : {
+				url: "https://dopper.com/contact/",
+				title: "Dopper | Contact"
+			},
+			url5 : {
+				url: "https://dopper.com/returns-warranty/",
+				title: "Dopper | Returns & warranty"
+			},
+			url6 : {
+				url: "https://dopper.com/business/branded-doppers/",
+				title: "Dopper | Branded Doppers"
+			},
+			url7 : {
+				url: "https://dopper.com/business/register-new-point-of-sale/",
+				title: "Dopper | Retailer registration"
+			},
+			url8 : {
+				url: "https://dopper.com/press/",
+				title: "Dopper | Press"
+			}
+		},
+		img: "dopper",
+		type: "reklama",
+		location: "USA",
+		source: "www.dopper.com"
+	};
+
+	ar[123] = {
+		mainUrl : "https://www.netbank.de/",
+		title: "Ihre Online Bank mit günstigen Konditionen | netbank",
+		secUrl : {
+			url1 : {
+				url: "https://www.netbank.de/privatkunden/kredite/uebersicht/",
+				title: "Kredit online, für jeden das Richtige | netbank"
+			},
+			url2 : {
+				url: "https://www.netbank.de/privatkunden/kredite/ratenkredit/",
+				title: "Ratenkredit online: fair, transparent und schnell | netbank"
+			},
+			url3 : {
+				url: "https://www.netbank.de/privatkunden/kredite/kleinkredit/",
+				title: "Kleinkredit | Testsieger Kleinkredite von der netbank | netbank"
+			},
+			url4 : {
+				url: "https://www.netbank.de/privatkunden/kredite/kredit-fuer-freiberufler/",
+				title: "Kredit für Freiberufler | netbank"
+			},
+			url5 : {
+				url: "https://www.netbank.de/privatkunden/kredite/baufinanzierung/",
+				title: "Baufinanzierung Konditionen | netbank"
+			},
+			url6 : {
+				url: "https://www.netbank.de/privatkunden/konten/uebersicht/",
+				title: "Alle Konten im Überblick | netbank"
+			},
+			url7 : {
+				url: "https://www.netbank.de/privatkunden/konten/girokonto/",
+				title: "Girokonto > das kostenlose Konto mit Startguthaben | netbank"
+			},
+			url8 : {
+				url: "https://www.netbank.de/privatkunden/konten/tagesgeldkonto/",
+				title: "Kostenloses Tagesgeldkonto | netbank"
+			}
+		},
+		img: "netbank.de",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.netbank.de"
 	};
 
 

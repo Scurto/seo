@@ -107,6 +107,7 @@ $(document).ready(function() {
 		"80348",
 		"68148",
 		"1157210",
+		"1343094",
 		"1189678",
 		"1270064",
 		"1178491",
@@ -135,6 +136,11 @@ $(document).ready(function() {
 		"1221587",
 		"1068079",
 		"1248113",
+		"1248110",
+		"1298408",
+		"1319679",
+		"1331141",
+		"1336069",
 		"1303044",
 		"1341451",
 		"1341449",
@@ -544,6 +550,14 @@ $(document).ready(function() {
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
+		(item == 1343094) {
+			$('#taskId').val(1343094);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
 		(item == 1178491) {
 			$('#taskId').val(1178491);
 			$('#countOfVideo').val(11);
@@ -741,6 +755,46 @@ $(document).ready(function() {
 			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(5);
 			$('#countOfMove').val(4);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1248110) {
+			$('#taskId').val(1248110);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1298408) {
+			$('#taskId').val(1298408);
+			$('#countOfVideo').val(27);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1319679) {
+			$('#taskId').val(1319679);
+			$('#countOfVideo').val(26);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1331141) {
+			$('#taskId').val(1331141);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1336069) {
+			$('#taskId').val(1336069);
+			$('#countOfVideo').val(25);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
 			$('#betweenVideo').val(45);
 			$('#betweenReklama').val(45);
 		}else if
@@ -1308,9 +1362,10 @@ $(document).ready(function() {
 			connArray.push(1184830);
 		} else if (taskId == 1204213) {
 			connArray.push(1204213);
-		} else if (taskId == 1157210 || taskId == 1178491) {
+		} else if (taskId == 1157210 || taskId == 1178491 || taskId == 1343094) {
 			connArray.push(1157210);
 			connArray.push(1178491);
+			connArray.push(1343094);
 		} else if (taskId == 1189678) {
 			connArray.push(1189678);
 		} else if (taskId == 1021308 || taskId == 1326194) {
@@ -1354,11 +1409,17 @@ $(document).ready(function() {
 			connArray.push(352243);
 		} else if (taskId == 353877) {
 			connArray.push(353877);
-		} else if (taskId == 1248113 || taskId == 1341449 || taskId == 1341451 || taskId == 1303044) {
+		} else if (taskId == 1248113 || taskId == 1341449 || taskId == 1341451 || taskId == 1303044 || taskId == 1248110) {
 			connArray.push(1248113);
 			connArray.push(1341449);
 			connArray.push(1341451);
 			connArray.push(1303044);
+			connArray.push(1248110);
+		} else if (taskId == 1298408 || taskId == 1336069 || taskId == 1331141 || taskId == 1319679) {
+			connArray.push(1298408);
+			connArray.push(1336069);
+			connArray.push(1331141);
+			connArray.push(1319679);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -1946,13 +2007,25 @@ $('#clear-browsing-data').click(function(event) {
 				img: "2ip",
 				source: "2ip.ru"
 			};
-			var google = {
-				title: request + " - Поиск в Google",
-				type: "def",
-				img: "google",
-				source: "www.google.com"
-			};
+			var google = getLocationGoogle(request);
 			var youtube = getDefaultYouTube("The Big City Life - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(ip);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1343094) {
+			//var whoer = getDefaultWhoer();
+
+			var ip = {
+				title: "Узнать IP адрес",
+				type: "def",
+				img: "2ip",
+				source: "2ip.ru"
+			};
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("Tanki Online World - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
@@ -2297,6 +2370,46 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(whoer);
 			etalonArray.push(google);
 			etalonArray.push(youtube);
+		}else if (taskId == 1298408) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("WOT ОНО - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1336069) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("VEERYGOOD CHANNEL - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1331141) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("MEE GA YAAHTS - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1319679) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("SSSUPERR AUTO - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
 		}else if (taskId == 1270064) {
 			var whoer = getDefaultWhoer();
 			var google = getLocationGoogle(request);
@@ -2337,6 +2450,16 @@ $('#clear-browsing-data').click(function(event) {
 			var whoer = getDefaultWhoer();
 			var google = getLocationGoogle(request);
 			var youtube = getDefaultYouTube("Дмитрий Дмитриев - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+		}else if (taskId == 1248110) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("Дмитрий Иванов - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
@@ -2632,12 +2755,7 @@ $('#clear-browsing-data').click(function(event) {
 				img: "youtube",
 				source: "www.youtube.com"
 			};
-			var google = {
-				title: "star-blog - Поиск в Google",
-				type: "def",
-				img: "google",
-				source: "www.google.com"
-			};
+			var google = getLocationGoogle("star-blog");
 			var whoer = {
 				title: "Узнать свой IP адрес",
 				type: "def",
@@ -2737,12 +2855,7 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(google);
 			etalonArray.push(youtube);
 		}else if (taskId == 288151 || taskId == 79016) {
-			var google = {
-				title: request + " - Поиск в Google",
-				type: "def",
-				img: "google",
-				source: "www.google.com"
-			};
+			var google = getLocationGoogle(request);
 			var youtube = {
 				title: "Schmeiser TV - YouTube",
 				type: "def",
