@@ -11998,6 +11998,340 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1301887) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=f6M-dGrvZag',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Nereus - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=5pDytk0_dEI',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Aliprand - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=o97Mfg5aNz4',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Thankarat - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=iLhTLCXtiH4',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Drupada - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=1ilvapfOvNw',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Belial - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=sFx_xYYf_JA',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Ennius - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=IQt5XIyy7DM',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Theutrich - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=0AOZfSYCbqY',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Wigmar - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=g084g3R_e2k',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Ulysses - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=72zXAthCKYk',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Dagan - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=zrx9tRl8uFY',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Straton - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=vfccGVz5Y6k',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Gwrtheyrn - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=RjXHqbnNMc0',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Gemini - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=juz-5Uz0o4Y',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Plato - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=za5o5FXjq3w',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR -  Tychon - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=x2e15Q3IvPo',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Anu - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=GXB_P9s0isg',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Ion - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=GT6hOotgYrk',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Dionysodoros - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=-FScVu85hTU',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Maximinus - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=pB-qwcBBBoI',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR -  Lysimachus - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=Er97hRTsYik',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Theothelm - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=KwT5LHyWmAQ',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Kyros - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=1hdexjHAv_E',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Ephesius - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=98_tb1f-4zY',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Silvester - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=Q_GHJecsA24',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Æthelwine - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=d4roRFicLFg',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Panther - Together Forever',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=qeblpGa8Mgs',
+            img: "youtube",
+            type: "video",
+            title: 'CONTRIBUTOR - Aðalsteinn - Together Forever',
+            source: "www.youtube.com"
+        };
+    }
+
+    if (taskId == 1272282) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=w5Ja4RKaNQk',
+            img: "youtube",
+            type: "video",
+            title: 'Насос без электричества. Самый простой, дешевый вариант водяной качалки',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=OM4d05DtJPI',
+            img: "youtube",
+            type: "video",
+            title: 'Необычный насос работающий без электричества а за счет ветра. Ветряной водяной насос',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=GSimqW2VCkQ',
+            img: "youtube",
+            type: "video",
+            title: 'Схема механизма и принцип работы ветряного водяного насоса в 3D. Ветряк своими руками',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=njpe4zCBR_Y',
+            img: "youtube",
+            type: "video",
+            title: 'Процесс получения и принцип работы биогаза в 3D. Биогаз своими руками.',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=Z0Vw5VqvCJo',
+            img: "youtube",
+            type: "video",
+            title: 'Проект Кемпинг зона с приключениями. Пример зоны отдыха. ЭкоПроект',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=AYhIcUPwLcM',
+            img: "youtube",
+            type: "video",
+            title: 'Выстрел пули в 3D анимации . HD . 2016',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=KZcsRHHa1sQ',
+            img: "youtube",
+            type: "video",
+            title: 'ПЕРВЫЙ В МИРЕ прототип МАГНИТНОГО ДВИГАТЕЛЯ без ТОПЛИВА (11 кВт)  FREE ENERGY - 2016',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=gXlGyBSCEIc',
+            img: "youtube",
+            type: "video",
+            title: 'ОТОПЛЕНИЕ БЕЗ ГАЗА И ДРОВ. Виды геотермальной системы отопления и принцип их работы в 3D',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=PFTAyPa-22Y',
+            img: "youtube",
+            type: "video",
+            title: 'ОТОПЛЕНИЕ БЕЗ ГАЗА И ДРОВ. Принцип работы горизонтальной геотермальной системы отопления.',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=fnydTLGW6oM',
+            img: "youtube",
+            type: "video",
+            title: 'ОТОПЛЕНИЕ БЕЗ ГАЗА И ДРОВ. Принцип работы вертикальной геотермальной системы отопления.',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=8Qmks6ikDXQ',
+            img: "youtube",
+            type: "video",
+            title: 'Принцип работы и схема геотермальной системы отопления в 3D.',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=nZRkEgmrMbg',
+            img: "youtube",
+            type: "video",
+            title: 'Схема солнечной отопительной системы. Принцип работы солнечного автономного обогрева',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=evShDdxA2eE',
+            img: "youtube",
+            type: "video",
+            title: 'ОТОПЛЕНИЕ БЕЗ ГАЗА И ДРОВ И ЭЛЕКТРИЧЕСТВА. Принцип работы геотермальной системы отопления.',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=zo684E2_ivM',
+            img: "youtube",
+            type: "video",
+            title: 'Безаккумуляторное поисковое устройство определит метоположение пропавшего человека',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=P-MVST3jaEs',
+            img: "youtube",
+            type: "video",
+            title: 'Система вертикального выращивания растений, используя самые дешевые материалы.',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=k8UqLz-KIeA',
+            img: "youtube",
+            type: "video",
+            title: 'Схема механизма двигателя ветрянной мельницы водяного качка колонки в 3D',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=gN82N6L8L1Y',
+            img: "youtube",
+            type: "video",
+            title: 'Принцип работы и схема системы капельного орошения для вертикальной аквапоники',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=1out7IQqW64',
+            img: "youtube",
+            type: "video",
+            title: "3D ' Самый дешевый и оптимальный вариант аквапоники. Разведение рыб и выращивание растений.",
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=kYC_j5BBV_c',
+            img: "youtube",
+            type: "video",
+            title: 'Как выбраться из песка на машине в одиночку? ХИТРЫЙ СПОСОБ! How to get out of the sand?',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=_kOsr4s6fAY',
+            img: "youtube",
+            type: "video",
+            title: 'БезНасосная система для поднятия воды для аквапоники и разведения рыб. 2016',
+            source: "www.youtube.com"
+        };
+    }
     if (taskId == 1248110) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=E6y5fwAwTsU',

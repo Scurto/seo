@@ -337,6 +337,21 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("1335655", "https://www.youtube.com/channel/UCznXU4C0v24FbYGa416_fig/videos");
 		urlMap.put("847431", "https://www.youtube.com/channel/UCArXOCHDiO4WR_mGCuuBTbA/videos");
 		urlMap.put("1328508", "https://www.youtube.com/channel/UC2oXtF95A9v8dnMqJOTxA9A/videos");
+		urlMap.put("1323516", "https://www.youtube.com/channel/UCoe-C-WB0j23UMY5wDNzC3A/videos");
+		urlMap.put("1323528", "https://www.youtube.com/channel/UCXHjNkw4kwyh6aaWlGPE_6Q/videos");
+		urlMap.put("1348022", "https://www.youtube.com/channel/UC7SZzzTcXVhYpFSFoBjiZwQ/videos");
+		urlMap.put("1348048", "https://www.youtube.com/channel/UCcDytpx-2bn8TldEA65jVvw/videos");
+		urlMap.put("1348815", "https://www.youtube.com/channel/UCZEWohnylZMtejI9Pgphz-g/videos");
+		urlMap.put("1323917", "https://www.youtube.com/channel/UCxYdk3mz7om-i34wSPZygkg/videos");
+		urlMap.put("1348194", "https://www.youtube.com/channel/UC9_6dLAqYglKfBCd_5O2YHg/videos");
+		urlMap.put("1348723", "https://www.youtube.com/channel/UCH3EmZaCsaFG9H-Z8l7gtbg/videos");
+		urlMap.put("1334031", "https://www.youtube.com/channel/UC-GwRns3Q6Vbqha1xnP7_Ew/videos");
+		urlMap.put("1234881", "https://www.youtube.com/channel/UCDRVnBD9xHpLHwjT6fD1b3Q/videos");
+		urlMap.put("1266023", "https://www.youtube.com/channel/UCHsbFatSStaoFJ3DkKrr_eQ/videos");
+		urlMap.put("1230751", "https://www.youtube.com/channel/UCWstAuok-RYHW7MQaTnrvIA/videos");
+		urlMap.put("1290990", "https://www.youtube.com/channel/UCbQjDdyyaWT-uvbaej7LUCA/videos");
+		urlMap.put("1298822", "https://www.youtube.com/channel/UC2oXtF95A9v8dnMqJOTxA9A/videos");
+		urlMap.put("1291580", "https://www.youtube.com/channel/UCVZ1C0H0OFo6hpGQ0X83KsA/videos");
 
 
 

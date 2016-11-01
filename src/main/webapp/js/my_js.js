@@ -67,6 +67,8 @@ $(document).ready(function() {
 		"72688",
 		"74444",
 		"1119333",
+		"1301887",
+		"1272282",
 		"70562",
 		"72433",
 		"74340",
@@ -218,6 +220,22 @@ $(document).ready(function() {
 		} else if
 		(item == 1119333) {
 			$('#taskId').val(1119333);
+			$('#countOfVideo').val(16);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 1301887) {
+			$('#taskId').val(1301887);
+			$('#countOfVideo').val(16);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 1272282) {
+			$('#taskId').val(1272282);
 			$('#countOfVideo').val(16);
 			$('#countOfReklama').val(4);
 			$('#countOfMove').val(2);
@@ -1338,10 +1356,12 @@ $(document).ready(function() {
 			connArray.push(75739);
 			connArray.push(78626);
 			connArray.push(80348);
-		} else if (taskId == 72688 || taskId == 74444 || taskId == 1119333) {
+		} else if (taskId == 72688 || taskId == 74444 || taskId == 1119333 || taskId == 1272282 || taskId == 1301887) {
 			connArray.push(72688);
 			connArray.push(74444);
 			connArray.push(1119333);
+			connArray.push(1272282);
+			connArray.push(1301887);
 		} else if (taskId == 69628 || taskId == 69625 || taskId == 68507) {
 			connArray.push(69628);
 			connArray.push(69625);
@@ -1890,26 +1910,24 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(bing);
 			etalonArray.push(youtube);
 		} else if (taskId == 74444 || taskId == 1119333) {
-			var ip = {
-				title: "Узнать IP адрес",
-				type: "def",
-				img: "2ip",
-				source: "2ip.ru"
-			};
-			//var bing = {
-			//	title: "ORD bmagLine - Bing",
-			//	type: "def",
-			//	img: "bing",
-			//	source: "www.bing.com"
-			//};
-			//var youtube = {
-			//	title: "ORD - YouTube",
-			//	type: "def",
-			//	img: "youtube",
-			//	source: "www.youtube.com"
-			//};
-			var bing = getDefaultBing("ORD bmagLine - Bing");
+			var bing = getLocationGoogle("ORD");
 			var youtube = getDefaultYouTube("ORD - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			etalonArray.push(bing);
+			etalonArray.push(youtube);
+		}else if (taskId == 1301887) {
+			//var bing = getLocationGoogle("ORD");
+			var youtube = getDefaultYouTube("CONTRIBUTOR - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			//etalonArray.push(bing);
+			etalonArray.push(youtube);
+		}else if (taskId == 1272282) {
+			var bing = getLocationGoogle("Альтернативное решение");
+			var youtube = getDefaultYouTube("Альтернативное решение - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
@@ -3335,6 +3353,9 @@ $('#clear-browsing-data').click(function(event) {
 						break;
 					case '10':
 						month = "октября";
+						break;
+					case '11':
+						month = "ноября";
 						break;
 				}
 				var date = "Сегодня - " + dayOfWeek + ", " + dateOfMonth + " " +  month + " " + year + " г.";
