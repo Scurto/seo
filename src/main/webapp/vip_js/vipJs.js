@@ -581,6 +581,9 @@ $(document).ready(function() {
 		"1197090",
 		"1220946",
 		"1252229",
+		"1325604",
+		"1348099",
+		"1299663",
 		"1264118",
 		"1242716",
 		"1065512",
@@ -600,6 +603,8 @@ $(document).ready(function() {
 		"1336334",
 		"771719",
 		"1328508",
+		"1328501",
+		"1328504",
 		"847431",
 		"1298822",
 		"1291580",
@@ -1805,8 +1810,26 @@ $(document).ready(function() {
 			$('#countOfReklama').val(2);
 			$('#countOfMove').val(3);
 		}else if
+		(item == 1348099) {
+			$('#taskIdVip').val(1348099);
+			$('#countOfVideo').val(2);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(3);
+		}else if
 		(item == 1252229) {
 			$('#taskIdVip').val(1252229);
+			$('#countOfVideo').val(6);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 1325604) {
+			$('#taskIdVip').val(1325604);
+			$('#countOfVideo').val(6);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 1299663) {
+			$('#taskIdVip').val(1299663);
 			$('#countOfVideo').val(6);
 			$('#countOfReklama').val(2);
 			$('#countOfMove').val(3);
@@ -1879,6 +1902,18 @@ $(document).ready(function() {
 		}else if
 		(item == 1328508) {
 			$('#taskIdVip').val(1328508);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 1328501) {
+			$('#taskIdVip').val(1328501);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(3);
+		}else if
+		(item == 1328504) {
+			$('#taskIdVip').val(1328504);
 			$('#countOfVideo').val(10);
 			$('#countOfReklama').val(4);
 			$('#countOfMove').val(3);
@@ -2851,9 +2886,11 @@ $(document).ready(function() {
 			connArray.push(1197089);
 			connArray.push(1197090);
 			connArray.push(1293702);
-		} else if (taskId == 1220946 || taskId == 1252229) {
+		} else if (taskId == 1220946 || taskId == 1252229 || taskId == 1299663 || taskId == 1325604) {
 			connArray.push(1220946);
 			connArray.push(1252229);
+			connArray.push(1299663);
+			connArray.push(1325604);
 		} else if (taskId == 80880) {
 			connArray.push(80880);
 		} else if (taskId == 1264118) {
@@ -2874,16 +2911,19 @@ $(document).ready(function() {
 			connArray.push(1275624);
 		} else if (taskId == 847431) {
 			connArray.push(847431);
-		} else if (taskId == 1328508) {
-			connArray.push(1328508);
 		} else if (taskId == 1234881 || taskId == 1266023 || taskId == 1230751) {
 			connArray.push(1234881);
 			connArray.push(1266023);
 			connArray.push(1230751);
-		} else if (taskId == 1290990 || taskId == 1298822 || taskId == 1291580) {
+		} else if (taskId == 1290990 || taskId == 1298822 || taskId == 1291580 || taskId == 1328508 || taskId == 1328504 || taskId == 1328501) {
 			connArray.push(1290990);
 			connArray.push(1298822);
 			connArray.push(1291580);
+			connArray.push(1328508);
+			connArray.push(1328504);
+			connArray.push(1328501);
+		} else if (taskId == 1348099) {
+			connArray.push(1348099);
 		}
 		addTextInSosediReklam(connArray)
 	};
