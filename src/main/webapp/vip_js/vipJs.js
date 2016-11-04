@@ -583,6 +583,8 @@ $(document).ready(function() {
 		"1252229",
 		"1325604",
 		"1348099",
+		"1284033",
+		"1346391",
 		"1299663",
 		"1264118",
 		"1242716",
@@ -1816,6 +1818,18 @@ $(document).ready(function() {
 			$('#countOfReklama').val(2);
 			$('#countOfMove').val(3);
 		}else if
+		(item == 1284033) {
+			$('#taskIdVip').val(1284033);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(2);
+		}else if
+		(item == 1346391) {
+			$('#taskIdVip').val(1346391);
+			$('#countOfVideo').val(10);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(3);
+		}else if
 		(item == 1252229) {
 			$('#taskIdVip').val(1252229);
 			$('#countOfVideo').val(6);
@@ -2924,6 +2938,10 @@ $(document).ready(function() {
 			connArray.push(1328501);
 		} else if (taskId == 1348099) {
 			connArray.push(1348099);
+		} else if (taskId == 1346391) {
+			connArray.push(1346391);
+		} else if (taskId == 1284033) {
+			connArray.push(1284033);
 		}
 		addTextInSosediReklam(connArray)
 	};
