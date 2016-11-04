@@ -5399,6 +5399,865 @@ function getReklama() {
 		source: "www.netbank.de"
 	};
 
+	ar[124] = {
+		mainUrl : "https://www.ferrero-kuesschen.de/",
+		title: "Home | Ferrero Küsschen",
+		secUrl : {
+			url1 : {
+				url: "https://www.ferrero-kuesschen.de/impressum.html",
+				title: "Impressum | Ferrero Küsschen"
+			},
+			url2 : {
+				url: "https://www.ferrero-kuesschen.de/datenschutz.html",
+				title: "Datenschutz | Ferrero Küsschen"
+			},
+			url3 : {
+				url: "https://www.ferrero-kuesschen.de/produkte.html#sortiment",
+				title: "Produkte | Ferrero Küsschen"
+			},
+			url4 : {
+				url: "https://www.ferrero-kuesschen.de/kuesschen-caramel.html",
+				title: "Küsschen Caramel | Ferrero Küsschen"
+			},
+			url5 : {
+				url: "https://www.ferrero-kuesschen.de/friends-edition.html",
+				title: "Friends Edition - Codeeingabe | Ferrero Küsschen"
+			},
+			url6 : {
+				url: "https://www.ferrero-kuesschen.de/tv-spots.html",
+				title: "TV-Spots | Ferrero Küsschen"
+			},
+			url7 : {
+				url: "https://www.ferrero-kuesschen.de/freundschafts-ueberraschungs-mission.html",
+				title: "Freundschafts Überraschungs Mission | Ferrero Küsschen"
+			},
+			url8 : {
+				url: "https://www.ferrero-kuesschen.de/downloads.html",
+				title: "Downloads | Ferrero Küsschen"
+			}
+		},
+		img: "ferrero-kuesschen.de",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.ferrero-kuesschen.de"
+	};
+
+	ar[125] = {
+		mainUrl : "https://www.grammarly.com/",
+		title: "Free Grammar Checker | Grammarly",
+		secUrl : {
+			url1 : {
+				url: "https://www.grammarly.com/about",
+				title: "About Us | Grammarly"
+			},
+			url2 : {
+				url: "https://www.grammarly.com/affiliates",
+				title: "Affiliates | Grammarly"
+			},
+			url3 : {
+				url: "https://www.grammarly.com/culture",
+				title: "Life at Grammarly | Grammarly"
+			},
+			url4 : {
+				url: "https://www.grammarly.com/blog/",
+				title: "Grammarly Blog"
+			},
+			url5 : {
+				url: "https://www.grammarly.com/press-room",
+				title: "Press Room | Grammarly"
+			},
+			url6 : {
+				url: "https://www.grammarly.com/review",
+				title: "Reviews | Grammarly"
+			},
+			url7 : {
+				url: "https://www.grammarly.com/contact",
+				title: "Contact Us | Grammarly"
+			},
+			url8 : {
+				url: "https://www.grammarly.com/privacy-policy",
+				title: "Privacy Policy | Grammarly"
+			}
+		},
+		img: "grammarly",
+		type: "reklama",
+		location: "USA",
+		source: "www.grammarly.com"
+	};
+
+	ar[126] = {
+		mainUrl : "https://www.income.com.sg/",
+		title: "NTUC Income | Insurance Services Provider in Singapore",
+		secUrl : {
+			url1 : {
+				url: "https://www.income.com.sg/about-us/corporate-profile",
+				title: "Corporate Profile | Singapore Insurance Service | NTUC Income"
+			},
+			url2 : {
+				url: "https://www.income.com.sg/about-us/fair-dealing",
+				title: "About Us | Insurance Services in Singapore | NTUC Income"
+			},
+			url3 : {
+				url: "https://www.income.com.sg/about-us/the-income-difference",
+				title: "The NTUC Income Difference | Our Philosophy | NTUC Income"
+			},
+			url4 : {
+				url: "https://www.income.com.sg/about-us/board-of-directors",
+				title: "Board of Directors | Singapore Insurance Service | NTUC Income"
+			},
+			url5 : {
+				url: "https://www.income.com.sg/about-us/corporate-social-responsibility",
+				title: "Corporate Social Responsibility | NTUC Income"
+			},
+			url6 : {
+				url: "https://www.income.com.sg/about-us/press-releases",
+				title: "Press Releases | Insurance Company in Singapore | NTUC Income"
+			},
+			url7 : {
+				url: "https://www.income.com.sg/about-us/reports-publications",
+				title: "Reports & Publications | Insurance Information | NTUC Income"
+			},
+			url8 : {
+				url: "https://www.income.com.sg/careers/working-at-income",
+				title: "Careers | Work at our Insurance Company | NTUC Income"
+			}
+		},
+		img: "income.com.sg",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.income.com.sg"
+	};
+
+	ar[127] = {
+		mainUrl : "https://www.injurylawyers4u.co.uk/",
+		title: "Personal Injury Claims & Compensation | InjuryLawyers4U",
+		secUrl : {
+			url1 : {
+				url: "https://www.injurylawyers4u.co.uk/contact-us/",
+				title: "Contact Us | InjuryLawyers4U"
+			},
+			url2 : {
+				url: "https://www.injurylawyers4u.co.uk/your-questions-answered/what-is-no-win-no-fee/",
+				title: "No Win No Fee - InjuryLawyers4U"
+			},
+			url3 : {
+				url: "https://www.injurylawyers4u.co.uk/privacy-policy/",
+				title: "Privacy Policy | InjuryLawyers4U"
+			},
+			url4 : {
+				url: "https://www.injurylawyers4u.co.uk/accessibility/",
+				title: "Accessibility | InjuryLawyers4U"
+			},
+			url5 : {
+				url: "https://www.injurylawyers4u.co.uk/our-complaints-policy/",
+				title: "Complaints Policy | InjuryLawyers4U"
+			},
+			url6 : {
+				url: "https://www.injurylawyers4u.co.uk/tv-advert/",
+				title: "Our TV Adverts & Commercials - InjuryLawyers4U"
+			},
+			url7 : {
+				url: "https://www.injurylawyers4u.co.uk/topics/news/",
+				title: "The latest news from InjuryLawyers4U."
+			},
+			url8 : {
+				url: "https://www.injurylawyers4u.co.uk/data-collection-and-cookies/",
+				title: "Data Collection & Cookie Policy | InjuryLawyers4U"
+			}
+		},
+		img: "injurylawyers4u.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.injurylawyers4u.co.uk"
+	};
+
+	ar[128] = {
+		mainUrl : "http://www.philips.de/",
+		title: "Philips - Deutschland",
+		secUrl : {
+			url1 : {
+				url: "http://www.philips.de/c-m/konsumenten-produkte",
+				title: "Endverbraucherprodukte | Philips"
+			},
+			url2 : {
+				url: "http://www.philips-shop.de/store/",
+				title: "Philips Online-Shop Deutschland"
+			},
+			url3 : {
+				url: "http://www.philips.de/c-m/konsumenten-support",
+				title: "Kundendienst | Philips"
+			},
+			url4 : {
+				url: "http://www.philips.de/c-w/support-home/ersatzteile-und-zubehoer.html",
+				title: "Finden Sie Zubehör & Ersatzteile | Philips"
+			},
+			url5 : {
+				url: "http://www.philips.de/healthcare",
+				title: "Philips Healthcare Deutschland"
+			},
+			url6 : {
+				url: "http://www.lighting.philips.de/home",
+				title: "Philips Lighting - LED- und herkömmliche Beleuchtungslösungen"
+			},
+			url7 : {
+				url: "http://www.philips.de/c-m-pe/dental-professionals",
+				title: "Mundpflege | Philips"
+			},
+			url8 : {
+				url: "http://www.philips.de/c-m-pe/dental-professionals/try",
+				title: "Testen - Philips"
+			}
+		},
+		img: "philips.de",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.philips.de"
+	};
+
+	ar[129] = {
+		mainUrl : "http://www.mstarlabs.com/",
+		title: "Data Acquisition (DAQ) - Microstar Laboratories",
+		secUrl : {
+			url1 : {
+				url: "http://www.mstarlabs.com/features/index.html",
+				title: "Data Acquisition Processor Board Features"
+			},
+			url2 : {
+				url: "http://www.mstarlabs.com/intro.html",
+				title: "About Microstar Laboratories and What We Do"
+			},
+			url3 : {
+				url: "http://www.mstarlabs.com/products.html",
+				title: "Data Acquisition (DAQ), Control, and Instrumentation Products"
+			},
+			url4 : {
+				url: "http://www.mstarlabs.com/dataacquisition/dap.html",
+				title: "Data Acquisition Hardware"
+			},
+			url5 : {
+				url: "http://www.mstarlabs.com/software/software.html",
+				title: "Data Acquisition (DAQ) Software"
+			},
+			url6 : {
+				url: "http://www.mstarlabs.com/access/hwaccess.html",
+				title: "Signal Interfacing"
+			},
+			url7 : {
+				url: "http://www.mstarlabs.com/contact.html",
+				title: "Contact Microstar Laboratories"
+			},
+			url8 : {
+				url: "http://www.mstarlabs.com/control.html",
+				title: "Control from Microstar Laboratories"
+			}
+		},
+		img: "mstarlabs.com",
+		type: "reklama",
+		location: "USA",
+		source: "www.mstarlabs.com"
+	};
+
+	ar[130] = {
+		mainUrl : "http://www.theedgeproperty.com.sg/",
+		title: "Singapore Property | For Sale and For Rent | The Edge Property Singapore",
+		secUrl : {
+			url1 : {
+				url: "http://www.theedgeproperty.com.sg/singapore",
+				title: "Singapore Property for Sale or Rent | Condo & Commercial | The Edge Property Singapore"
+			},
+			url2 : {
+				url: "http://www.theedgeproperty.com.sg/condo-directory",
+				title: "Apartment & Condo Singapore | For Sale & For Rent | The Edge Property Singapore"
+			},
+			url3 : {
+				url: "http://www.theedgeproperty.com.sg/hdb-directory",
+				title: "HDB Flats Singapore | For Rent & For Sales | The Edge Property Singapore"
+			},
+			url4 : {
+				url: "http://www.theedgeproperty.com.sg/landed-directory",
+				title: "Landed Properties For Sale in Singapore | The Edge Property Singapore"
+			},
+			url5 : {
+				url: "http://www.theedgeproperty.com.sg/commercial-directory",
+				title: "Commercial Property Singapore | For Rent & For Sale | The Edge Property Singapore"
+			},
+			url6 : {
+				url: "http://www.theedgeproperty.com.sg/industrial-directory",
+				title: "Industrial Directory | The Edge Property Singapore"
+			},
+			url7 : {
+				url: "http://www.theedgeproperty.com.sg/jurong-west",
+				title: "Jurong West Property for Sale or Rent | HDB | The Edge Property Singapore"
+			},
+			url8 : {
+				url: "http://www.theedgeproperty.com.sg/bishan",
+				title: "Bishan Property for Sale or Rent | HDB | The Edge Property Singapore"
+			}
+		},
+		img: "theedgeproperty.com.sg",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.theedgeproperty.com.sg"
+	};
+
+	ar[131] = {
+		mainUrl : "http://www.total.uk/en",
+		title: "Total United Kingdom - Our activities and local projects – Total UK",
+		secUrl : {
+			url1 : {
+				url: "http://www.total.uk/en/list-of-partners",
+				title: "List of partners – Total UK"
+			},
+			url2 : {
+				url: "http://www.total.uk/en/total-uk/total-uk",
+				title: "Our local projects and commitments - Total in the United Kingdom – Total UK"
+			},
+			url3 : {
+				url: "http://www.total.uk/en/making-energy-better",
+				title: "Making Energy Better: our worldwide vision - Total UK"
+			},
+			url4 : {
+				url: "http://www.total.uk/en/commit-us/commit-us",
+				title: "Job offers, employees and partners' involvement - Total in the United Kingdom – Total UK"
+			},
+			url5 : {
+				url: "http://www.total.com/en/financial-communication-total",
+				title: "Financial Communication - Total | total.com"
+			},
+			url6 : {
+				url: "http://www.total.uk/en/home/media-gb",
+				title: "News, press releases, publications - Total in the United Kingdom – Total UK"
+			},
+			url7 : {
+				url: "http://www.total.uk/en/contact-form--en-10",
+				title: "Contact form – Total UK"
+			},
+			url8 : {
+				url: "http://www.total.uk/en/andrew-ensuring-safe-operations-shetland-gas-plant",
+				title: "Safe operations at Shetland Gas Plant – Total UK"
+			}
+		},
+		img: "total.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.total.uk"
+	};
+
+	ar[132] = {
+		mainUrl : "http://de.romwe.com/",
+		title: "ROMWE | From Runway to Realway",
+		secUrl : {
+			url1 : {
+				url: "http://de.romwe.com/About-US-a-117.html",
+				title: "Über uns"
+			},
+			url2 : {
+				url: "http://de.romwe.com/affiliate-a-427.html",
+				title: "Partnerprogramm"
+			},
+			url3 : {
+				url: "http://de.romwe.com/contact-us.html",
+				title: "Kontakt Uns"
+			},
+			url4 : {
+				url: "http://de.romwe.com/terms-and-conditions-a-399.html",
+				title: "Allgemeine Geschäftsbedingungen"
+			},
+			url5 : {
+				url: "http://de.romwe.com/FAQ-a-366.html",
+				title: "FAQ - Häufig gestellte Fragen"
+			},
+			url6 : {
+				url: "http://de.romwe.com/Free-Shipping-a-471.html",
+				title: "Versand-Information"
+			},
+			url7 : {
+				url: "http://de.romwe.com/Return-Policy-a-281.html",
+				title: "Rücksendung & Austausch"
+			},
+			url8 : {
+				url: "http://de.romwe.com/size-guid-a-466.html",
+				title: "Größenberater"
+			}
+		},
+		img: "de.romwe.com",
+		type: "reklama",
+		location: "GERMANY",
+		source: "de.romwe.com"
+	};
+
+	ar[133] = {
+		mainUrl : "http://www.netop.com/remotesupport.htm",
+		title: "The #1 Choice in Secure Remote Access | Netop Remote Control",
+		secUrl : {
+			url1 : {
+				url: "http://www.netop.com/edu.htm",
+				title: "The #1 Choice in Classroom Management Software | Netop Vision"
+			},
+			url2 : {
+				url: "http://www.netop.com/visionme.htm",
+				title: "iPad Classroom Management App | Vision ME"
+			},
+			url3 : {
+				url: "http://www.netop.com/chrome.htm",
+				title: "Chromebook Classroom Management Software | Netop Vision"
+			},
+			url4 : {
+				url: "http://www.netop.com/live-guide/home.htm",
+				title: "Live Chat | Netop Live Guide"
+			},
+			url5 : {
+				url: "http://www.netop.com/company/about-netop/about-netop.htm",
+				title: "About Netop"
+			},
+			url6 : {
+				url: "http://www.netop.com/company/careers/current-job-openings.htm",
+				title: "Current Job Openings"
+			},
+			url7 : {
+				url: "http://www.netop.com/company/partners/affiliate.htm",
+				title: "Affiliate Program | Netop"
+			},
+			url8 : {
+				url: "http://www.netop.com/company/partners/partner-portal.htm",
+				title: "Partner Portal | Netop"
+			}
+		},
+		img: "netop.com",
+		type: "reklama",
+		location: "USA",
+		source: "www.netop.com"
+	};
+
+	ar[134] = {
+		mainUrl : "http://www.okidata.com.sg/",
+		title: "Welcome to Oki Data Singapore",
+		secUrl : {
+			url1 : {
+				url: "http://www.okidata.com.sg/support/printer-drivers/index.aspx",
+				title: "Drivers & software | Welcome to Oki Data Singapore"
+			},
+			url2 : {
+				url: "https://support.okiprintingsolutions.com/registration.nsf/frmWebTop?OpenForm&Charset=UTF-8&Country=SGP&Language=English",
+				title: "Warranty Registration Page for Singapore"
+			},
+			url3 : {
+				url: "http://www.okidata.com.sg/contact-oki/oki-training/index.aspx",
+				title: "OKI User Training | Welcome to Oki Data Singapore"
+			},
+			url4 : {
+				url: "http://www.okidata.com.sg/support/printer/troubleshooting/detail.aspx?id=tcm:116-104375",
+				title: "How to change the toner cartridges | Welcome to Oki Data Singapore"
+			},
+			url5 : {
+				url: "http://www.okidata.com.sg/contact-oki/consumable-request/index.aspx",
+				title: "Consumable Request Form | Welcome to Oki Data Singapore"
+			},
+			url6 : {
+				url: "http://www.okidata.com.sg/contact-oki/order-banner-paper/index.aspx",
+				title: "Banner Paper Order | Welcome to Oki Data Singapore"
+			},
+			url7 : {
+				url: "http://www.okidata.com.sg/contact-oki/index.aspx",
+				title: "Contact us | Welcome to Oki Data Singapore"
+			},
+			url8 : {
+				url: "http://www.okidata.com.sg/terms-of-use/index.aspx",
+				title: "Terms of use & Cookies | Welcome to Oki Data Singapore"
+			}
+		},
+		img: "okidata.com.sg",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.okidata.com.sg"
+	};
+
+	ar[135] = {
+		mainUrl : "http://www.wired.co.uk/",
+		title: "WIRED UK | Future Science, Culture & Technology News and Reviews",
+		secUrl : {
+			url1 : {
+				url: "http://www.wired.co.uk/topic/technology",
+				title: "Technology news and features | WIRED UK"
+			},
+			url2 : {
+				url: "http://www.wired.co.uk/topic/science",
+				title: "Science news and features | WIRED UK"
+			},
+			url3 : {
+				url: "http://www.wired.co.uk/topic/culture",
+				title: "Culture news and features | WIRED UK"
+			},
+			url4 : {
+				url: "http://www.wired.co.uk/video",
+				title: "WIRED UK Video | WIRED UK"
+			},
+			url5 : {
+				url: "http://www.wired.co.uk/reviews",
+				title: "Reviews | WIRED UK"
+			},
+			url6 : {
+				url: "http://www.wired.co.uk/magazine",
+				title: "WIRED UK Magazine archive | WIRED UK"
+			},
+			url7 : {
+				url: "http://www.wired.co.uk/topic/business",
+				title: "Business news and features | WIRED UK"
+			},
+			url8 : {
+				url: "http://www.wired.co.uk/topic/security",
+				title: "Security news and features | WIRED UK"
+			}
+		},
+		img: "wired.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.wired.co.uk"
+	};
+
+	ar[136] = {
+		mainUrl : "https://www.posterxxl.de/",
+		title: "posterXXL - TV-Angebot: Poster, Leinwand, Foto, Posterdruck, Fotodruck, Fotoposter, Fotobuch in XXL online drucken und bestellen",
+		secUrl : {
+			url1 : {
+				url: "https://www.posterxxl.de/auftragsstatus",
+				title: "Prüfen Sie Ihren aktuellen Versandstatus"
+			},
+			url2 : {
+				url: "https://www.posterxxl.de/login.html",
+				title: "Anmelden oder neu registrieren bei posterXXL"
+			},
+			url3 : {
+				url: "https://www.posterxxl.de/magazin",
+				title: "posterXXL Magazin – Trends, Inspiration und Foto-Wissen"
+			},
+			url4 : {
+				url: "https://www.posterxxl.de/zubehoer.html",
+				title: "Foto-Zubehör, Aufhängung und Rahmen bei posterXXL"
+			},
+			url5 : {
+				url: "https://www.posterxxl.de/motive",
+				title: "Über 30 Millionen Motive für Ihr Kunstwerk bei posterXXL"
+			},
+			url6 : {
+				url: "https://www.posterxxl.de/fotobuch/fotobuch-hochzeit.html",
+				title: "Ihr Fotobuch zur Hochzeit - von posterXXL"
+			},
+			url7 : {
+				url: "https://www.posterxxl.de/fotobuch/fotoalbum-erstellen.html",
+				title: "Fotoalbum online erstellen und nach Hause schicken lassen"
+			},
+			url8 : {
+				url: "https://www.posterxxl.de/foto-in-gross/leinwanddruck.html",
+				title: "Ihr schönstes Foto als Leinwanddruck"
+			}
+		},
+		img: "posterxxl.de",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.posterxxl.de"
+	};
+
+	ar[137] = {
+		mainUrl : "http://www.hkbea.com.sg/html/en/index.html",
+		title: "The Bank of East Asia, Singapore Branch",
+		secUrl : {
+			url1 : {
+				url: "http://www.hkbea.com.sg/html/en/beasg-personal-banking-savings-account.html",
+				title: "Savings Account"
+			},
+			url2 : {
+				url: "http://www.hkbea.com.sg/html/en/beasg-personal-banking-services.html",
+				title: "Services"
+			},
+			url3 : {
+				url: "http://www.hkbea.com.sg/html/en/beasg-personal-banking-loan.html",
+				title: "Loans"
+			},
+			url4 : {
+				url: "http://www.hkbea.com.sg/html/en/beasg-personal-banking-dual-currency-investment.html",
+				title: "Dual Currency Investment"
+			},
+			url5 : {
+				url: "http://www.hkbea.com.sg/html/en/beasg-personal-banking-structured-deposit.html",
+				title: "Structured Deposit"
+			},
+			url6 : {
+				url: "http://www.hkbea.com.sg/html/en/beasg-trade-finance-import.html",
+				title: "Import"
+			},
+			url7 : {
+				url: "http://www.hkbea.com.sg/html/en/beasg-trade-finance-guarantees.html",
+				title: "Guarantees"
+			},
+			url8 : {
+				url: "http://www.hkbea.com.sg/html/en/beasg-cyberbanking.html",
+				title: "Cyberbanking"
+			}
+		},
+		img: "hkbea.com.sg",
+		type: "reklama",
+		location: "SINGAPORE",
+		source: "www.hkbea.com.sg"
+	};
+
+	ar[138] = {
+		mainUrl : "https://www.onthebeach.co.uk/",
+		title: "Cheap Holiday Deals - Book Holidays with On the Beach",
+		secUrl : {
+			url1 : {
+				url: "https://www.onthebeach.co.uk/about-us",
+				title: "About Us | Leading Online Travel Agency | On the Beach"
+			},
+			url2 : {
+				url: "http://www.onthebeachgroupplc.com/",
+				title: "On the Beach Group plc"
+			},
+			url3 : {
+				url: "https://www.onthebeach.co.uk/privacy",
+				title: "Privacy Policy"
+			},
+			url4 : {
+				url: "https://www.onthebeach.co.uk/contact_us",
+				title: "Contact Us - On the Beach"
+			},
+			url5 : {
+				url: "https://www.onthebeach.co.uk/jobs",
+				title: "Jobs with On the Beach | On the Beach"
+			},
+			url6 : {
+				url: "https://www.onthebeach.co.uk/canaries/fuerteventura/5-star-fuerteventura",
+				title: "5 Star Fuerteventura Holidays | Book today with On the Beach"
+			},
+			url7 : {
+				url: "https://www.onthebeach.co.uk/canaries/fuerteventura/5-star-fuerteventura-hotels",
+				title: "5 Star Fuerteventura Hotels | Book today with On the Beach"
+			},
+			url8 : {
+				url: "https://www.onthebeach.co.uk/canaries/gran-canaria/5-star-gran-canaria-hotels",
+				title: "5 Star Gran Canaria Hotels | Book online with On the Beach"
+			}
+		},
+		img: "onthebeach.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.onthebeach.co.uk"
+	};
+
+	ar[139] = {
+		mainUrl : "http://www.vogue.co.uk/",
+		title: "British Vogue | Fashion, Trends, Latest News, Catwalk Photos & Designers",
+		secUrl : {
+			url1 : {
+				url: "http://www.vogue.co.uk/topic/news",
+				title: "Daily Fashion News, Breaking & Latest Stories | British Vogue"
+			},
+			url2 : {
+				url: "http://www.vogue.co.uk/topic/fashion",
+				title: "Fashion news and features | British Vogue"
+			},
+			url3 : {
+				url: "http://www.vogue.co.uk/topic/beauty",
+				title: "Beauty | British Vogue"
+			},
+			url4 : {
+				url: "http://www.vogue.co.uk/topic/celebrity-photos",
+				title: "Celebrity News & Celebrity Photos | British Vogue"
+			},
+			url5 : {
+				url: "http://www.vogue.co.uk/video",
+				title: "British Vogue Video | British Vogue"
+			},
+			url6 : {
+				url: "http://www.vogue.co.uk/topic/arts-and-lifestyle",
+				title: "Arts & Lifestyle news and features | British Vogue"
+			},
+			url7 : {
+				url: "http://www.vogue.co.uk/miss-vogue",
+				title: "Miss Vogue news and features | British Vogue"
+			},
+			url8 : {
+				url: "http://www.vogue.co.uk/magazine",
+				title: "Vogue UK Magazine archive | British Vogue"
+			}
+		},
+		img: "vogue.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.vogue.co.uk"
+	};
+
+	ar[140] = {
+		mainUrl : "http://www.aferry.co.uk/",
+		title: "AFerry | Compare Ferries Online. Ferry Tickets in Europe & Worldwide",
+		secUrl : {
+			url1 : {
+				url: "http://www.aferry.co.uk/ferry-companies.htm",
+				title: "Ferry Companies | Ferry Operators. UK, Europe & World"
+			},
+			url2 : {
+				url: "http://www.aferry.co.uk/ferry-routes.htm",
+				title: "Ferry Routes | UK, European & World Ferry Routes"
+			},
+			url3 : {
+				url: "http://www.aferry.co.uk/ferryports.htm",
+				title: "Ferry Ports | UK, European & World Ferry Ports"
+			},
+			url4 : {
+				url: "http://www.aferry.co.uk/destinations.htm",
+				title: "Ferry Destinations | UK, European & World Ferries"
+			},
+			url5 : {
+				url: "http://www.aferry.co.uk/specialoffers/offersuk.htm",
+				title: "Cheap Ferries | The Latest Ferry Deals & Ferry Offers"
+			},
+			url6 : {
+				url: "http://www.aferry.co.uk/minicruise.htm",
+				title: "Mini Cruises to Holland, Denmark and Northern Ireland"
+			},
+			url7 : {
+				url: "http://www.aferry.co.uk/timetable/ferry-timetables.htm",
+				title: "Ferry Timetable | Ferry Schedule & Ferry Times by Company"
+			},
+			url8 : {
+				url: "http://www.aferry.co.uk/ferry-reviews.htm",
+				title: "Ferry Reviews | Read & Write Ferry Company Reviews"
+			}
+		},
+		img: "aferry.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.aferry.co.uk"
+	};
+
+	ar[141] = {
+		mainUrl : "http://www.bacp.co.uk/",
+		title: "BACP - British Association for Counselling & Psychotherapy",
+		secUrl : {
+			url1 : {
+				url: "http://www.bacp.co.uk/about_bacp/",
+				title: "About Us - About BACP"
+			},
+			url2 : {
+				url: "http://www.bacp.co.uk/join_bacp/",
+				title: "Introduction - BACP Membership"
+			},
+			url3 : {
+				url: "http://www.bacp.co.uk/student/what.php",
+				title: "What is counselling and psychotherapy? - BACP Student Pages"
+			},
+			url4 : {
+				url: "http://www.bacp.co.uk/crs/",
+				title: "Objectives - BACP Customer Services"
+			},
+			url5 : {
+				url: "http://www.bacp.co.uk/student/",
+				title: "Student Pages | British Association for Counselling & Psychotherapy"
+			},
+			url6 : {
+				url: "http://www.bacp.co.uk/research/",
+				title: "BACP Research webpages - BACP Research"
+			},
+			url7 : {
+				url: "http://www.bacp.co.uk/expert_areas/",
+				title: "Introduction - BACP Divisions & Forums"
+			},
+			url8 : {
+				url: "http://www.bacp.co.uk/advertising/",
+				title: "BACP Advertising - BACP Advertising"
+			}
+		},
+		img: "bacp.co.uk",
+		type: "reklama",
+		location: "ENGLAND",
+		source: "www.bacp.co.uk"
+	};
+
+	ar[142] = {
+		mainUrl : "http://www.wrigley.de/",
+		title: "Wrigley.de - Willkommen bei Wrigley in Deutschland",
+		secUrl : {
+			url1 : {
+				url: "http://www.wrigley.de/unternehmen",
+				title: "Wrigley GmbH | Überblick"
+			},
+			url2 : {
+				url: "http://www.wrigley.de/marken",
+				title: "Wrigley.de - Unsere Marken - Marken"
+			},
+			url3 : {
+				url: "http://www.wrigley.de/qualitaet-und-service",
+				title: "Wrigley GmbH | Produktqualität - Zutaten - FAQ"
+			},
+			url4 : {
+				url: "http://www.wrigley.de/vorteile-kaugummi-kauen",
+				title: "Wrigley.de - Warum Kaugummikauen zu empfehlen ist: - Vorteile von Kaugummi"
+			},
+			url5 : {
+				url: "http://www.wrigley.de/presse",
+				title: "Wrigley.de - Pressebereich - Presse"
+			},
+			url6 : {
+				url: "http://www.wrigley.de/karriere",
+				title: "Wrigley.de - Karriere bei Wrigley - Karriere"
+			},
+			url7 : {
+				url: "http://www.wrigley.de/unternehmen/ueberblick",
+				title: "Wrigley GmbH | Das Unternehmen"
+			},
+			url8 : {
+				url: "http://www.wrigley.de/unternehmen/broschueren",
+				title: "Wrigley GmbH | Broschüren und Informationsmaterial"
+			}
+		},
+		img: "wrigley.de",
+		type: "reklama",
+		location: "GERMANY",
+		source: "www.wrigley.de"
+	};
+
+	ar[143] = {
+		mainUrl : "https://www.onehippo.com/en/digital-experience-platform",
+		title: "Digital Experience Platform - Products - Hippo CMS",
+		secUrl : {
+			url1 : {
+				url: "https://www.onehippo.com/en/why-hippo-cms",
+				title: "Why Hippo? - Products - Hippo CMS"
+			},
+			url2 : {
+				url: "https://www.onehippo.com/en/web-content-management",
+				title: "Web Content Management - Products - Hippo CMS"
+			},
+			url3 : {
+				url: "https://www.onehippo.com/en/content-as-a-service",
+				title: "Content as a service - Products - Hippo CMS"
+			},
+			url4 : {
+				url: "https://www.onehippo.com/en/ecommerce-and-hippo-cms",
+				title: "Content & Commerce - Solutions - Hippo CMS"
+			},
+			url5 : {
+				url: "https://www.onehippo.com/en/online-demand-generation",
+				title: "Online Demand Generation - Solutions - Hippo CMS"
+			},
+			url6 : {
+				url: "https://www.onehippo.com/en/agile-marketing",
+				title: "Agile Marketing - Solutions - Hippo CMS"
+			},
+			url7 : {
+				url: "https://www.onehippo.com/en/b2b-marketing",
+				title: "B2B Marketing - Solutions - Hippo CMS"
+			},
+			url8 : {
+				url: "https://www.onehippo.com/en/certification",
+				title: "Certification - Services - Hippo CMS"
+			}
+		},
+		img: "onehippo.com",
+		type: "reklama",
+		location: "USA",
+		source: "www.onehippo.com"
+	};
 
 
 	//ar[22] = {
