@@ -11998,7 +11998,890 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
-    if (taskId == 1301887) {
+    if (taskId == 1326104) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=JxlkpCHoplA',
+            img: "youtube",
+            type: "video",
+            title: 'Выбор победителя !',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=jRcrGfuFHbk',
+            img: "youtube",
+            type: "video",
+            title: 'потрясающая ветряная мельница',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=2f_Ob_MAkdo',
+            img: "youtube",
+            type: "video",
+            title: 'конкурс № 1 ( Название проекта )',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=R6mRKcKQYEU',
+            img: "youtube",
+            type: "video",
+            title: 'Потрясающее место в Армении',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=kpXB8KChRQU',
+            img: "youtube",
+            type: "video",
+            title: 'Что Можно Купить Hа Мелочь !',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=nLEmDfEnP5o',
+            img: "youtube",
+            type: "video",
+            title: 'Ноутбук которого нет в России ( Toshiba  ) laptop toshiba satellite s55-c5274',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=G6O9px1yn-0',
+            img: "youtube",
+            type: "video",
+            title: 'крылья татева',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=5CW7YlpfseY',
+            img: "youtube",
+            type: "video",
+            title: 'армянская песня ( живой вокал )',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=c9RFy-G-riU',
+            img: "youtube",
+            type: "video",
+            title: 'Голубая мечеть в Ереване',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=vMIpla9mnIE',
+            img: "youtube",
+            type: "video",
+            title: 'ЖИВОЙ МОНАСТЫРЬ ВОРОТНАВАНК',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=PcAhkVcFuYg',
+            img: "youtube",
+            type: "video",
+            title: 'величайший водопад Шаки',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=dP-a3FKbSPw',
+            img: "youtube",
+            type: "video",
+            title: 'Невероятное путешествие  лесной Улитки',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=j5VIIQ6gK5Y',
+            img: "youtube",
+            type: "video",
+            title: 'Крепость-Монастырь Хор Вирап',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=XMwIsOmMrlM',
+            img: "youtube",
+            type: "video",
+            title: 'Красивые поющие фонтаны ( Ереван )',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=RcJkR57rawg',
+            img: "youtube",
+            type: "video",
+            title: 'скульптуры и инсталяции из огня и металла ( Ара Алекян )',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=tVcaQAdByG4',
+            img: "youtube",
+            type: "video",
+            title: 'пушистики отдыхают',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=ls0-iMcYU5Y',
+            img: "youtube",
+            type: "video",
+            title: 'насадки на шуруповерт " простые советы "',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=nvs8Zvk7ZjQ',
+            img: "youtube",
+            type: "video",
+            title: 'гордый верблюд',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=KUI4-2-M1Io',
+            img: "youtube",
+            type: "video",
+            title: 'техника захватывающая дух',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=cEGumb1h-fQ',
+            img: "youtube",
+            type: "video",
+            title: 'техника тонирования стекла цветной пленкой',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=MESgs5tb_xA',
+            img: "youtube",
+            type: "video",
+            title: 'Цесарка ( царская птица )',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=22cBHxaGd10',
+            img: "youtube",
+            type: "video",
+            title: 'розовый фламинго',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=MoNXomk2q3M',
+            img: "youtube",
+            type: "video",
+            title: 'медведей не кормить',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=C2y1qP7FqLk',
+            img: "youtube",
+            type: "video",
+            title: 'коала бодричком',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=BAi5AdCfN-M',
+            img: "youtube",
+            type: "video",
+            title: 'веселые качели',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=bwtbUB5_7Ss',
+            img: "youtube",
+            type: "video",
+            title: 'простой способ удивить друзей # simple magic',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=z2Lur1vHZMc',
+            img: "youtube",
+            type: "video",
+            title: 'Зебра зу',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=g_dkgrUDTuk',
+            img: "youtube",
+            type: "video",
+            title: 'райские эклеры',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=Ax4z6rk9nFQ',
+            img: "youtube",
+            type: "video",
+            title: 'Европейский волк часть 1 European wolf',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=rC3E8jqRJ10',
+            img: "youtube",
+            type: "video",
+            title: 'милые сурикаты',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=mLnjlVl7usM',
+            img: "youtube",
+            type: "video",
+            title: 'дельфины индиго',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=U8gZ8Mv6vx8',
+            img: "youtube",
+            type: "video",
+            title: 'черепахи долгожители',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=Ua04GBG_Cwg',
+            img: "youtube",
+            type: "video",
+            title: 'cute monkey',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=FhqWp6SD56Y',
+            img: "youtube",
+            type: "video",
+            title: 'говорят они приносят удачу # horns and hooves',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=revh3kxji-E',
+            img: "youtube",
+            type: "video",
+            title: 'intro channel',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=F7D9y9xESfo',
+            img: "youtube",
+            type: "video",
+            title: 'летучие собачки (крыланы )',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=NKewnH9gKNU',
+            img: "youtube",
+            type: "video",
+            title: 'самая крупная кошка в мире',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=00shPA4CPHY',
+            img: "youtube",
+            type: "video",
+            title: 'кайтсерфинг # kitesurfing',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=SbN5wjaQZMs',
+            img: "youtube",
+            type: "video",
+            title: 'ах это море море',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=2q45DfFF9NI',
+            img: "youtube",
+            type: "video",
+            title: 'ручные кенгуру с детками',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=X8VBu9EkcNc',
+            img: "youtube",
+            type: "video",
+            title: 'Несбагойные лемуры',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1326096) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=fvO452iVdhU',
+            img: "youtube",
+            type: "video",
+            title: 'Прогулка по Питерским каналам',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=oJjAoUgT390',
+            img: "youtube",
+            type: "video",
+            title: 'Кратер Рамон. Неземные пейзажи',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=7b7ifRdqOCM',
+            img: "youtube",
+            type: "video",
+            title: 'Космические виды Иудейская пустыня и Мёртвое море',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=g9il6g7y_L0',
+            img: "youtube",
+            type: "video",
+            title: '«Марина» в Герцлии, вода, солнце, яхты...',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=kIgLHfhgmN8',
+            img: "youtube",
+            type: "video",
+            title: 'Древний город Яффа',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=yAfJ4EUf9dg',
+            img: "youtube",
+            type: "video",
+            title: 'Красивейший зрелищный фейерверк на день независимости.',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=zHX1PfYyVIs',
+            img: "youtube",
+            type: "video",
+            title: 'Вечер в Старом Яффо',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=cEeovICNJww',
+            img: "youtube",
+            type: "video",
+            title: 'Экспозиция - «Международный космический парк»',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=3KtkSK-xEGM',
+            img: "youtube",
+            type: "video",
+            title: 'Мемориальный музей космонавтики в Москве',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=dB0i3odQWos',
+            img: "youtube",
+            type: "video",
+            title: '«Исследование космоса» Музей космонавтики в Москве',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=A-lSNkm4xBw',
+            img: "youtube",
+            type: "video",
+            title: 'Салют 6 и станция МИР (Музей космонавтики)',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=GVyge64roCQ',
+            img: "youtube",
+            type: "video",
+            title: 'Пионеры Советской космонавтики.',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=GfzPx0Y-lhs',
+            img: "youtube",
+            type: "video",
+            title: 'Музей космонавтики в Москве  «Первопроходцы»',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 982143) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=Tz1cMrIje0A',
+            img: "youtube",
+            type: "video",
+            title: 'Курочка ряба!',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=eSfb4rN0Zjs',
+            img: "youtube",
+            type: "video",
+            title: 'танец в луже!',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=zhPh0otLtBs',
+            img: "youtube",
+            type: "video",
+            title: 'бабушка!',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=3TKIw-3zY6w',
+            img: "youtube",
+            type: "video",
+            title: 'Как стать дворником!',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=omSHF-cQwdI',
+            img: "youtube",
+            type: "video",
+            title: 'стих мама спит!',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=xPvZKpgGJ3Y',
+            img: "youtube",
+            type: "video",
+            title: 'Два весёлых гуся!',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=-DjdrsoFXRQ',
+            img: "youtube",
+            type: "video",
+            title: 'Новогодние  танцы!',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=5uk8VIJSoHA',
+            img: "youtube",
+            type: "video",
+            title: 'Муха-цокотуха новое',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=Zms8p9rGpVY',
+            img: "youtube",
+            type: "video",
+            title: 'Утомился!',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=-rT3ckyKDwo',
+            img: "youtube",
+            type: "video",
+            title: 'глубина',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=Fc915mQ9VNc',
+            img: "youtube",
+            type: "video",
+            title: 'бойня за качелю!',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=wPx0HXhQbjI',
+            img: "youtube",
+            type: "video",
+            title: 'Весёлые мыльные пузыри',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=hYo9KSen5Pc',
+            img: "youtube",
+            type: "video",
+            title: 'Эх,прокачу!',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=PlDtYybNoog',
+            img: "youtube",
+            type: "video",
+            title: 'Да,я тебя открыл',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=q2efb5khBtM',
+            img: "youtube",
+            type: "video",
+            title: 'Скользкая горка!',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=0VeocnfF4hk',
+            img: "youtube",
+            type: "video",
+            title: 'Гномик победил!',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=bc73Lzs8Y-4',
+            img: "youtube",
+            type: "video",
+            title: 'Будущий шофёр',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=DXpqX95X3OY',
+            img: "youtube",
+            type: "video",
+            title: 'Смешной шарик!',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=ji2jlzu-NF4',
+            img: "youtube",
+            type: "video",
+            title: 'хочу пить!',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=WefKrT2B2S8',
+            img: "youtube",
+            type: "video",
+            title: 'Замучила жажда!',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=lDAnA1F4KqE',
+            img: "youtube",
+            type: "video",
+            title: 'шарики-фонарики!',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=NBuhOnGL9p0',
+            img: "youtube",
+            type: "video",
+            title: 'А где моя каша!',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=AjhckZBWoxE',
+            img: "youtube",
+            type: "video",
+            title: 'и всё таки я тебя достал кеша',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=xkH2pWOWQqg',
+            img: "youtube",
+            type: "video",
+            title: 'как же тебя открыть!',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=JJhEEHDhPCQ',
+            img: "youtube",
+            type: "video",
+            title: 'попалась птичка',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=wz5mpPJUiMc',
+            img: "youtube",
+            type: "video",
+            title: 'Кеша,выходи!',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=GE00YR0q22k',
+            img: "youtube",
+            type: "video",
+            title: 'замучил рыжего,продолжение',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=zMg91SEzxFg',
+            img: "youtube",
+            type: "video",
+            title: 'ушастый друг',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=JhgRYDCl5Cw',
+            img: "youtube",
+            type: "video",
+            title: 'мои игрушки',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=R6DhQhI-NNI',
+            img: "youtube",
+            type: "video",
+            title: 'рыжий подсматривает',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 980910) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=AFvbp2ydTpI',
+            img: "youtube",
+            type: "video",
+            title: 'Чудаки!',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=s663aLzwNCQ',
+            img: "youtube",
+            type: "video",
+            title: 'Берегите детей!',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=_-yRwQ-WJig',
+            img: "youtube",
+            type: "video",
+            title: 'Помощники!',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=Pxlg3nBiz60',
+            img: "youtube",
+            type: "video",
+            title: 'частушки УРА КАНИКУЛЫ!',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=kHlL9uiHOds',
+            img: "youtube",
+            type: "video",
+            title: 'Ангел!',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=ATGbV4O7R9M',
+            img: "youtube",
+            type: "video",
+            title: 'ЧУДЕСНЫЙ КРАЙ!',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=gliA_b1EiVY',
+            img: "youtube",
+            type: "video",
+            title: 'Песня про птиц!',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=hCa8zphMK34',
+            img: "youtube",
+            type: "video",
+            title: 'Новый год-карнавал!',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=MQPHe7Yz6UI',
+            img: "youtube",
+            type: "video",
+            title: 'Песня лягушки и кукушки',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=iIQ9MuH5eO0',
+            img: "youtube",
+            type: "video",
+            title: 'Стих о математике',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=e0XNn2Wl5Oo',
+            img: "youtube",
+            type: "video",
+            title: 'перемена!',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=T7HTFsvzC3g',
+            img: "youtube",
+            type: "video",
+            title: 'стих,все профессии важны 3',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=ywBo-R4qqTU',
+            img: "youtube",
+            type: "video",
+            title: 'школьные частушки',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=zfYjpva1AMo',
+            img: "youtube",
+            type: "video",
+            title: 'Песня к 9 мая',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=CwZSzSmhxq4',
+            img: "youtube",
+            type: "video",
+            title: 'Какими маленькими были!',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=lH7e6lUJ120',
+            img: "youtube",
+            type: "video",
+            title: 'Поздравление Мам с 8 марта!',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=uh4PZ_dPlBc',
+            img: "youtube",
+            type: "video",
+            title: 'Красная шапочка и серый волк',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=5YEpVBKEHyI',
+            img: "youtube",
+            type: "video",
+            title: 'Кружатся снежинки',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=FCRuyL3UjDY',
+            img: "youtube",
+            type: "video",
+            title: 'Песенка про ёлочку',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=xd_GWtFCMLo',
+            img: "youtube",
+            type: "video",
+            title: 'Не хочу учиться',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=D4YJ41Xkybg',
+            img: "youtube",
+            type: "video",
+            title: 'Прощание с игрушками',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=AcNkmqziwdQ',
+            img: "youtube",
+            type: "video",
+            title: 'Прощай детсад',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=quEd9hiFyv8',
+            img: "youtube",
+            type: "video",
+            title: 'Первое выступление первоклашек!',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=KxpkaGuae-I',
+            img: "youtube",
+            type: "video",
+            title: 'песенка про детсад!',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=DFTfyJK7VtA',
+            img: "youtube",
+            type: "video",
+            title: 'ложкари!',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=Qqr0J7GGVXE',
+            img: "youtube",
+            type: "video",
+            title: 'стих-все профессии важны,продолжение',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=3vYS78zySHE',
+            img: "youtube",
+            type: "video",
+            title: 'Стих-все профессии важны',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=6eXnx0Zp2AE',
+            img: "youtube",
+            type: "video",
+            title: 'Вальс выпускников',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=-6pKHBYRZuI',
+            img: "youtube",
+            type: "video",
+            title: 'Детки-конфетки',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=90SoVEaSAjM',
+            img: "youtube",
+            type: "video",
+            title: 'Неволяшки',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=KVuF1109SSw',
+            img: "youtube",
+            type: "video",
+            title: 'снеговики',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=YkEmdgnUYMk',
+            img: "youtube",
+            type: "video",
+            title: 'морозко- продолжение',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=uwohULBC_UU',
+            img: "youtube",
+            type: "video",
+            title: 'морозко-новое',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=b2xhCAAh4sE',
+            img: "youtube",
+            type: "video",
+            title: 'частушки для мам',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=6kMjKStljpA',
+            img: "youtube",
+            type: "video",
+            title: 'танец северяночек',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=t_y61BN8HLQ',
+            img: "youtube",
+            type: "video",
+            title: 'конкурс детей',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=6NDQyymovtM',
+            img: "youtube",
+            type: "video",
+            title: 'стих про бабушку',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=j9YKG2OoJYQ',
+            img: "youtube",
+            type: "video",
+            title: 'стих деду морозу',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=8OxjOnolBUg',
+            img: "youtube",
+            type: "video",
+            title: 'хоровод',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=Pesw5k_wcyk',
+            img: "youtube",
+            type: "video",
+            title: 'утренник',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=oiooJ32mJDE',
+            img: "youtube",
+            type: "video",
+            title: 'MVI 0049',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1301887 || taskId == 82130) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=f6M-dGrvZag',
             img: "youtube",

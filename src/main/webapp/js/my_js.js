@@ -68,6 +68,7 @@ $(document).ready(function() {
 		"74444",
 		"1119333",
 		"1301887",
+		"82130",
 		"1272282",
 		"70562",
 		"72433",
@@ -148,6 +149,10 @@ $(document).ready(function() {
 		"1341449",
 		"990718",
 		"1270671",
+		"980910",
+		"982143",
+		"1326096",
+		"1326104",
 		"1107884"
 
 		]
@@ -212,9 +217,9 @@ $(document).ready(function() {
 		}else if
 		(item == 74444) {
 			$('#taskId').val(74444);
-			$('#countOfVideo').val(15);
+			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(3);
-			$('#countOfMove').val(2);
+			$('#countOfMove').val(3);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		} else if
@@ -231,6 +236,14 @@ $(document).ready(function() {
 			$('#countOfVideo').val(16);
 			$('#countOfReklama').val(4);
 			$('#countOfMove').val(2);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 82130) {
+			$('#taskId').val(82130);
+			$('#countOfVideo').val(20);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(3);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
@@ -693,6 +706,38 @@ $(document).ready(function() {
 			$('#countOfVideo').val(20);
 			$('#countOfReklama').val(7);
 			$('#countOfMove').val(3);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 980910) {
+			$('#taskId').val(980910);
+			$('#countOfVideo').val(21);
+			$('#countOfReklama').val(5);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 982143) {
+			$('#taskId').val(982143);
+			$('#countOfVideo').val(21);
+			$('#countOfReklama').val(3);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(45);
+			$('#betweenReklama').val(45);
+		}else if
+		(item == 1326096) {
+			$('#taskId').val(1326096);
+			$('#countOfVideo').val(13);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 1326104) {
+			$('#taskId').val(1326104);
+			$('#countOfVideo').val(13);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(4);
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
@@ -1356,12 +1401,13 @@ $(document).ready(function() {
 			connArray.push(75739);
 			connArray.push(78626);
 			connArray.push(80348);
-		} else if (taskId == 72688 || taskId == 74444 || taskId == 1119333 || taskId == 1272282 || taskId == 1301887) {
+		} else if (taskId == 72688 || taskId == 74444 || taskId == 1119333 || taskId == 1272282 || taskId == 1301887 || taskId == 82130) {
 			connArray.push(72688);
 			connArray.push(74444);
 			connArray.push(1119333);
 			connArray.push(1272282);
 			connArray.push(1301887);
+			connArray.push(82130);
 		} else if (taskId == 69628 || taskId == 69625 || taskId == 68507) {
 			connArray.push(69628);
 			connArray.push(69625);
@@ -1440,6 +1486,12 @@ $(document).ready(function() {
 			connArray.push(1336069);
 			connArray.push(1331141);
 			connArray.push(1319679);
+		} else if (taskId == 980910 || taskId == 982143) {
+			connArray.push(980910);
+			connArray.push(982143);
+		} else if (taskId == 1326096 || taskId == 1326104) {
+			connArray.push(1326096);
+			connArray.push(1326104);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -1917,7 +1969,7 @@ $('#clear-browsing-data').click(function(event) {
 			$("#forGoogle").modal('show');
 			etalonArray.push(bing);
 			etalonArray.push(youtube);
-		}else if (taskId == 1301887) {
+		}else if (taskId == 1301887 || taskId == 82130) {
 			//var bing = getLocationGoogle("ORD");
 			var youtube = getDefaultYouTube("CONTRIBUTOR - YouTube");
 
@@ -2320,6 +2372,46 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube);
 			etalonArray.push(youtube1);
 			etalonArray.push(youtube2);
+		} else if (taskId == 980910) {
+
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("игорь музычук - YouTube");
+
+			$("#forGoogle").modal('show');
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube2);
+		}else if (taskId == 982143) {
+
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube(request + " - YouTube");
+			var youtube2 = getDefaultYouTube("igric78 - YouTube");
+
+			$("#forGoogle").modal('show');
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+			etalonArray.push(youtube2);
+		}else if (taskId == 1326096) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("CosmoVision - YouTube");
+
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+
+		}else if (taskId == 1326104) {
+			var whoer = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube = getDefaultYouTube("Blue Porcupine - YouTube");
+
+			$("#forGoogle").modal('show');
+			etalonArray.push(whoer);
+			etalonArray.push(google);
+			etalonArray.push(youtube);
+
 		}else if (taskId == 75641) {
 			var whoer = getDefaultWhoer();
 			var youtube = {
