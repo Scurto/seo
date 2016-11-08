@@ -68,6 +68,8 @@ $(document).ready(function() {
 		"74444",
 		"1119333",
 		"1301887",
+		"1301999",
+		"1302002",
 		"82130",
 		"1272282",
 		"70562",
@@ -80,6 +82,8 @@ $(document).ready(function() {
 		"70722",
 		"938168",
 		"244998",
+		"322473",
+		"332079",
 		"309721",
 		"1126852",
 		"329632",
@@ -239,6 +243,22 @@ $(document).ready(function() {
 			$('#betweenVideo').val(61);
 			$('#betweenReklama').val(61);
 		}else if
+		(item == 1301999) {
+			$('#taskId').val(1301999);
+			$('#countOfVideo').val(16);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 1302002) {
+			$('#taskId').val(1302002);
+			$('#countOfVideo').val(16);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
 		(item == 82130) {
 			$('#taskId').val(82130);
 			$('#countOfVideo').val(20);
@@ -379,6 +399,22 @@ $(document).ready(function() {
 			$('#countOfReklama').val(7);
 			$('#countOfMove').val(2);
 			$('#betweenVideo').val(35);
+			$('#betweenReklama').val(40);
+		}else if
+		(item == 322473) {
+			$('#taskId').val(322473);
+			$('#countOfVideo').val(50);
+			$('#countOfReklama').val(7);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(35);
+			$('#betweenReklama').val(40);
+		}else if
+		(item == 332079) {
+			$('#taskId').val(332079);
+			$('#countOfVideo').val(50);
+			$('#countOfReklama').val(7);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(40);
 			$('#betweenReklama').val(40);
 		}else if
 		(item == 309721) {
@@ -1378,7 +1414,8 @@ $(document).ready(function() {
 			connArray.push(62714);
 			connArray.push(68148);
 		} else if (taskId == 71431 || taskId == 938168 || taskId == 999896 || taskId == 70722 || taskId == 1126852 || taskId == 78751
-			|| taskId == 189660 || taskId == 292135 || taskId == 244998 || taskId == 313536 || taskId == 309721 || taskId == 280863 || taskId == 347151 || taskId == 329632) {
+			|| taskId == 189660 || taskId == 292135 || taskId == 244998 || taskId == 313536 || taskId == 309721 || taskId == 280863
+			|| taskId == 347151 || taskId == 329632 || taskId == 332079 || taskId == 322473) {
 			connArray.push(71431);
 			connArray.push(70722);
 			connArray.push(78751);
@@ -1388,6 +1425,8 @@ $(document).ready(function() {
 			connArray.push(189660);
 			connArray.push(292135);
 			connArray.push(244998);
+			connArray.push(332079);
+			connArray.push(322473);
 			connArray.push(313536);
 			connArray.push(309721);
 			connArray.push(280863);
@@ -1401,13 +1440,16 @@ $(document).ready(function() {
 			connArray.push(75739);
 			connArray.push(78626);
 			connArray.push(80348);
-		} else if (taskId == 72688 || taskId == 74444 || taskId == 1119333 || taskId == 1272282 || taskId == 1301887 || taskId == 82130) {
+		} else if (taskId == 72688 || taskId == 74444 || taskId == 1119333 || taskId == 1272282 || taskId == 1301887 || taskId == 82130
+				|| taskId == 1301999 || taskId == 1302002) {
 			connArray.push(72688);
 			connArray.push(74444);
 			connArray.push(1119333);
 			connArray.push(1272282);
 			connArray.push(1301887);
 			connArray.push(82130);
+			connArray.push(1301999);
+			connArray.push(1302002);
 		} else if (taskId == 69628 || taskId == 69625 || taskId == 68507) {
 			connArray.push(69628);
 			connArray.push(69625);
@@ -1972,6 +2014,20 @@ $('#clear-browsing-data').click(function(event) {
 		}else if (taskId == 1301887 || taskId == 82130) {
 			//var bing = getLocationGoogle("ORD");
 			var youtube = getDefaultYouTube("CONTRIBUTOR - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			//etalonArray.push(bing);
+			etalonArray.push(youtube);
+		}else if (taskId == 1301999) {
+			var youtube = getDefaultYouTube("Luxury Resorts - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			//etalonArray.push(bing);
+			etalonArray.push(youtube);
+		}else if (taskId == 1302002) {
+			var youtube = getDefaultYouTube("Movement of the Defense of Life - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');
@@ -3022,6 +3078,52 @@ $('#clear-browsing-data').click(function(event) {
 		} else if (taskId == 71431 || taskId == 938168 || taskId == 244998 || taskId == 309721) {
 			var youtube = {
 				title: "Pitr Puzhaev - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var ip = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube2 = {
+				title: request + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+
+			//$('#googleLink').text(linkText);
+			$("#forGoogle").modal('show');
+			etalonArray.push(ip);
+			etalonArray.push(google);
+			etalonArray.push(youtube2);
+			etalonArray.push(youtube);
+
+		} else if (taskId == 322473) {
+			var youtube = {
+				title: "Polinka - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var ip = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube2 = {
+				title: request + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+
+			//$('#googleLink').text(linkText);
+			$("#forGoogle").modal('show');
+			etalonArray.push(ip);
+			etalonArray.push(google);
+			etalonArray.push(youtube2);
+			etalonArray.push(youtube);
+
+		} else if (taskId == 332079) {
+			var youtube = {
+				title: "Vasilikova ONTV - YouTube",
 				type: "def",
 				img: "youtube",
 				source: "www.youtube.com"

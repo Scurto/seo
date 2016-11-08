@@ -2390,6 +2390,922 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 332079) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=Zu09uwTKLyo',
+            img: "youtube",
+            type: "video",
+            title: 'My intro - Vasilikova ONTV',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=IuXd_rTekAY',
+            img: "youtube",
+            type: "video",
+            title: 'Народный Ансамбль Ленок часть 9',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=GDHPF7GPdlw',
+            img: "youtube",
+            type: "video",
+            title: 'Народный Ансамбль Ленок часть 8',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=E636tbjYuK0',
+            img: "youtube",
+            type: "video",
+            title: 'Народный Ансамбль Ленок часть 7',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=72o1vf89xZw',
+            img: "youtube",
+            type: "video",
+            title: 'Народный Ансамбль Ленок часть 5',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=6XFBfgXWA20',
+            img: "youtube",
+            type: "video",
+            title: 'Народный Ансамбль Ленок часть 4',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=ZLJ39Z7x4j0',
+            img: "youtube",
+            type: "video",
+            title: 'Народный Ансамбль Ленок часть 6',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=NZ3GOcj5rqg',
+            img: "youtube",
+            type: "video",
+            title: 'Анапский краеведческий музей об оружии часть 3',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=rE2ozHk5res',
+            img: "youtube",
+            type: "video",
+            title: 'Анапский краеведческий музей о животных часть 2',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=UQGjnQMcMqg',
+            img: "youtube",
+            type: "video",
+            title: 'Анапский краеведческий музей предметы быта часть 4',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=nCQ-BZVdcNc',
+            img: "youtube",
+            type: "video",
+            title: 'Анапский краеведческий музей о войне часть 1',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=PWxh8skxdso',
+            img: "youtube",
+            type: "video",
+            title: 'Дегустация Анапского вина и шампанского',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=4Va1U3rjnHQ',
+            img: "youtube",
+            type: "video",
+            title: 'Магазин в Анапе место для прогулок и отдыха',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=9ij-7uY2HxQ',
+            img: "youtube",
+            type: "video",
+            title: 'Серфингисты лениво режут волну',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=CU368rgXMi0',
+            img: "youtube",
+            type: "video",
+            title: 'Петровский сквер в Воронеже.',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=NuQwuZDQONY',
+            img: "youtube",
+            type: "video",
+            title: 'Эх, грибочки растут в нашем лесу',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=3tSqzB8Oz2Q',
+            img: "youtube",
+            type: "video",
+            title: 'Урок хора песня Муха цокотуха',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=GzwrjZ04tTo',
+            img: "youtube",
+            type: "video",
+            title: 'Экскурсия по музею восковых фигур часть 3',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=C2pAzWHOAwo',
+            img: "youtube",
+            type: "video",
+            title: 'Экскурсия по музею восковых фигур часть 4',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=qtcGMyDrebg',
+            img: "youtube",
+            type: "video",
+            title: 'Экскурсия по музею восковых фигур часть 2',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=JzDH4oN4B0o',
+            img: "youtube",
+            type: "video",
+            title: 'Экскурсия по музею восковых фигур часть 1',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=FK1gIgSch_A',
+            img: "youtube",
+            type: "video",
+            title: 'Дети тестирую Mercedes-Benz на качество',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=u8p1zpk-e4w',
+            img: "youtube",
+            type: "video",
+            title: 'Полинка катается на водной детской горке',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=BZWvTDoDztg',
+            img: "youtube",
+            type: "video",
+            title: 'Ты мне не снишься, я тебе тоже',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=MURsgFBG_-A',
+            img: "youtube",
+            type: "video",
+            title: 'Полинка делает селфи в Африканской деревне',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=RxZlezxc6Vg',
+            img: "youtube",
+            type: "video",
+            title: 'Африканская деревня зажигает часть 6',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=oahLC9kRBAI',
+            img: "youtube",
+            type: "video",
+            title: 'Африканская деревня зажигает часть 1',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=_WAl9fG7rCE',
+            img: "youtube",
+            type: "video",
+            title: 'Вождь Миняй молится духам, посвящает в охотники, выбирает жен.',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=2qJx_qgrZLY',
+            img: "youtube",
+            type: "video",
+            title: 'Черное сердце Африки, племя выходит на охоту',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=ZTeqPaJBd70',
+            img: "youtube",
+            type: "video",
+            title: 'Синий   синий   иней, лег на провода',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=0R_B9YC47_U',
+            img: "youtube",
+            type: "video",
+            title: 'Ритуальный Африканский танец подражание животным',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=vpj6llu_B5U',
+            img: "youtube",
+            type: "video",
+            title: 'Наш ковер цветочная поляна, наши стены сосны великаны',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=a_ShM5W4G1Y',
+            img: "youtube",
+            type: "video",
+            title: 'Забуду все проблемы, вновь на душе так легко',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=MRrYUJGl_pI',
+            img: "youtube",
+            type: "video",
+            title: 'Конкурс для взрослых, мужчинам нужно занять свою норку.',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=yq6H42466Nk',
+            img: "youtube",
+            type: "video",
+            title: 'Африканская деревня зажигает часть 3',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=uWQ5Rb8QRq0',
+            img: "youtube",
+            type: "video",
+            title: 'Африканская деревня зажигает часть 4',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=9n72WRhTHzw',
+            img: "youtube",
+            type: "video",
+            title: 'Африканская деревня зажигает часть 2',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=4mr3_mF4g2A',
+            img: "youtube",
+            type: "video",
+            title: 'Африканская деревня зажигает часть 5',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=pczTZJt4EYU',
+            img: "youtube",
+            type: "video",
+            title: 'Девушки на сенокосе. Танцевальный ансамбль Ленок',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=TxSsoiaEjeE',
+            img: "youtube",
+            type: "video",
+            title: 'Ой, люли - люли. ансамбль Ленок',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=80oM28kRdWo',
+            img: "youtube",
+            type: "video",
+            title: 'Я на горку шла, тяжело несла. ансамбль Ленок',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=hBa_v8nahjM',
+            img: "youtube",
+            type: "video",
+            title: 'Романс  Я ехала домой  Танец Ленок',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=QggoQZ8xzsw',
+            img: "youtube",
+            type: "video",
+            title: 'Поговори со мною мама  Танец Ленок',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
+            url: 'https://www.youtube.com/watch?v=EdwV9H7qjLI',
+            img: "youtube",
+            type: "video",
+            title: 'Кадриль задорная  Танец Ленок',
+            source: "www.youtube.com"
+        };
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=5cuE5e5szT4',
+            img: "youtube",
+            type: "video",
+            title: 'Матушка возьмет ведро, молча принесет воды  Танец Ленок',
+            source: "www.youtube.com"
+        };
+        ar[45] = {
+            url: 'https://www.youtube.com/watch?v=0MA33ota9SE',
+            img: "youtube",
+            type: "video",
+            title: 'Разговор мужа с женой. Ольга Фелькер и Дмитрий Гончаренко',
+            source: "www.youtube.com"
+        };
+        ar[46] = {
+            url: 'https://www.youtube.com/watch?v=QqL_HK-c7PA',
+            img: "youtube",
+            type: "video",
+            title: 'Имидж Фактор самые маленькие часть 5',
+            source: "www.youtube.com"
+        };
+        ar[47] = {
+            url: 'https://www.youtube.com/watch?v=HyRuDlzVdjM',
+            img: "youtube",
+            type: "video",
+            title: 'Имидж Фактор отчетный концерт в "Луче"',
+            source: "www.youtube.com"
+        };
+        ar[48] = {
+            url: 'https://www.youtube.com/watch?v=3iwIABEPVFQ',
+            img: "youtube",
+            type: "video",
+            title: 'Замечательный сосед. исполнение песни.',
+            source: "www.youtube.com"
+        };
+        ar[49] = {
+            url: 'https://www.youtube.com/watch?v=T7mRG1mFTt0',
+            img: "youtube",
+            type: "video",
+            title: 'Катюша. Песню исполняет конферансье Морозов Сергей',
+            source: "www.youtube.com"
+        };
+        ar[50] = {
+            url: 'https://www.youtube.com/watch?v=MT-I85neizI',
+            img: "youtube",
+            type: "video",
+            title: 'Не летайте надо мной гули гули. Морозов Сергей',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 322473) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=a-h4-QlZlRg',
+            img: "youtube",
+            type: "video",
+            title: 'My intro - Polinka',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=K7vabF7V1g8',
+            img: "youtube",
+            type: "video",
+            title: 'Океанариум в Анапе часть 5',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=LNAiHO6Oxl8',
+            img: "youtube",
+            type: "video",
+            title: 'Океанариум в Анапе часть 3',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=W8h3isF09a0',
+            img: "youtube",
+            type: "video",
+            title: 'Океанариум в Анапе часть 4',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=tuA3KyEDHZQ',
+            img: "youtube",
+            type: "video",
+            title: 'Террариум в Анапе часть 1',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=nJcAfjcZMlA',
+            img: "youtube",
+            type: "video",
+            title: 'Океанариум в Анапе часть 2',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=Dvex8j64DwQ',
+            img: "youtube",
+            type: "video",
+            title: 'Террариум в Анапе часть 2',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=vVzHycoYT-M',
+            img: "youtube",
+            type: "video",
+            title: 'Океанариум в Анапе часть 1',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=Ur8lU_BPWvo',
+            img: "youtube",
+            type: "video",
+            title: 'Дельфины лучшие друзья человека',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=oBFcLrmWqog',
+            img: "youtube",
+            type: "video",
+            title: 'Дельфины крутят кольца, кружат в вальсе, забивают голы',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=9KDgchr2Emc',
+            img: "youtube",
+            type: "video",
+            title: 'Дельфины поют, танцуют Ломбаду, рисуют картины',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=csgJ-kRBE9M',
+            img: "youtube",
+            type: "video",
+            title: 'Дельфины играют в футбол, волейбол, баскетбол',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=UItlMOaHy6g',
+            img: "youtube",
+            type: "video",
+            title: 'Нюша отжимается, качает пресс и разговаривает',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=MJzlRxDDqYY',
+            img: "youtube",
+            type: "video",
+            title: 'Морской лев стоит на одной ласте и разговаривает.',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=t8XuJP747G4',
+            img: "youtube",
+            type: "video",
+            title: 'Полинка катается на электромобиле.',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=CozfaZyUYzw',
+            img: "youtube",
+            type: "video",
+            title: 'Морской лев играет с мячом',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=HanpHZkqZbo',
+            img: "youtube",
+            type: "video",
+            title: 'Делаем селфи с дельфинами',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=4QG17-OKsEU',
+            img: "youtube",
+            type: "video",
+            title: 'Аттракцион Экстрим огромные качели не для слабонервных',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=BNGL5hriu_g',
+            img: "youtube",
+            type: "video",
+            title: 'Полетели над миром сказала Полинка, аттракцион Осьминог',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=n3-SHmn6Xs4',
+            img: "youtube",
+            type: "video",
+            title: 'Speed flip шинковка мозгов не для слабонервных.',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=jPPBeCn4kX4',
+            img: "youtube",
+            type: "video",
+            title: 'Трансформеры или роботы делают селфи для народа.',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=0RUCJbvpb54',
+            img: "youtube",
+            type: "video",
+            title: 'Девчонки улетели в облака на парашюте.',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=dohjMVnInC0',
+            img: "youtube",
+            type: "video",
+            title: 'Дайвинг, подводное путешествие в глубинах Черного моря.',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=Y3VEnvA0YUM',
+            img: "youtube",
+            type: "video",
+            title: 'Вид сверху с чертового колеса, Анапский парк',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=cLhIWNf_sQU',
+            img: "youtube",
+            type: "video",
+            title: 'Прекрасный вид на Черное море',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=eK_vJMysePk',
+            img: "youtube",
+            type: "video",
+            title: 'Катание на водном мотоцикле, просто жесть.',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=A5ErMZydp1A',
+            img: "youtube",
+            type: "video",
+            title: 'Поющие фонтаны в городе Анапа',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=tBRUO3dQ13s',
+            img: "youtube",
+            type: "video",
+            title: 'Полинка с попугаем и обезьянкой Марусей, стандартное видео.',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=XHsuhr0FscU',
+            img: "youtube",
+            type: "video",
+            title: 'Ах, эти страшные Американские горки.',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=vG4n625QGOM',
+            img: "youtube",
+            type: "video",
+            title: 'Лечу на парашюте над пляжами Анапы. Прогулка на катере.',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=BY40fcknAtw',
+            img: "youtube",
+            type: "video",
+            title: 'Большой и красивый Аквапарк в Геленджике.',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=vu64O2VflWU',
+            img: "youtube",
+            type: "video",
+            title: 'Жуткое зрелище, машину переломило по палам.',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=JziY5RIjNts',
+            img: "youtube",
+            type: "video",
+            title: 'Город Анапа проснулся рано утром.',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=tqZ9cdOA7b8',
+            img: "youtube",
+            type: "video",
+            title: 'Страшное зрелище,  взорвалось колесо от жары.',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=YX9gsVqHv6c',
+            img: "youtube",
+            type: "video",
+            title: 'Копаем колодец за день,, лет на двести.',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=kd8_qq8uKeU',
+            img: "youtube",
+            type: "video",
+            title: 'Возврат некомплектного товара в магазин',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=SUoQH2CxD9Y',
+            img: "youtube",
+            type: "video",
+            title: 'Пока мы покупаем, дети играют в магазине.',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=gql7ZUPpCSI',
+            img: "youtube",
+            type: "video",
+            title: 'Вернули деньги за некачественный товар.',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=w6MhdNYDiXI',
+            img: "youtube",
+            type: "video",
+            title: 'Покупаем Флейту Yamaha 221 ребенку в муз. школу.',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=Q4rTYvCpQTo',
+            img: "youtube",
+            type: "video",
+            title: 'Артюша тестирует автомобиль Suzuki Grand Vitara.',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=ddCz-oBaSqE',
+            img: "youtube",
+            type: "video",
+            title: 'Купили ребенку а играют сами родители.',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=0nn0ZoZQCDU',
+            img: "youtube",
+            type: "video",
+            title: 'Промываем и чистим форсунки на Suzuki Grand Vitara.',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=6qvZ0QTbaqQ',
+            img: "youtube",
+            type: "video",
+            title: 'DRAG БИТВА 2016 Мотоциклы. Часть 2',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
+            url: 'https://www.youtube.com/watch?v=BigWbR4FUZE',
+            img: "youtube",
+            type: "video",
+            title: 'DRAG БИТВА 2016 Автомобили. Часть 1',
+            source: "www.youtube.com"
+        };
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=ElS71ZSRVPU',
+            img: "youtube",
+            type: "video",
+            title: 'Министры Нехочуха и Немогуха часть 2',
+            source: "www.youtube.com"
+        };
+        ar[45] = {
+            url: 'https://www.youtube.com/watch?v=dBqo5JZ_ySg',
+            img: "youtube",
+            type: "video",
+            title: 'Министры Нехочуха и Немогуха часть 1',
+            source: "www.youtube.com"
+        };
+        ar[46] = {
+            url: 'https://www.youtube.com/watch?v=DfhBUKpraUg',
+            img: "youtube",
+            type: "video",
+            title: 'Министры Нехочуха и Немогуха часть 4',
+            source: "www.youtube.com"
+        };
+        ar[47] = {
+            url: 'https://www.youtube.com/watch?v=Usrijd0UqQY',
+            img: "youtube",
+            type: "video",
+            title: 'Министр Нехочуха и Немогуха часть 3',
+            source: "www.youtube.com"
+        };
+        ar[48] = {
+            url: 'https://www.youtube.com/watch?v=olI2qQyLapM',
+            img: "youtube",
+            type: "video",
+            title: 'Министры Нехочуха и Немогуха часть 7',
+            source: "www.youtube.com"
+        };
+        ar[49] = {
+            url: 'https://www.youtube.com/watch?v=vSEHFcq4wcU',
+            img: "youtube",
+            type: "video",
+            title: 'Министры Нехочуха и Немогуха часть 6',
+            source: "www.youtube.com"
+        };
+        ar[50] = {
+            url: 'https://www.youtube.com/watch?v=Iv0e-f8DKjg',
+            img: "youtube",
+            type: "video",
+            title: 'Министры Нехочуха и Немогуха часть 5',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1302002) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=KBlvM0iQN7I',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Alkaio',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=xRdHQZn9QqM',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Shani',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=XDfwRjHBmFc',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Ramira',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=gIGfWIwENGc',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Dáire',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=qbcejYraD5s',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Rama',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=oQgyNxTYKEY',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Dazbog',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=Qfx-ev3imcc',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Eadwine',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=DeBilmYUnLA',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Sigibert',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=UUNp4q0fHvE',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Hyginor',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=DaoBomNZDWI',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Coeunna',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=3rDzYWx5VkU',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Alf',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=VBz7iW-Rln0',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Hadad',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=LApqs4nhPQE',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Ælfric',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=Ig4xGEEAmZA',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Fólki',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=QfDSB9SI3J4',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Cyneheard',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=O6SCrKep3Og',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Yngvi',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=T-M2JwoMXZw',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Andreas',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=MCZYdOtkJ6s',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Ambrosi',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=G3XGIhPt4Bo',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Cyrillu',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=S-C-0eIMTuc',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Máel Sechnaill',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=_EM77bvd1ow',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Caecili',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=1U-gsFQ0Yws',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Uther',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=R75tpxFe0GE',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Kerberoli',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=dDAwe397MvA',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Jodocu',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=7QeQmdouOr4',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Fergus',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=HHEn7wnK4bk',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Cicero',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=o9h6VW1jkO8',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Agamemnon',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=5TjDkHdImc0',
+            img: "youtube",
+            type: "video",
+            title: 'Movement of the Defense of Life - Caomhán',
+            source: "www.youtube.com"
+        };
+    }
     if (taskId == 70722 || taskId == 999896 || taskId == 189660 || taskId == 280863) {
         //ar[0] = {
         //    url: 'https://www.youtube.com/watch?v=kcBKskKB7qY',
@@ -12284,6 +13200,211 @@ function getVideo(taskId) {
             img: "youtube",
             type: "video",
             title: 'Несбагойные лемуры',
+            source: "www.youtube.com"
+        };
+    }
+    if (taskId == 1301999) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=duFIqLh39D8',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Brave excitement - Leoni',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=lj8diuGOJZM',
+            img: "youtube",
+            type: "video",
+            title: "Luxury Resorts - Gold'n Haze - Erminigild",
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=K87ESv2NNgU',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - City eyes - Ingólfr',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=KrYsN-23PFQ',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Better With You - Amun',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=aZUO-ppdNFc',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Slow Motion - Arash',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=OatBGVGhmW8',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Burning - Onesimep',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=fGJ7G-O8Zh8',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Blooming - Hallvarðr',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=tjk9tmsm-JM',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Tamally Maak - Homer',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=lWRwdbpED54',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Begin - Neusebios',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=Jf1AFkN5bKQ',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Subworld - Andromeda',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=vXlMuxPfCnM',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Kailo - Ganymede',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=3S9Zp-fRV6I',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Lilu - Audovacar',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=h_Uj80gcUfQ',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Los Cabos - Thancmar',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=W35bwdeFXNs',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Sandra Lure - Gerlach',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=8BSzP_l1qDk',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Los Cabos - Baja California Sur - México - Aldo',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=OqOh2YxbFnE',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Make A Secret - Flavi',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=Dxr-1i4oirs',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Dominicana - Orvar',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=VLpsPTqBusg',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Akumal - Meginfrid',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=Zxcpm91QvZM',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - BAHÍA - Jaya',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=VRt2Pnp5ODQ',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Berlin - Þórbjörn',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=ryZNlaFalQ0',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Pinacate - Anicet',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=9oy7CpG1uZE',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Lorber - Hemingr',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=NodVrTmhtnc',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Sunset Lounge - Raguel',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=VHlhKmvBAS4',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Hiber - Camillus',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=3QLLEVnNPQs',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Hustla - Alaric',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=B1DaRspPPmE',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Chase Hinson - Emygdi',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=jvS2AQukc2I',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Greenspoon - Mauriti',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=H4qpYWSZyyk',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - The Chedi - Ubud - Bali - Androcles',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=FapM9nJaM3s',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Resorts - Switzerland - Reinhold',
             source: "www.youtube.com"
         };
     }

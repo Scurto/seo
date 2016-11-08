@@ -1835,13 +1835,13 @@ $(document).ready(function() {
 		}else if
 		(item == 1139827) {
 			$('#taskIdVip').val(1139827);
-			$('#countOfVideo').val(8);
+			$('#countOfVideo').val(10);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
 		}else if
 		(item == 1139822) {
 			$('#taskIdVip').val(1139822);
-			$('#countOfVideo').val(7);
+			$('#countOfVideo').val(10);
 			$('#countOfReklama').val(3);
 			$('#countOfMove').val(3);
 		}else if
