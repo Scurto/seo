@@ -529,9 +529,6 @@ $(document).ready(function() {
 		"987729",
 		"442767",
 		"1013162",
-		"1014553",
-		"1014563",
-		"1039735",
 		"1174983",
 		"1232179",
 		"1233824",
@@ -1517,24 +1514,6 @@ $(document).ready(function() {
 			$('#countOfVideo').val(7);
 			$('#countOfReklama').val(7);
 			$('#countOfMove').val(0);
-		}else if
-		(item == 1014553) {
-			$('#taskIdVip').val(1014553);
-			$('#countOfVideo').val(18);
-			$('#countOfReklama').val(3);
-			$('#countOfMove').val(2);
-		} else if
-		(item == 1014563) {
-			$('#taskIdVip').val(1014563);
-			$('#countOfVideo').val(18);
-			$('#countOfReklama').val(3);
-			$('#countOfMove').val(2);
-		} else if
-		(item == 1039735) {
-			$('#taskIdVip').val(1039735);
-			$('#countOfVideo').val(17);
-			$('#countOfReklama').val(3);
-			$('#countOfMove').val(2);
 		} else if
 		(item == 1174983) {
 			$('#taskIdVip').val(1174983);
