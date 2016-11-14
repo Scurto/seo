@@ -3108,6 +3108,358 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 359818) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=FM2k5fmomKo',
+            img: "youtube",
+            type: "video",
+            title: 'Супер машины',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=hY6C0aU-51I',
+            img: "youtube",
+            type: "video",
+            title: 'Сборник супер машин',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=WxfIlmB3W6M',
+            img: "youtube",
+            type: "video",
+            title: 'Супер техника',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=g1FF6K1w9_4',
+            img: "youtube",
+            type: "video",
+            title: 'Супер тачки',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=YN9VDqS2mlg',
+            img: "youtube",
+            type: "video",
+            title: 'Соседи мать перемать',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=fn3H7oW0jSo',
+            img: "youtube",
+            type: "video",
+            title: 'Собачья жизнь - Западносибирские лайки в Украине',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=E-3wRyjkjs0',
+            img: "youtube",
+            type: "video",
+            title: 'Пекинесы  дом вверх дном',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=sxrR0I3YH1E',
+            img: "youtube",
+            type: "video",
+            title: 'Фонари на акамуляторрах от мобильных телефонов без подзарядки по пол года',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=ZgfBSJ41omc',
+            img: "youtube",
+            type: "video",
+            title: 'Шахматы игра с компютером',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=3WOUcbzx4ns',
+            img: "youtube",
+            type: "video",
+            title: 'Удаление програм на виндоус 7',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=s51XzSHhYVY',
+            img: "youtube",
+            type: "video",
+            title: 'Програма для оптимизации компютера',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=iikknFHLVks',
+            img: "youtube",
+            type: "video",
+            title: 'Програма для обновления драйверов',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=Et9UOoJxkOQ',
+            img: "youtube",
+            type: "video",
+            title: 'Как узнать свой IP адрес и другую информацию связаную с етим',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=hCYlETUCpHc',
+            img: "youtube",
+            type: "video",
+            title: 'Настройка эквалайзера на виндоус 7',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=yjSuuFWuK5g',
+            img: "youtube",
+            type: "video",
+            title: 'Настройка ЭКРАНА',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=86yQat-zgAo',
+            img: "youtube",
+            type: "video",
+            title: 'Игра сумашедший повар',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=UtMzWwkNeNo',
+            img: "youtube",
+            type: "video",
+            title: 'Как изменить часовой пояс и сестемное время',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=yxd6kIllkxA',
+            img: "youtube",
+            type: "video",
+            title: 'Игра в шахматы',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=2diSVxBLPug',
+            img: "youtube",
+            type: "video",
+            title: 'Игра сапёр',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=ZN_Z5rcqEyc',
+            img: "youtube",
+            type: "video",
+            title: 'ЮТУБ   УСТАНОВКА МУЗЫКИ НА СВОЙ КЛИП',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=-BOWR5r2Mbo',
+            img: "youtube",
+            type: "video",
+            title: 'World Oftanks bistriy pobeda',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=9-GzcRlJTUU',
+            img: "youtube",
+            type: "video",
+            title: 'Масовый сёрфинг буксов заработок для школьников',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=AOsHH0idt0I',
+            img: "youtube",
+            type: "video",
+            title: 'Kak pomenjt-ip и часовой пояс',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=NffpBLpUOIg',
+            img: "youtube",
+            type: "video",
+            title: 'Haloba-layki',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=nDq1ldRJOYw',
+            img: "youtube",
+            type: "video",
+            title: 'Cucko-dog obheralovka',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=a9lyPcADSes',
+            img: "youtube",
+            type: "video",
+            title: 'suckodog-otpustite menj v gimalai',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=0anxP9DKkGM',
+            img: "youtube",
+            type: "video",
+            title: 'J-dog-perdog',
+            source: "www.youtube.com"
+        };
+        ar[27] = {
+            url: 'https://www.youtube.com/watch?v=d2_e3oQYfsI',
+            img: "youtube",
+            type: "video",
+            title: 'A-hupakabra to est',
+            source: "www.youtube.com"
+        };
+        ar[28] = {
+            url: 'https://www.youtube.com/watch?v=IhuOIVSBWmI',
+            img: "youtube",
+            type: "video",
+            title: 'Koze-Logovo',
+            source: "www.youtube.com"
+        };
+        ar[29] = {
+            url: 'https://www.youtube.com/watch?v=rjnhJRXGTi8',
+            img: "youtube",
+            type: "video",
+            title: 'Domina-HAUS',
+            source: "www.youtube.com"
+        };
+        ar[30] = {
+            url: 'https://www.youtube.com/watch?v=d4b1q0uS8CU',
+            img: "youtube",
+            type: "video",
+            title: 'DAI-DAI',
+            source: "www.youtube.com"
+        };
+        ar[31] = {
+            url: 'https://www.youtube.com/watch?v=oOPN9tMM_Hk',
+            img: "youtube",
+            type: "video",
+            title: 'V 20161021 131013',
+            source: "www.youtube.com"
+        };
+        ar[32] = {
+            url: 'https://www.youtube.com/watch?v=28lfkqcWp6w',
+            img: "youtube",
+            type: "video",
+            title: 'Dina-mazafaka',
+            source: "www.youtube.com"
+        };
+        ar[33] = {
+            url: 'https://www.youtube.com/watch?v=R20sRmyU7vw',
+            img: "youtube",
+            type: "video",
+            title: 'DOG KREYZI SUCKO',
+            source: "www.youtube.com"
+        };
+        ar[34] = {
+            url: 'https://www.youtube.com/watch?v=ixTiBdRRlMQ',
+            img: "youtube",
+            type: "video",
+            title: 'KREYZI DOG XER-ZNAHO',
+            source: "www.youtube.com"
+        };
+        ar[35] = {
+            url: 'https://www.youtube.com/watch?v=qMbNGTGwJek',
+            img: "youtube",
+            type: "video",
+            title: 'Kreyzi DOG  СВОБОДУ ПОПУГАЯМ',
+            source: "www.youtube.com"
+        };
+        ar[36] = {
+            url: 'https://www.youtube.com/watch?v=WA5kk8cnxp8',
+            img: "youtube",
+            type: "video",
+            title: 'MAY KREYZI-VELIK - I SUCKO DOG',
+            source: "www.youtube.com"
+        };
+        ar[37] = {
+            url: 'https://www.youtube.com/watch?v=Vb-eVczMKHw',
+            img: "youtube",
+            type: "video",
+            title: 'MAY-LAIKI DOG LOVE',
+            source: "www.youtube.com"
+        };
+        ar[38] = {
+            url: 'https://www.youtube.com/watch?v=6axmL4zDpAk',
+            img: "youtube",
+            type: "video",
+            title: '3 звонок 555',
+            source: "www.youtube.com"
+        };
+        ar[39] = {
+            url: 'https://www.youtube.com/watch?v=8a5jNueT5Xk',
+            img: "youtube",
+            type: "video",
+            title: 'Бомж в тюрьме',
+            source: "www.youtube.com"
+        };
+        ar[40] = {
+            url: 'https://www.youtube.com/watch?v=ie6DNAQVNdY',
+            img: "youtube",
+            type: "video",
+            title: 'Бомж в тюряге гасит чёрных',
+            source: "www.youtube.com"
+        };
+        ar[41] = {
+            url: 'https://www.youtube.com/watch?v=2XYZQdGqEf4',
+            img: "youtube",
+            type: "video",
+            title: 'Бомж угар капец расправа над мусорами',
+            source: "www.youtube.com"
+        };
+        ar[42] = {
+            url: 'https://www.youtube.com/watch?v=vRY2o6dib-4',
+            img: "youtube",
+            type: "video",
+            title: 'Бомж против лунатиков битва на смерть',
+            source: "www.youtube.com"
+        };
+        ar[43] = {
+            url: 'https://www.youtube.com/watch?v=1lS7lSCmUhM',
+            img: "youtube",
+            type: "video",
+            title: 'Бомж битва на смерть это просто жесть',
+            source: "www.youtube.com"
+        };
+        ar[44] = {
+            url: 'https://www.youtube.com/watch?v=Y5HCrI_FvmE',
+            img: "youtube",
+            type: "video",
+            title: 'Животные-  мухи сели собаке уши - шок',
+            source: "www.youtube.com"
+        };
+        ar[45] = {
+            url: 'https://www.youtube.com/watch?v=Er-jDTovwhk',
+            img: "youtube",
+            type: "video",
+            title: 'Животные -Содержание коз в домашних условиях -без выпаса в загоне',
+            source: "www.youtube.com"
+        };
+        ar[46] = {
+            url: 'https://www.youtube.com/watch?v=otP9lSYNFK0',
+            img: "youtube",
+            type: "video",
+            title: 'Спорт  изготовление ганнтнль в домашних условиях дёшево и сердито',
+            source: "www.youtube.com"
+        };
+        ar[47] = {
+            url: 'https://www.youtube.com/watch?v=a-Dplt8S3ec',
+            img: "youtube",
+            type: "video",
+            title: 'Козы в загоне',
+            source: "www.youtube.com"
+        };
+        ar[48] = {
+            url: 'https://www.youtube.com/watch?v=mifVeab_bz4',
+            img: "youtube",
+            type: "video",
+            title: 'Козы в загоне',
+            source: "www.youtube.com"
+        };
+        ar[49] = {
+            url: 'https://www.youtube.com/watch?v=Toqu2JlYbb8',
+            img: "youtube",
+            type: "video",
+            title: 'Авчарка -и её хавка',
+            source: "www.youtube.com"
+        };
+    }
     if (taskId == 1302002) {
         ar[0] = {
             url: 'https://www.youtube.com/watch?v=KBlvM0iQN7I',

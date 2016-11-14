@@ -84,6 +84,7 @@ $(document).ready(function() {
 		"244998",
 		"322473",
 		"332079",
+		"359818",
 		"309721",
 		"1126852",
 		"329632",
@@ -416,6 +417,14 @@ $(document).ready(function() {
 			$('#countOfMove').val(2);
 			$('#betweenVideo').val(40);
 			$('#betweenReklama').val(40);
+		}else if
+		(item == 359818) {
+			$('#taskId').val(359818);
+			$('#countOfVideo').val(12);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(4);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
 		}else if
 		(item == 309721) {
 			$('#taskId').val(309721);
@@ -1534,6 +1543,8 @@ $(document).ready(function() {
 		} else if (taskId == 1326096 || taskId == 1326104) {
 			connArray.push(1326096);
 			connArray.push(1326104);
+		} else if (taskId == 359818) {
+			connArray.push(359818);
 		}
 		//else if	(taskId == 1084998 || taskId == 1085285 || taskId == 1086631 || taskId == 1088642 || taskId == 1089683 || taskId == 1090914) {
 		//	connArray.push(1084998);
@@ -3124,6 +3135,29 @@ $('#clear-browsing-data').click(function(event) {
 		} else if (taskId == 332079) {
 			var youtube = {
 				title: "Vasilikova ONTV - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+			var ip = getDefaultWhoer();
+			var google = getLocationGoogle(request);
+			var youtube2 = {
+				title: request + " - YouTube",
+				type: "def",
+				img: "youtube",
+				source: "www.youtube.com"
+			};
+
+			//$('#googleLink').text(linkText);
+			$("#forGoogle").modal('show');
+			etalonArray.push(ip);
+			etalonArray.push(google);
+			etalonArray.push(youtube2);
+			etalonArray.push(youtube);
+
+		}else if (taskId == 359818) {
+			var youtube = {
+				title: "Marinera marinera - YouTube",
 				type: "def",
 				img: "youtube",
 				source: "www.youtube.com"

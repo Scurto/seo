@@ -365,17 +365,37 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("1323859", "https://www.youtube.com/channel/UCmXkuQJIyb8lam3QvrXKr2g/videos");
 		urlMap.put("1327856", "https://www.youtube.com/channel/UCnqpHU8Kk_2ZfBLPE8N4aVw/videos");
 
+//		Karen
 		urlMap.put("671226", "https://www.youtube.com/channel/UCdrr8dLlcnp1d53ogxHAzHA/videos");
 		urlMap.put("634249", "https://www.youtube.com/channel/UCyT1Y2oj2kBFJKXomx3ATDw/videos");
+		urlMap.put("710389", "https://www.youtube.com/channel/UCzaBiqIH65aKTgVl2drsHEw/videos");
+		urlMap.put("764418", "https://www.youtube.com/channel/UCz3ZlHWkn7uqJ03Z94NKbxg/videos");
+		urlMap.put("785842", "https://www.youtube.com/channel/UCx7yphraUBEtP8i1CHM2ZVw/videos");
+		urlMap.put("863971", "https://www.youtube.com/channel/UCQaflqr4hcBTPBC024WLg5A/videos");
+		urlMap.put("878696", "https://www.youtube.com/channel/UCY3KqbRpHrjxFk3IWbEjY5A/videos");
 
+//		Olga
 		urlMap.put("820754", "https://www.youtube.com/channel/UCDDgJL7iMv8YdBVw43u0z4w/videos");
 		urlMap.put("840654", "https://www.youtube.com/channel/UC3uwTc58JdUueDdPZLK1GYg/videos");
+		urlMap.put("823021", "https://www.youtube.com/channel/UCmjCUNZN9TmityRBIWNw7qg/videos");
+		urlMap.put("846521", "https://www.youtube.com/channel/UCPuLIGbCJiq9czzpG0AK47g/videos");
 
 		urlMap.put("1014553", "https://www.youtube.com/channel/UCkB_Js1v4a1ZdF0lDilpEAQ/videos");
 
+//		anubias
 		urlMap.put("943562", "https://www.youtube.com/channel/UClIk4u-KCVYFlDaufNiC_fA/videos");
+		urlMap.put("930798", "https://www.youtube.com/channel/UC9QqPxBTxdgknuKUwF_aYWw/videos");
+		urlMap.put("1024955", "https://www.youtube.com/channel/UCUt_to3iDQSaoZK-8tUKv1A/videos");
+		urlMap.put("1271485", "https://www.youtube.com/channel/UC3YZyVBeeO2a3P1WNt0yayg/videos");
+		urlMap.put("1333935", "https://www.youtube.com/channel/UC2viMGiofwrDtrIZMJD5OzQ/videos");
 
+//		Lintant
 		urlMap.put("653211", "https://www.youtube.com/channel/UC2-bmMdOX-Rl_jHVP_36fmA/videos");
+		urlMap.put("727748", "https://www.youtube.com/channel/UCFdVkTCco_Tr3xAd_09gwYg/videos");
+		urlMap.put("762337", "https://www.youtube.com/channel/UCbWAi7H7QjeF28ktITsRWBw/videos");
+		urlMap.put("799736", "https://www.youtube.com/channel/UC24LW9vjsHrGcB2qdSYVZ-g/videos");
+		urlMap.put("828709", "https://www.youtube.com/channel/UC2Tuk7xj9I4DntNuFIylSVg/videos");
+		urlMap.put("929509", "https://www.youtube.com/channel/UCIFeIZe3oPq0FZXeL9PI4CQ/videos");
 
 
 
