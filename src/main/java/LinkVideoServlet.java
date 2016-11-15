@@ -377,13 +377,15 @@ public class LinkVideoServlet extends HttpServlet {
 //		Olga
 		urlMap.put("820754", "https://www.youtube.com/channel/UCDDgJL7iMv8YdBVw43u0z4w/videos");
 		urlMap.put("840654", "https://www.youtube.com/channel/UC3uwTc58JdUueDdPZLK1GYg/videos");
-		urlMap.put("823021", "https://www.youtube.com/channel/UCmjCUNZN9TmityRBIWNw7qg/videos");
+		urlMap.put("823021", "https://www.youtube.com/channel/UCmjCUNZN9TmityRBIWNw7qg/videos");//+
 		urlMap.put("846521", "https://www.youtube.com/channel/UCPuLIGbCJiq9czzpG0AK47g/videos");
 
-		urlMap.put("1014553", "https://www.youtube.com/channel/UCkB_Js1v4a1ZdF0lDilpEAQ/videos");
+
+//		71vadim
+		urlMap.put("1014553", "https://www.youtube.com/channel/UCkB_Js1v4a1ZdF0lDilpEAQ/videos");//--------------
 
 //		anubias
-		urlMap.put("943562", "https://www.youtube.com/channel/UClIk4u-KCVYFlDaufNiC_fA/videos");
+		urlMap.put("943562", "https://www.youtube.com/channel/UClIk4u-KCVYFlDaufNiC_fA/videos");//+
 		urlMap.put("930798", "https://www.youtube.com/channel/UC9QqPxBTxdgknuKUwF_aYWw/videos");
 		urlMap.put("1024955", "https://www.youtube.com/channel/UCUt_to3iDQSaoZK-8tUKv1A/videos");
 		urlMap.put("1271485", "https://www.youtube.com/channel/UC3YZyVBeeO2a3P1WNt0yayg/videos");

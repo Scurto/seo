@@ -67,6 +67,7 @@ $(document).ready(function() {
 		"72688",
 		"74444",
 		"1119333",
+		"1301995",
 		"1301887",
 		"1301999",
 		"1302002",
@@ -230,6 +231,14 @@ $(document).ready(function() {
 		} else if
 		(item == 1119333) {
 			$('#taskId').val(1119333);
+			$('#countOfVideo').val(16);
+			$('#countOfReklama').val(4);
+			$('#countOfMove').val(2);
+			$('#betweenVideo').val(61);
+			$('#betweenReklama').val(61);
+		}else if
+		(item == 1301995) {
+			$('#taskId').val(1301995);
 			$('#countOfVideo').val(16);
 			$('#countOfReklama').val(4);
 			$('#countOfMove').val(2);
@@ -1450,10 +1459,11 @@ $(document).ready(function() {
 			connArray.push(78626);
 			connArray.push(80348);
 		} else if (taskId == 72688 || taskId == 74444 || taskId == 1119333 || taskId == 1272282 || taskId == 1301887 || taskId == 82130
-				|| taskId == 1301999 || taskId == 1302002) {
+				|| taskId == 1301999 || taskId == 1302002 || taskId == 1301995) {
 			connArray.push(72688);
 			connArray.push(74444);
 			connArray.push(1119333);
+			connArray.push(1301995);
 			connArray.push(1272282);
 			connArray.push(1301887);
 			connArray.push(82130);
@@ -2032,6 +2042,13 @@ $('#clear-browsing-data').click(function(event) {
 			etalonArray.push(youtube);
 		}else if (taskId == 1301999) {
 			var youtube = getDefaultYouTube("Luxury Resorts - YouTube");
+
+			//etalonArray.push(ip);
+			$("#forGoogle").modal('show');
+			//etalonArray.push(bing);
+			etalonArray.push(youtube);
+		}else if (taskId == 1301995) {
+			var youtube = getDefaultYouTube("Luxury Life - YouTube");
 
 			//etalonArray.push(ip);
 			$("#forGoogle").modal('show');

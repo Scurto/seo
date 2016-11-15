@@ -175,6 +175,197 @@ function getVideo(taskId) {
             source: "www.youtube.com"
         };
     }
+    if (taskId == 1301995) {
+        ar[0] = {
+            url: 'https://www.youtube.com/watch?v=WDYfh2OH2uQ',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Kuno - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[1] = {
+            url: 'https://www.youtube.com/watch?v=YUrglHVPUqM',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Anso - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[2] = {
+            url: 'https://www.youtube.com/watch?v=xjaKRRrFdhA',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Livian - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[3] = {
+            url: 'https://www.youtube.com/watch?v=zVn15U1n4u8',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Herodioni - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[4] = {
+            url: 'https://www.youtube.com/watch?v=lZHivoSuzck',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Cúchulainn - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[5] = {
+            url: 'https://www.youtube.com/watch?v=d5hEVgcqHxc',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Ælfgar - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[6] = {
+            url: 'https://www.youtube.com/watch?v=DxCGgMYRBcU',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Fáelán - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[7] = {
+            url: 'https://www.youtube.com/watch?v=DzzuQmzQ83I',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Kallia - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[8] = {
+            url: 'https://www.youtube.com/watch?v=1YjL-JJZRd8',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Wandal - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[9] = {
+            url: 'https://www.youtube.com/watch?v=7AoNSJz0Pq0',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Godascalc - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[10] = {
+            url: 'https://www.youtube.com/watch?v=qyMV1oq0Hpo',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Hedomán - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[11] = {
+            url: 'https://www.youtube.com/watch?v=2xgc1XVSQSw',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Anubi - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[12] = {
+            url: 'https://www.youtube.com/watch?v=UoPtw1VCAb0',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Hades - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[13] = {
+            url: 'https://www.youtube.com/watch?v=cXp2dX6pH0Q',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Emmerich - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[14] = {
+            url: 'https://www.youtube.com/watch?v=NJdFQpzYvYk',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Blasiri - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[15] = {
+            url: 'https://www.youtube.com/watch?v=guzLISuu4Xc',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Þóvaldr - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[16] = {
+            url: 'https://www.youtube.com/watch?v=2pUsxPHEOI0',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Ramir - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[17] = {
+            url: 'https://www.youtube.com/watch?v=FRjsMteNZpg',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Birgir - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[18] = {
+            url: 'https://www.youtube.com/watch?v=717qDsRfTPk',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Cato - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[19] = {
+            url: 'https://www.youtube.com/watch?v=-wXr6a9mGlM',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Martialon - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[20] = {
+            url: 'https://www.youtube.com/watch?v=Dty-H59tFUc',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Helgi - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[21] = {
+            url: 'https://www.youtube.com/watch?v=e2u57k1pe3c',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Desideri - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[22] = {
+            url: 'https://www.youtube.com/watch?v=T84sFBLr1MU',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Gilbert - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[23] = {
+            url: 'https://www.youtube.com/watch?v=1tJjZOThQeA',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Rufus - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[24] = {
+            url: 'https://www.youtube.com/watch?v=TmKwpUCY1QM',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Mentor - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[25] = {
+            url: 'https://www.youtube.com/watch?v=hf9MCETXhs0',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Nazari - Exceptional life',
+            source: "www.youtube.com"
+        };
+        ar[26] = {
+            url: 'https://www.youtube.com/watch?v=zGuSECw3v-k',
+            img: "youtube",
+            type: "video",
+            title: 'Luxury Life - Áedán - Exceptional life',
+            source: "www.youtube.com"
+        };
+    }
     if (taskId == 51311) {
         ar[0] = {
             url: "https://www.youtube.com/watch?v=iQGFe2EwLvY",
