@@ -3602,6 +3602,9 @@ $('#clear-browsing-data').click(function(event) {
 					case '11':
 						month = "ноября";
 						break;
+					case '12':
+						month = "декабря";
+						break;
 				}
 				var date = "Сегодня - " + dayOfWeek + ", " + dateOfMonth + " " +  month + " " + year + " г.";
 				$("#day").text(date);

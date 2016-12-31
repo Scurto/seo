@@ -14,7 +14,7 @@ public class JsoupParser {
     public static void main(String[] args) {
         Document doc = null;
         try {
-            doc = Jsoup.connect("https://www.youtube.com/channel/UClLooq1-PXZEaakIDNb7IHA/videos").get();
+            doc = Jsoup.connect("https://www.youtube.com/user/78igric/videos").get();
         } catch (IOException e) {
             e.printStackTrace();
         }

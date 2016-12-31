@@ -400,6 +400,25 @@ public class LinkVideoServlet extends HttpServlet {
 		urlMap.put("929509", "https://www.youtube.com/channel/UCIFeIZe3oPq0FZXeL9PI4CQ/videos");
 
 
+		urlMap.put("572857", "https://www.youtube.com/user/13venera13/videos");
+		urlMap.put("922516", "https://www.youtube.com/channel/UCRr07SqZLU91nW5Vn2oj0Fg/videos");
+		urlMap.put("754810", "https://www.youtube.com/user/marinas131/videos");
+
+
+		urlMap.put("1398830", "https://www.youtube.com/channel/UC5UUZAbv-IPD59VOZk_zO2g/videos");
+		urlMap.put("995487", "https://www.youtube.com/user/fibikh79/videos");
+		urlMap.put("59877", "https://www.youtube.com/channel/UC1TkcY28B9B92vMYDywIF7Q/videos");
+		urlMap.put("61773", "https://www.youtube.com/user/FlameAPP/videos");
+		urlMap.put("56209", "https://www.youtube.com/user/FlameAPP/videos");
+		urlMap.put("1398904", "https://www.youtube.com/channel/UCPtSxLSJN0vHVi1DTQgXK2Q/videos");
+		urlMap.put("1397054", "https://www.youtube.com/channel/UCmt4pAWTjl3BexYuvRlKRCg/videos");
+		urlMap.put("1396719", "https://www.youtube.com/channel/UCU3N_URwzyHOVl0jxTITLLA/videos");
+		urlMap.put("1275339", "https://www.youtube.com/channel/UChX-mVakJ0EMdqYRTwnncmA/videos");
+		urlMap.put("1396175", "https://www.youtube.com/channel/UCLPO8MOdfR-0QWZP4WGYpQg/videos");
+		urlMap.put("592561", "https://www.youtube.com/channel/UCeqo_fW226yR0iU3TnlLDnA/videos");
+		urlMap.put("391978", "https://www.youtube.com/channel/UCjmRH-Fc8G9lqDgMSuO9aow/videos");
+
+
 
 		String url = urlMap.get(id);
 		return url;
