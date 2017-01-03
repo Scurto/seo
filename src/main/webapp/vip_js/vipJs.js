@@ -619,10 +619,13 @@ $(document).ready(function() {
 		"929509",
 		"572857",
 		"754810",
+		"695075",
 		"922516",
 		"1398830",
 		"1398904",
+		"1399145",
 		"1397054",
+		"1264305",
 		"592561",
 		"1396719",
 		"1396175",
@@ -2122,6 +2125,12 @@ $(document).ready(function() {
 			$('#countOfReklama').val(2);
 			$('#countOfMove').val(0);
 		}else if
+		(item == 695075) {
+			$('#taskIdVip').val(695075);
+			$('#countOfVideo').val(2);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(0);
+		}else if
 		(item == 922516) {
 			$('#taskIdVip').val(922516);
 			$('#countOfVideo').val(2);
@@ -2140,8 +2149,20 @@ $(document).ready(function() {
 			$('#countOfReklama').val(2);
 			$('#countOfMove').val(2);
 		}else if
+		(item == 1399145) {
+			$('#taskIdVip').val(1399145);
+			$('#countOfVideo').val(2);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(2);
+		}else if
 		(item == 1397054) {
 			$('#taskIdVip').val(1397054);
+			$('#countOfVideo').val(1);
+			$('#countOfReklama').val(1);
+			$('#countOfMove').val(2);
+		}else if
+		(item == 1264305) {
+			$('#taskIdVip').val(1264305);
 			$('#countOfVideo').val(1);
 			$('#countOfReklama').val(1);
 			$('#countOfMove').val(2);
@@ -3285,10 +3306,11 @@ $(document).ready(function() {
 			connArray.push(799736);
 			connArray.push(828709);
 			connArray.push(929509);
-		} else if (taskId == 572857 || taskId == 922516 || taskId == 754810) {
+		} else if (taskId == 572857 || taskId == 922516 || taskId == 754810 || taskId == 695075) {
 			connArray.push(572857);
 			connArray.push(922516);
 			connArray.push(754810);
+			connArray.push(695075);
 		} else if (taskId == 1398830) {
 			connArray.push(1398830);
 		} else if (taskId == 995487) {
@@ -3298,10 +3320,12 @@ $(document).ready(function() {
 		} else if (taskId == 61773 || taskId == 56209) {
 			connArray.push(61773);
 			connArray.push(56209);
-		} else if (taskId == 1398904) {
+		} else if (taskId == 1398904 || taskId == 1399145) {
 			connArray.push(1398904);
-		} else if (taskId == 1397054) {
+			connArray.push(1399145);
+		} else if (taskId == 1397054 || taskId == 1264305) {
 			connArray.push(1397054);
+			connArray.push(1264305);
 		} else if (taskId == 1396719 || taskId == 1275339 || taskId == 1396175) {
 			connArray.push(1396719);
 			connArray.push(1275339);
