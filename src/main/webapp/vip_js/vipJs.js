@@ -621,6 +621,7 @@ $(document).ready(function() {
 		"357330",
 		"754810",
 		"695075",
+		"614675",
 		"922516",
 		"1398830",
 		"1398904",
@@ -2143,6 +2144,12 @@ $(document).ready(function() {
 			$('#countOfReklama').val(2);
 			$('#countOfMove').val(0);
 		}else if
+		(item == 614675) {
+			$('#taskIdVip').val(614675);
+			$('#countOfVideo').val(2);
+			$('#countOfReklama').val(2);
+			$('#countOfMove').val(0);
+		}else if
 		(item == 922516) {
 			$('#taskIdVip').val(922516);
 			$('#countOfVideo').val(2);
@@ -3348,12 +3355,13 @@ $(document).ready(function() {
 			connArray.push(799736);
 			connArray.push(828709);
 			connArray.push(929509);
-		} else if (taskId == 572857 || taskId == 922516 || taskId == 754810 || taskId == 695075 || taskId == 357330) {
+		} else if (taskId == 572857 || taskId == 922516 || taskId == 754810 || taskId == 695075 || taskId == 357330 || taskId == 614675) {
 			connArray.push(572857);
 			connArray.push(922516);
 			connArray.push(754810);
 			connArray.push(695075);
 			connArray.push(357330);
+			connArray.push(614675);
 		} else if (taskId == 1398830) {
 			connArray.push(1398830);
 		} else if (taskId == 995487) {
